@@ -11,6 +11,8 @@ comments: true
 
 This is a notebook from a workshop I gave to Biology Graduate students at McGill University. The tutorial was intended for people who are completely new to Python and lays down the basics for Python in data science. Future tutorials will include topics from Pandas, scikit-learn, numpy and seaborn. 
 
+By the end of this tutorial you will be comfortable with all the Python basics, and you will go through an example of analyzing and visualizing a real dataset. In this case, you will work with a real dataset of historical baby names in the US and build a model to identify 'hipster names'.
+
 I hope you enjoy this notebook. You can find the original files [here](https://github.com/cgoliver/Notebooks/tree/master/Intro_to_Python). There, you will find a version of the notebook with the suffix `_work.ipynb`. You can use that notebook for a more interactive experience by doing some 'fill in the blanks' work. 
 
 If you have any questions or comments please let me know!
