@@ -15,6 +15,8 @@ By the end of this tutorial you will be comfortable with all the Python basics, 
 
 I hope you enjoy this notebook. You can find the original files [here](https://github.com/cgoliver/Notebooks/tree/master/Intro_to_Python). There, you will find a version of the notebook with the suffix `_work.ipynb`. You can use that notebook for a more interactive experience by doing some 'fill in the blanks' work. 
 
+**Recommended setup:**: I suggest you install [Anaconda](https://www.continuum.io/downloads) which contains the Python interpreter as well as the Jupyter notebook environment. It is also very useful for installing and managing libraries. Check out [this](http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/execute.html) simple guide to getting started with the Jupyter notebook. I also highly recommend running Anaconda with Python 3.5+.
+
 If you have any questions or comments please let me know!
 
 C.
