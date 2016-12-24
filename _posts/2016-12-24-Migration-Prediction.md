@@ -183,7 +183,7 @@ draw_map(df)
 ```
 
 
-![png](migrations_files/migrations_7_0.png)
+![png](/ipynb/migrations_files/migrations_7_0.png)
 
 
 
@@ -226,7 +226,7 @@ plot3d_simple(d)
 ```
 
 
-![png](migrations_files/migrations_11_0.png)
+![png](/ipynb/migrations_files/migrations_11_0.png)
 
 
 ## Clustering
@@ -316,7 +316,7 @@ plot3d_cluster(df, labels=df['cluster'])
 ```
 
 
-![png](migrations_files/migrations_17_0.png)
+![png](/ipynb/migrations_files/migrations_17_0.png)
 
 
 Okay so we see that K-means did a pretty nice job of separating what seem to be the two home bases. However, this clustering still doesn't tell us which points are in migration and which are 'stationary'. We need to find a way to separate those points around the middle that seem to be moving from those that are concentrated in one of the home bases. We need to find a way to separate these points away.
@@ -419,7 +419,7 @@ mig = migration(df, 'tag', '208')
 ```
 
 
-![png](migrations_files/migrations_21_0.png)
+![png](/ipynb/migrations_files/migrations_21_0.png)
 
 
 Now you can see a nice separation between the points that appear to be in motion and the ones that are at their home base. 
