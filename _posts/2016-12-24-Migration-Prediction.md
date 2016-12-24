@@ -333,7 +333,7 @@ So if we want to model the position of an eagle at a homebase as a gaussian in 2
 
 ### Mahalanobis Distance
 
-Now we need a measure of distance between a point and a distribution. For this, we use a metric known as the [Mahalanobis Distance](https://en.wikipedia.org/wiki/Mahalanobis_distance) which in general takes as input a vector to ${\bf x} = (x_1, x_2, .., x_n)^T$, distribution parameters ${\bf \mu} \in \mathbb{R}^n$, and $\Sigma \in \mathbb{R}^{nxn}$ and computes a distance $D_M({\bf x})$ as follows:
+Now we need a measure of distance between a point and a distribution. For this, we use a metric known as the [Mahalanobis Distance](https://en.wikipedia.org/wiki/Mahalanobis_distance) (Thank you to Vladimir Reinharz for the suggestion) which in general takes as input a vector to ${\bf x} = (x_1, x_2, .., x_n)^T$, distribution parameters ${\bf \mu} \in \mathbb{R}^n$, and $\Sigma \in \mathbb{R}^{nxn}$ and computes a distance $D_M({\bf x})$ as follows:
 
 $$D_M({\bf x}) = \sqrt{({\bf x} - {\bf \mu)}^T\Sigma^{-1}({\bf x}- {\bf \mu})} $$
 
