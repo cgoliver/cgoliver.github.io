@@ -13,6 +13,10 @@ This post is based on a project I had for my machine learning class. My team (my
 
 With this post, you'll learn a bit about how to use Python's map plotting library `Basemap`, managing datasets with `Pandas`, 3D plotting, and basic unsupervised machine learning. 
 
+You can find all the original files in my gitub repository `Notebooks/Eagles` [here](https://github.com/cgoliver/Notebooks/tree/master/Eagles).
+
+Enjoy!
+
 ## The Data
 
 We assembled a dataset (curated by Roman Sarrazin Gendron) that contains times and positions of 14 species around the world. In order to make this simpler if you want to follow along, I included a condensed version of the dataset since it is very large. Here's the command in pandas I used to generate the condensed dataset. The condensed data is stored in a file called `eagles_short.csv` in this notebook's directory. Let's assume that the original data is in a file called `eagles.csv`.
