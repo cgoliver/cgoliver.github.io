@@ -17,5 +17,9 @@ github_username:  cgoliver
 markdown: kramdown
 highlighter: rouge
 
+collections:
+        talks:
+                output: true
+
 #gems:
 #  - jekyll-assets
