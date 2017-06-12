@@ -6,7 +6,11 @@ permalink: /cbgs
 
 ---
 
-This is the site for the McGill Computational Biology Graduate Seminars (CBGS). We host bi-weekly talks given by graduate students in any discipline related to computation and the biological sciences. Talks can be about the student's research or any topic they have learned about they deem worth sharing. 
+This is the site for the **McGill Computational Biology Graduate Seminars (CBGS)**. 
+
+We host bi-weekly talks given by graduate students about any topic related to computation and the biological sciences. Talks can be about the student's research or an interesting paper, technique or theory they would like to share with their peers. 
+
+If you are interested in giving a talk please send me an email (carlos [dot] gonzalez [dot] oliver [at] gmail [dot] com) with you title and abstract!
 
 
 <h1 class="page-heading"> Upcoming Talk </h1>
