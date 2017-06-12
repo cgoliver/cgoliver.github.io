@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Atefeh Mohareji - An introduction to Lasso: a powerful machine learning technique for regression ."
+title: "Atefeh Mohareji - An introduction to Lasso: a powerful machine learning technique for regression."
 date: 2017-04-26
 ---
 Consider the situation where we have information concerning dietary habits of a group of patients given as vectors $X_1, ..., X_n$ and their levels of blood pressure given as $y_1, ..., y_n$. We want to know what effect the $X_i$'s  have on  the $y_i$'s. In other words, we consider $X_i$ as a predictor for the outcome $y_i$. 
