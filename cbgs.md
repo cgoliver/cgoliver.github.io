@@ -17,6 +17,7 @@ If you are interested in giving a talk please send me an email (carlos [dot] gon
 
 #### Alessandro Ricottone
 Title: TBA
+Date: Wednesday June 28th 12-1pm
 
 
 <h1 class="page-heading">Past Talks </h1>
