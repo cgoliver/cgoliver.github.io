@@ -1,7 +1,7 @@
 ---
 
 layout: page
-title: "RNA-Meeting"
+title: "2017 RNA Informatics Workshop"
 permalink: /rna-meeting
 
 ---
