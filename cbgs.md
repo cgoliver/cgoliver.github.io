@@ -16,8 +16,16 @@ If you are interested in giving a talk please send me an email (carlos [dot] gon
 <h1 class="page-heading"> Upcoming Talk </h1>
 
 #### Alessandro Ricottone
-Title: TBA
-Date: Wednesday June 28th 12-1pm
+**Title**: Information in Physics: a Cellular Automata Example 
+
+**Date**: Wednesday June 28th 12-1pm
+
+**Location**: Trottier 3120
+
+**Food**: PIZZA!
+
+**Abstract**: I'll give a quick introduction on the role of information in physics and its relation to entropy. Then, after introducing cellular automata, I'll show an example of entropy/information evolution in a simple cellular automata model.
+
 
 
 <h1 class="page-heading">Past Talks </h1>
