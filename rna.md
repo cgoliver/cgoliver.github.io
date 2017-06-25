@@ -14,7 +14,7 @@ Additional talks and seminars will take place throughout the week and announced 
 
 **Time:** 9am-afternoon
 
-**Location:** 3607 University Street, Trottier Building Room 1100. (See map below for directions) 
+**Location:** 3607 University Street, Trottier Building Room (TBA). (See map below for directions) 
 
 **Food:** Included
 
