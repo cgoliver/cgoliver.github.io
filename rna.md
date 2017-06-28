@@ -20,7 +20,21 @@ Additional talks and seminars will take place throughout the week and announced 
 
 <h1 class="page-heading"> Schedule </h1>
 
-|                |                                                                                                     |                                                                                     | 
+<style>
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(odd){background-color: #f2f2f2}
+</style>
+
+
 |----------------|-----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------| 
 | 08:50 to 9:20  | **Arrival**                                                                                             |                                                                                     | 
 | 9:20 to 9:30   | **Opening remarks**                                                                                     |                                                                                     | 
@@ -58,6 +72,9 @@ Additional talks and seminars will take place throughout the week and announced 
 | 02:45          | Akash Singh                                                                                         | Phylo : mobile application                                                          | 
 | 02:53          | Eric Zhang                                                                                          | 3D genome browser                                                                   | 
 | 03:00          | **Closing remarks**                                                                                     |                                                                                     | 
+
+
+
 
 
 
