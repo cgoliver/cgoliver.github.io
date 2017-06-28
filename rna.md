@@ -52,10 +52,10 @@ tr:nth-child(odd){background-color: #f2f2f2}
 | 11:31          | Mansha Imtiyaz                                                                                      | Prediction of subcellular mRNA localization                                         | 
 | 11:39          | Juraj Michalik                                                                                      | Non-redudant sampling for locally optimal RNA structures                            | 
 |                | **10 min break**                                                                                        |                                                                                     | 
-| 11:59          | Antoine Soulé                                                                                       |                                                                            | 
-| 12:07          | Pouriya Alikhani                                                                                    |                                                                            | 
-| 12:15          | Jeffrey Hyacinthe                                                                                   |                                                                            | 
-| 12:23          | Xiang Chen Zhu                                                                                      |                                                                            | 
+| 11:59          | Antoine Soulé                                                                                       | caRNAval                                                                           | 
+| 12:07          | Pouriya Alikhani                                                                                    | caRNAval                                                                           | 
+| 12:15          | Jeffrey Hyacinthe                                                                                   | caRNAval                                                                           | 
+| 12:23          | Xiang Chen Zhu                                                                                      | caRNAval                                                                           | 
 | 12:30 to 1:10  | Lunch break. Food will be provided                                                                  |                                                                                     | 
 | 1:15 to        | Remaining student presentations                                                                     |                                                                                     | 
 | 01:10          | Roman Sarrazin Gendron                                                                              | Using graphical models to predict RNA 3D-structure and ligand-binding from sequence | 
