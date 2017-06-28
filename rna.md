@@ -33,7 +33,7 @@ Additional talks and seminars will take place throughout the week and announced 
 | 10:45          | Mathieu Blanchette                                                                                  |                                                                                     | 
 |                | **15 min break**                                                                                        |                                                                                     | 
 | 11:15 to 12:35 | *Students present an overview of their research (5 min + 3 min discussion/questions)*                 |                                                                                     | 
-| 11:15:00       | Philip Bouvrette                                                                                    | RNA localization                                                                    | 
+| 11:15       | Philip Bouvrette                                                                                    | RNA localization                                                                    | 
 | 11:23          | Juan-Carlos Padilla                                                                                 | Defining the Mechanisms of RNA Targeting to Extracellular Vesicles                  | 
 | 11:31          | Mansha Imtiyaz                                                                                      | Prediction of subcellular mRNA localization                                         | 
 | 11:39          | Juraj Michalik                                                                                      | Non-redudant sampling for locally optimal RNA structures                            | 
