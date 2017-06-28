@@ -56,8 +56,8 @@ tr:nth-child(odd){background-color: #f2f2f2}
 | 12:07          | Pouriya Alikhani                                                                                    | caRNAval                                                                           | 
 | 12:15          | Jeffrey Hyacinthe                                                                                   | caRNAval                                                                           | 
 | 12:23          | Xiang Chen Zhu                                                                                      | caRNAval                                                                           | 
-| 12:30 to 1:10  | Lunch break. Food will be provided                                                                  |                                                                                     | 
-| 1:15 to        | Remaining student presentations                                                                     |                                                                                     | 
+| 12:30 to 1:10  | **Lunch break. Food will be provided**                                                                  |                                                                                     | 
+| 1:15 to 3:00        | *Remaining student presentations*                                                                     |                                                                                     | 
 | 01:10          | Roman Sarrazin Gendron                                                                              | Using graphical models to predict RNA 3D-structure and ligand-binding from sequence | 
 | 01:18          | Carlos G Oliver                                                                                     | Evolution of complexity in RNA and RNA-ligand binding prediction                    | 
 | 01:26          |  Jiaying Luo                                                                                        | RNA binding motifs in riboswitches with known 3D structure.                         | 
