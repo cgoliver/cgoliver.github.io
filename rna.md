@@ -12,9 +12,9 @@ The meeting will take place on Thursday June 29th, 2017 at McGill University.
 
 Additional talks and seminars will take place throughout the week and announced on this page.
 
-**Time:** 9am-afternoon
+**Time:** 9am-3pm
 
-**Location:** 3607 University Street, Trottier Building Room (TBA). (See map below for directions) 
+**Location:** 3607 University Street, Trottier Building Room 1100. (See map below for directions) 
 
 **Food:** Included
 
