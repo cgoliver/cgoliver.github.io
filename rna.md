@@ -8,9 +8,7 @@ permalink: /rna-meeting
 
 This is the site for the **2017 RNA Informatics Workshop** 
 
-The meeting will take place on Thursday June 29th, 2017 at McGill University. 
-
-Additional talks and seminars will take place throughout the week and announced on this page.
+Thank you to everyone for participating and making it a successful meeting!
 
 ![meeting]({{ site.url  }}/assets/rna_meeting_2.jpg)
 
