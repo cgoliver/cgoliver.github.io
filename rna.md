@@ -12,7 +12,7 @@ The meeting will take place on Thursday June 29th, 2017 at McGill University.
 
 Additional talks and seminars will take place throughout the week and announced on this page.
 
-![workshop](rna_meeting_2.jpg)
+![meeting]({{ site.url  }}/assets/rna_meeting_2.jpg)
 
 **Time:** 9am-3pm
 
