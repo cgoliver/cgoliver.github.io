@@ -4,6 +4,8 @@ title: "Faizy Ahsan - Prediction of TF-DNA binding based on convolutional neural
 date: 2017-06-14
 ---
 
+![faizy]({{ site.url  }}/assets/faizy.jpg)
+
 An automated tool for predicting TF-DNA binding is required
 to replace time consuming and expensive lab experiments, will be relevant 
 in understanding gene-regulatory networks and will be useful in tackling
