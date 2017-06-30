@@ -12,12 +12,6 @@ Thank you to everyone for participating and making it a successful meeting!
 
 ![meeting]({{ site.url  }}/assets/rna_meeting_2.jpg)
 
-**Time:** 9am-3pm
-
-**Location:** 3607 University Street, Trottier Building Room 1100. (See map below for directions) 
-
-**Food:** Included
-
 <h1 class="page-heading"> Schedule </h1>
 
 <style>
