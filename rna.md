@@ -12,6 +12,8 @@ The meeting will take place on Thursday June 29th, 2017 at McGill University.
 
 Additional talks and seminars will take place throughout the week and announced on this page.
 
+![workshop](rna_meeting_2.jpg)
+
 **Time:** 9am-3pm
 
 **Location:** 3607 University Street, Trottier Building Room 1100. (See map below for directions) 
