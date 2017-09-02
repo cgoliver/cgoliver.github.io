@@ -2,6 +2,7 @@
 
 layout: page
 title: "Miscellaneous"
+permalink: /miscellaneous
 nav:  true
 order: 4
 

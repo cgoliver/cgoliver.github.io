@@ -4,6 +4,7 @@ layout: page
 title: "Teaching"
 nav: true
 order: 3
+permalink: /teaching
 
 ---
 
