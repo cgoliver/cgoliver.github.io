@@ -2,7 +2,6 @@
 
 layout: page
 title: "2017 RNA Informatics Workshop"
-permalink: /rna-meeting
 
 ---
 
