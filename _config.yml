@@ -20,6 +20,8 @@ highlighter: rouge
 collections:
         talks:
                 output: true
+        misc:
+                output: true
 
 #gems:
 #  - jekyll-assets

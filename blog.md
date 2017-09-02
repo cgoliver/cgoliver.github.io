@@ -3,10 +3,12 @@
 layout: page
 title: "Blog"
 permalink: /blog
+nav: true
+order: 1
 
 ---
 
-<h1 class="page-heading">Recent Posts</h1>
+<h1 class="page-heading">Posts</h1>
 
 <ul>
   {% for post in site.posts %}
