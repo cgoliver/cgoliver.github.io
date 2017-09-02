@@ -12,6 +12,7 @@ email: cgoliver[at]protonmail[dot]com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 github_username:  cgoliver
+twitter_username: carlosgoliver
 
 # Build settings
 markdown: kramdown
