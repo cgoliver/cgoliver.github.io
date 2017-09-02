@@ -6,4 +6,4 @@ permalink: /misc
 
 ---
 
-[2017 RNA Informatics Workshop]({{ site.url}}/misc/rna.md)
+[2017 RNA Informatics Workshop]({{ site.url}}/_misc/rna.md)
