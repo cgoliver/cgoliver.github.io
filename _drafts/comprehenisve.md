@@ -16,8 +16,7 @@ When relevant I will outline the following information for each technique:
 
 
 
-### RNA 2D Structure Prediction [DUE: SUNDAY]
-
+### RNA 2D Structure Prediction 
 
 #### Nussinov Algorithm (1980) 
 
@@ -104,11 +103,11 @@ So we start from the whole sequence $OPT(1, N)$ and see if $j$ forms a pair. If 
 * Consequently, Nussinov prediction does not yield very realistic structures.
 * However, Nussinov also descrives a procedure for incorporating contextual information in the addition of base pairs as part of the backtracking. 
 
-#### Zuker Algorithm (1981)
+#### Zuker's Algorithm (1981)
 
 The fundamental unit of the Nussinov algorithm is the base pair. However, experimentally derived energy values for RNA structure  are done on larger secondary structure units. More specifically on loops and stacks. Therefore, an algorithm that can leverage this information to identify a minimal free energy instead of a maximally paired structure stands to yield more accurate results.
 
-**Problem Represntation:*
+**Problem Representation:*
 
 Zuker defines the elementary unit of a secondary structure as a *face*. We think of RNA 2D structure as a planar graph where nodes are bases and edges are interactions connecting the bases. We then distinguish between two types of edges: external edges connect the backbone of the RNA, and internal edges connect a pair of bases. Finally, a *face* is a planar region bounded on all sides by edges. The image below shows two representations of an RNA structure with its faces labeled. 
 
@@ -157,7 +156,7 @@ $$
 
 Where:
 
-$$E4 = \min_{i < i' < j' < j} \{W(i, i') + W(i' +1 , j\}$$
+$$E4 = \min_{i < i' < j' < j} \{W(i, i') + W(i' +1 , j)\}$$
 
 
 We consider three possibilities for $i$ and $j$: 
@@ -175,8 +174,57 @@ Finally, as with the Nussinov algorithm, we have the base case as the entries wh
 
 ### RNA 2D Classification [DUE: MONDAY]
 
-#### Covariance Models
+Zuker's algorithm demonstrated the importance of additional information to the prediction of accurate RNA secondary structures. One very important type of external information is evolutionary conservation. It is widely know that because non-coding RNA function is determined mainly by its structure, natural selection acts on the structure allowing the sequence to vary a fair amount. Therefore by comparing sequences of homologous RNAs we can see see that compensatory mutations emerge that preserve the RNA's structure. Knowing this, there arose a need for tools that were able to model the sequence variation in natural RNAs in a way that can be used to improve structural prediction and automatically build libraries of **RNA families** whose members share a common 2D structure.
+ 
 
+#### Covariance Models (1994)
+
+The most widely used framework for modelling RNA structural families is known as a Covariance Model and was simultaneously proposed in 1994 by Eddy and Rivas.
+
+**Problem representation:** 
+
+The main idea with CMs is to model structural families as *Stochastic Context Free Grammars (SCFGs).* Grammars were initially used by Noam Chomsky to model the rules that generate language. Applying this to RNA, we can think of an RNA structural family as a language, and all the sequences that belong to that family as words or sentences that can be produced from that grammar's rules.
+
+In this context it is useful to think of RNAs as ordered binary tress.
+
+![tree](../assets/tree.png)
+
+The usual representation of an RNA 2D structure can be seen in A and its translation into a tree is shown in B. Each node represents a left or right singlet, a bifurcation or a base pairing. We can see that starting from the root of the tree and writing the sequence found in the node we can reconstruct the structure in A. 
+
+More generally, can write the corresponding grammar rules for this kind of tree:
+
+$$ S \rightarrow xSy  | xS | Sx | SS | \epsilon $$
+
+These rules can be thought of as "rewriting rules". The upper case symbols are called "non-terminals" and lowercase symbols are called "terminals". Non-terminals are replaced by one of five the re-writing rules (above). When the sequence consists only of "terminals" then we are done. For example, we can re rewrite $S$ with one of the four possible re-writing rules. For example, $aSb$ replaces $S$ with a base $x, y \in \{A,U,C,G\}$ to the left and to the right forming a base pair. The $SS$ state implies a bifurcation in the structure as each non-terminal starts a new branch of the sequence. The $\epsilon$ state ends the string as it does not contain any non-terminal for further re-writing. 
+
+If we wanted to write the structure above using these rules we would have a set of re-writings as follows:
+
+$$\begin{align} S \implies aS \implies aS \implies S_1S_2 \\ 
+&\implies S_1u \implies gS_1c \implies a S_1 u ... \epsilon \\
+&\implies gS_2c \implies gS_2c \implies cS_1 ... \epsilon \end{align} $$
+
+We can represent derivations like this using what is known as a 'parse tree'. (below)
+
+![parse](../assets/parse.png)
+
+
+This is a good representation of a single sequence and structure. However, an RNA family consists of multiple different sequences that belong to the same structure. Therefore we need to introduce some sequence variability and structural context information in the nodes of this tree. 
+
+The way sequence variation is typically identified in bioinformatics is with a multiple sequence alignment (MSA). We can think of an MSA as a matrix $A$ where $A[i][j]$ is character $j$ of sequence $i$. The character set in an MSA contains the four bases and a special "gap" character written "-" which implies that character $j$ was deleted from the sequence with respect to the conserved consensus. Characters in each row of the matrix are arranged so that the entropy of each column $j$ is minimized and therefore conserved positions can be identified. So to model a family of RNAs we build a tree whose nodes capture the sequence variability in the MSA and the correlations in the secondary structure. Nodes can emit single bases, paired bases, insertions and deletions *with some probability* (hence, stochastic). As with the first example, a traversal of an SCFG generates members of the alignment in a probabilistic manner.
+
+**Algorithm(s):**
+
+There are three main challenges in dealing with SCFGs:
+
+1. Given a CM and an observed sequence, how do the characters in the sequence align with the states of the CM? $\rightarrow$ alignment problem.
+2. Given a CM and an observed sequence, what is the likelihood that the CM generates that sequence? $\rightarrow$ scoring problem.
+3. Given a set of sequences and structures, what set of SCFG states and parameters best represents the sequences? $\rightarrow$ training problem.
+
+*Alignment problem*
+
+The task is to associate each nucleotide in a sequence $\omega$ with a state in the SCFG $\mathcal{G}$. 
+
+Once again, we use our friend DP to break down the problem into smaller sub-problems and iteratively compute the full solution. In this case, we will want a DP table that contains the maximum likelihood of aligning $\mathcal{G}$ to the interval $[i, j]$. Additionally, we also need to compute most likely state $y \in M$ (given $M$ states) for an internal $[i, j]$. We can think of $y$ as the root of subgraph in the parse tree which covers $[i, j]$. This produces a 3 dimensional matrix $S_{i, j, y} \in \mathbb{R}^{N X N X M}$.
 
 ### RNA 3D Structure Prediction [DUE: TUESDAY]
 
