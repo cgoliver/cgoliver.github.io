@@ -74,19 +74,19 @@ Once the matrix is filled, we have the maximum number of base pairs on every sub
 Optionally, one could store a pointer during the computation of $OPT$ that stores which case in the recursion was used at each step. Otherwise, this is how the backtracking works:
 
 ```python
-	backtrack(i, j):
-		if j < i:
-			return
-		elif OPT[i][j] == OPT[i][j-1]:
-			backtrack(i, j-1)
-			return
-		else:
-			for k such that i < k < j-p and (i, k) complimentary:
-				if OPT[i][j] == OPT[i][k-1] + OPT[k+1][j-1] + 1:
-					print(k, j are paired)
-					backtrack(i, k-1)
-					backtrack(k+1, j-1)
-					return
+backtrack(i, j):
+	if j < i:
+		return
+	elif OPT[i][j] == OPT[i][j-1]:
+		backtrack(i, j-1)
+		return
+	else:
+		for k such that i < k < j-p and (i, k) complimentary:
+			if OPT[i][j] == OPT[i][k-1] + OPT[k+1][j-1] + 1:
+				print(k, j are paired)
+				backtrack(i, k-1)
+				backtrack(k+1, j-1)
+				return
 ```
 So we start from the whole sequence $OPT(1, N)$ and see if $j$ forms a pair. If $OPT(i, j) == OPT(i, j-1)$ it means that $j$ was not paired as the score remains the same. Otherwise we have to search for the $k$ that pairs with $j$ which we do inside a for loop. If we find that some $k$ explains the score at $OPT(i, j)$ then we print the pair $(j, k)$ and recurse to the two substructures formed by the pair.
 
