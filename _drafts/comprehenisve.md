@@ -48,7 +48,7 @@ We define $OPT(i, j)$ to be a function that returns the maximum number of basepa
 The problem is solved using DP and the following recursion:
 
 $$ OPT(i, j) = \max \begin{cases}
-\max_{k } OPT(i, k-1) + OPT(k+1, j-p) + 1 &\text{$j$ paired with}\\
+\max_{k } [OPT(i, k-1) + OPT(k+1, j-p) + 1] &\text{$j$ paired with}\\
 														& \text{ $k \in [i, j-1]$}\\
 OPT(i, j-1)  \ &\text{$j$ unpaired}
 \end{cases}
@@ -172,7 +172,7 @@ Finally, as with the Nussinov algorithm, we have the base case as the entries wh
 **Limitations:** The main contribution of this algorithm was its ability to incorporate experimental and evolutionary information to the predictions which showed that this additional information was crucial to improving predictions. The main drawback is that Zuker's algorithm does not yield suboptimal structures. This was addressed later by other algorithms.
 
 
-### RNA 2D Classification [DUE: MONDAY]
+### RNA 2D Classification
 
 Zuker's algorithm demonstrated the importance of additional information to the prediction of accurate RNA secondary structures. One very important type of external information is evolutionary conservation. It is widely know that because non-coding RNA function is determined mainly by its structure, natural selection acts on the structure allowing the sequence to vary a fair amount. Therefore by comparing sequences of homologous RNAs we can see see that compensatory mutations emerge that preserve the RNA's structure. Knowing this, there arose a need for tools that were able to model the sequence variation in natural RNAs in a way that can be used to improve structural prediction and automatically build libraries of **RNA families** whose members share a common 2D structure.
  
@@ -212,6 +212,10 @@ This is a good representation of a single sequence and structure. However, an RN
 
 The way sequence variation is typically identified in bioinformatics is with a multiple sequence alignment (MSA). We can think of an MSA as a matrix $A$ where $A[i][j]$ is character $j$ of sequence $i$. The character set in an MSA contains the four bases and a special "gap" character written "-" which implies that character $j$ was deleted from the sequence with respect to the conserved consensus. Characters in each row of the matrix are arranged so that the entropy of each column $j$ is minimized and therefore conserved positions can be identified. So to model a family of RNAs we build a tree whose nodes capture the sequence variability in the MSA and the correlations in the secondary structure. Nodes can emit single bases, paired bases, insertions and deletions *with some probability* (hence, stochastic). As with the first example, a traversal of an SCFG generates members of the alignment in a probabilistic manner.
 
+![aln](../assets/aln.png)
+
+([Source](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0020033))
+
 **Algorithm(s):**
 
 There are three main challenges in dealing with SCFGs:
@@ -224,11 +228,83 @@ There are three main challenges in dealing with SCFGs:
 
 The task is to associate each nucleotide in a sequence $\omega$ with a state in the SCFG $\mathcal{G}$. 
 
-Once again, we use our friend DP to break down the problem into smaller sub-problems and iteratively compute the full solution. In this case, we will want a DP table that contains the maximum likelihood of aligning $\mathcal{G}$ to the interval $[i, j]$. Additionally, we also need to compute most likely state $y \in M$ (given $M$ states) for an internal $[i, j]$. We can think of $y$ as the root of subgraph in the parse tree which covers $[i, j]$. This produces a 3 dimensional matrix $S_{i, j, y} \in \mathbb{R}^{N X N X M}$.
+Once again, we use our friend DP to break down the problem into smaller sub-problems and iteratively compute the full solution. In this case, we will want a DP table that contains the maximum likelihood of aligning $\mathcal{G}$ to the interval $[i, j]$. Additionally, we also need to compute most likely state $y \in M$ (given $M$ states) for an internal $[i, j]$. We can think of $y$ as the root of subtree in the parse tree which covers $[i, j]$. This produces a 3 dimensional matrix $S_{i, j, y} \in \mathbb{R}^{N X N X M}$. At the end of the algorithm we will have the likelihood of the optimal alignment of the sequence to the root of the state tree will be stored in $S_{1, N, 1}$ and can reconstruct the alignment with backtracking.
 
-### RNA 3D Structure Prediction [DUE: TUESDAY]
+Each element in the matrix is the sum of three likelihood terms.:
+
+1. The symbol emission probability of emitting characters $x_i$ to the left, and/or $x_y$ to the right or neither given state $y$ $\rightarrow$ $\log P(x_i, x_j  \vert y)$
+2. The state transition probability of going from $y$ to $y_{next}$ $\rightarrow$ $\log P(y_{next} \vert y)$
+3. Depending on $y$ we need to include the score of aligning the remaining sub-structure. For example, if $y$ is a pair of matches, the remaining alignment will be $S_{i+1, j-1, y_{next}}$
+
+For each subsequence, we iterate over all the possible sub-trees $y = {1, 2, ..., M}$.
+
+$$
+\begin{align}
+S_{i, j, y}(y = \texttt{MATP}) &= \max_{y_{next}}[S_{i+1, j-1, y_{next}} + \log(y_{next} \vert y) + \log(x_i, x_j \vert y)] \\
+S_{i, j, y}(y = \texttt{MATL/INSL}) &= \max_{y_{next}}[S_{i+1, j, y_{next}} + \log(y_{next} \vert y) + \log(x_i \vert y)]\\
+S_{i, j, y}(y = \texttt{MATR/INSR}) &= \max_{y_{next}}[S_{i, j-1, y_{next}} + \log(y_{next} \vert y) + \log(x_j \vert y)]\\
+S_{i, j, y}(y = \texttt{DEL}) &= \max_{y_{next}}[S_{i, j, y_{next}} + \log(y_{next} \vert y) \\
+S_{i, j, y}(y = \texttt{BIFURC}) &= \max_{i-1 \leq mid \leq j}[S_{i, mid, y_{left}} + S_{mid+1, j, y_{right}}] \\
+\end{align}
+$$
+
+The possible states reflect how a sequence may align with the consensus as emitted by the model.
+
+* $\texttt{MATP}$ emits a base to the left and a base to the right which are paired in the consensus structure and match the alignment.
+*  $\texttt{MAT(L/R)}$ emits a base to the left or right which matches the consensus but is not paired in the secondary structure 
+*  $\texttt{INS(R/L)}$ emits an base that is inserted in the consensus.
+*  $\texttt{DEL}$ emits nothing which creates a gap in the sequence.
+*  $\texttt{BIFURC}$ emits nothing but splits the structure into two independent branches.
+
+**Complexity:** $\mathcal{O}(N^2M)$ memory and $\mathcal{O}(N^3M)$ time.
+
+By assuming that the probability of a sequence being emitted by a model is approximately equal to the probability of the optimal alignment to that sequence (what we just solved) we solve the alignment and scoring problem in one shot. This also means that we get a single probability for a given sequence instead of a probability distribution over all possible alignments which is what the *inside algorithm* computes. This simplifying assumption clearly introduces some bias to the model but reduces computation time by a factor of $M^2$. The alignment algorithm under this assumption is more generally known as the CYK algorithm.
+
+**Model Training:**
+
+The alignment algorithm relies on a fully parametrized model consisting of: a model struture (which states are there and how are they connected) as well as probabilities (transition and emission) for each state. We want to pick the model structure and probability values such that the model has the highest likelihood of generating a given set of training sequences. We solve this problem in an iterative manner by starting from an initially unaligned set of sequences and computing a optimal alignment from which it estimates the best probabilities.
+
+We start from a set of unaligned sequences. The first task is to obtain a consensus secondary structure over the set of sequences that maximally identifies the covariance relationships between positions. That is, if we have a bunch of sequences we can think of them as a 'bad initial alignment' where each column would correspond to a homologous site. To form a structure for the group of sequences based only on sequence conservation we essentially want to detect positions that vary together which we say are implying the presence of a base pair. This nicely boils down to Nussinov-style 2D secondary structure prediction! We just make one small tweak. Instead of paired positions being complementary bases, we say that instead paired positions are columns in the alignment that are highly correlated, or have high *mutual information*  We can write this quantity as:
+
+$$ M_{i, j} = \sum_{x_i, x_j \in \{A, U, C, G\}^2} f_{x_i, x_j} \log_2 \frac{f_{x_i x_j}}{f_{x_i} f_{x_j}}$$
+
+We take the weighted sum of the log joint frequency $f_{x_i, x_j}$ of a pair of bases divided by the independent frequencies of each base in their respective columns. A value of 0 means there is no correlation between the alignment columns and a score of 2 bits of mutual information means high correlation. We can think of this intuitively as counting the number of times a pair occurs in columns $i$, $j$ normalized by how frequent each pair is in their respective columns. So if a pair of bases is very frequent but it's only because both columns are individually conserved we get low mutual information. On the other hand, if the pair of bases is frequent relative to the frequency of the individual bases in their columns then we know that the positions are correlated. Now that we have a way of scoring paired positions along a sequence we can just plug this into the Nussinov recursion. Remember before we were giving a score of $+1$ to a base pair between $(i, j)$? Now we just replace that score with $M_{i, j}$ and compute the "maximal mutual information secondary structure".
+
+$$S_{i, j} = \max [ S_{i+1, j}, S_{i, j-1}, S_{i+1, j-1} + M_{i,j}, \max_{i < mid < j}[S_{i, mid} + S{mid+1, j}]$$
+
+By backtracking, this exercise produces a consensus secondary structure based on covariation given an initial multiple sequence alignment. From this structure we can build a set of SCFG states and connections that represent it. All we are missing now is the transition and emission probabilities $\mathcal{T}, \mathcal{P}$. We can estimate these quantities by building parse trees to the SCFG we built above for each sequence in the current alignment. From each parse tree we can count the occurrence of each transition and emission event giving us an estimate for updating the parameters. This is a process known as **Expectation Maximization**. We update $\mathcal{P, T}$ using observed counts for each transition and emission: $n(y_{next} \vert y)$ and $n(x \vert y)$:
+
+$$\begin{align} 
+\mathcal{P}(x \vert y) &= \frac{n(x \vert y) + \mathcal{R}(x \vert y)}{n(y) + \sum_{x'=A, C, G, U} \mathcal{R}(x' \vert y)} \\
+\mathcal{T}(y_{next} \vert y) &= \frac{n(y_{next} \vert y) + \mathcal{R}(y_{next} \vert y)}{n(y) + \sum_{y_{next}} \mathcal{R}(y_{next} \vert y)}
+\end{align}
+$$
+
+This is simply the number of times we observe some emission or transition given state $y$ divided by the number of times we observe state $y$. The $\mathcal{R}$ terms are what is known as a Dirlecht prior which lets us incorporate knowledge about the probability into the estimate of the probability. For example, the SCFG implementation will typically use $\mathcal{R}$ to bias the model to favour matches over insertions or deletion. We can repeat this process of updating the parameters and then re-generating parse trees to update the parameters again. Eventually the parameters will converge to a local minimum and produce a new stable alignment. We then send this alignment back to the consensus structure algorithm to produce an updated model architecture and repeat the parameter updating. This process is repeated until both the model architecture and the parameters stabilize. 
+
+**Some background on Expectation Maximization + Dirlecht Priors (DO TOMORROW)**
+
+That was long! But now we are able to build generative models of any set of RNA sequences and use it to get the probability that any sequence belongs to the RNA family. This lets us scan large sequences to build databases of RNA families.
+
+
+
+**Limitations:**: There are two major limitations to CMs for RNA structure modelling. The major limitation is that it is very expensive to perform many runs of the scoring algorithm which is necessary for database scanning. Second, context free grammars are not able to model non-nested interactions and one to one base pairings therefore pseudoknotted structures or base triples (one base pairing with two other bases) cannot be modelled using these algorithms. This of course is a limitation of many of the techniques I have discussed until now. While the majority of RNA bases are nested, many RNAs contain pseudoknot or base triple interactions. Regardless, CMs are currently the main framework for the most extensive database of RNA structural families, [Rfam](http://rfam.xfam.org/).
+
+
+
+
+### RNA 3D Structure Prediction
+
+This is what an RNA would look like in the cell (riboswitch 4ENC in particular). While we can see some of the 2D elements we were dealing with in the previous section such as some stacks and loops, it's clear that there is more information about the structure that can only be represented in 3D. It also turns out that the 3D structure is ultimately the final determinant of an RNA's function, particularly in processes such as molecular recognition or ligand binding. So we need a new set of tools that can help us predict and classify RNA 3D structure.
+
+
+Full atom structure             |  Ribbon representation
+:-------------------------:|:-------------------------:
+![](../assets/atoms.png)  |  ![](../assets/ribbon.png)
 
 #### `MC-Sym` (1991)
+
+
 
 #### `RMDetect` (2011)
 
