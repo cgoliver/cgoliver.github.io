@@ -92,7 +92,7 @@ So we start from the whole sequence $OPT(1, N)$ and see if $j$ forms a pair. If 
 
 **Complexity:**
 
-* Filling the matrix: $\mathcal{O}(N^3)$
+* Filling the matrix: $\mathcal{O}(N^3)$ For each pair of indices we have to do on the order of $N$ searches for a base pair $k$. 
 * Backtrack: $\mathcal{O}(N^2)$. If all bases unpaired then you fall into the second `if` each time and go through the sequence in $N$ steps. If at each step you have to look for a pair then at worst you go through each other position $N$ times to get $\mathcal{O}(N^2)$.
 * Space: since we are simply filling a matrix and all computations are done on the same matrix storage is only $\mathcal{O}(N^2)$. 
 
@@ -240,9 +240,9 @@ For each subsequence, we iterate over all the possible sub-trees $y = {1, 2, ...
 
 $$
 \begin{align}
-S_{i, j, y}(y = \texttt{MATP}) &= \max_{y_{next}}[S_{i+1, j-1, y_{next}} + \log(y_{next} \vert y) + \log(x_i, x_j \vert y)] \\
-S_{i, j, y}(y = \texttt{MATL/INSL}) &= \max_{y_{next}}[S_{i+1, j, y_{next}} + \log(y_{next} \vert y) + \log(x_i \vert y)]\\
-S_{i, j, y}(y = \texttt{MATR/INSR}) &= \max_{y_{next}}[S_{i, j-1, y_{next}} + \log(y_{next} \vert y) + \log(x_j \vert y)]\\
+S_{i, j, y}(y = \texttt{MATP}) &= \max_{y_{next}}[S_{i+1, j-1, y_{next}} + \log \mathcal{T}(y_{next} \vert y) + \log\mathcal{P}(x_i, x_j \vert y)] \\
+S_{i, j, y}(y = \texttt{MATL/INSL}) &= \max_{y_{next}}[S_{i+1, j, y_{next}} + \log\mathcal{T}(y_{next} \vert y) + \log\mathcal{P}(x_i \vert y)]\\
+S_{i, j, y}(y = \texttt{MATR/INSR}) &= \max_{y_{next}}[S_{i, j-1, y_{next}} + \log\mathcal{T}(y_{next} \vert y) + \log\mathcal{P}(x_j \vert y)]\\
 S_{i, j, y}(y = \texttt{DEL}) &= \max_{y_{next}}[S_{i, j, y_{next}} + \log(y_{next} \vert y) \\
 S_{i, j, y}(y = \texttt{BIFURC}) &= \max_{i-1 \leq mid \leq j}[S_{i, mid, y_{left}} + S_{mid+1, j, y_{right}}] \\
 \end{align}
@@ -295,7 +295,7 @@ That was long! But now we are able to build generative models of any set of RNA 
 
 ### RNA 3D Structure Prediction
 
-This is what an RNA would look like in the cell (riboswitch 4ENC in particular). While we can see some of the 2D elements we were dealing with in the previous section such as some stacks and loops, it's clear that there is more information about the structure that can only be represented in 3D. It also turns out that the 3D structure is ultimately the final determinant of an RNA's function, particularly in processes such as molecular recognition or ligand binding. So we need a new set of tools that can help us predict and classify RNA 3D structure.
+This is what an RNA would look like in the cell (riboswitch [4ENC](http://www.rcsb.org/pdb/explore/explore.do?structureId=4ENC) in particular). While we can see some of the 2D elements we were dealing with in the previous section such as some stacks and loops, it's clear that there is more information about the structure that can only be represented in 3D. It also turns out that the 3D structure is ultimately the final determinant of an RNA's function, particularly in processes such as molecular recognition or ligand binding. So we need a new set of tools that can help us predict and classify RNA 3D structure.
 
 
 Full atom structure             |  Ribbon representation
@@ -304,11 +304,61 @@ Full atom structure             |  Ribbon representation
 
 #### `MC-Sym` (1991)
 
+Apart from doing expensive physical simulations, one of the earliest algorithmic approaches was `MC-Sym`. The main idea was to derive a set of constraints for the possible geometries of RNA structures that could be used to produce reasonable structures for a given input sequence. 
 
+These constraints are obtained by modelling an RNA's residues as a set of variable $X = \{x_1, .., x_n\}$ that can each take on values from a set of domains $D = \{d_1, ..., d_n\}$. The domain of a variable contains ten allowed sets of angles for each bond in the molecule (below) as well as a set of three transformational matrices.
+
+![base](../assets/base.png)
+
+The transformational matrices describe three typical geometries for the linking of two residues which when multiplied with the individual residue angle set yield the atomic coordinates of the nucleotide. However, we must select the transformation matrix and the residue angles in such a way that is compatible with the interacting residue and the rest of the structure. For this, we introduce a set of constraints 
+$$C = \{c_{p, q}, ... \vert p \in \{1,..,n\}, q \in \{1, ..., p-1\}\}$$ 
+
+which tells us (boolean) for each value in domain $d_p$, whether or not it is compatible with domain $d_q$. So the Constraint Satisfaction Problem (CSP) is to find a variable assignment $\{v_0, ..., v_n\} \in D$ for all variables in $X$ from domain $D$ such that all constraints $C$ are satisfied.
+
+Obviously testing all possible combinations would take an exponential amount of time so `MC-Sym` uses an progressive method to reduce computation time on average. 
+
+Quite simply, we assign a value to the first variable $x_1 \leftarrow v_0 \in d_0$ from its domain and check if it satisfies the constraints in $C$. If it does, we move on and assign the next variable in the same manner. At the point at which an assignment violates a constraint, we take a step back and assign a new value to the most recent consistent assignment. This can be visualized using a tree structure where each node represents a variable assignment and a path from the root to the leaves of the tree produces a full solution.
+
+![sym](../assets/sym.png)
+
+While the worst case complexity of this procedure is still non polynomial, on average solutions are reached in a reasonable timescale given a sufficiently compact domain size and large enough constraint set.
+
+The CSP produces good starting points for more fine grained approaches which is why typically the resulting structures are put through a physics-based energy minimization procedure. 
+
+**Limitations:** Although the process was able to produce tRNA and other tertiary structure motifs structures to reasonable `MC-Sym` is limited by the amount of information available to it. This can be seen as a strength and a weakness as it can efficiently take advantage of any knowledge in the form of constraints (this is often done in the form of secondary structure knowledge) it also heavily relies on prior knowledge for its predictions.
 
 #### `RMDetect` (2011)
 
+After looking at many RNAs in 3D, Westhof and Leontis made two important discoveries. RNA bases can interact in many different geometric orientations and patterns of these different interactions define what are known as 3D modules. 3D modules are defined patterns of base pairings that give rise to a specific 3D shape. These modules are often conserved across unrelated RNAs and are strongly associated to important biological functions. 
+
+![lw](../assets/LW.png)
+
+`RMDetect` tries to take advantage of these conserved patterns to predict the presence of these modules in any given input sequence.
+
+![bn](../assets/bn.png)
+
+By collecting sequence information from solved 3D structures belonging to a given module family, `RMDetect` builds a statistical model to represent the dependencies between each position in the structure. 
+
+**Problem definition:**
+
+Positions in the module are assigned to nodes in a graph and edges between nodes indicate conditional dependencies between the nodes. These dependencies are especially important in a structural setting since as we've seen before, positions in a sequence can be correlated with others that are far away in sequence. The resulting model is a 
+**Bayes Net**.
+
+A Bayes net is simply a way of representing a joint probability distribution for which we have some information of independence relations. By the laws of probability, if we know two variables are independent we can write their joint probability as their product.
+
+This is easy if all the random variables are independent:
+
+$$ P(X_1, .. X_n) = \prod_{i=1,...,n} X_i$$
+
+However, in reality (and especially for RNA) we will have dependencies between different positions, so we can say something like $P(X_1 \vert X_2, X_5)$ which means that the probability distribution over $X_1$ depends on two other variable $X_2$ and $X_5$. The graph structure of a Bayes net captures these dependencies where the parents of the node are the conditioning variables.
+
+In order to parametrize a Bayes net, we have to estimate the probability distribution at each node given its parents. In our case, the distribution is a multinomial over the four possible nucleotides and we use a table to compute empirical frequencies for all possible assignments of the parent variables to produce the conditional probability distribution at a node. Given this parametrization we can compute the probability that an observed sequence was generated by a given bayesian network. By building several models for each 3D module, we can then easily select the module that was most likely to produce the observed sequence as a form of 3D structure prediction.
+
+**Limitations:**: `RMDetect` trains its models from sequences that are not all necessarily validated to manifest the same 3D structure and assumes that sequence homology implies belonging to the same 3D module. While this helps in providing a substantial amount of training data, it is possible that biases are being introduced with this assumption. Of course, the predictive power is also limited by the number of modules that are defined.
+
 #### `JAR3D` (2015)
+
+`JAR3D` solves the same problem of predicting the most likely model  to address this bias by training graphical models only on modules whose 3D structure has been experimentally validated. To do so, `JAR3D`  
 
 ### RNA 3D Structure Classification [DUE: WEDNESDAY]
 
