@@ -358,10 +358,66 @@ In order to parametrize a Bayes net, we have to estimate the probability distrib
 
 #### `JAR3D` (2015)
 
-`JAR3D` solves the same problem of predicting the most likely model  to address this bias by training graphical models only on modules whose 3D structure has been experimentally validated. To do so, `JAR3D`  
+`JAR3D` solves the same problem of predicting the most likely 3D model for a sequence while addressing the RMDetect bias. To do so, `JAR3D` trains graphical models only on modules whose 3D structure has been experimentally validated. Whereas `RMDetect` draws on hand annotated 3D structures to identify recurrent 3D modules, `JAR3D` trains from a library of automatically identified module instances (this method will be covered in the next section). 
+
+Each structural module is modelled using as a hybrid SCFG and Markov Random Field (MRF). The SCFG models nested interactions (as seen in covariance models above) and since we are in a 3D context we can encounter non-nested interactions and so for these cases the MRF is used.
+
+Given a module structure, a grammar tree (as before) can be built. Instead of building these models from alignments, we build them from sets of identical interaction graphs so we have less types of nodes. Nodes can emit paired interactions of any of the types defined by Leontis and Westhof, then we have unpaired nodes that emit a single base and of course a termination node. We also allow some nodes to bulge out of the module and not participate in interactions, these are modelled as a variable length insertion. This model does not model branching structures so everything will happen in one branch. One final type of node is called the **Cluster** node which models non-nested interactions. When we encounter a base triple or a crossing interaction, these are handled by a node which contains an MRF. An MRF is a generalization of Bayes nets where edges are undirected so they represent co-variation instead of a causal dependence. 
+
+Since we do not rely on multiple sequence alignments, the sequence information for each position in the module is taken directly from the known structures. When one or few examples of a module are available, we approximate the probability of a pair of nucleotides given a 3D interaction type using isostericity matrices. These matrices were built from counts of substitutions in known structures that conserve base pairing geometry and thus give an estimate of the probability distribution over sequence pairing for a given geometry. When multiple examples of a sequence are known, we prioritize actual frequencies for probability estimation instead.   
+
+As with CMs, the probability of a sequence given the model is approximated by the CYK alignment algorithm which gives the probability of an alignment given a sequence. 
+
+**Limitations:** this model is only capable of predicting local interaction motifs and of those, only the ones occurring within internal loops and hairpin loops.
+
+  
 
 ### RNA 3D Structure Classification [DUE: WEDNESDAY]
 
+The main task here is to identify groups of similar 3D modules out of a set of full RNA 3D structures. `RNA 3D Atlas` solves this problem for motifs whose interactions are within a single secondary structure element (internal loop, hairpin, etc.) And `CaRNAval` solves the problem for modules that span multiple secondary structure elements, also known as *long range interactions*.
+
 #### `RNA 3D Atlas` (2013)
 
+The starting point is a set of loop and hairpin instances automatically extracted from a database of RNA structures. The task is to identify groups of common geometries from this set. A software called FR3D lets us compare the geometries of RNA structures and produces a discrepancy score. Next, an all-against-all comparison of discrepancy is made. This results in a matrix that contains a score for each pair of loops with their dissimilarity. From the matrix, a graph can be defined where similar loops are connected by a weighted edge. The software defines a module as a group of structures that all share a common geometry. In other words, such a group of similar structures in the graph would be known as a clique. Collecting all of the loops that belong to a motif corresponds to finding a maximal clique subgraph. The software iteratively identifies the largest clique, removes it and repeats until it has extracted all module groups. The algorithm it uses to find the maximum clique is called the *branch and bound maximal clique* algorithm.
+
+**Branch and Bound Algorithm for Maximal Cliques**:
+
+The main idea of this algorithm is to divide the graph into sub-graphs (branching) whose maximal clique is easier to compute and for each sub-problem to derive upper and lower bounds for the size of the maximal clique in order to eliminate some sub-problems from further computation.
+
+We begin with a naïve approach for finding a maximal clique for a graph $G$:
+
+```python
+def MAX_CLIQUE(G):
+	V := {v_1, v_2, ..., v_n} # vertex set of G
+	W = := V
+	CLIQUE := set([]) # initialize empty clique
+	
+	while W not empty:
+		Choose any v in W
+		# add v to the current clique
+		CLIQUE := CLIQUE.union({v})
+		# collect all neighbours of v in W. 
+		N_W(v) := {w in W such that (v, w) in E} 
+		# remove overlapping elements	between W and N_W(v)
+		W := W.intersection(N_W(v)) 
+	return CLIQUE	
+```
+
+This algorithm builds a maximal clique by picking a node at random and adding all its neighbours to the current clique since by definition the neighbours of a node must be in that node's clique. Then it goes through each neighbour in the current clique and does the same thing again, adding all its neighbours to the current clique until it has no more nodes to check.
+
+Upper bound: we can use fast approximate graph colorings to give us upper bounds to the clique size with a simple heuristic. The chromatic number of a graph $G$, written $\chi(G)$ is the minimum number of colors needed to color the graph such that no two adjacent nodes share a color. If we have a maximal clique in the graph $C$ of cardinality $\omega(C)$ it would imply that
+
+$$ \omega(G) = |C| \leq \chi(G) $$
+
+
+In other words, a graph cannot contain a clique with a greater number of nodes than the chromatic number. Computing $\chi(G)$ is NP-complete but there are fast approximate algorithms that can give us a fairly good guess $\chi^{*}(G)$ such that $\chi'(G) \geq \chi(G)$ Even if we find a sub-optimal coloring, we can still know that the graph cannot contain a clique larger than $\chi'(G)$. So if we have some initial guess for a lower bound for $\omega(G)$ call it $\omega'$ we can take subgraphs $H \subset G$ and color them to get $\chi'(H)$. If we find that $\chi'(H) \leq \omega'$ we know that the subgraph $H$ cannot contain a clique of cardinality greater than $\omega'$ so we can eliminate it from the search. So if we find a clique of $G$ such that $\chi'(G) = \omega'$ we know that we are done because the coloring gives us an upper bound to the carindality. Imagine that we have the worst coloring possible and each node in the graph is given a different color. If we find a valid clique with that cardinality we know we can't do any better and we're done.
+
+For now I won't go into the rest of the algorithm but it consists of appropriately picking there subsets $H$ to eventually construct the full maximal clique. 
+
+**Limitations:** the RNA 3D Atlas currently only supports internal and hairpin loops and would need to revise its compatibility criteria to include branched and long range motifs.
+
 #### `CaRNAval` (2016)
+
+
+
+**Maximum Subgraph Isomorphism:**
