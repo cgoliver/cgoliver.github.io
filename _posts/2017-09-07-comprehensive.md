@@ -20,6 +20,8 @@ When relevant I will outline the following information for each technique:
 
 The computer science topics are mostly: dynamic programming, stochastic grammars, constraint statisfaction, statistical graphical models, and graph algorithms.
 
+All images and material (unless a link is included) are taken from the papers cited in the literature review.
+
 Disclaimer: This is not proofread so there may be some mistakes in the text. And towards the end of the notes I started to get tired so they get progressively less detailed so my apologies for that. If I have time I will go back and add or fix anything that needs it. Enjoy!
 
 
