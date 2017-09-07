@@ -340,11 +340,11 @@ The CSP produces good starting points for more fine grained approaches which is 
 
 After looking at many RNAs in 3D, Westhof and Leontis made two important discoveries. RNA bases can interact in many different geometric orientations and patterns of these different interactions define what are known as 3D modules. 3D modules are defined patterns of base pairings that give rise to a specific 3D shape. These modules are often conserved across unrelated RNAs and are strongly associated to important biological functions. 
 
-![lw]({{site.url}}assets/LW.png)
+![lw]({{site.url}}/assets/LW.png)
 
 `RMDetect` tries to take advantage of these conserved patterns to predict the presence of these modules in any given input sequence. We define two types of interaction. *Canonical pairs* are noted WC-WC which use the watson-crick edge of the bases and are the ones that give rise to the stems of secondary structure elements. All the remaining interaction types are called *non-canonic* interactions.
 
-![bn]({{site.url}}assets/bn.png)
+![bn]({{site.url}}/assets/bn.png)
 
 By collecting sequence information from solved 3D structures belonging to a given module family, `RMDetect` builds a statistical model to represent the dependencies between each position in the structure. 
 
