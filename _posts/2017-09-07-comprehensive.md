@@ -1,8 +1,12 @@
-## Notes from the Underground: Studying for my comprehensive exam
+---
+layout: post
+title: "Notes from the Underground: Studying for my comprehensive exam"
+date: 2017-09-07
+---
 
-As part of the CS PhD program, students have to pass an oral exam after their first year. The exam is based on a literature review written (LINK) by the student on a field in Computer Science. Since it is related to my research, I chose to write about RNA structure prediction and classification. In order to prepare for the oral exam, I'm taking notes on all the papers I reviewed and figures I could post them in case anyone else was interested. 	
+As part of the CS PhD program, students have to pass an oral exam after their first year. The exam is based on a literature review written by the student on a field in Computer Science. Since it is related to my research, I chose to write about RNA structure prediction and classification. In order to prepare for the oral exam, I'm taking notes on all the papers I reviewed and figures I could post them in case anyone else was interested. 	
 
-I will cover techniques for RNA 2D then 3D structure modelling, prediction, and classification. The format is like a cheat sheet as I want to retain the key pieces of information. For a more 'review' style treatment have a look at the literature review. (LINK)
+I will cover techniques for RNA 2D then 3D structure modelling, prediction, and classification. The format is like a cheat sheet as I want to retain the key pieces of information. For a more 'review' style treatment have a look at my literature [review]({{site.url}}/assets/review_cgo.pdf).
 
 When relevant I will outline the following information for each technique:
 
@@ -16,7 +20,7 @@ When relevant I will outline the following information for each technique:
 
 The computer science topics are mostly: dynamic programming, stochastic grammars, constraint statisfaction, statistical graphical models, and graph algorithms.
 
-Toward the end of the notes I started to get tired so they get progressively less detailed so my apologies for that. If I have time I will go back and add or fix anything that needs it. Enjoy!
+Disclaimer: This is not proofread so there may be some mistakes in the text. And towards the end of the notes I started to get tired so they get progressively less detailed so my apologies for that. If I have time I will go back and add or fix anything that needs it. Enjoy!
 
 
 ### RNA 2D Structure Prediction 
@@ -66,8 +70,8 @@ This recursion says that the maximum number of base pairs on a subsequence betwe
 
 We also have the base case where $j - i < p$ so we know that it is impossible to have a base pair in that interval and so $OPT(i, j) = 0$. 
 
-<!-- ![nussinov]({{ site.url  }}/assets/nussinov.png) -->
-![nussinov](../assets/nussinov.png)
+ ![nussinov]({{ site.url  }}/assets/nussinov.png) 
+<!--![nussinov](../assets/nussinov.png)-->
 
 *Overlapping sub-problems:* DP performs best when computing the solution to a sub-structure, the algorithm has previously encountered and stored the solutions required for the current step. This is clearly the case for RNA structure since we can obtain $OPT(i, j)$ as a function of previously computed values $OPT(i, k-1)$, $OPT(k+1, j-1)$, and $OPT(i, j-1)$ by computing $OPT$ on intervals of increasing length. Therefore $OPT$ will actually be a matrix of size $N \times N$ that will store the computed values after each iteration.
 
@@ -114,7 +118,8 @@ The fundamental unit of the Nussinov algorithm is the base pair. However, experi
 
 Zuker defines the elementary unit of a secondary structure as a *face*. We think of RNA 2D structure as a planar graph where nodes are bases and edges are interactions connecting the bases. We then distinguish between two types of edges: external edges connect the backbone of the RNA, and internal edges connect a pair of bases. Finally, a *face* is a planar region bounded on all sides by edges. The image below shows two representations of an RNA structure with its faces labeled. 
 
-![nussinov](../assets/faces.png)
+<!--![nussinov](../assets/faces.png)-->
+ ![faces]({{ site.url  }}/assets/faces.png) 
 
 We can see that a *hairpin* is a face with one internal edge. A stack is defined by two consecutive internal edges. Bulges and internal loops have two internal edges that are separated by one (bulge) or more (internal loop) exterior edges on one side. Bifurcation loops are faces with three or more interior edges. With the exception of the bifurctaion loop, the Zuker algorithm uses experimentally derived energy values for each of the types of faces.
 
@@ -190,7 +195,8 @@ The main idea with CMs is to model structural families as *Stochastic Context Fr
 
 In this context it is useful to think of RNAs as ordered binary tress.
 
-![tree](../assets/tree.png)
+<!--![tree](../assets/tree.png)-->
+ ![tree]({{ site.url  }}/assets/tree.png) 
 
 The usual representation of an RNA 2D structure can be seen in A and its translation into a tree is shown in B. Each node represents a left or right singlet, a bifurcation or a base pairing. We can see that starting from the root of the tree and writing the sequence found in the node we can reconstruct the structure in A. 
 
@@ -208,14 +214,16 @@ $$\begin{align} S \implies aS \implies aS \implies S_1S_2 \\
 
 We can represent derivations like this using what is known as a 'parse tree'. (below)
 
-![parse](../assets/parse.png)
+<!--![parse](../assets/parse.png)-->
+ ![parse]({{ site.url  }}/assets/parse.png) 
 
 
 This is a good representation of a single sequence and structure. However, an RNA family consists of multiple different sequences that belong to the same structure. Therefore we need to introduce some sequence variability and structural context information in the nodes of this tree. 
 
 The way sequence variation is typically identified in bioinformatics is with a multiple sequence alignment (MSA). We can think of an MSA as a matrix $A$ where $A[i][j]$ is character $j$ of sequence $i$. The character set in an MSA contains the four bases and a special "gap" character written "-" which implies that character $j$ was deleted from the sequence with respect to the conserved consensus. Characters in each row of the matrix are arranged so that the entropy of each column $j$ is minimized and therefore conserved positions can be identified. So to model a family of RNAs we build a tree whose nodes capture the sequence variability in the MSA and the correlations in the secondary structure. Nodes can emit single bases, paired bases, insertions and deletions *with some probability* (hence, stochastic). As with the first example, a traversal of an SCFG generates members of the alignment in a probabilistic manner.
 
-![aln](../assets/aln.png)
+<!--![aln](../assets/aln.png)-->
+ ![aln]({{ site.url  }}/assets/aln.png) 
 
 ([Source](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0020033))
 
@@ -303,7 +311,7 @@ This is what an RNA would look like in the cell (riboswitch [4ENC](http://www.rc
 
 Full atom structure             |  Ribbon representation
 :-------------------------:|:-------------------------:
-![](../assets/atoms.png)  |  ![](../assets/ribbon.png)
+![]({{site.url}}/assets/atoms.png)  |  ![]({{site.url}}/assets/ribbon.png)
 
 #### `MC-Sym` (1991)
 
@@ -311,7 +319,7 @@ Apart from doing expensive physical simulations, one of the earliest algorithmic
 
 These constraints are obtained by modelling an RNA's residues as a set of variable $X = \{x_1, .., x_n\}$ that can each take on values from a set of domains $D = \{d_1, ..., d_n\}$. The domain of a variable contains ten allowed sets of angles for each bond in the molecule (below) as well as a set of three transformational matrices.
 
-![base](../assets/base.png)
+![base]({{site.url}}/assets/base.png)
 
 The transformational matrices describe three typical geometries for the linking of two residues which when multiplied with the individual residue angle set yield the atomic coordinates of the nucleotide. However, we must select the transformation matrix and the residue angles in such a way that is compatible with the interacting residue and the rest of the structure. For this, we introduce a set of constraints 
 $$C = \{c_{p, q}, ... \vert p \in \{1,..,n\}, q \in \{1, ..., p-1\}\}$$ 
@@ -322,7 +330,7 @@ Obviously testing all possible combinations would take an exponential amount of 
 
 Quite simply, we assign a value to the first variable $x_1 \leftarrow v_0 \in d_0$ from its domain and check if it satisfies the constraints in $C$. If it does, we move on and assign the next variable in the same manner. At the point at which an assignment violates a constraint, we take a step back and assign a new value to the most recent consistent assignment. This can be visualized using a tree structure where each node represents a variable assignment and a path from the root to the leaves of the tree produces a full solution.
 
-![sym](../assets/sym.png)
+![sym]({{site.url}}assets/sym.png)
 
 While the worst case complexity of this procedure is still non polynomial, on average solutions are reached in a reasonable timescale given a sufficiently compact domain size and large enough constraint set.
 
@@ -334,11 +342,11 @@ The CSP produces good starting points for more fine grained approaches which is 
 
 After looking at many RNAs in 3D, Westhof and Leontis made two important discoveries. RNA bases can interact in many different geometric orientations and patterns of these different interactions define what are known as 3D modules. 3D modules are defined patterns of base pairings that give rise to a specific 3D shape. These modules are often conserved across unrelated RNAs and are strongly associated to important biological functions. 
 
-![lw](../assets/LW.png)
+![lw]({{site.url}}assets/LW.png)
 
 `RMDetect` tries to take advantage of these conserved patterns to predict the presence of these modules in any given input sequence. We define two types of interaction. *Canonical pairs* are noted WC-WC which use the watson-crick edge of the bases and are the ones that give rise to the stems of secondary structure elements. All the remaining interaction types are called *non-canonic* interactions.
 
-![bn](../assets/bn.png)
+![bn]({{site.url}}assets/bn.png)
 
 By collecting sequence information from solved 3D structures belonging to a given module family, `RMDetect` builds a statistical model to represent the dependencies between each position in the structure. 
 
@@ -355,7 +363,9 @@ $$ P(X_1, .. X_n) = \prod_{i=1,...,n} X_i$$
 
 However, in reality (and especially for RNA) we will have dependencies between different positions, so we can say something like $P(X_1 \vert X_2, X_5)$ which means that the probability distribution over $X_1$ depends on two other variable $X_2$ and $X_5$. The graph structure of a Bayes net captures these dependencies where the parents of the node are the conditioning variables.
 
-In order to parametrize a Bayes net, we have to estimate the probability distribution at each node given its parents. In our case, the distribution is a multinomial over the four possible nucleotides and we use a table to compute empirical frequencies for all possible assignments of the parent variables to produce the conditional probability distribution at a node. Given this parametrization we can compute the probability that an observed sequence was generated by a given bayesian network. By building several models for each 3D module, we can then easily select the module that was most likely to produce the observed sequence as a form of 3D structure prediction.
+$$ P(X_1,..., X_n) = \prod_{\pi_i} P(X_i \vert \pi_i) $$
+
+In order to parametrize a Bayes net, we have to estimate the probability distribution at each node given its parents $\pi_i$. In our case, the distribution is a multinomial over the four possible nucleotides and we use a table to compute empirical frequencies for all possible assignments of the parent variables to produce the conditional probability distribution at a node. Given this parametrization we can compute the probability that an observed sequence was generated by a given bayesian network. By building several models for each 3D module, we can then easily select the module that was most likely to produce the observed sequence as a form of 3D structure prediction.
 
 **Limitations:**: `RMDetect` trains its models from sequences that are not all necessarily validated to manifest the same 3D structure and assumes that sequence homology implies belonging to the same 3D module. While this helps in providing a substantial amount of training data, it is possible that biases are being introduced with this assumption. Of course, the predictive power is also limited by the number of modules that are defined.
 
@@ -423,7 +433,7 @@ For now I won't go into the rest of the algorithm but it consists of appropriate
 
 `CaRNAval` tries to do a similar thing to the RNA 3D Atlas but instead by collecting long range interactions.
 
-![carnaval](../assets/carnaval.png)
+![carnaval]({{site.url}}/assets/carnaval.png)
 
 **Problem definition:**
 
