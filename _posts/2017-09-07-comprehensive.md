@@ -2,6 +2,8 @@
 layout: post
 title: "Notes from the Underground: Studying for my comprehensive exam"
 date: 2017-09-07
+comments: true
+
 ---
 
 As part of the CS PhD program, students have to pass an oral exam after their first year. The exam is based on a literature review written by the student on a field in Computer Science. Since it is related to my research, I chose to write about RNA structure prediction and classification. In order to prepare for the oral exam, I'm taking notes on all the papers I reviewed and figures I could post them in case anyone else was interested. 	
