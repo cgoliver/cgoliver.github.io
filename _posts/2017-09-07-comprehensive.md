@@ -293,8 +293,6 @@ $$
 
 This is simply the number of times we observe some emission or transition given state $y$ divided by the number of times we observe state $y$. The $\mathcal{R}$ terms are what is known as a Dirlecht prior which lets us incorporate knowledge about the probability into the estimate of the probability. For example, the SCFG implementation will typically use $\mathcal{R}$ to bias the model to favour matches over insertions or deletion. We can repeat this process of updating the parameters and then re-generating parse trees to update the parameters again. Eventually the parameters will converge to a local minimum and produce a new stable alignment. We then send this alignment back to the consensus structure algorithm to produce an updated model architecture and repeat the parameter updating. This process is repeated until both the model architecture and the parameters stabilize. 
 
-**Some background on Expectation Maximization + Dirlecht Priors (DO TOMORROW)**
-
 That was long! But now we are able to build generative models of any set of RNA sequences and use it to get the probability that any sequence belongs to the RNA family. This lets us scan large sequences to build databases of RNA families.
 
 
