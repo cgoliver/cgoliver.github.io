@@ -332,7 +332,7 @@ Obviously testing all possible combinations would take an exponential amount of 
 
 Quite simply, we assign a value to the first variable $x_1 \leftarrow v_0 \in d_0$ from its domain and check if it satisfies the constraints in $C$. If it does, we move on and assign the next variable in the same manner. At the point at which an assignment violates a constraint, we take a step back and assign a new value to the most recent consistent assignment. This can be visualized using a tree structure where each node represents a variable assignment and a path from the root to the leaves of the tree produces a full solution.
 
-![sym]({{site.url}}assets/sym.png)
+![sym]({{site.url}}/assets/sym.png)
 
 While the worst case complexity of this procedure is still non polynomial, on average solutions are reached in a reasonable timescale given a sufficiently compact domain size and large enough constraint set.
 
