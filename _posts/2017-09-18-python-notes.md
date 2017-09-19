@@ -73,7 +73,7 @@ matthew = (5.0 + 4) / 5
 
 ### Operations on numbers
 * `+ - * /` pretty straightforward. Work on `float` and `int`
-* `%` modulo operator, works on `int`
+* `%` modulo operator, works on `int` and returns the remainder of dividing the first number by the second.
 * `+= -= /= *=` are are shorthand for `x = x + 1`, `x = x * 4` etc. They evaluate the expression on the right and assign it back to the same name. Example:
 
 ```python
