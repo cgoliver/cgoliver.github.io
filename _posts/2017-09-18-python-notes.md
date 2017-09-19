@@ -41,7 +41,7 @@ Here are some of the simplest ones:
 
 As we can see, each of these pieces of information is of a different **type** (aka **class**) and so each of them behaves differently.
 
-We can always get the **type** or **class** of a piece of data with the `type(Object o)` function.
+We can always get the **type** or **class** of a piece of data with the `type(object)` function.
 
 ```python
 >>> print(type("Pizza"))
@@ -191,7 +191,7 @@ You can stick two strings together. This is called **concatenation**. Concatenat
 
 ### Mutability
 
-### Using object Functions
+### Accessing object attributes
 
 ### Exercises
 
