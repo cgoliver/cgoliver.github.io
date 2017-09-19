@@ -38,6 +38,7 @@ Here are some of the simplest ones:
 * `float` e.g. `0.1, 1.0, -129.992`
 * `str` e.g `"my name is Margaret"`
 * `bool` e.g. `True`, `False`
+* `NoneType` e.g. `None` empty data.
 
 As we can see, each of these pieces of information is of a different **type** (aka **class**) and so each of them behaves differently.
 
@@ -191,7 +192,94 @@ You can stick two strings together. This is called **concatenation**. Concatenat
 
 ### Mutability
 
+Some objects in Python you are allowed to modify, and others you are not allowed to modify. This is known as mutability (can modify) and immutability (cannot modify). Strings are immutable. You can give different names to the same string, but you can never modify the contents of the object.
+
+```python
+s = "Justin"
+s[0] = "j" # ERROR
+```
+The same goes for numerical and boolean types. The data types we have seen until now are all immutable. The main advantage of immutability is that it makes objects easier to store and look up because Python can always assume they will take up the same amount of space in memory and have to be accessed in exactly the same way. The cost is that if we want to compute expressions with immutable objects, we have to essentially make copies and create new objects each time. See string example above.
+
 ### Accessing object attributes
+
+We saw that objects are pieces of data that behave according to their kind. What this means is that they have a specific set of **attributes** that are shared among all objects of a certain type. **attributes** are just other objects that belong to each object. So a specific person (object) of type human (class) can have various attributes which themselves are objects with names. For example, the person can have an attribute called `'height'` which is a `float` with some value. Different people will have different values but they will all have as an attribute the `height` object. 
+
+We can access an object's attributes using the `.` operator followed by the name of the attribute we want to access.
+
+The `dir(object)` function prints out a list of all the attributes of a given object or class.
+
+```python
+>>> dir(int)
+>>> ['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__format__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__sizeof__', '__str__', '__sub__', '__subclasshook__', '__truediv__', '__trunc__', '__xor__', 'bit_length', 'conjugate', 'denominator', 'imag', 'numerator', 'real']
+```
+All of these are names to objects that can be accessed for any instance of the `int` class. So if I store a specific `int` object I should expect the same result from `dir()`
+
+```python
+>>> x = 300
+>>> dir(x)
+['__abs__', '__add__', '__and__', '__class__', '__cmp__', '__coerce__', '__delattr__', '__div__', '__divmod__', '__doc__', '__float__', '__floordiv__', '__format__', '__getattribute__', '__getnewargs__', '__hash__', '__hex__', '__index__', '__init__', '__int__', '__invert__', '__long__', '__lshift__', '__mod__', '__mul__', '__neg__', '__new__', '__nonzero__', '__oct__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdiv__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__sizeof__', '__str__', '__sub__', '__subclasshook__', '__truediv__', '__trunc__', '__xor__', 'bit_length', 'conjugate', 'denominator', 'imag', 'numerator', 'real']
+```
+Okay so that's good we get the same list of *attributes*. Let's see what happens when we try to access one of them.
+	
+```python
+>>> x = 300
+>>> x.bit_length() #more on the brackets later
+9 # number of bits to store this number
+```
+This is a good point to introduce functions. We'll get back to accessing object attributes in a bit.
+
+### Functions
+
+You can think of a function as a box that performs some task given some input and produces some output. 
+
+In Python terms, it is a block of python code that executes when you *call* it. When you call it you can determine how it will run. 
+
+You can write your own functions to do whatever you want. Here's the syntax for defining a basic function.
+
+```python
+def function_name(function_input):
+	#some code
+	
+	return #some value
+```
+
+Functions are used when you write code that can be re-used and you don't necessarily want to re-write the code each time you want to accomplish some task. Let's write a function that squares a number.
+
+```python
+def square(x):
+	return x*x
+```
+
+What this is saying is, take the value of what is in the round brackets, do some operations to it and return it.
+
+The `return` keyword is what spits out the output of the function. You can choose whatever you want for the `return`. Obviously whatever makes most sense is preferable. Now we can use our `square()` function to square any number and we only had to write the code to do it once.
+
+```python
+>>> x = 5
+>>> x_squared = square(x)
+>>> print(x_squared)
+25
+>>> square(12)
+144
+```
+Turns out that functions are also objects.
+
+```python
+>>> id(square)
+4303247792
+```
+
+So they can also count as class or object attributes.
+
+
+For example, the `__cmp__` attribute tells the `==` operator how to compare two `int` objects.
+
+```python
+>>> x = 20
+>>> y = 25
+>>> x.__cmp__(y)
+-1
+```
 
 ### Exercises
 
