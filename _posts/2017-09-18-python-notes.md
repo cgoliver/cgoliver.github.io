@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "Letters to a young Python programmer"
-date: 2017-09-18
-comments: true
+date: 2017-09-18 comments: true
 ---
 
 This is a collection of notes and exercises on the topics covered in COMP 364. The material here is by no means exhaustive and is simply meant as a reference and study aide. I will try my best to keep these notes up to date with the material as we cover it. Please feel free to leave comments at the bottom if anything is unclear.
@@ -94,7 +93,7 @@ The `bool` data type can take on one of two values: `True` or `False`. Booleans 
 Operations (given `A` and `B` are `bool` expressions):
 
 * `A and B` results in `True` if and only if `A` is `True` and `B` is `True`. 
-* `A` or `B` results in `True` if one or both of `A` or `B` is `True` 
+* `A or B` results in `True` if one or both of `A` or `B` is `True` 
 
 | `A`        | `B`           | `or`  | `and`
 | ------------- |:-------------:| -----:| ----:|
