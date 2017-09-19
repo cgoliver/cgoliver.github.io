@@ -1,10 +1,8 @@
 ---
-
 layout: post
 title: "Letters to a young Python programmer"
 date: 2017-09-18
 comments: true
-
 ---
 
 This is a collection of notes and exercises on the topics covered in COMP 364. The material here is by no means exhaustive and is simply meant as a reference and study aide. I will try my best to keep these notes up to date with the material as we cover it. Please feel free to leave comments at the bottom if anything is unclear.
@@ -96,7 +94,7 @@ The `bool` data type can take on one of two values: `True` or `False`. Booleans 
 Operations (given `A` and `B` are `bool` expressions):
 
 * `A and B` results in `True` if and only if `A` is `True` and `B` is `True`. 
-* `A or B` results in `True` if one or both of `A` or `B` is `True` 
+* `A` or `B` results in `True` if one or both of `A` or `B` is `True` 
 
 | `A`        | `B`           | `or`  | `and`
 | ------------- |:-------------:| -----:| ----:|
@@ -105,11 +103,84 @@ Operations (given `A` and `B` are `bool` expressions):
 | `False` | `True`      |    `True` | `False` |
 | `False` | `False`      |    `False` | `False` |
 
-* `> < >= <= ==` are technically operations on numerical types but they yield a boolean. e.g. `5 <= 6` results in `True` `6 == 6` is also `True`
+* `> < >= <=` are technically operations on numerical types but they yield a boolean. e.g. `5 <= 6` results in `True` `6 == 6` is also `True`. 
+* `==` checks two objects for equality of **value**. 
+* `is` checks whether two objects are the same. i.e. have the same `id`.
 
-
+```python
+>>> s = "Juicy J"
+>>> y = "Juicy J"
+>>> id(s)
+4353534928
+>>> id(y)
+4353535504
+>>> s == y
+True
+>>> s is y
+False
+>>> y = s
+>>> y is s
+True
+```
+You will probably never use `is` but `==` is very useful.
 
 ### String operations
+
+You can evaluate a slice of a string using indices. An *index* is like a counter that indicates the position of a character in a string.
+
+This is the syntax for string slicing on some string `s`: `s[start:stop:step]`. The `stop` index is not included in the new string. The first index of a string is `0`.
+
+Negative numbers for `start`, `stop`, `step`, mean "go from the end of the string towards the start.
+
+Note that slicing the string gives you a new string and leaves the original string unaffected.
+
+```python
+>>> s = "Bad and Boujee"
+#this will be a new string object
+>>> bad = s[0:3] 
+>>> print(bad)
+"Bad"
+#if you don't specify a stop index it goes till the end
+>>> boujee = s[8:]
+>>> print(boujee)
+"Boujee"
+#string from start to end skipping every other character
+>>> skip = s[::2]
+>>> print(skip)
+'BdadBue'
+>>> s[-1]
+'e'
+>>> s[-6:]
+"Boujee"
+# nice way to reverse a string. give a negative step.
+# give me whole string and step in a negative direction
+>>> s[::-1]
+'eejuoB dna daB'
+# go backwards stepping by 2 positions
+>>> s[::-2]
+'ejo n a'
+# after all this, the original string is unaffected
+# we were just creating new strings each time
+>>> print(s)
+"Bad and Boujee"
+```
+
+You can use `len(string)` to get the length of the string (i.e. number of characters. This returns an integer.
+
+```python
+>>> len(s)
+14
+```
+
+You can stick two strings together. This is called **concatenation**. Concatenating two strings yields a **new string.** The `+` operator on strings concatenates.
+
+```python
+>>> first_name = "Taylor "
+>>> last_name =  "Swift"
+>>> full_name = first_name + last_name
+>>> print(full_name)
+"Taylor Swift"
+```
 
 ### Mutability
 
