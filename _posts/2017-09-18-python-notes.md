@@ -197,5 +197,9 @@ You can stick two strings together. This is called **concatenation**. Concatenat
 
 ## Conditional Statements
 
+## Lists and Tuples
+
+## Loops
+
 
 
