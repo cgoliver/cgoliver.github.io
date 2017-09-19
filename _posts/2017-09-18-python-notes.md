@@ -44,7 +44,7 @@ As we can see, each of these pieces of information is of a different **type** (a
 We can always get the **type** or **class** of a piece of data with the `type(Object o)` function.
 
 ```python
->>> print(type("Pizza")
+>>> print(type("Pizza"))
 <type 'str'>
 ```
 
@@ -179,6 +179,13 @@ You can stick two strings together. This is called **concatenation**. Concatenat
 >>> last_name =  "Swift"
 >>> full_name = first_name + last_name
 >>> print(full_name)
+"Taylor Swift"
+# a shortcut using +=
+# this creates a string by evaluating
+# first_name + last+name
+# and gives it the name first_name
+>>> first_name += last_name
+>>> print(first_name)
 "Taylor Swift"
 ```
 
