@@ -243,6 +243,9 @@ def function_name(function_input):
 	return #some value
 ```
 
+Essentially, you are storing an object and giving it a name just like when we did `x=4` except function objects are more complex so they need more work to define. Functions are objects that contain code that executes when you call them.
+
+
 Functions are used when you write code that can be re-used and you don't necessarily want to re-write the code each time you want to accomplish some task. Let's write a function that squares a number.
 
 ```python
@@ -252,7 +255,7 @@ def square(x):
 
 What this is saying is, take the value of what is in the round brackets, do some operations to it and return it.
 
-The `return` keyword is what spits out the output of the function. You can choose whatever you want for the `return`. Obviously whatever makes most sense is preferable. Now we can use our `square()` function to square any number and we only had to write the code to do it once.
+The `return` keyword is what spits out the output of the function (an object). You can choose whatever you want for the `return`. Obviously whatever makes most sense is preferable. Now we can use our `square()` function to square any number and we only had to write the code to do it once.
 
 ```python
 >>> x = 5
@@ -262,23 +265,47 @@ The `return` keyword is what spits out the output of the function. You can choos
 >>> square(12)
 144
 ```
-Turns out that functions are also objects.
+As you can see, calling a function is as simple as writing its name and including the **arguments** (a.k.a) input in round brackets. 
+
+Since functions are also objects...
 
 ```python
 >>> id(square)
 4303247792
 ```
 
-So they can also count as class or object attributes.
+... they can also be used as class or object attributes.
 
 
-For example, the `__cmp__` attribute tells the `==` operator how to compare two `int` objects.
+For example, the `__cmp__` attribute is a function tells the `==` operator how to compare two `int` objects.
 
 ```python
 >>> x = 20
 >>> y = 25
 >>> x.__cmp__(y)
--1
+-1 #-1 here means x < y
+>>> y = x
+>>> x.__cmp(y)
+0 #means both values are equal
+```
+**Important note:** when functions are accessed as attributes of an object (with the `.` operator) the function **also** receives the object before the `.` as input. So in the `x.__cmp(y)__` call, **both** `x` and `y` are available to the function.
+
+This is all I will say about functions for the moment. We will go in more details later.
+
+## String functions
+
+Now that we have a better idea of what functions are, we can have a look at functions available to us by default in Python that let us work on the data types we have seen.
+
+I'll just put a bunch of examples in the code block below. You can always look them up in the [documentation](https://docs.python.org/3/library/stdtypes.html). 
+
+```python
+>>> s = "Shake it off.    "
+>>> s_clean = s.strip()
+>>> print(s_clean)
+"Shake it off."
+>>> print(s)
+"Shake it off.    "
+>>> s.replace
 ```
 
 ### Exercises
