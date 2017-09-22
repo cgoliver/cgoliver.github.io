@@ -11,9 +11,10 @@ This is a collection of notes and exercises on the topics covered in COMP 364. T
 
 Anything you can tell Python to remember in memory is what we call an **Object**. An object is simply a piece of information that Python stores in a box and gives it a label `ID`.
 
-Every Object is **unique** and is thus given a unique identifier `id(object)`
+Every Object is **unique** is given a unique identifier `id(object)`
 
 You can assign **names** to objects using the `=` **operator**.
+ 
 
 ```python
 larry = 5
@@ -24,13 +25,25 @@ Assigns the name *larry* to the *object* `5`. Now if I want to use the value of 
 
 The mapping of **names** to objects is called a **namespace**. You can give multiple names to the same object.
 
+In Python we have *things* (objects) and *names* for things. Think of people (objects) wearing name stickers. The **namespace** is like the party they're all attending. We can swap around people's names (like removing and sticking on nametags) but the people themselves stay the same. 
+
 ```python
-samantha = 5
-tamara = samantha
-janelle = samantha
+#gives the object '5' the name samantha
+>>> samantha = 5
+#now the object 5 has 2 names: samantha, tamara
+#python puts another sticker that says 'tamara' on 5
+>>> tamara = samantha
+>>> print(samantha, tamara)
+5 5
+# now I create the object 500 give it a sticker that says samantha
+>>> samantha = 500
+# this has no effect on the object '5' samantha used to point to
+>>> print(tamara)
+5
 ```
 
-There are several kinds (eventually we will see this is actually infinite) of data you can tell Python to *remember* and to perform **operations** on. The ones that have been defined out of the box by Python are called the *built-in* data types. 
+
+There are several kinds (eventually we will see this is actually infinite) of data (objects) you can tell Python to *remember* and to perform **operations** on. The ones that have been defined out of the box by Python are called the *built-in* data types. 
 
 Here are some of the simplest ones:
 
@@ -164,6 +177,9 @@ Note that slicing the string gives you a new string and leaves the original stri
 # we were just creating new strings each time
 >>> print(s)
 "Bad and Boujee"
+# you can also multiply strings!
+>>> s * 2
+'Bad and BoujeeBad and Boujee'
 ```
 
 You can use `len(string)` to get the length of the string (i.e. number of characters. This returns an integer.
@@ -228,7 +244,9 @@ Okay so that's good we get the same list of *attributes*. Let's see what happens
 ```
 This is a good point to introduce functions. We'll get back to accessing object attributes in a bit.
 
-### Functions
+### Quick intro to functions
+
+Python is not very fun without functions so let's give you a little intro so we can talk about more interesting things. I will go into more detail in a later section.
 
 You can think of a function as a box that performs some task given some input and produces some output. 
 
@@ -253,9 +271,25 @@ def square(x):
 	return x*x
 ```
 
-What this is saying is, take the value of what is in the round brackets, do some operations to it and return it.
+What this is saying is, take the value of what is in the round brackets, do some operations to it and return it. **Python knows which operations belong to the function by taking everything that is indented once to the right.**
 
-The `return` keyword is what spits out the output of the function (an object). You can choose whatever you want for the `return`. Obviously whatever makes most sense is preferable. Now we can use our `square()` function to square any number and we only had to write the code to do it once.
+```python
+
+
+def some_function():
+	#this indented code will only run if some_function() is called
+	s = "hello i am in the function"
+	y = "i am also in the function
+	#also in function
+	print(s + y)
+	
+print("i am outside the function definition")
+# removing the call below will cause the program to not
+# print the code in some_function() when executing
+some_function()
+```
+
+The `return` keyword is what spits out the output of the function (an object or a name). You can choose whatever you want for the `return`. Obviously whatever makes most sense is preferable. Now we can use our `square()` function to square any number and we only had to write the code to do it once.
 
 ```python
 >>> x = 5
@@ -290,7 +324,23 @@ For example, the `__cmp__` attribute is a function tells the `==` operator how t
 ```
 **Important note:** when functions are accessed as attributes of an object (with the `.` operator) the function **also** receives the object before the `.` as input. So in the `x.__cmp(y)__` call, **both** `x` and `y` are available to the function.
 
-This is all I will say about functions for the moment. We will go in more details later.
+**Very important note:** `return` is *NOT* the same as `print()`. Calling the `print()` function simply **displays** text to the screen. It does not produce an object that you can store in memory and do operations on. Example..
+
+```python
+def square(x):
+	return x*x
+num = 5
+#stores the result of the square() function
+sq = square(num)
+#you can display the result later
+print(sq)
+#displays 25 to the screen but you can't do anything with
+#the value later.
+print(x*x)
+
+```
+
+This is all I will say about functions for the moment. We will go into more details later.
 
 ## String functions
 
@@ -305,12 +355,67 @@ I'll just put a bunch of examples in the code block below. You can always look t
 "Shake it off."
 >>> print(s)
 "Shake it off.    "
->>> s.replace
+>>> s.replace("off", "on")
+"Shake it on.    "
+>>> print(s)
+"Shake it off.    "
+>>> len(s_clean) #length of the string
+17
+>>> s_clean.upper()
+"SHAKE IT OFF."
 ```
+
+Sometimes you want to include some information that you computed into a string to print to the user. Say you have a function that squares a number and you want to display a nice message to the user saying "you asked me to square [number] and the result is [number squared]". This is called **string formatting**. There is a very useful function in Python that lets you do this. It's called `format()` and it is an attribute of the `str` class.
+
+```python
+def square(x):
+	return x*x
+
+x = 5
+x_squared = square(x)
+
+#all of the following are equivalent.
+
+msg_str = "You gave me {0} and I got {1}".format(x, x_squared)
+
+msg_str = "You gave me {} and I got {}".format(x, x_squared)
+
+msg_str = "You gave me {adam} and I got {eve}".format(adam=x, eve=x_squared)
+
+```
+ 
+ Good news! In Python 3.6 we get a brand new feature which makes this even easier! It's called the **f-string**. All you have to do is put an `f` before the string quotes and python will automatically know that you want to format that string (without having to call the `format()` function). And it will use the names that are already in the `namespace` without having to pass them as input to the `format(name1, name2)` function. You can even evaluate Python expressions *inside* the string! Example:
+ 
+ ```python
+x = 5
+x_squared = square(x)
+ 
+msg_str = f"You gave me {x} and I got {x_squared}"
+
+msg_str = f"You gave me {x} and I got {x**x}"
+ 
+ ```
+ 
+ 
+### Exercises
+1. Write a function called `repeat(s, n)` that takes a `str` object `s` and returns a string that is copied `n` times. Example: `repeat("hi ", 3)` should give `hi hi hi`.
+2. Write a function called `suffix_reverse(s, n)` that takes as input a `str` object `s` and `int` object `n`. First, it prints a string that looks like this. `"You gave me the string 'We were living in Paris' and the number 5".` Then, it returns the last `n` characters of `s` in reverse order. (Hint: if you want to include quotation marks in a string, use the **escape character** `\`. 
+e.g. 
+
+```python
+>>> s = "Plato said, \"Only the dead have seen the end of war \".".
+>>> print(s)
+>>> "Plato said, "Only the dead have seen the end of war"."
+``` 
+Escape characters tell Python to treat the next character differently. In this case it tells Python to include the next `"` in the string and not treat it as the beginning of a new string.
+
+
+## Conditional Statements
 
 ### Exercises
 
-## Conditional Statements
+1. Write a function called `xor(a, b)` that takes two `bool` objects and returns `True` only if **one** of a or b is true and `False` otherwise.
+2. Write a function called `is_palindrome(s, z)` that takes two strings `s` and `z` and returns `True` if `s` and `z` are palindromes, i.e. they read the same forwards and backwards.
 
 ## Lists and Tuples
 
