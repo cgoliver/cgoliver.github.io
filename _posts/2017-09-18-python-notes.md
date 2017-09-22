@@ -387,12 +387,15 @@ msg_str = "You gave me {adam} and I got {eve}".format(adam=x, eve=x_squared)
  Good news! In Python 3.6 we get a brand new feature which makes this even easier! It's called the **f-string**. All you have to do is put an `f` before the string quotes and python will automatically know that you want to format that string (without having to call the `format()` function). And it will use the names that are already in the `namespace` without having to pass them as input to the `format(name1, name2)` function. You can even evaluate Python expressions *inside* the string! Example:
  
  ```python
-x = 5
-x_squared = square(x)
+>>> x = 5
+>>> x_squared = square(x)
  
-msg_str = f"You gave me {x} and I got {x_squared}"
+>>> msg_str = f"You gave me {x} and I got {x_squared}"
 
-msg_str = f"You gave me {x} and I got {x**x}"
+>>> msg_str = f"You gave me {x} and I got {x**x}"
+
+>>> print(msg_str)
+'You gave me 5 and I got 25'
  
  ```
  
@@ -403,7 +406,7 @@ msg_str = f"You gave me {x} and I got {x**x}"
 e.g. 
 
 ```python
->>> s = "Plato said, \"Only the dead have seen the end of war \".".
+>>> s = "Plato said, \"Only the dead have seen the end of war \"."
 >>> print(s)
 >>> "Plato said, "Only the dead have seen the end of war"."
 ``` 
