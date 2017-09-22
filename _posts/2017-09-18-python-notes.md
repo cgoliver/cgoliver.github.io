@@ -214,7 +214,9 @@ Some objects in Python you are allowed to modify, and others you are not allowed
 s = "Justin"
 s[0] = "j" # ERROR
 ```
-The same goes for numerical and boolean types. The data types we have seen until now are all immutable. The main advantage of immutability is that it makes objects easier to store and look up because Python can always assume they will take up the same amount of space in memory and have to be accessed in exactly the same way. The cost is that if we want to compute expressions with immutable objects, we have to essentially make copies and create new objects each time. See string example above.
+The same goes for numerical and boolean types. The data types we have seen until now are all immutable. The main advantage of immutability is that it makes objects easier to store and look up because Python can always assume they will take up the same amount of space in memory and have to be accessed in exactly the same way. Having immutable types also makes sense when we don't want the objects to change how they behave. We wouldn't want to change the meaning of the integers or boolean objects since it is likely to lead to nonesense.
+
+The cost is that if we want to compute expressions with immutable objects, we have to essentially make copies and create new objects each time. See string example above. We'll see examples of *mutable* objects in the upcoming sections.
 
 ### Accessing object attributes
 
