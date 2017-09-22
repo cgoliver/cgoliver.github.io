@@ -324,6 +324,37 @@ For example, the `__cmp__` attribute is a function tells the `==` operator how t
 >>> x.__cmp(y)
 0 #means both values are equal
 ```
+Functions can accept any number of arguments. Example..
+
+```python
+def add_five_numbers(a, b, c, d, e):
+	result = a + b + c + d + e
+	return result
+x = add_five_numbers(1, 2, 3, 4, 5) 
+print(x)
+#prints 14
+```
+
+The `print()` function can take many arguments:
+
+```python
+>>> a = 4
+>>> b = "bob"
+>>> c = "steve"
+>>> print(a, b, c)
+4 bob steve
+```
+Note that the order in which you provide the arguments **matters**.
+
+```python
+def subtract(a, b):
+	return a - b
+
+print(subtract(1, 4))
+#not the same as
+print(subtract(4, 1))
+```
+
 **Important note:** when functions are accessed as attributes of an object (with the `.` operator) the function **also** receives the object before the `.` as input. So in the `x.__cmp(y)__` call, **both** `x` and `y` are available to the function.
 
 **Very important note:** `return` is *NOT* the same as `print()`. Calling the `print()` function simply **displays** text to the screen. It does not produce an object that you can store in memory and do operations on. Example..
