@@ -332,7 +332,7 @@ def add_five_numbers(a, b, c, d, e):
 	return result
 x = add_five_numbers(1, 2, 3, 4, 5) 
 print(x)
-#prints 14
+#prints 15
 ```
 
 The `print()` function can take many arguments:
