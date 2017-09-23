@@ -451,7 +451,7 @@ Escape characters tell Python to treat the next character differently. In this c
 ### Exercises
 
 1. Write a function called `xor(a, b)` that takes two `bool` objects and returns `True` only if **one** of a or b is true and `False` otherwise.
-2. Write a function called `is_palindrome(s, z)` that takes two strings `s` and `z` and returns `True` if `s` and `z` are palindromes, i.e. they read the same forwards and backwards.
+2. Write a function called `is_palindrome(s)` that takes one string `s`and returns `True` if `s` is palindromes, i.e. it reads the same forwards and backwards.
 
 ## Lists and Tuples
 
