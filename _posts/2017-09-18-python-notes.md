@@ -282,8 +282,6 @@ def square(x):
 What this is saying is, take the value of what is in the round brackets, do some operations to it and return it. **Python knows which operations belong to the function by taking everything that is indented once to the right.**
 
 ```python
-
-
 def some_function():
 	#this indented code will only run if some_function() is called
 	s = "hello i am in the function"
