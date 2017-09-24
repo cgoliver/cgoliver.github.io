@@ -529,7 +529,56 @@ Here, both print calls will execute as they belong to independent `if` statement
 1. Write a function called `xor(a, b)` that takes two `bool` objects and returns `True` only if **one** of a or b is true and `False` otherwise.
 2. Write a function called `is_palindrome(s)` that takes one string `s`and returns `True` if `s` is palindromes, i.e. it reads the same forwards and backwards.
 
-## Lists and Tuples
+## Containers: Lists, Tuples, and Sets
+
+Until now we have been dealing with individual objects, each floating around in memory on their own. We've been binding individual `str` or `bool` objects to names and performing operations of them.
+
+However, the world is full of collections of things: the days of the week, genes in a genome, grades in a class, names of past lovers, petals on a flower, etc. We would like to be able to have some kind of *container* for these things that lets us work with them efficiently. 
+
+So python has some more built-in types that we can use as containers for other objects. The main ones are lists, tuples, and sets.
+
+### Lists: the mutable container
+
+This is how you store an empty list object
+
+```python
+mylist = []
+```
+This is how you store a list with some stuff already in it.
+
+```python
+stuff = ["pencil", "books", "calculator", "phone"]
+#is much better than
+thing1 = "pencil"
+thing2 = "books"
+thing3 = "calculator"
+thing4 = "phone"
+```
+
+If you want to access one of the things in the list, you just use its name and tell python which position in the list you want to access.
+
+```python
+>>> print(stuff[1])
+"books"
+```
+
+You can use exactly the same kind of indexing and slicing as with strings (see above).
+
+```python
+>>> print(stuff[1::2])
+['books', 'phone']
+```
+
+Lists are **mutable** which means we can modify the value of a list object. A useful example is the *attribute* of the `list` type, `list.append(object)`. This function adds an object to the end of the list, essentially modifying the value of the list.
+
+```python
+>>> id(stuff)
+4339084744
+>>> stuff.append("laptop")
+>>> print(stuff)
+["pencil", "books", "calculator", "phone", "laptop"]
+>>> id(stuff)
+4339084744 #same id, same object, different value
 
 ## Loops
 
