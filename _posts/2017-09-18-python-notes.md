@@ -585,7 +585,9 @@ Lists are **mutable** which means we can modify the value of a list object. A us
 >>> stuff[0] = "binder"
 ```
 
+### Tuples: the immutable container
 
+### Sets: the container for unique things
 
 ## Loops
 
