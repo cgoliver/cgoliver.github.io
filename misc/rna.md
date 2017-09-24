@@ -8,6 +8,8 @@ This is the site for the **2017 RNA Informatics Workshop**
 
 Thank you to everyone for participating and making it a successful meeting!
 
+Date: June 28, 2017
+
 ![meeting]({{ site.url  }}/assets/rna_meeting_2.jpg)
 
 <h1 class="page-heading"> Schedule </h1>
@@ -58,7 +60,7 @@ tr:nth-child(odd){background-color: #f2f2f2}
 |                | **15 min break**                                                                                        |                    |                                                                                     | 
 | 02:13          | Christopher Cameron                                                                                 | Blanchette, McGill | High-Resolution estimation for true DNA-DNA interaction frequency from Hi-C data    | 
 | 02:21          | Jeremy Georges-Filteau                                                                              | Blanchette, McGill | Prediction of sample origin (phylogenetics networks)                                | 
-| 02:29          | Mohammed Shamrani                                                                                   | Waldispühl, McGill | Biological networks                                                                 | 
+| 02:29          | Ali Atiia | Waldispühl, McGill | Biological networks                                                                 | 
 | 02:37          | Corbin Hopper                                                                                       | Waldispühl, McGill | Biological networks as graphs                                                       | 
 | 02:45          | Akash Singh                                                                                         | Waldispühl, McGill | Phylo : mobile application                                                          | 
 | 02:53          | Eric Zhang                                                                                          | Waldispühl, McGill | 3D genome browser                                                                   | 
