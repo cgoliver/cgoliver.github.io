@@ -5,7 +5,7 @@ date: 2017-09-18
 comments: true
 ---
 
-This is a collection of notes and exercises on the topics covered in COMP 364. The material here is by no means exhaustive and is simply meant as a reference and study aide. I will try my best to keep these notes up to date with the material as we cover it. Please feel free to leave comments at the bottom if anything is unclear.
+This is a collection of notes and exercises on the topics covered in [COMP 364](www.cs.mcgill.ca/~cgonza11/COMP_364). The material here is by no means exhaustive and is simply meant as a reference and study aide. I will try my best to keep these notes up to date with the material as we cover it. Please feel free to leave comments at the bottom if anything is unclear.
 
 ## Data Types, Names, and Objects
 
@@ -287,7 +287,7 @@ What this is saying is, take the value of what is in the round brackets, do some
 def some_function():
 	#this indented code will only run if some_function() is called
 	s = "hello i am in the function"
-	y = "i am also in the function
+	y = "i am also in the function"
 	#also in function
 	print(s + y)
 	
@@ -455,6 +455,76 @@ Escape characters tell Python to treat the next character differently. In this c
 
 ## Conditional Statements
 [reference](https://docs.python.org/3/tutorial/controlflow.html#if-statements)
+
+When you write your code in a `.py` file and give it to the interpreter it executes one line at a time from the top of the file until it reaches the bottom. What if we want our program to behave differently depending on some conditions? More specifically, what if we want certain parts of the code to execute only if some condition is true? This amounts to endowing python programs with the ability to make _decisions_.
+
+
+To to this, we introduce the **if** statement. A **statement** in python is a line of code that does not produce a new object or modifies any values. Instead, it gives the interpreter some directions on how to execute the program. Think of statements as road signs. 
+
+We've already seen the name binding statement `x = 5` which binds the name `x` to the object `5`. Here python isn't computing any new values or performing any operations, it's just an instruction so the interpreter remembers a name for you.
+
+Ok, back to the **if** statement. Let me just give an example.
+
+```python
+x = 5
+y = 2
+if x > y == True:
+	print("x is bigger")
+print("done")
+```
+
+This is what the interpreter does as it reads from top to bottom:
+
+1. Bind the name `x` to the object `5`
+2. Bind the name `y` to the object `2`
+3. Evaluate expression after `if`. If result is `True` execute code that is indented. Otherwise, skip indented code.
+4. Execute print statement.
+
+So now we have some code whose execution *depends* on something else. Here it depends on the value of `x` and `y`. Try setting `x=2` and `y=5` and see what happens. You should see that the line `print("x is bigger")` never gets reached.
+
+**Syntax**: To write an `if` statement you use the key word `if` followed by a **boolean** expression which evaluates to either `True` or `False` and you end the line with a colon `:`. Anything you want python to execute if the condition evaluates to `True` you place one tab in.
+
+What if you have several cases that you want to test? Use the `elif` statement (short for "else if").
+
+```python
+x = 10
+y = 8
+if x > y:
+	print("x is bigger")
+elif x < y:
+	print("x is smaller")
+else:
+	print("x and y are equal")
+```
+
+You can have as many `elif` in a row but they must end with an `else` statement. Python goes through the conditions one at a time. As soon as it encounters the first `True` condition it executes its code and skips the rest of the cases. So the order of your statements can sometimes be important.
+
+```python
+jon = "Stark"
+tyrion = "Lannister"
+
+if len(jon) == len(tyrion):
+	print("same length")
+elif jon[2] == tyrion[1]:
+	print("both a")
+elif jon[1] == tyron[-3]:
+	print("both t")
+else:
+	print("hello")
+```
+In this case, both `elif` blocks evaluate to `True` but only the first one will actually execute since python skips the rest as soon as it finds one that is `True`.
+
+If none of the `if` or `elif` statements evaluated to `True` then the `else` block will execute. You can also use an `else` after an `if` block.
+
+In the `jon` and `tyrion` example, if you wanted both `elif` blocks to execute you could put them both in `if` statements.
+
+```python
+if jon[2] == tyrion[1]:
+	print("both a")
+if jon[1] == tyrion[-3]:
+	print("both t")
+```
+Here, both print calls will execute as they belong to independent `if` statements. 
 
 ### Exercises
 
