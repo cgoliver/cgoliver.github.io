@@ -577,8 +577,12 @@ Lists are **mutable** which means we can modify the value of a list object. A us
 >>> stuff.append("laptop")
 >>> print(stuff)
 ["pencil", "books", "calculator", "phone", "laptop"]
+#same id, same object. different value
 >>> id(stuff)
-4339084744 #same id, same object, different value
+4339084744 
+```
+
+
 
 ## Loops
 
