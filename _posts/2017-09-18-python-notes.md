@@ -7,6 +7,8 @@ comments: true
 
 This is a collection of notes and exercises on the topics covered in [COMP 364](www.cs.mcgill.ca/~cgonza11/COMP_364). The material here is by no means exhaustive and is simply meant as a reference and study aide. I will try my best to keep these notes up to date with the material as we cover it. Please feel free to leave comments at the bottom if anything is unclear.
 
+> There is nothing to writing. All you do is sit down at a typewriter and bleed. (Ernest Hemingway)
+
 ## Data Types, Names, and Objects
 
 [reference](https://docs.python.org/3/reference/datamodel.html)
@@ -580,11 +582,63 @@ Lists are **mutable** which means we can modify the value of a list object. A us
 #same id, same object. different value
 >>> id(stuff)
 4339084744 
+>>> stuff[0] = "binder"
 ```
 
 
 
 ## Loops
 
+Now that we have containers with a bunch of things in them. We want to be able to quickly perform operations on them. This is where loops come in. Loops are simply a way to repeat a set of python commands a certain number of times. This saves you from a lot of copy pasting of the same code.
 
+The simplest loop is the `while` loop. Loops are `statements` like the `if` statement. They don't make any operations on their own, they just tell the interpreter how to execute your code.
 
+Here is an example of the simplest possible loop:
+
+```python
+while True:
+	print(""" This life as you now live it and have lived it,
+	 you will have to live once more and innumerable times 
+	 more; and there will be nothing new in it, 
+	 but every pain and every joy and every thought and sigh
+	 and everything unutterably small or great in your life
+	 will have to return to you, all in the same succession
+	 and sequence - even this spider and this moonlight
+	 between the trees, and even this moment and I myself. 
+	 The eternal hourglass of existence is turned
+	 upside down again and again, and you with it, 
+	 speck of dust!""")
+```
+
+When python encounters the `while` statement it evaluates the boolean expression to its right. If it sees a statement that is `True` and enters the loop body (one tab in) and executes the code inside it. Once it has marched through the code in the loop body it **goes back to the `while` statement** and evaluates the boolean expression to its right. If it sees something that is `True` it goes back into the loop body and executes again and goes back to the top and repeats. In this example, that loop will never stop executing since the condition never changes and we will have Nietazche's quote repeated forever. This is called an **infinite loop** and you generally want to avoid them.
+
+Here's an example of a `while` loop that does terminate.
+
+```python
+x = 100
+while x > 0:
+	print("The original is unfaithful to the translation.")
+	x = x - 1
+
+```
+
+Here are the steps the interpreter takes:
+
+1. Bind `x` to `100`
+2. Evaluate boolean expression `100 > 0` result is `True`.
+3. Continue inside loop body
+4. Print Jorge Luis Borges quote
+5. Evaluate expression `x-1` get value of `99` and bind it to name `x`
+6. Go back to `while` statement and evaluate `99 > 0` this is `True`.
+7. Repeat
+8. When `x=0` the `while` condition will be `False` and the interpreter will skip the loop body.
+
+## Functions
+
+### Namespaces + Functions
+
+Functions define their own local namespace. 
+
+> In that book which is my memory,
+On the first page of the chapter that is the day when I first met you,
+Appear the words, ‘Here begins a new life’. (Dante Alighieri, Vita Nuova)
