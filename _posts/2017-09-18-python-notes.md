@@ -9,6 +9,8 @@ This is a collection of notes and exercises on the topics covered in COMP 364. T
 
 ## Data Types, Names, and Objects
 
+[reference](https://docs.python.org/3/reference/datamodel.html)
+
 Anything you can tell Python to remember in memory is what we call an **Object**. An object is simply a piece of information that Python stores in a box and gives it a label `ID`.
 
 Every Object is **unique** is given a unique identifier `id(object)`
@@ -86,6 +88,8 @@ matthew = (5.0 + 4) / 5
 ```
 
 ### Operations on numbers
+[reference](https://docs.python.org/3/library/stdtypes.html)
+
 * `+ - * /` pretty straightforward. Work on `float` and `int`
 * `%` modulo operator, works on `int` and returns the remainder of dividing the first number by the second.
 * `+= -= /= *=` are are shorthand for `x = x + 1`, `x = x * 4` etc. They evaluate the expression on the right and assign it back to the same name. Example:
@@ -248,6 +252,8 @@ This is a good point to introduce functions. We'll get back to accessing object 
 
 ### Quick intro to functions
 
+[reference](https://docs.python.org/3/tutorial/controlflow.html#defining-functions)
+
 Python is not very fun without functions so let's give you a little intro so we can talk about more interesting things. I will go into more detail in a later section.
 
 You can think of a function as a box that performs some task given some input and produces some output. 
@@ -376,7 +382,8 @@ print(x*x)
 This is all I will say about functions for the moment. We will go into more details later.
 
 ## String functions
-
+[reference](https://docs.python.org/3/whatsnew/3.6.html#pep-498-formatted-string-literals)
+	
 Now that we have a better idea of what functions are, we can have a look at functions available to us by default in Python that let us work on the data types we have seen.
 
 I'll just put a bunch of examples in the code block below. You can always look them up in the [documentation](https://docs.python.org/3/library/stdtypes.html). 
@@ -447,6 +454,7 @@ Escape characters tell Python to treat the next character differently. In this c
 
 
 ## Conditional Statements
+[reference](https://docs.python.org/3/tutorial/controlflow.html#if-statements)
 
 ### Exercises
 
