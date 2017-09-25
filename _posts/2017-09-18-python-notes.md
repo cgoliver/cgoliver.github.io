@@ -497,7 +497,7 @@ else:
 	print("x and y are equal")
 ```
 
-You can have as many `elif` in a row but they must end with an `else` statement. Python goes through the conditions one at a time. As soon as it encounters the first `True` condition it executes its code and skips the rest of the cases. So the order of your statements can sometimes be important.
+You can have as many `elif` in a row. It is not necessary that they end with an `else` statement but it is usually good practice to deal with an `else` case. Python goes through the conditions one at a time. As soon as it encounters the first `True` condition it executes its code and skips the rest of the cases. So the order of your statements can sometimes be important.
 
 ```python
 jon = "Stark"
