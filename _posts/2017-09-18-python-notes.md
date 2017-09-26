@@ -583,9 +583,86 @@ Lists are **mutable** which means we can modify the value of a list object. A us
 >>> id(stuff)
 4339084744 
 >>> stuff[0] = "binder"
+#lists can hold objects of different types.
+stuff.append(3000)
+```
+Since lists are objects and lists hold objects, it follows that lists can hold other lists. This kind of construction is often useful in many programming problems. In math, we often work with matrices which in Python can be thought of as lists of lists. 
+
+```python
+mat = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+```
+This represents a matrix that looks like this:
+
+$$
+mat = 
+\begin{bmatrix}
+1 & 2 & 3\\ 
+4 & 5 & 6 \\
+7 & 8 & 9 
+\end{bmatrix}
+$$
+
+Each list in the list `mat` would represent one of the rows in the matrix.
+
+Let's say we want to change the $6$ to a $0$.
+
+```python
+mat[1][2] = 0
+```
+Why does this work?
+
+```python
+>>> print(mat[1])
+[4, 5, 0]
+>>> print(mat[1][2]
+0
+```
+### Tuples: the immutable container
+
+A tuple can hold the same kinds of objects as a list. The only difference is that tuples are **immutable**. For this reason, they are often used to store things that you don't want to change, and whose index you want to *always* represent the same thing. 
+
+Let's say I wanted to keep track of the student ID of each person in the class. Since people can add or drop the class,  I would probably want to keep that information in a list cause it's easy to grow or shrink a list. Okay so I have a list where each element is a student's info. Now how should I fill that list? Let's say I only ever care about the student's name and their McGill ID. These things don't change. So I'm tempted to use a tuple. So my code would look something like this.
+
+```python
+>>> students = [("John", 260452134), ("Mary", 2601502135), ("Rose", 2001202933)]
 ```
 
-### Tuples: the immutable container
+That's a list of tuples. Let's say a new student joins the class.
+
+```python
+>>> students.append(("Tracy", 2601002231)) 
+```
+and now the list has one more tuple representing the student "Tracy"'s info.
+
+Because the tuples are immutable I know that the name string will always be at index 0 and the ID will be at index 1 of a particular tuple. 
+
+So let's say I want the ID of the most recently added student, I would just do
+
+```python
+>>> most_recent = students[-1][1] #this will be the ID number.
+```
+
+Because lists can grow and shrink we can't be sure that the index will always hold the same kind of information.
+
+Tuples also have the advantage of being faster to access and more memory efficient. Because the size of a tuple is fixed, Python can know exactly how much memory it needs to reserve for that tuple. On the other hand, a list can always grow so python may often have to over-compensate in case you decide to make the list bigger.
+
+Just to make sure, let's try to modify a tuple and see what happens.
+
+```python
+>>> mytup = ("Carlos", 555-811-6519)
+>>> mytup[0] = "Dante"
+TypeError: 'tuple' object does not support item assignment
+```
+Naturally, we can understand that there is no `append()` function for tuples.
+
+However, if a tuple contains a mutable object, we *can* modify that.
+
+```python
+>>> tuptup = ([1, 2, 3], "Hello")
+>>> tuptup[0].append(4)
+>>> print(tuptup)
+([1, 2, 3, 4], "Hello")
+```
 
 ### Sets: the container for unique things
 
