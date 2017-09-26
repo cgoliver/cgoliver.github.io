@@ -532,6 +532,7 @@ Here, both print calls will execute as they belong to independent `if` statement
 2. Write a function called `is_palindrome(s)` that takes one string `s`and returns `True` if `s` is palindromes, i.e. it reads the same forwards and backwards.
 
 ## Containers: Lists, Tuples, and Sets
+[reference](https://docs.python.org/3/tutorial/datastructures.html)
 
 Until now we have been dealing with individual objects, each floating around in memory on their own. We've been binding individual `str` or `bool` objects to names and performing operations of them.
 
@@ -617,6 +618,24 @@ Why does this work?
 >>> print(mat[1][2]
 0
 ```
+
+We can ask Python if a certain value is stored in a list using the `in` keyword.
+
+```python
+>>> mylist = [1, 2, 3, 4]
+>>> 4 in mylist
+True
+>>> 0 in mylist
+False
+# The in keyword only checks one level of nesting.
+>>> mymat = [[1, 2, 3], [4, 5, 6]]
+>>> 3 in mylist
+False
+>>> [1, 2, 3] in mylist
+True
+>>> 3 in mylist[0]
+True
+```
 ### Tuples: the immutable container
 
 A tuple can hold the same kinds of objects as a list. The only difference is that tuples are **immutable**. For this reason, they are often used to store things that you don't want to change, and whose index you want to *always* represent the same thing. 
@@ -666,6 +685,17 @@ However, if a tuple contains a mutable object, we *can* modify that.
 
 ### Sets: the container for unique things
 
+The other major container in Python is the set. Sets work like math sets if you've studied them. In a set, every element is **unique**, and the elements are **unordered**. Having this kind of guarantee is often useful as you try to solve more and more problems. Along with this container, Python provides some very useful functions which implement set operations. Some examples will clarify all this.
+
+A recap on how to initialize the containers:
+
+```python
+mylist = [1, 2, 3] 
+mytup = (1, 2, 3)
+mset = {1, 2, 3} #note empty set is set() not {}
+```
+You can store a set with the curly braces.
+
 ## Loops
 
 Now that we have containers with a bunch of things in them. We want to be able to quickly perform operations on them. This is where loops come in. Loops are simply a way to repeat a set of python commands a certain number of times. This saves you from a lot of copy pasting of the same code.
@@ -712,7 +742,15 @@ Here are the steps the interpreter takes:
 7. Repeat
 8. When `x=0` the `while` condition will be `False` and the interpreter will skip the loop body.
 
+### List and Set Comprehensions
+
 ## Functions
+
+### Why use functions?
+
+### The anatomy of a function
+
+### The `return` statement
 
 ### Namespaces + Functions
 
