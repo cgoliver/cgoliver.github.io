@@ -692,7 +692,7 @@ A recap on how to initialize the containers:
 ```python
 mylist = [1, 2, 3] 
 mytup = (1, 2, 3)
-mset = {1, 2, 3} #note empty set is set() not {}
+myset = {1, 2, 3} #note empty set is set() not {}
 ```
 You can store a set with the curly braces.
 
