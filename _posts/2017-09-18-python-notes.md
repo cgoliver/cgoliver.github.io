@@ -668,7 +668,7 @@ Tuples also have the advantage of being faster to access and more memory efficie
 Just to make sure, let's try to modify a tuple and see what happens.
 
 ```python
->>> mytup = ("Carlos", 555-811-6519)
+>>> mytup = ("Carlos", 5558116519)
 >>> mytup[0] = "Dante"
 TypeError: 'tuple' object does not support item assignment
 ```
@@ -719,7 +719,7 @@ while True:
 	 speck of dust!""")
 ```
 
-When python encounters the `while` statement it evaluates the boolean expression to its right. If it sees a statement that is `True` and enters the loop body (one tab in) and executes the code inside it. Once it has marched through the code in the loop body it **goes back to the `while` statement** and evaluates the boolean expression to its right. If it sees something that is `True` it goes back into the loop body and executes again and goes back to the top and repeats. In this example, that loop will never stop executing since the condition never changes and we will have Nietazche's quote repeated forever. This is called an **infinite loop** and you generally want to avoid them.
+When python encounters the `while` statement it evaluates the boolean expression to its right. If it sees a statement that is `True` and enters the loop body (one tab in) and executes the code inside it. Once it has marched through the code in the loop body it **goes back to the `while` statement** and evaluates the boolean expression to its right. If it sees something that is `True` it goes back into the loop body and executes again and goes back to the top and repeats. In this example, that loop will never stop executing since the condition never changes and we will have Nietzche's quote repeated forever. This is called an **infinite loop** and you generally want to avoid them.
 
 Here's an example of a `while` loop that does terminate.
 
