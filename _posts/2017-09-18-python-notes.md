@@ -816,7 +816,94 @@ Let's break down what happens at each step.
 
 ### List and Set Comprehensions
 
+You will often want to do something to every element in a list, or create a new list efficiently. Python lets you do this in one line using what it calls **comprehensions**. Comprehensions can be used go create lists, sets, and dictionaries. 
+
+Here's a basic example of a list comprehension and we'll break it down.
+
+```python
+zero_to_one_hundred = [n for n in range(101)]
+```
+The list `zero_to_one_hundred` would contain the numbers 0 to 100.
+
+If we didn't have list comprehensions, we would have to do something like this to store the same list:
+
+
+```python
+zero_to_one_hundred = []
+for n in range(101):
+	zerp_to_one_hundred.append(n)
+```
+
+These are both equivalent, but the list comprehension is obviously much quicker to write.
+
+So basically whatever expression comes before the `for` is appended to the list, and the `for` loop takes you from one item to another.
+
+An even more basic list comprehension would be this:
+
+```python
+>>> ones = [1 for _ in range(10)]
+>>> print(ones)
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+```
+This would create a list with 10 entries all with value `1`.
+
+To the left of the `for` you can add any expression and the value of the expression gets added to the list.
+
+```python
+>>> [x*x for x in range(5)]
+[0, 1, 4, 9, 16]
+```
+You just wrote a quadratic function evaluated from 0 to 5 in one line.
+
+Another handy thing with comprehensions is the conditional statement. Say we want a list that only contains the square of even numbers.
+
+```python
+>>> [x*x for x in range(5) if x % 2 == 0]
+[0, 4, 16]
+```
+So you can put an `if` statement that can act on the loop variable and if it evaluates to true, it will append the current value of the loop variable `x` to the list, and skip it otherwise.
+
+This is equivalent to:
+
+```python
+even_squares = []
+for x in range(5):
+	if x % 2 == 0:
+		even_squares.append(x*x)
+	else:
+		continue
+```
+
+As you can see, list comprehensions can save us a lot of coding time.
+
+All these examples were used to create lists, but we can use a similar syntax to create sets and dictionaries.
+
+For sets we can do something like this:
+
+```python
+>>> fruits = ["apple", "banana", "banana", "banana"]
+>>> fruit_set = {f for f in fruits}
+{"apple", "banana"}
+>>> {f + "_carlos" for f in fruits}
+{"banana_carlos", "apple_carlos"}
+```
+You can also include conditionals when building sets just as before.
+
+Dictionary comprehensions have a little extra syntax which is the key:value mapping.
+
+Say I want to map every number from 0 to 4 to its square. Here, we still use the curly braces like with the sets, but the colon tells python that this is a dictionary and not a set.
+
+```python
+>>> square_map  = {x:x*x for x in range(5)}
+>>> print(square_map)
+{0: 0, 1: 1, 2: 4, 3: 9, 4: 16}
+>>> square_map[3]
+9
+```
+
 ### Nested Loops
+
+### Nested list comprehensions
 
 ## Functions
 
