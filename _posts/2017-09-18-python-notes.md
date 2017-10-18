@@ -696,6 +696,44 @@ myset = {1, 2, 3} #note empty set is set() not {}
 ```
 You can store a set with the curly braces.
 
+Here are some other ways to start a set. Whenever you give duplicate elements (will evaluate to true with the `==` opearator) to the set, only the unique elements will be included in the set. 
+
+```python
+>>> myset = set([1, 2, 3, 3, 4])
+>>> myset = set("AAACCGGAG") #will keep only unique characters
+>>> print(myset)
+{'G', 'A'}
+>>>len(myset)
+2
+```
+[here](https://docs.python.org/3/tutorial/datastructures.html#sets) is a complete list of set operations and methods.
+
+### Set methods and operations
+
+The main set operations can be called as operations or methods. Here are some examples.
+
+```python
+>>> novels = set({"dante", "wilde", "hemigway", "nietzche", "rand"})
+>>> philosophy = set(["spinoza", "nietzche", "schoppenhauer", "spinoza", "rand"])
+#elements in philosophy and novels
+>>> philosophy.intersection(novels)
+{'nietzche', 'rand'}
+>>> philosophy & novels
+{'nietzche', 'rand'}
+#elements in philosophy but NOT in novels
+>>> philosophy.difference(novels)
+{'spinoza', 'schoppenhauer'}
+>>> philosophy - novels
+{'spinoza', 'schoppenhauer'}
+```
+If you would like to add an element to the set, use the `set.add(element)` function. This makes sure you are not adding any duplicates to the set.
+
+```python
+>>> philosophy.add("kant") #adds kant
+>>> philosophy.add("spinoza") #does nothing
+```
+
+
 ## Loops
 
 Now that we have containers with a bunch of things in them. We want to be able to quickly perform operations on them. This is where loops come in. Loops are simply a way to repeat a set of python commands a certain number of times. This saves you from a lot of copy pasting of the same code.
@@ -742,7 +780,43 @@ Here are the steps the interpreter takes:
 7. Repeat
 8. When `x=0` the `while` condition will be `False` and the interpreter will skip the loop body.
 
+### The `for` loop
+
+The `while` and the `for` loop can be used interchangeably and can both accomplish the same tasks. However, in some cases is it more convenient to use one over the other. Typically, `for` loops are used when you know how many iterations of the loop you need or when you are iterating over some kind of container like a list, set, or tuple.
+
+These are the main ingredients of a `for` loop:
+
+1. the `for` keyword
+2. a name whose value is updated after each iteration (loop variable)
+3. the `in` keyword
+4. an iterable
+5. A colon `:`
+6. The loop body (everything tabbed at least once after the loop header.
+
+This is what a typical `for` loop looks like:
+
+```python
+mylist = [1, 2, 3, 4, "watermelon", "tree", 939] #the iterable
+
+for n in mylist: #n is the loop variable
+	print(f"The value of n is now {n}")
+	print("Moving to next iteration.")
+```
+
+Let's break down what happens at each step.
+
+1. Python sees that you are binding the name `mylist` to the list object defined on the right.
+2. It reaches the `for` statement so it knows it is about to repeat some code.
+3. Python binds the first value in the list `1` to the name `n`
+4. Python enters the loop body and executes the code inside of it one by one. It does the first `print` function which prints something like "The value of n is now 1"
+5. Then it reaches the next print call and so we see `"Moving to next iteration."
+6. Python sees nothing else is tabbed in so it is done executing the loop body.
+7. Python goes back to the loop header and this time binds the name `n` to the **second** object in the list. 
+8. We repeat this process until the name `n` has been bound to every item in the list.
+
 ### List and Set Comprehensions
+
+### Nested Loops
 
 ## Functions
 
@@ -759,3 +833,7 @@ Functions define their own local namespace.
 > In that book which is my memory,
 On the first page of the chapter that is the day when I first met you,
 Appear the words, ‘Here begins a new life’. (Dante Alighieri, Vita Nuova)
+
+## Exception Handling
+
+## Dictionaries
