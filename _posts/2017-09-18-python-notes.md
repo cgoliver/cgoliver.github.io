@@ -706,7 +706,6 @@ Here are some other ways to start a set. Whenever you give duplicate elements (w
 >>>len(myset)
 2
 ```
-[here](https://docs.python.org/3/tutorial/datastructures.html#sets) is a complete list of set operations and methods.
 
 ### Set methods and operations
 
@@ -732,6 +731,7 @@ If you would like to add an element to the set, use the `set.add(element)` funct
 >>> philosophy.add("kant") #adds kant
 >>> philosophy.add("spinoza") #does nothing
 ```
+[here](https://docs.python.org/3/tutorial/datastructures.html#sets) is a complete list of set operations and methods.
 
 
 ## Loops
