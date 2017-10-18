@@ -733,6 +733,9 @@ If you would like to add an element to the set, use the `set.add(element)` funct
 ```
 [here](https://docs.python.org/3/tutorial/datastructures.html#sets) is a complete list of set operations and methods.
 
+### Exercises
+1. Use sets to print the number of unique letters in the following string: "subdermatoglyphic".
+2. Create a list with the 
 
 ## Loops
 
