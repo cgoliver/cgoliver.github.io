@@ -992,7 +992,7 @@ So you can see that for every item in the outer loop, the inner loop executes fu
 
 We can also turn nested loops into nested list comprehensions. This starts to get a little messy so make sure you really want to do a list comprehension instead of a regular loop.
 
-So let's say I want to build a grid that looks like a telephone number pad. Let's do it the explicit way:
+So let's say I want to build a grid that looks like a telephone number pad (without the zero). Let's do it the explicit way:
 
 ```python
 number_pad = []
