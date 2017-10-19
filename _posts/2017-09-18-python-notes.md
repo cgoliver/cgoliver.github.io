@@ -973,13 +973,26 @@ Loops repeat whatever is inside the loop body until the continue condition evalu
 Nested loops come up when trying to solve many types of problems so it's good to keep them in mind. The usual case is when you want to do repeat some operations on every element of a list, or when working with matrices (lists of lists). Here are some examples.
 
 ```python
-nums = [1, 2, 3, 4, 5]
-for i,n in enumerate(nums):
-	
-
+nums = [1, 2, 3]
+for n in nums:
+	for a in ["dog", "cat"]:
+		print(f"{n}, {a}")	
+```
+```
+1, dog
+1, cat
+2, dog
+2, cat
+3, dog
+3, cat
 ```
 
+So you can see that for every item in the outer loop, the inner loop executes fully. 
 ### Nested list comprehensions
+
+
+### Exercises
+
 
 ## Functions
 
