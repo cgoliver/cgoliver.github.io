@@ -735,7 +735,7 @@ If you would like to add an element to the set, use the `set.add(element)` funct
 
 ### Exercises
 1. Use sets to print the number of unique letters in the following string: "subdermatoglyphic".
-2. Create a list with the 
+2. Create a list containing the prime numbers from 0 to 100.
 
 ## Loops
 
@@ -816,6 +816,68 @@ Let's break down what happens at each step.
 6. Python sees nothing else is tabbed in so it is done executing the loop body.
 7. Python goes back to the loop header and this time binds the name `n` to the **second** object in the list. 
 8. We repeat this process until the name `n` has been bound to every item in the list.
+
+
+Python has a few very useful functions that make working with `for` loops a lot easier: `enumerate`, `zip`, and `range`.
+
+The `enumerate` function yields a tuple in the form `(index, item)` for every iteration in the loop.  
+
+```python
+>>> b = ["adam", "eve", "bob"]
+>>> for en in enumerate(b):
+>>> 	print(en)
+(0, "adam")
+(1, "eve")
+(2, "bob")
+```
+
+This comes in handy when you want to do something to the items in the list but also need to know their position.
+
+We can use variable unpacking to assign a name to the index and the item in one shot.
+
+```python
+#variable unpacking
+>>> my_tup = ("bob", "joe")
+>>> b, j = my_tup
+>>> print(b)
+"bob"
+>>> print(j)
+"joe"
+```
+
+Using this in the loop header with the `enumerate` function looks like this:
+
+```python
+for i, item in ["dog", "cat"]:
+	print(f"index: {i}, item: {item}")
+```
+
+The `zip` function is similar to the `enumerate` function but it yields a tuple of items in two or more lists.
+
+```python
+animals = ["dog", "cat", "human"]
+legs = [4, 4, 2]
+tail = [1, 1, 0]
+for a, l, t in zip(animals, legs, tail):
+	print(f"{a} has {l} legs and {t} tails"})
+
+```
+
+The `range` function yields a number for every iteration in the `for` loop within some specified range.
+
+```python
+#numbers from 0 to 9
+for i in range(10):
+	print(i)
+
+#numbers from 4 to 9
+for i in range(4, 9):
+	print(i)
+
+#numbers from 0 to 0 taking steps of size 2
+for i in range(0, 10, 2):
+	print(i) #0 2 4 6 8
+```
 
 ### List and Set Comprehensions
 
@@ -906,6 +968,17 @@ Say I want to map every number from 0 to 4 to its square. Here, we still use the
 
 ### Nested Loops
 
+Loops repeat whatever is inside the loop body until the continue condition evaluates to false. Turns you you can put pretty much any Python code in the loop body, including another loop. We call a loop inside a loop a **nested loop**.
+
+Nested loops come up when trying to solve many types of problems so it's good to keep them in mind. The usual case is when you want to do repeat some operations on every element of a list, or when working with matrices (lists of lists). Here are some examples.
+
+```python
+nums = [1, 2, 3, 4, 5]
+for i,n in enumerate(nums):
+	
+
+```
+
 ### Nested list comprehensions
 
 ## Functions
@@ -916,7 +989,7 @@ Say I want to map every number from 0 to 4 to its square. Here, we still use the
 
 ### The `return` statement
 
-### Namespaces + Functions
+### Namespaces + Functions	
 
 Functions define their own local namespace. 
 
@@ -927,3 +1000,5 @@ Appear the words, ‘Here begins a new life’. (Dante Alighieri, Vita Nuova)
 ## Exception Handling
 
 ## Dictionaries
+
+## Reading and Writing Files
