@@ -1030,9 +1030,91 @@ So you see this behaves with the same logic as a single list comprehension. You 
 
 ### Why use functions?
 
+Functions are an essential part of programming in python. They let us store pieces of code that we can then re-use any number of times. 
+
+A function is just some Python code that we assign a name to and works on some input (arguments) to produce an output. 
+
+An easy example is a piece of python code that computes the mean of some list of numbers. Clearly this is a useful task that we may want to repeat more than once on many different lists. So let's tell python to remember it and give it a name.
+
+
+No function:
+
+```python
+nums = [1, 2, 3]
+nums2 = [2, 3, 4, 5]
+
+tot = 0
+for n in nums:
+	tot += n
+print(tot / len(nums)
+
+tot = 0
+for n in nums2:
+	tot += n
+print(tot / len(nums2)
+
+```
+
+With functions:
+
+```python
+nums = [1, 2, 3]
+nums2 = [2, 3, 4, 5]
+
+def mean(li):
+	tot = 0
+	for n in li:
+		tot += n
+	return tot / len(li)
+
+print(mean(nums))
+print(mean(nums2))
+```
+
+You see we only had to write the code to compute a mean once. And we were able to call the function on different lists to compute their mean.
+
+
 ### The anatomy of a function
 
-### The `return` statement
+Code to be placed inside a function has to follow some rules so Python understands it as a function definition.
+
+Every function starts with a function **header** this is the first line of a function and gives us a lot of information on how it behaves.
+
+1. The `def` keyword tells python that we are going to define a function.
+2. The name of the function, in this case `mean` acts just like any other name in python.
+3. The function arguments in round brackets (). The arguments are objects that are passed to the function which can then be used inside the function.
+
+The function body is the code that executes as part of the function and if everything that is tabbed once after the function header.
+
+The `return` statement spits out any object that is accessible by the function and ends the execution of the function.
+
+Let's go over the definition of another function to see what happens step by step.
+
+```python
+def square(x):
+	result = x * x
+	return result
+num = 5
+num_squared = square(num)
+```
+
+Let's to from top to bottom:
+
+1. We reach a function header, python knows that it will store a function with the name `square` that takes one argument `x` as input.
+2. The code inside the function body is not executed, it is just stored.
+3. We reach `num = 5` this is a simple name-object binding.
+4. Now we have another name-object binding but first we have to evaluate the object on the right which is `square(num)`. 
+5. Python sees the name of a function is being called `square` so it looks for a function definition with that name. It finds it above. We are passing `num` to the function so the object bound to the name `num` is then bound to the name `x` which will live inside the `square` function body.
+6. Now we execute the function's code. `x` was bound to the object with the name `num` when we called the function so now we can use it to bind `x * x` to the name `result`.
+7. Then we `return` the object with the name `result` so `square(sum)` evaluates to `25` and we can finish binding it to the name `num_squared`.
+
+That was a moutful. But now we can use this super useful function ad nauseum.
+
+For example, let's square every number up to 100 while also practicing list comprehensions.
+
+```python
+squares = [square(x) for x in range(100)]
+```
 
 ### Namespaces + Functions	
 
