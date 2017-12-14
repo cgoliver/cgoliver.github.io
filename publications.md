@@ -10,7 +10,7 @@ order: 2
 
 Papers:
 
-* Jason Harris, Maria Shadrina, **Carlos Oliver**, Jackie Vogel and Anthony Mittermaier "Concerted millisecond timescale dynamics in the intrinsically disordered carboxyl terminus of $\gamma$-tubulin induced by mutation of a conserved tyrosine residue. Protein Science (in press: DOI 10.1002/pro.3345). 
+* Jason Harris, Maria Shadrina, **Carlos Oliver**, Jackie Vogel and Anthony Mittermaier "Concerted millisecond timescale dynamics in the intrinsically disordered carboxyl terminus of $\gamma$-tubulin induced by mutation of a conserved tyrosine residue. Protein Science (DOI 10.1002/pro.3345 [full-text](http://onlinelibrary.wiley.com/doi/10.1002/pro.3345/abstract)). 
 * **Carlos G. Oliver**, Vladimir Reinharz, and Jérôme Waldispühl. "The necessary emergence of structural complexity in self-replicating RNA populations." ([preprint](https://www.    biorxiv.org/content/early/2017/11/15/218990)) (Submitted)
 * **Carlos G. Oliver**, Alessandro Ricottone, Pericles Philippopoulos. ["Proposal for a fully decentralized blockchain and proof-of-work algorithm for solving NP-complete problems."](https://arxiv.org/abs/1708.09419) arXiv preprint	arXiv:1708.09419 (2017) ([PDF]({{ site.url    }}/assets/blockchain.pdf))
 
