@@ -154,3 +154,5 @@ Here `filelist.txt` contains a list of files we need to process and sends each l
 
 \end{document}  
 ```
+
+Of course, I am open to suggestions for better ways to approach this problem!
