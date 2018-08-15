@@ -107,7 +107,7 @@ $ file.txt
 The basic usage is:
 
 ```
-$ parallel cat filelist.txt | parallel script.sh -in {} -out {./}.out
+$ cat filelist.txt | parallel script.sh -in {} -out {./}.out
 ```
 
 Here `filelist.txt` contains a list of files we need to process and sends each line to `script.sh` and `parallel` takes care of launching each call in a different process. The `{}` are called string replacements which we can use to manipulate the format of the input. For example `{./}` strips the file suffix so we can make the output suffix be `.out`.
