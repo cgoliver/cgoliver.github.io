@@ -46,7 +46,7 @@ The full code is below and I will briefly outline some of the main components an
 
 ### Looping over rows
 
-* `\DTLforeach{artists}{}{%loop body%}` iterates over the rows of the CSV. Since I don't care about the column names here, the second argument is left empty. But you can use it to assign macros to column names. Say we have a header column `a,b,c` we can assign commands to them as:
+* `\DTLforeach{artists}{}{loop body}` iterates over the rows of the CSV. Since I don't care about the column names here, the second argument is left empty. But you can use it to assign macros to column names. Say we have a header column `a,b,c` we can assign commands to them as:
 
 * `DTLforeach{artists}{\adam=a, \bob=b, \charlie=c}` so now we can access columns by name.`
 
@@ -54,7 +54,7 @@ The full code is below and I will briefly outline some of the main components an
 
 ### Looping over rows
 
-* `\DTLforeachkeyinrow{\artist}{%loop body%}` loops over the columns in the current row. Must be used inside a row `\DTLforeach`. Assigns the value of the current row to the first argument, in this case, `artist`. 
+* `\DTLforeachkeyinrow{\artist}{loop body}` loops over the columns in the current row. Must be used inside a row `\DTLforeach`. Assigns the value of the current row to the first argument, in this case, `artist`. 
 * You can also get the current index of the column in `\dtlcol`.
 
 FYI there are a lot more useful tools in the documentation such as conditionals `\DTLiffirstrow` which let you treat specific rows specially.
@@ -63,7 +63,7 @@ FYI there are a lot more useful tools in the documentation such as conditionals 
 
 I also needed to do some string splitting to build paths to the appropriate files so I used the `xstring` package.
 
-* `\StrSplit{%string to split%}{%position%}{%left%}{%right}` this command splits the first argument at the position in the second argument and stores the left part and right part in the last two arguments. 
+* `\StrSplit{string to split}{position}{left}{right}` this command splits the first argument at the position in the second argument and stores the left part and right part in the last two arguments. 
 
 ## Checking for existence of file
 
