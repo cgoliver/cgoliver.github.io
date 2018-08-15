@@ -31,7 +31,7 @@ For each artist name, I have a folder containing their self-portrait `/portraits
 
 For each row in the CSV, I want to make a page in the document with a column for each artist containing their portrait and an example of their paintings.
 
-The full code is below and I will briefly outline some of the main components and tools I found useful, of course there is much more than what I will discuss available.
+The full code is below and I will briefly outline some of the main components and tools I found useful, of course there is much more available than what I will discuss.
 
 ## datatool
 
