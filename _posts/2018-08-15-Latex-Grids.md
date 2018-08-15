@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: Latex Image Grids
+title: LaTeX Image Grids
 date: 2018-08-15
 comments: true 
 ---
