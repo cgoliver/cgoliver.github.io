@@ -33,7 +33,7 @@ For each row in the CSV, I want to make a page in the document with a column for
 
 The full code is below and I will briefly outline some of the main components and tools I found useful, of course there is much more than what I will discuss available.
 
-## `datatool`
+## datatool
 
 [datatool](https://www.ctan.org/pkg/datatool) is really nice for reading, looking up, and iterating through tabular data files. 
 
@@ -59,7 +59,7 @@ The full code is below and I will briefly outline some of the main components an
 
 FYI there are a lot more useful tools in the documentation such as conditionals `\DTLiffirstrow` which let you treat specific rows specially.
 
-## `xstring`
+## xstring
 
 I also needed to do some string splitting to build paths to the appropriate files so I used the `xstring` package.
 
