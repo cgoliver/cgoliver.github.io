@@ -6,7 +6,7 @@ date: 2018-08-15
 comments: true 
 ---
 
-# Generating Grids of Images in LaTeX
+# Generating Grids of Images in LaTeX with datatools and tikz
 
 This is a quick one but I thought it would be worth sharing as it took me quite a bit of digging to find all the tools I needed to get what I wanted done.
 
