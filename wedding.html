@@ -58,7 +58,7 @@
             .attr('marker-end','url(#arrowhead)')
 
         link.append("title")
-            .text(function (d) {return d.type;});
+            .text(function (d) {return d.id;});
 
         edgepaths = svg.selectAll(".edgepath")
             .data(links)
