@@ -58,7 +58,7 @@
             .attr('marker-end','url(#arrowhead)')
 
         link.append("title")
-            .text(function (d) {return d.id;});
+            .text(function (d) {return d.type;});
 
         edgepaths = svg.selectAll(".edgepath")
             .data(links)
@@ -111,7 +111,7 @@
 
         node.append("text")
             .attr("dy", -3)
-            .text(function (d) {return d.name+":"+d.label;});
+            .text(function (d) {return d.id;});
 
         simulation
             .nodes(nodes)
