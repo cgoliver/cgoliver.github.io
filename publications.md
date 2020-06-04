@@ -10,23 +10,9 @@ order: 2
 
 Papers:
 
-<table style="width:100%">
-  <tr>
-    <th> </th>
-    <th>Reference</th>
-    <th>PDF</th>
-  </tr>
-  <tr>
-    <td> ![faizy]({{ site.url  }}/assets/faizy.jpg) </td>
-    <td>Jill</td>
-    <td>Smith</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td> hi </td>
-  </tr>
-</table>
+| Imgae    | Title   |  Link   | Cite    |
+|--- |--- |--- |--- |--- |
+|![faizy]({{ site.url  }}/assets/faizy.jpg) | hi | hi | hi|
 
 * Vincent Mallet, **Carlos G. Oliver**, Nicolas Moitessier, Jérôme Waldispühl. "Leveraging binding-site structure for drug discovery with point-cloud methods". arXiv preprint arXiv:1905.12033 (2019) ([PDF](https://arxiv.org/pdf/1905.12033.pdf))
 * Roman Sarrazin Gendron, Vladimir Reinharz, **Carlos G. Oliver**, Nicolas Moitessier, Jérôme Waldispühl. "Automated, customizable and efficient identification of 3D base pair modules with BayesPairing." Nucleic acids research (2019) [full-text](https://academic.oup.com/nar/article/47/7/3321/5369007).
