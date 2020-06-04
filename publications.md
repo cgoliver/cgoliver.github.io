@@ -26,9 +26,9 @@ img {
 
 Papers:
 
-| | Title   |  Link   | Cite    |
+| | |  Link   | Cite    |
 |--- |--- |--- |--- |--- |
-|<img src="/assets/faizy.jpg" id="fig">) | HII| hi | hi|
+|<img src="/assets/rnamigos.png" id="fig">) | **Oliver, Carlos** , et al. "Extended RNA base pairing networks imprint small molecule binding preferences." bioRxiv (2019): 701326. | [full text](https://www.biorxiv.org/content/10.1101/701326v3) | Accepted, Nucleic Acids Journal |
 
 * Vincent Mallet, **Carlos G. Oliver**, Nicolas Moitessier, Jérôme Waldispühl. "Leveraging binding-site structure for drug discovery with point-cloud methods". arXiv preprint arXiv:1905.12033 (2019) ([PDF](https://arxiv.org/pdf/1905.12033.pdf))
 * Roman Sarrazin Gendron, Vladimir Reinharz, **Carlos G. Oliver**, Nicolas Moitessier, Jérôme Waldispühl. "Automated, customizable and efficient identification of 3D base pair modules with BayesPairing." Nucleic acids research (2019) [full-text](https://academic.oup.com/nar/article/47/7/3321/5369007).
