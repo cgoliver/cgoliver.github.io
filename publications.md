@@ -19,10 +19,10 @@ order: 2
 <style>
 img {
 border: 1px solid #787878;
-    min-width: 100px;
-    max-width: 100px;
-    min-height: 70px;
-    max-height: 100px;
+    min-width: 150px;
+    max-width: 150px;
+    min-height: 100px;
+    max-height: 130px;
     margin-right: 20px;
 }
 </style>
