@@ -10,6 +10,24 @@ order: 2
 
 Papers:
 
+<table style="width:100%">
+  <tr>
+    <th> </th>
+    <th>Reference</th>
+    <th>PDF</th>
+  </tr>
+  <tr>
+    <td> ![faizy]({{ site.url  }}/assets/faizy.jpg) </td>
+    <td>Jill</td>
+    <td>Smith</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td> hi </td>
+  </tr>
+</table>
+
 * Vincent Mallet, **Carlos G. Oliver**, Nicolas Moitessier, Jérôme Waldispühl. "Leveraging binding-site structure for drug discovery with point-cloud methods". arXiv preprint arXiv:1905.12033 (2019) ([PDF](https://arxiv.org/pdf/1905.12033.pdf))
 * Roman Sarrazin Gendron, Vladimir Reinharz, **Carlos G. Oliver**, Nicolas Moitessier, Jérôme Waldispühl. "Automated, customizable and efficient identification of 3D base pair modules with BayesPairing." Nucleic acids research (2019) [full-text](https://academic.oup.com/nar/article/47/7/3321/5369007).
 * Jason Harris, Maria Shadrina, **Carlos Oliver**, Jackie Vogel and Anthony Mittermaier "Concerted millisecond timescale dynamics in the intrinsically disordered carboxyl terminus of $\gamma$-tubulin induced by mutation of a conserved tyrosine residue. Protein Science (DOI 10.1002/pro.3345 [full-text](http://onlinelibrary.wiley.com/doi/10.1002/pro.3345/abstract)). 
