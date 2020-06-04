@@ -18,9 +18,12 @@ order: 2
 
 <style>
 img {
-  border-radius: 50%;
-  width: 250px;
-  height: 250px;
+border: 1px solid #787878;
+    min-width: 100px;
+    max-width: 100px;
+    min-height: 70px;
+    max-height: 100px;
+    margin-right: 20px;
 }
 </style>
 
