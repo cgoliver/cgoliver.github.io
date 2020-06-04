@@ -20,6 +20,7 @@ order: 2
 img {
   border-radius: 50%;
   width: 250px;
+  height: 250px;
 }
 </style>
 
