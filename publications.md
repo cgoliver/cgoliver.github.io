@@ -32,7 +32,7 @@ border: 1px solid #787878;
 
 | | |  About | Link |
 |--- |--- |--- |--- |--- |
-|<img src="/assets/jacques.png" id="fig"> | <div id="txt"> **OptiMol: Optimization of binding affinities in chemical space for drug discovery.**, <br> Jacques Boitreaud, Vincent Mallet, **Carlos Oliver**, Jerome Waldispuhl.  <br> bioRxiv (2020). | Deep generative model with docking-based oracle for affinity optimization. </div> | [full text](https://www.biorxiv.org/content/10.1101/2020.05.23.112201v1.abstract) | 
+|<img src="/assets/jacques.png" id="fig"> |  **OptiMol: Optimization of binding affinities in chemical space for drug discovery.**, <br> Jacques Boitreaud, Vincent Mallet, **Carlos Oliver**, Jerome Waldispuhl.  <br> bioRxiv (2020). | Deep generative model with docking-based oracle for affinity optimization.  | [full text](https://www.biorxiv.org/content/10.1101/2020.05.23.112201v1.abstract) | 
 |<img src="/assets/rnamigos.png" id="fig"> | **Oliver, Carlos** , et al. "Extended RNA base pairing networks imprint small molecule binding preferences." bioRxiv (2019): 701326.  [Accepted, Nucleic Acids Research] | First ML-based model for drug discovery on RNA molecules. | [full text](https://www.biorxiv.org/content/10.1101/701326v3) | 
 |<img src="/assets/dips.png" id="fig"> | Pericles Philippopoulos, Alessandro Ricottone, **Carlos Oliver**  "Difficulty Scaling in Proof of Work for Decentralized Problem Solving." arXiv preprint arXiv:1911.00435 (2019). [Accepted, Ledger Journal]| Improved proof-of-work protocol for integrating NP-Complete problems in blockchains .| [full text](https://arxiv.org/abs/1911.00435) | 
 
