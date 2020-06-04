@@ -25,7 +25,7 @@ img {
 
 Papers:
 
-| Imgae    | Title   |  Link   | Cite    |
+| | Title   |  Link   | Cite    |
 |--- |--- |--- |--- |--- |
 |<img src="/assets/faizy.jpg" id="fig">) | HII| hi | hi|
 
