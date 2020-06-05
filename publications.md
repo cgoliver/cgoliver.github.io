@@ -48,7 +48,6 @@ tr:nth-child(even) {
 </head>
 
 
-<body>
 <table>
   <tr>
     <td><img src="/assets/jacques.png" id="fig"></td>
@@ -118,9 +117,7 @@ tr:nth-child(even) {
    </tr>
 </table>
 
-
 Other:
 
 * Ph.D. Comprehensive Exam Literature Review ([PDF]({{ site.url  }}/assets/review_cgo.pdf))
 * M.Sc. Thesis ([PDF]({{ site.url   }}/assets/msc_thesis.pdf))
-</body>
