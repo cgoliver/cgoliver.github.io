@@ -58,9 +58,9 @@ tr:nth-child(even) {
 
   <tr>
     <td><img src="/assets/rnamigos.png" id="fig"></td>
-    <td><b>Extended RNA base pairing networks imprint small molecule binding preferences. </b><br>
+    <td><b>Augmented RNA base pairing networks imprint small molecule binding preferences. </b><br>
 	Carlos Oliver, Vincent Mallet, Roman Sarrazin Gendron, Vladimir Reinharz, William L. Hamilton, Nicolas Moitessier, Jerome Waldispuhl <br>
-	<i>Nucleic Acids Research (2020)  [Article] <a href="https://academic.oup.com/nar/article/doi/10.1093/nar/gkaa583/5870337">(preprint) </a></i></td>
+	<i>Nucleic Acids Research (2020)  <a href="https://academic.oup.com/nar/article/doi/10.1093/nar/gkaa583/5870337">(article) </a></i></td>
   </tr>
 
   <tr>
