@@ -50,7 +50,7 @@ tr:nth-child(even) {
 
 <table>
   <tr>
-    <td><img src="/assets/jacques.png" id="fig"></td>
+    <td><img src="/assets/vernal.png" id="fig"></td>
     <td><b>VeRNAl: A tool for fuzzy network motif mining in RNA. </b> <br>
 	Carlos Oliver, Vincent Mallet, Pericles Philippopoulos, William L. Hamilton, Jerome Waldispuhl<br>
 	<i> aRxiv (2020) <a href="https://arxiv.org/abs/2009.00664">(preprint)</a></i></td>
