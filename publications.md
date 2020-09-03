@@ -51,9 +51,15 @@ tr:nth-child(even) {
 <table>
   <tr>
     <td><img src="/assets/jacques.png" id="fig"></td>
+    <td><b>VeRNAl: A tool for fuzzy network motif mining in RNA. </b> <br>
+	Carlos Oliver, Vincent Mallet, Pericles Philippopoulos, William L. Hamilton, Jerome Waldispuhl<br>
+	<i> aRxiv (2020) <a href="https://arxiv.org/abs/2009.00664">(preprint)</a></i></td>
+ </tr>
+  <tr>
+    <td><img src="/assets/jacques.png" id="fig"></td>
     <td><b>OptiMol: Optimization of binding affinities in chemical space for drug discovery. </b> <br>
 	Jacques Boitreaud, Vincent Mallet, Carlos Oliver, Jerome Waldispuhl<br>
-	<i> bioRxiv (2020)  [Submitted to ACM BCB 2020] <a href="https://www.biorxiv.org/content/biorxiv/early/2020/05/26/2020.05.23.112201.full.pdf">(preprint)</a></i></td>
+	<i> bioRxiv (2020)  [Under Review at ACS JCIM] <a href="https://www.biorxiv.org/content/biorxiv/early/2020/05/26/2020.05.23.112201.full.pdf">(preprint)</a></i></td>
   </tr> 
 
   <tr>
@@ -67,7 +73,7 @@ tr:nth-child(even) {
     <td><img src="/assets/dips.png" id="fig"></td>
     <td><b>Difficulty Scaling in Proof of Work for Decentralized Problem Solving.</b><br>
 	   Pericles Philippopoulos, Alessandro Ricottone, Carlos Oliver <br>
-	   <i> ArXiv (2020) [Accepted at Ledger Journal] <a href="https://arxiv.org/pdf/1911.00435.pdf">(preprint)</a></i></td>
+	   <i> Ledger Journal (2020)  <a href="http://ledger.pitt.edu/ojs/ledger/article/view/194">(article)</a></i></td>
   </tr>
 
   <tr>
