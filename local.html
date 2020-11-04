@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Local Logic - Local Content Example</title>
+  </head>
+  <body>
+    <!-- Local Logic Widget DOM element -->
+    <div id="local-content"></div>
+
+    <script type="text/javascript">
+      // Callback that is called when the SDK is ready to be used
+      function initLocallogic() {
+        var contentWidget = new locallogic.LocalContent('local-content', {
+            lat: 45.501734,
+            lng: -73.56542,
+            designId: 'll-2019',
+            color: 'green'
+        });
+      }
+    </script>
+
+    <!-- Load the Local Logic SDK with your Local Logic token -->
+    <script async defer
+      src="https://cdn.locallogic.co/sdk/?token=9a6a424f9b976190594c69db2552eab8baf6266c68799c117c32fbc18a59d9da3c1e77ab32cb0b50&callback=initLocallogic">
+    </script>
+  </body>
+</html>
