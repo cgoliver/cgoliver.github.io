@@ -28,7 +28,6 @@ border: 0px solid #787878;
     font-size:11pt;
 }
 table {
-  font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
 margin: 0 auto;
