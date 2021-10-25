@@ -50,7 +50,7 @@ tr:nth-child(even) {
 <table>
   <tr>
     <td><img src="/assets/relattentional.png" id="fig"></td>
-    <td><b>Edge similarity-aware Graph Neural Networks. </b> <br>
+    <td><b>Edge Similarity-Aware Graph Neural Networks. </b> <br>
 	Vincent Mallet, Carlos Oliver, William L. Hamilton<br>
 	<i> arXiv 2021</i><a href="https://arxiv.org/abs/2109.09432">(preprint)</a></td>
   </tr>
