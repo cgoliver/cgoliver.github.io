@@ -128,7 +128,7 @@ tr:nth-child(even) {
     <td><img src="/assets/tub.png"></td>
     <td><b>Concerted millisecond timescale dynamics in the intrinsically disordered carboxyl terminus of gamma‐tubulin induced by mutation of a conserved tyrosine residue</b><br>
 	   Jason Harris, Maria Shadrina, Carlos Oliver, Anthony Mittermaier, Jackie Vogel <br>
-	   <i> Protein Science (2018) </i>(<a href="https://onlinelibrary.wiley.com/doi/full/10.1002/pro.3345">artcle</a>)</td>
+	   <i> Protein Science (2018) </i>(<a href="https://onlinelibrary.wiley.com/doi/full/10.1002/pro.3345">article</a>)</td>
    </tr>
 
   <tr>
