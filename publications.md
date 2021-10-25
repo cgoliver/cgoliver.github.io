@@ -135,7 +135,7 @@ tr:nth-child(even) {
     <td><img src="/assets/cisnat.png"></td>
     <td><b>The distribution and evolution of Arabidopsis thaliana cis natural antisense transcripts</b><br>
 	   Jonathan Bouchard, Carlos Oliver, Paul Harrison <br>
-	   <i> BMC Genomics (2015) </i>(<a href="https://link.springer.com/article/10.1186/s12864-015-1587-0">artiicle</a>)</td>
+	   <i> BMC Genomics (2015) </i>(<a href="https://link.springer.com/article/10.1186/s12864-015-1587-0">article</a>)</td>
    </tr>
 </table>
 
