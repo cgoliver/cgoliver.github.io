@@ -21,11 +21,11 @@ On the other hand, nowhere in the world do we observe values.
 This is because values are beliefs about what the world _ought_ to look like, i.e. a desire for set of facts that may or not be the current set of facts.
 Therefore, by definition values cannot themselves be facts, we can't find them in the world.
 This automatically disqualifies science as a mechanism for taking moral decisions, something which to my great surprise, I have found myself having to explain to fellow scientists.
-Science is a mechanism for deciding the truth value for a particlar choice of \{ X \}, but can never say anything about what value should be assigned to it.
-This is not to say that all choices of \( \Omega \) are equally 'good'.
+Science is a mechanism for deciding the truth value for a particlar choice of $ X $, but can never say anything about what value should be assigned to it.
+This is not to say that all choices of $ \Omega $ are equally 'good'.
 We can act on faith to choose a guiding principle for generating value assignments to facts.
-The key is that we are now in the domain of _faith_.
-Even setting out with a 'scientific' world view, if I say that I belive \( \Omega \) should be chosen so as to maximize the survival of the species, I am saying _on faith_ that I think the survival of the species is a desirable aim.
+The key is that we are now in the domain of _faith_, and beyond the realm of empirical evidence or falsifiability.
+Even setting out with a 'scientific' world view, if I say that I belive $ \Omega $ should be chosen so as to maximize the survival of the species, I am saying _on faith_ that I think the survival of the species is a desirable aim.
 We may observe a particular person behaving under a set of values (i.e. someone who values food highly will likely be found eating a lot of the time), but then we are observing a fact.
 
 In a decision-making process, we can assign a _value_ which we can think of as the degree to which a givenu fact matters to us in the context of the decision at hand.
@@ -42,13 +42,13 @@ A simple example.
 It is raining, and need to decide whether I should run upstairs to get my umbrella but I'm running late for work. 
 I begin a decision process and need to evaluate two possible sets of facts; I go back for my umbrella or I do not. In the case where I do the set of facts is:
 
-The facts (we arbitrarily encode as \(x = 1 \) if true, \(x = -1 \) if false):
+The facts (we arbitrarily encode as $ x = 1 $ if true, $ x = -1 $ if false):
 
-1. Will I be on time for work?: \(x_1 = -1 \).
-2. Will I be more comfortable on my walk to work \(x_2 = 1 \)$.
+1. Will I be on time for work?: $ x_1 = -1 $.
+2. Will I be more comfortable on my walk to work $ x_2 = 1 $.
 
-If I care a lot about comfort, and not so much about my job, I might take these facts and generate the value set: \( \Omega = \omega_1 = 0, \omega_2 = 1\).
-So the outcome is \( \text{sign}(0 \cdot -1 + 1 \cdot +1) \) which is positive, so I go back for the umbrella.
+If I care a lot about comfort, and not so much about my job, I might take these facts and generate the value set: $\Omega = \omega_1 = 0, \omega_2 = 1$.
+So the outcome is $$ \text{sign}(0 \cdot -1 + 1 \cdot +1) $$ which is positive, so I go back for the umbrella.
 You can imagine applying the same analysis to the scenario where I do not fetch my umbrella and obtain a -1. 
 You can also easily imagine that given the same set of facts, two people can come to opposing decisions.
 As the problems we face become more complex, and involve more facts (dimensions) we can ask many people, each which would generate their own \( \Omega_i \) for the state of affairs and we usually start to observe patterns.
@@ -82,6 +82,8 @@ During the recitation, Monsieur Gustave hears the prison guards approaching and 
 This is someone who is either foolish to be wasting a precious head start in a deadly foot race with politeness for comedy, or Monsieur Gustave values something worth paying attention to.
 I decided such comical scenes had more to do with the latter, when the movie concludes and we see the hotel in its post-Monsieur Gustave 1960s state.
 The original pink and ornate facade of the hotel is replaced with a dull grey bauhous exterior and, we see a frame of the once grand and golden elevators in their current state:
+
+![](elevators)
 
 ![](elevators)
 
