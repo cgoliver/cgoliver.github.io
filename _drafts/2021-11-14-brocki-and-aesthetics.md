@@ -102,17 +102,22 @@ Of course we could discuss all of these in terms of 'rights' and 'freedoms' as i
 Although I do agree with such objections, I think this is missing the point.
 (On that note, I do believe rights are with us by birth and thus only their removal needs to be justified.)
 If we didn't care about these rights for some reason other than their being rights, I don't think there would be as much controversy around these discussions. 
-As time passes, it becomes clearer to me that what we lost was a devotion to something beyond ourselves (a divine purpose), or even something deep inside ourselves (a divine soul) which calls us to place our values beyond the material, while never undermining it.
-Cathedrals, for all their beauty and indulgence, remain standing centuries later on sound architecture.
-In addition to that, there is an insistence in our culture to the present day (hence my choice of a recent film to anchor the discussion) that
-'man does not live by bread alone'.
+So I make the case here that the purely aesthetic state of affairs induced by certain COVID policies should be a part of the facts we consider, and that we should place considerable value on them when deciding future policies. 
 
 
 A world without faces, hugs, handshakes, limits on gathering sizes, contact tracing, where documents are demanded for cultural events meant to bring us together (it is not coincintal that some of the most stressful scenes of The Grand Budapest are when Monsieur Gustave and Zero are being asked for their papers on the train) is, to put it plainly, an ugly one, and one that does not properly sustain human life.
+Sir Roger Scruton equates the experience of beauty with an acute sense of belonging in the world, and by extension ugliness with the feeling of alienation: 
+
+> Hence our human need for beauty is not simply a redundant addition to the list of human appetites. It is not something that we could lack and still be fulfilled as people. It is a need arising from our metaphysical condition, as free individuals, seeking our place in an objective world. We can wander through this world, alienated, resentful, full of suspicion and distrust. Or we can find our home here, coming to rest in harmony with others and with ourselves. And the experience of beauty guides us along this second path: it tells us that we are at home in the world, that the world is already ordered in our perceptions as a place fit for the lives of beings like us.
+
 What's worse is that on the surface, the practical cost to maintaining those policies is minimal, and hence why so many people seem to be at ease under these conditions nowadays.
 Masks are (arguably) a minor annoyance, QR codes can be easily generated and checked in microseconds(and if [done properly](https://en.wikipedia.org/wiki/Zero-knowledge_proof) preserve privacy) vaccinations can be deployed at scale and with very little waiting time, tests are getting faster, and all of this may very well save some number of lives, and in certain contexts be altogether wortwhile.
 What is truly objectionable about all of this?
 
+As time passes, it becomes clearer to me that what we lost was a devotion to something beyond ourselves (a divine purpose), or even something deep inside ourselves (a divine soul) which calls us to place our values beyond the material, while never undermining it.
+Cathedrals, for all their beauty and indulgence, remain standing centuries later on sound architecture.
+In addition to that, there is an insistence in our culture to the present day (hence my choice of a recent film to anchor the discussion) that
+'man does not live by bread alone'.
 
 People that want to do away with this insistence on safety are doing so for the sake of a world that preserves some reverence for that which makes us human, as [Douglas Farrow](https://www.catholicworldreport.com/2021/04/24/get-out-of-my-pub-on-vaccinating-the-young-and-other-bad-ideas/) put it. 
 It is simply for the sake of rejecting a world where the 'DO NOT USE THE ELEVATOR' sign is now permanently worn on our faces and on every door we cross.
