@@ -29,7 +29,7 @@ Even setting out with a 'scientific' world view, if I say that I belive $ \Omega
 We may observe a particular person behaving under a set of values (i.e. someone who values food highly will likely be found eating a lot of the time), but then we are observing a fact.
 
 In a decision-making process, we can assign a _value_ which we can think of as the degree to which a givenu fact matters to us in the context of the decision at hand.
-So for a set of facts $X = \{x_1, x_2, .., x_N \}$ we generate a corresponding set of values $\Omega = \{\omega_1, \omega_2, .., \omega_N \}$ based on our own internal moral compass.
+So for a set of facts $X = \\{x_1, x_2, .., x_N \\}$ we generate a corresponding set of values $\Omega = \\{ \omega_1, \omega_2, .., \omega_N \\}$ based on our own internal moral compass.
 The ultimate decision is some combination of each fact, scaled by how much weight we assign to it through our values.
 
 $$ \text{DECISION}(\Omega,X) = \textrm{sign} \big( w_1 x_1 + w_2 x_2 +  .. + w_N x_N \big) $$
@@ -47,7 +47,7 @@ The facts (we arbitrarily encode as $ x = 1 $ if true, $ x = -1 $ if false):
 1. Will I be on time for work?: $ x_1 = -1 $.
 2. Will I be more comfortable on my walk to work $ x_2 = 1 $.
 
-If I care a lot about comfort, and not so much about my job, I might take these facts and generate the value set: $\Omega = \omega_1 = 0, \omega_2 = 1$.
+If I care a lot about comfort, and not so much about my job, I might take these facts and generate the value set: $\Omega = \\{ \omega_1 = 0, \omega_2 = 1 \\} $.
 So the outcome is $$ \text{sign}(0 \cdot -1 + 1 \cdot +1) $$ which is positive, so I go back for the umbrella.
 You can imagine applying the same analysis to the scenario where I do not fetch my umbrella and obtain a -1. 
 You can also easily imagine that given the same set of facts, two people can come to opposing decisions.
