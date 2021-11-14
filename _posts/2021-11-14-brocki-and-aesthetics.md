@@ -51,7 +51,7 @@ If I care a lot about comfort, and not so much about my job, I might take these 
 So the outcome is $$ \text{sign}(0 \cdot -1 + 1 \cdot +1) $$ which is positive, so I go back for the umbrella.
 You can imagine applying the same analysis to the scenario where I do not fetch my umbrella and obtain a -1. 
 You can also easily imagine that given the same set of facts, two people can come to opposing decisions.
-As the problems we face become more complex, and involve more facts (dimensions) we can ask many people, each which would generate their own \( \Omega_i \) for the state of affairs and we usually start to observe patterns.
+As the problems we face become more complex, and involve more facts (dimensions) we can ask many people, each which would generate their own $ \Omega $ for the state of affairs and we usually start to observe patterns.
 This is because the space of values is not uniformly populated.
 Value space can often be explained in lower dimensional terms such as liberalism, conservatism, authoritarianism, etc (this is what the famous [political compass]() is trying to do) and can be shown to vary in space and time.
 And in a much more careful and detailed manner, the subject of Jonathan Haidt's book [The Righteous Mind]().
