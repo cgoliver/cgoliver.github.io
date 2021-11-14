@@ -96,7 +96,8 @@ Certainly the new Hotel Budapest is safer with is prominent safety warnings, and
 I find this sentiment that safety cannot be our guiding virtue repeated throughout Western culture.
 
 
-When I see certain measures adopted as emergency responses to the pandemic such a mask wearing, isolation mandates, and vaccine pasports discussed as potential ['permanent measures'](https://time.com/5952051/masks-after-pandemic-ends/) I worry we are facing a similar tradeoff, without seeing a tradeoff.
+When I see certain measures adopted as emergency responses to the pandemic such a mask wearing, isolation mandates, and vaccine pasports discussed as potential ['permanent measures'](https://time.com/5952051/masks-after-pandemic-ends/) I worry we are facing a similar tradeoff.
+What's more worrisome is that we seem to not even see the tradeoff. 
 Of course we could discuss all of these in terms of 'rights' and 'freedoms' as in 'I have the right to choose whether my face is covered etc.' 
 Although I do agree with such objections, I think this is missing the point.
 (On that note, I do believe rights are with us by birth and thus only their removal needs to be justified.)
