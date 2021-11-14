@@ -83,9 +83,9 @@ This is someone who is either foolish to be wasting a precious head start in a d
 I decided such comical scenes had more to do with the latter, when the movie concludes and we see the hotel in its post-Monsieur Gustave 1960s state.
 The original pink and ornate facade of the hotel is replaced with a dull grey bauhous exterior and, we see a frame of the once grand and golden elevators in their current state:
 
-![assets/elevator_old_2.png](elevators)
+![/assets/elevator_old_2.png](elevators)
 
-![assets/elevator_new.png](elevators)
+![/assets/elevator_new.png](elevators)
 
 The prominence of the safety sign 'DO NOT USE ELEVATOR IN CASE OF FIRE' is not accidental.
 The feeling of loss is inevitable when we are shown the hotel in its current state.
