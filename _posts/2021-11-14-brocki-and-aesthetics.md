@@ -96,7 +96,7 @@ The original pink and ornate facade of the hotel is replaced with a dull grey ba
 The prominence of the safety sign 'DO NOT USE ELEVATOR IN CASE OF FIRE' is not accidental.
 The feeling of loss is inevitable when we are shown the hotel in its current state, yet placing your finger on exactly what was lost is not so easy.
 Going further, what is being communicated here is that the Hotel Budapest was not simply lost to erosion and time, it was traded for something else, something which was given value over something else.
-Certainly the new Hotel Budapest is safer with is prominent safety warnings, and easy to maintain infrastructure but this unavoidable sense of loss seems to tell us that we are dealing with a dilemma.
+Certainly the new Hotel Budapest is safer with is prominent safety warnings, and easy-to-maintain infrastructure but this unavoidable sense of loss seems to tell us that we are dealing with a dilemma.
 
 When I see certain measures adopted as emergency responses to the pandemic such a mask wearing, isolation mandates, and vaccine pasports discussed as potential ['permanent measures'](https://time.com/5952051/masks-after-pandemic-ends/) I worry we are facing a similar tradeoff.
 What's more worrisome is that we seem to not even see the tradeoff. 
