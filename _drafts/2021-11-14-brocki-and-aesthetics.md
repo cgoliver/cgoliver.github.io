@@ -98,24 +98,41 @@ I find this sentiment that safety cannot be our guiding virtue repeated througho
 
 When I see certain measures adopted as emergency responses to the pandemic such a mask wearing, isolation mandates, and vaccine pasports discussed as potential ['permanent measures'](https://time.com/5952051/masks-after-pandemic-ends/) I worry we are facing a similar tradeoff.
 What's more worrisome is that we seem to not even see the tradeoff. 
-Of course we could discuss all of these in terms of 'rights' and 'freedoms' as in 'I have the right to choose whether my face is covered etc.' 
-Although I do agree with such objections, I think this is missing the point.
+So I make the case here that 1) the purely aesthetic state of affairs induced by certain COVID policies should be a part of the facts we consider, and 2) that we should place considerable value on them when deciding future policies. 
+
+
+Why not continue with mask policies forever?
+I can think of three dimensions along which we might object to this and similar propositions.
+The most immediate to consider would be a pragmatic one.
+Assuming that we have identified these policies as helping preserve life, we then ask, is the policy low-cost enough and sustainable to maintain in perpetuity?
+For the majority of new COVID measures, the answer is yes.
+Masks are (arguably) a minor annoyance, QR codes can be easily generated and checked in microseconds(and if [done properly](https://en.wikipedia.org/wiki/Zero-knowledge_proof) preserve privacy) vaccinations can be deployed at scale and with very little waiting time, tests are getting faster, and all of this may very well save some number of lives.
+While all of these add up to somewhat minor inconveniences to people's daily lives, we can grant the life-preserving benefits outweight the cons here.
+Next, we can look along the rights and freedoms dimension.
+Here it is clear that carrying out these measures would represent significant limitations on natural rights and make the policy undesirable under most people's choices of $\Omega$.
+Although I do agree with such objections, I think this is missing the point, which is why do we care to fight for the preservation things like the right to not wear a mask?
 (On that note, I do believe rights are with us by birth and thus only their removal needs to be justified.)
 If we didn't care about these rights for some reason other than their being rights, I don't think there would be as much controversy around these discussions. 
-So I make the case here that the purely aesthetic state of affairs induced by certain COVID policies should be a part of the facts we consider, and that we should place considerable value on them when deciding future policies. 
+Finally, arguing along this axis carries a lot of political baggage so it is best if we can find a deeper and hence more unifying dimension.
+This leaves the aesthetic dimension; is beauty adequately sustained under this state of affairs?
+In 'How to be a Conservative', Sir Roger Scruton equates the experience of beauty with an acute sense of belonging in the world, and by that token, ugliness with the feeling of alienation: 
 
+> [Hence] our human need for beauty is not simply a redundant addition to the list of human appetites. It is not something that we could lack and still be fulfilled as people. It is a need arising from our metaphysical condition, as free individuals, seeking our place in an objective world. We can wander through this world, alienated, resentful, full of suspicion and distrust. Or we can find our home here, coming to rest in harmony with others and with ourselves. And the experience of beauty guides us along this second path: it tells us that we are at home in the world, that the world is already ordered in our perceptions as a place fit for the lives of beings like us.
 
-A world without faces, hugs, handshakes, limits on gathering sizes, contact tracing, where documents are demanded for cultural events meant to bring us together (it is not coincintal that some of the most stressful scenes of The Grand Budapest are when Monsieur Gustave and Zero are being asked for their papers on the train) is, to put it plainly, an ugly one, and one that does not properly sustain human life.
-Sir Roger Scruton equates the experience of beauty with an acute sense of belonging in the world, and by extension ugliness with the feeling of alienation: 
+If we were to assign a feeling to the set of covid-related policies, alienating certainly comes to mind.
+A world without faces, hugs, handshakes, with limits on gathering sizes, curfews, contact tracing, where documents are demanded for cultural events meant to bring us together (it is not coincintal that some of the most stressful scenes of The Grand Budapest are when Monsieur Gustave and Zero are being asked for their papers on the train) is, an ugly world, and one that does not properly sustain human life.
+Of course, under certain states of affairs, $X$, such measures can indeed be desirable.
+This is why a proper and highly scientific determination of $X$ is crucial.
+I can already anticipate the objection: 'Is a single life worth sacrificing for the sake of this 'aesthetic' value?'
+Of course, I can't provide an answer here other than to say that whether we like it or not, this kind of choice cannot be avoided, and so we may as well contemplate the full set of facts.
+Perhaps the policy which saves the most lives is the one where entire nations live in literal prisons and I can ask how many lives are worth sacrificing to abolish these prisons?
+This leads to the question of how we should weigh the 'ugly' state of affairs that these policies come with?
 
-> Hence our human need for beauty is not simply a redundant addition to the list of human appetites. It is not something that we could lack and still be fulfilled as people. It is a need arising from our metaphysical condition, as free individuals, seeking our place in an objective world. We can wander through this world, alienated, resentful, full of suspicion and distrust. Or we can find our home here, coming to rest in harmony with others and with ourselves. And the experience of beauty guides us along this second path: it tells us that we are at home in the world, that the world is already ordered in our perceptions as a place fit for the lives of beings like us.
+Here, as I have been alluding, we must do as Chesterton says and 'give our ancestors a vote'.
+I have to believe that Monsieur Gustave was not a vain man, and that the architects and masons of Europe did not toil out of boredom.
 
-What's worse is that on the surface, the practical cost to maintaining those policies is minimal, and hence why so many people seem to be at ease under these conditions nowadays.
-Masks are (arguably) a minor annoyance, QR codes can be easily generated and checked in microseconds(and if [done properly](https://en.wikipedia.org/wiki/Zero-knowledge_proof) preserve privacy) vaccinations can be deployed at scale and with very little waiting time, tests are getting faster, and all of this may very well save some number of lives, and in certain contexts be altogether wortwhile.
-What is truly objectionable about all of this?
+> Renunciation of love is possible only when you have learned to love. This is why, in a society without religion, we see emerging a kind of contagious hardness of heart, an assumption on every side that there is no tragedy, no grief, no mourning, for there is nothing to mourn. There is neither love nor happiness – only fun. In such circumstance, the loss of religion is the loss of loss. - Roger Scruton
 
-As time passes, it becomes clearer to me that what we lost was a devotion to something beyond ourselves (a divine purpose), or even something deep inside ourselves (a divine soul) which calls us to place our values beyond the material, while never undermining it.
-Cathedrals, for all their beauty and indulgence, remain standing centuries later on sound architecture.
 In addition to that, there is an insistence in our culture to the present day (hence my choice of a recent film to anchor the discussion) that
 'man does not live by bread alone'.
 
