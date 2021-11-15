@@ -67,7 +67,7 @@ We may observe a particular person behaving under a set of values (i.e. someone 
 All of the above is just to say that I have recently been reminded that there is a set of facts which are overlooked in discussions of COVID policy.
 Namely, the aesthetic dimension.
 Having recently moved to Switzerland after nearly a lifetime of living in Canada, it is impossible to avoid seeing the clash between the decadent past and the utilitarian present manifesting itself in the architecture.
-Walking down any street in Basel you will see a sprinkling of brutalistic apartment buildings with flat grey facades interspersed through streets of brightly colored and indulgently decorated buildings. 
+Walking down any street in Basel you will see a sprinkling of brutalistic apartment complexes with flat grey facades shoulder to shoulder with buildings so cheerfully designed that one can only imagine the architect was sketching the blueprint with a spirit of celebration. 
 How is it that hundreds of years ago, when resources were exponentially more scarce, survival was a huge burden, and lifespan was significantly shorter did people sacrifice so much to add seemingly useless details to their architecture?
 
 
