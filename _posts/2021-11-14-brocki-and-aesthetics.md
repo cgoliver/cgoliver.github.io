@@ -16,7 +16,7 @@ Before undertaking any sacrifice we implicitly or explicitly crunch some numbers
 We hope that when doing this, we are aware of all the relevant facts, and have sound judgement to digest these facts and turn them into action.
 I would like to put this in a slightly mathematical framework purely because I think it can help people discuss controversial topics such as this one more productively. 
 
-We can say that any individual or collective action stems from a decision that we make given a set of facts and values.
+Any individual or collective action stems from a decision that we make given a set of facts and values.
 It is important to note that there are two distinct categories involved here: facts and values.
 Values are not facts and facts are not values.
 Facts are observations we make about the current state of the world (e.g. it is raining outside, implementing policy X will reduce crime by Y).
@@ -96,9 +96,7 @@ The original pink and ornate facade of the hotel is replaced with a dull grey ba
 The prominence of the safety sign 'DO NOT USE ELEVATOR IN CASE OF FIRE' is not accidental.
 The feeling of loss is inevitable when we are shown the hotel in its current state, yet placing your finger on exactly what was lost is not so easy.
 Going further, what is being communicated here is that the Hotel Budapest was not simply lost to erosion and time, it was traded for something else, something which was given value over something else.
-Certainly the new Hotel Budapest is safer with is prominent safety warnings, and easy to maintain infrastructure but this sense of loss seems to tell us that we are dealing with a dilemma.
-I find this sentiment that safety cannot be our guiding virtue repeated throughout Western culture.
-
+Certainly the new Hotel Budapest is safer with is prominent safety warnings, and easy to maintain infrastructure but this unavoidable sense of loss seems to tell us that we are dealing with a dilemma.
 
 When I see certain measures adopted as emergency responses to the pandemic such a mask wearing, isolation mandates, and vaccine pasports discussed as potential ['permanent measures'](https://time.com/5952051/masks-after-pandemic-ends/) I worry we are facing a similar tradeoff.
 What's more worrisome is that we seem to not even see the tradeoff. 
@@ -106,6 +104,14 @@ So I make the case here that 1) the purely aesthetic state of affairs induced by
 
 
 So why not continue with mask policies forever?
+I've found that answering this question turns out to be much trickier than intuition would tell us.
+It clearly feels wrong to _have_ to wear a mask, but we lack the vocabulary to articulate sound reasoning to support the intuition.
+Perhaps this unprecedented situation has placed us in unchartered territory and we find ourselves having to justify things we simply took for granted.
+This is because the immediate response to any argument against masks (and as we will see, many other COVID provisions) is invariably, 'just wear it it's not such a big deal, and it will save lives.'
+Of course, the seemingly pragmatic upsdies are not sufficient to justify the measure. 
+In a toy scenario where one is told that a law enforcing that people shall wear only green socks (for whatever reason) will save exactly one life, most of us would not be so quick to carry on with the purple sock law.
+There is clearly some threshold we are applying here, and it ought to be acknowledged and examined.
+
 I can think of three dimensions along which we might object to this and similar propositions.
 The most immediate to consider would be a pragmatic one.
 Assuming that we have identified these policies as helping preserve life, we then ask, is the policy low-cost enough and sustainable to maintain in perpetuity?
@@ -114,8 +120,8 @@ Masks are (arguably) a minor annoyance, QR codes can be easily generated and che
 While all of these add up to somewhat minor inconveniences to people's daily lives, we can grant the life-preserving benefits outweight the cons here.
 Next, we can look along the rights and freedoms dimension.
 Here it is clear that carrying out these measures would represent significant limitations on natural rights, facilitate further encroachment, and make the policy undesirable under most people's choices of $\Omega$.
-Although I agree with such objections, I think this is missing the point, which is why do we care to fight for the preservation things like the right to not wear a mask?
-(On that note, I do believe rights are with us by birth and thus only their removal needs to be justified.)
+Although I agree with such objections, I think this is missing the point.
+That being, why do we care to fight for the preservation things like the right to not wear a mask in the first place?
 If we didn't care about these rights for some reason other than their being rights, I don't think there would be as much controversy around these discussions. 
 Finally, arguing along this axis carries a lot of political baggage so it is best if we can find a deeper and hence more unifying dimension.
 This leaves the aesthetic dimension; is beauty adequately sustained under this state of affairs?
@@ -134,11 +140,11 @@ I can anticipate the objection: 'Is a single life worth sacrificing for the sake
 Of course I can't provide an exact answer here other than to say that whether we like it or not, this kind of choice cannot be avoided, and so we may as well contemplate the full set of facts.
 It is not unlikely that the policy which saves the most lives is the one where entire nations live in literal prisons. 
 Under such a state of affairs I can then ask, how many lives are worth sacrificing to return to today's set of affairs that we currently accept?
-To begin answering this question, I have been alluding, we would be wise to do as Chesterton says and 'give our ancestors a vote'.
+To begin answering this question, I have been alluding, we would be wise to take Chesterton's approach and 'give our ancestors a vote'.
 I believe that Monsieur Gustave was not merely a vain man, and that the architects and masons of old Europe did not toil out of boredom.
 Almost every piece in the Western canon insists to us that man does not live by bread alone, those heroes we most admire understood that life for the sake of living is not worth living.
 If we forget to keep this in mind, the small but aesthetic details of our lives that make us human become vulnerable to attack.
-Slowly but surely, the virus of expedience, fear, and misplaced pragmatism takes over and we find ourselves surviving in a plain grey prison.
+Slowly but surely, the virus of expedience, fear, and misplaced pragmatism takes over and we find ourselves surviving albeit in, as M. Gustave would say, a 'drab', grey prison.
 
 > Pragmatism is a matter of human needs; and one of the first of human needs is to be something more than a pragmatist. - GK Chesterton 
  
