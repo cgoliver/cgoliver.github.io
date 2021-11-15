@@ -144,4 +144,4 @@ Slowly but surely, the virus of expedience, fear, and misplaced pragmatism takes
  
 Perhaps filling our lives with as much beauty as possible is an aim worth sacrificing to.
 It is with this lens that I think we can find some common ground with those that insist on the departure of the dehumanizing policies that have visited our lives.
-Those trying to do away with a unidimensional focus safety are not acting selfishly rather, as [Douglas Farrow](https://www.catholicworldreport.com/2021/04/24/get-out-of-my-pub-on-vaccinating-the-young-and-other-bad-ideas/) put it, they are seeing viruses beyond covid and trying to expand the domain of value beyond the body.
+Those trying to do away with a unidimensional focus safety are not acting selfishly rather, as [Douglas Farrow](https://www.catholicworldreport.com/2021/04/24/get-out-of-my-pub-on-vaccinating-the-young-and-other-bad-ideas/) put it, they are seeing viruses beyond COVID and, all too humanly, expanding the domain of value beyond the body.
