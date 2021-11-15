@@ -138,7 +138,7 @@ To begin answering this question, I have been alluding, we would be wise to do a
 I believe that Monsieur Gustave was not merely a vain man, and that the architects and masons of old Europe did not toil out of boredom.
 Almost every piece in the Western canon insists to us that man does not live by bread alone, those heroes we most admire understood that life for the sake of living is not worth living.
 If we forget to keep this in mind, the small but aesthetic details of our lives that make us human become vulnerable to attack.
-Slowly but surely, the virus of expedience, fueled by misplaced pragmatism takes over and we find ourselves surviving in a plain grey prison.
+Slowly but surely, the virus of expedience, fear, and misplaced pragmatism takes over and we find ourselves surviving in a plain grey prison.
 
 > Pragmatism is a matter of human needs; and one of the first of human needs is to be something more than a pragmatist. - GK Chesterton 
  
