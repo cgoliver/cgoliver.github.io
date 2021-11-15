@@ -61,8 +61,7 @@ And in a much more careful and detailed manner, the subject of Jonathan Haidt's 
 As a side note, this is to say that we can also mistake a change in values for a change in appreciation of facts.
 C.S. Lewis gives a very interesting example of this in [Mere Christianity]() with respect to the old custom of witch burning:
 
->
-
+> But surely the reason we do not execute witches is that we do not believe there are such things. If we did - if we really thought that there were people going about who had sold themselves to the devil and received supernatural powers from him in return and were using these powers to kill their neighbours or drive them mad or bring bad weather - surely we would all agree that if anyone deserved the death penalty, these filthy quislings did? Thereis no difference of moral principle here: the difference is simply about a matter of fact. It may be a great advance in knowledge not to belive in witches: thereis no moral advance in not executing them when you do not think they are there. You would not call a man humane for ceasing to set mousetraps if he did so because he believed there were no mice in the house.
 
 All of the above is just to say that I have recently been reminded that there is a set of facts which are overlooked in discussions of COVID policy.
 Namely, the aesthetic dimension.
