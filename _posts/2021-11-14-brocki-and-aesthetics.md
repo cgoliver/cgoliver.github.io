@@ -129,7 +129,7 @@ In 'How to be a Conservative', Sir Roger Scruton equates the experience of beaut
 
 > [Hence] our human need for beauty is not simply a redundant addition to the list of human appetites. It is not something that we could lack and still be fulfilled as people. It is a need arising from our metaphysical condition, as free individuals, seeking our place in an objective world. We can wander through this world, alienated, resentful, full of suspicion and distrust. Or we can find our home here, coming to rest in harmony with others and with ourselves. And the experience of beauty guides us along this second path: it tells us that we are at home in the world, that the world is already ordered in our perceptions as a place fit for the lives of beings like us.
 
-If we were to assign a feeling to the set of covid-related policies, alienating certainly comes to mind.
+If we were to assign a feeling to the set of covid-related policies, alienation certainly comes to mind.
 It is a fact that a world without faces, hugs, handshakes, with limits on gathering sizes, curfews, contact tracing, where documents are demanded for cultural events meant to bring us together (it is not coincintal that some of the most stressful scenes of The Grand Budapest are when Monsieur Gustave and Zero are being asked for their papers on the train) is, an ugly one, and one that does not properly sustain human life.
 Each of these policies is a ubiquitous monument to fear, distrust, and vanity.
 
