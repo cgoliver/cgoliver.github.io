@@ -24,12 +24,7 @@ On the other hand, nowhere in the world do we observe values.
 This is because values are beliefs about what the world _ought_ to look like, i.e. a desire for set of facts that may or not be the current set of facts.
 Therefore, by definition values cannot themselves be facts, we can't find them in the world.
 This automatically disqualifies science as a mechanism for taking moral decisions, something which to my great surprise, I have found myself having to explain to fellow scientists.
-Science is a mechanism for deciding the truth value for a particlar choice of $ X $, but can never say anything about what value should be assigned to it.
-This is not to say that all choices of $ \Omega $ are equally 'good'.
-We can act on faith to choose a guiding principle for generating value assignments to facts.
-The key is that we are now in the domain of _faith_, and beyond the realm of empirical evidence or falsifiability.
-Even setting out with a 'scientific' world view, if I say that I belive $ \Omega $ should be chosen so as to maximize the survival of the species, I am saying _on faith_ that I think the survival of the species is a desirable aim.
-We may observe a particular person behaving under a set of values (i.e. someone who values food highly will likely be found eating a lot of the time), but then we are observing a fact.
+Science is a mechanism for deciding the truth value for a particular choice set of facts, but can never say anything about what value should be assigned to it.
 
 In a decision-making process, we can assign a _value_ which we can think of as the degree to which a givenu fact matters to us in the context of the decision at hand.
 So for a set of facts $X = \\{x_1, x_2, .., x_N \\}$ we generate a corresponding set of values $\Omega = \\{ \omega_1, \omega_2, .., \omega_N \\}$ based on our own internal moral compass.
@@ -62,6 +57,12 @@ As a side note, this is to say that we can also mistake a change in values for a
 C.S. Lewis gives a very interesting example of this in [Mere Christianity]() with respect to the old custom of witch burning:
 
 > But surely the reason we do not execute witches is that we do not believe there are such things. If we did - if we really thought that there were people going about who had sold themselves to the devil and received supernatural powers from him in return and were using these powers to kill their neighbours or drive them mad or bring bad weather - surely we would all agree that if anyone deserved the death penalty, these filthy quislings did? Thereis no difference of moral principle here: the difference is simply about a matter of fact. It may be a great advance in knowledge not to belive in witches: thereis no moral advance in not executing them when you do not think they are there. You would not call a man humane for ceasing to set mousetraps if he did so because he believed there were no mice in the house.
+
+This is not to say that all choices of $ \Omega $ are equally 'good'.
+We can act on faith to choose a guiding principle for generating value assignments to facts.
+The key is that we are now in the domain of _faith_, and beyond the realm of empirical evidence or falsifiability.
+Even setting out with a 'scientific' world view, if I say that I belive $ \Omega $ should be chosen so as to maximize the survival of the species, I am saying _on faith_ that I think the survival of the species is a desirable aim.
+We may observe a particular person behaving under a set of values (i.e. someone who values food highly will likely be found eating a lot of the time), but then we are observing a fact.
 
 All of the above is just to say that I have recently been reminded that there is a set of facts which are overlooked in discussions of COVID policy.
 Namely, the aesthetic dimension.
@@ -104,7 +105,7 @@ What's more worrisome is that we seem to not even see the tradeoff.
 So I make the case here that 1) the purely aesthetic state of affairs induced by certain COVID policies should be a part of the facts we consider, and 2) that we should place considerable value on them when deciding future policies. 
 
 
-Why not continue with mask policies forever?
+So why not continue with mask policies forever?
 I can think of three dimensions along which we might object to this and similar propositions.
 The most immediate to consider would be a pragmatic one.
 Assuming that we have identified these policies as helping preserve life, we then ask, is the policy low-cost enough and sustainable to maintain in perpetuity?
@@ -112,8 +113,8 @@ For the majority of new COVID measures, the answer is yes.
 Masks are (arguably) a minor annoyance, QR codes can be easily generated and checked in microseconds(and if [done properly](https://en.wikipedia.org/wiki/Zero-knowledge_proof) preserve privacy) vaccinations can be deployed at scale and with very little waiting time, tests are getting faster, and all of this may very well save some number of lives.
 While all of these add up to somewhat minor inconveniences to people's daily lives, we can grant the life-preserving benefits outweight the cons here.
 Next, we can look along the rights and freedoms dimension.
-Here it is clear that carrying out these measures would represent significant limitations on natural rights and make the policy undesirable under most people's choices of $\Omega$.
-Although I do agree with such objections, I think this is missing the point, which is why do we care to fight for the preservation things like the right to not wear a mask?
+Here it is clear that carrying out these measures would represent significant limitations on natural rights, facilitate further encroachment, and make the policy undesirable under most people's choices of $\Omega$.
+Although I agree with such objections, I think this is missing the point, which is why do we care to fight for the preservation things like the right to not wear a mask?
 (On that note, I do believe rights are with us by birth and thus only their removal needs to be justified.)
 If we didn't care about these rights for some reason other than their being rights, I don't think there would be as much controversy around these discussions. 
 Finally, arguing along this axis carries a lot of political baggage so it is best if we can find a deeper and hence more unifying dimension.
@@ -123,22 +124,24 @@ In 'How to be a Conservative', Sir Roger Scruton equates the experience of beaut
 > [Hence] our human need for beauty is not simply a redundant addition to the list of human appetites. It is not something that we could lack and still be fulfilled as people. It is a need arising from our metaphysical condition, as free individuals, seeking our place in an objective world. We can wander through this world, alienated, resentful, full of suspicion and distrust. Or we can find our home here, coming to rest in harmony with others and with ourselves. And the experience of beauty guides us along this second path: it tells us that we are at home in the world, that the world is already ordered in our perceptions as a place fit for the lives of beings like us.
 
 If we were to assign a feeling to the set of covid-related policies, alienating certainly comes to mind.
-A world without faces, hugs, handshakes, with limits on gathering sizes, curfews, contact tracing, where documents are demanded for cultural events meant to bring us together (it is not coincintal that some of the most stressful scenes of The Grand Budapest are when Monsieur Gustave and Zero are being asked for their papers on the train) is, an ugly world, and one that does not properly sustain human life.
-Of course, under certain states of affairs, $X$, such measures can indeed be desirable.
+It is a fact that a world without faces, hugs, handshakes, with limits on gathering sizes, curfews, contact tracing, where documents are demanded for cultural events meant to bring us together (it is not coincintal that some of the most stressful scenes of The Grand Budapest are when Monsieur Gustave and Zero are being asked for their papers on the train) is, an ugly one, and one that does not properly sustain human life.
+Each of these policies is a ubiquitous monument to fear, distrust, and vanity.
+
+Now comes the question of value.
+Of course, under certain states of affairs, $X$, such measures can indeed be desirable or at least necessary.
 This is why a proper and highly scientific determination of $X$ is crucial.
-I can already anticipate the objection: 'Is a single life worth sacrificing for the sake of this 'aesthetic' value?'
-Of course, I can't provide an answer here other than to say that whether we like it or not, this kind of choice cannot be avoided, and so we may as well contemplate the full set of facts.
-Perhaps the policy which saves the most lives is the one where entire nations live in literal prisons and I can ask how many lives are worth sacrificing to abolish these prisons?
-This leads to the question of how we should weigh the 'ugly' state of affairs that these policies come with?
+I can anticipate the objection: 'Is a single life worth sacrificing for the sake of this 'aesthetic' value?'
+Of course I can't provide an exact answer here other than to say that whether we like it or not, this kind of choice cannot be avoided, and so we may as well contemplate the full set of facts.
+It is not unlikely that the policy which saves the most lives is the one where entire nations live in literal prisons. 
+Under such a state of affairs I can then ask, how many lives are worth sacrificing to return to today's set of affairs that we currently accept?
+To begin answering this question, I have been alluding, we would be wise to do as Chesterton says and 'give our ancestors a vote'.
+I believe that Monsieur Gustave was not merely a vain man, and that the architects and masons of old Europe did not toil out of boredom.
+Almost every piece in the Western canon insists to us that man does not live by bread alone, those heroes we most admire understood that life for the sake of living is not worth living.
+If we forget to keep this in mind, the small but aesthetic details of our lives that make us human become vulnerable to attack.
+Slowly bue surely, the virus of expedience, fueled by misplaced pragmatism takes over and we find ourselves surviving in a plain grey prison.
 
-Here, as I have been alluding, we must do as Chesterton says and 'give our ancestors a vote'.
-I have to believe that Monsieur Gustave was not a vain man, and that the architects and masons of Europe did not toil out of boredom.
-
-> Renunciation of love is possible only when you have learned to love. This is why, in a society without religion, we see emerging a kind of contagious hardness of heart, an assumption on every side that there is no tragedy, no grief, no mourning, for there is nothing to mourn. There is neither love nor happiness – only fun. In such circumstance, the loss of religion is the loss of loss. - Roger Scruton
-
-In addition to that, there is an insistence in our culture to the present day (hence my choice of a recent film to anchor the discussion) that
-'man does not live by bread alone'.
-
-People that want to do away with this insistence on safety are doing so for the sake of a world that preserves some reverence for that which makes us human, as [Douglas Farrow](https://www.catholicworldreport.com/2021/04/24/get-out-of-my-pub-on-vaccinating-the-young-and-other-bad-ideas/) put it. 
-It is simply for the sake of rejecting a world where the 'DO NOT USE THE ELEVATOR' sign is now permanently worn on our faces and on every door we cross.
-However, the point of this piece is not to propose a value set, but rather to point out a cost in the equation that we ought not to ignore.
+> Pragmatism is a matter of human needs; and one of the first of human needs is to be something more than a pragmatist. - GK Chesterton 
+ 
+Perhaps filling our lives with as much beauty as possible is an aim worth sacrificing to.
+It is with this lens that I think we can find some common ground with those that insist on the departure of the dehumanizing policies that have visited our lives.
+Those trying to do away with a unidimensional focus safety are not acting selfishly rather, as [Douglas Farrow](https://www.catholicworldreport.com/2021/04/24/get-out-of-my-pub-on-vaccinating-the-young-and-other-bad-ideas/) put it, they are seeing viruses beyond covid and trying to expand the domain of value beyond the body.
