@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Beauty and Moral Calculations
+title: Algebra of Values and Beauty in times of COVID 
 date: 2021-11-14
 comments: True
 ---
