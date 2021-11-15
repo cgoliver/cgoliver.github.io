@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Algebra of Values and Beauty in times of COVID 
+title: Why not wear masks forever? - An Algebra of Values and Beauty in times of COVID 
 date: 2021-11-14
 comments: True
 ---
