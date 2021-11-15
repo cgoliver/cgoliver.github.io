@@ -68,6 +68,10 @@ Namely, the aesthetic dimension.
 Having recently moved to Switzerland after nearly a lifetime of living in Canada, it is impossible to avoid seeing the clash between the decadent past and the utilitarian present manifesting itself in the architecture.
 Walking down any street in Basel you will see a sprinkling of brutalistic apartment buildings with flat grey facades interspersed through streets of brightly colored and indulgently decorated buildings. 
 How is it that hundreds of years ago, when resources were exponentially more scarce, survival was a huge burden, and lifespan was significantly shorter did people sacrifice so much to add seemingly useless details to their architecture?
+
+
+![]({{site.url}}/assets/ugly.jpeg)
+
 It is very clear that something has changed in the $ \Omega $ of European architecture (of course I'm nowhere near the first to reflect on this [Sir. Roger Scruton](https://en.wikipedia.org/wiki/How_to_Be_a_Conservative) is an authority here.) 
 With all of this in the background, I recently revisited [The Grand Budapest](https://en.wikipedia.org/wiki/The_Grand_Budapest_Hotel) by Wes Anderson and was able to see the character of Monsieur Gustave in a new light.
 In one line, the movie depicts the life and downfall of Monsieur Gustave, a hotel manager at the opulent Grand Budapest Hotel in fictional 1930s Austria.
