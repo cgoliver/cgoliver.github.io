@@ -7,9 +7,16 @@ comments: True
 
 > “The mystery of human existence lies not in just staying alive, but in finding something to live for.” - Fyodor Dostoevsky
 
-It is undeniable that sacrifices of many forms have been made in the face of the COVID situation.
-We have certainly made financial sacrifices, many would say that we have made sacrifices of liberty, health, sovereignty, spending time with loved ones, etc.
-I write this to argue that there is a dimension along which we are making considerable sacrifices yet is being overlooked, and that is the dimension of aesthetics.
+We have undeniably made sacrifices of many forms in the face of the COVID situation.
+We have made financial sacrifices, sacrifices of liberty, health, sovereignty, spending time with loved ones, etc.
+No doubt everyone reading this has been in a heated disagreent about the proper way to carry out these sacrifices.
+The unprecedented natureof this situation often leaves us at a lack for language to express truths that are being called into question which had been comfortably dormant until now.
+Lack of adequate language leads to frustration, and frustration handicaps arguments to the point of futility.
+I write this to introduce some language that will hopefully simplify debates on this issue and ideally bring some common ground.
+To start, I will set up a basic framework for understanding the way we reason through moral situations.
+Using this framework I will examine the slippery question of 'should we continue wearing masks (or other such novel COVID practices)?'.
+I try to bring discussions as close to common ground as possible by speaking in terms of beauty, i.e. moving towards human universals. 
+
 
 First, a preamble to set up some common language for the rest of the discussion. 
 Before undertaking any sacrifice we implicitly or explicitly crunch some numbers to decide whether such a sacrifice is worth making.
