@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why not wear masks forever? - An Algebra of Values and Beauty in times of COVID 
+title: Why not wear masks forever? - Values and Beauty in times of COVID 
 date: 2021-11-14
 comments: True
 ---
@@ -10,87 +10,59 @@ comments: True
 We have undeniably made sacrifices of many forms in the face of the COVID situation.
 We have made financial sacrifices, sacrifices of liberty, health, sovereignty, spending time with loved ones, etc.
 No doubt everyone reading this has been in a heated disagreent about the proper way to carry out these sacrifices.
-The unprecedented natureof this situation often leaves us at a lack for language to express truths that are being called into question which had been comfortably dormant until now.
+The unprecedented nature of this situation often leaves us at a lack for language to express truths that are being called into question which had been comfortably dormant until now.
 Lack of adequate language leads to frustration, and frustration handicaps arguments to the point of futility.
 I write this to introduce some language that will hopefully simplify debates on this issue and ideally bring some common ground.
 To start, I will set up a basic framework for understanding the way we reason through moral situations.
 Using this framework I will examine the slippery question of 'should we continue wearing masks (or other such novel COVID practices)?'.
-I try to bring discussions as close to common ground as possible by speaking in terms of beauty, i.e. moving towards human universals. 
+I try to bring discussions as close to common ground and being as uncontroversial as possible, by speaking in terms of beauty, i.e. moving towards human universals. 
 
+
+---
 
 First, a preamble to set up some common language for the rest of the discussion. 
 Before undertaking any sacrifice we implicitly or explicitly crunch some numbers to decide whether such a sacrifice is worth making.
 We hope that when doing this, we are aware of all the relevant facts, and have sound judgement to digest these facts and turn them into action.
-I would like to put this in a slightly mathematical framework purely because I think it can help people discuss controversial topics such as this one more productively. 
-
-Any individual or collective action stems from a decision that we make given a set of facts and values.
-It is important to note that there are two distinct categories involved here: facts and values.
+More specifically, we say that any individual or collective action stems from a decision that we make given a set of facts and values.
+It is important to note that there are two distinct categories involved here.
 Values are not facts and facts are not values.
-Facts are observations we make about the current state of the world (e.g. it is raining outside, implementing policy X will reduce crime by Y).
-On the other hand, nowhere in the world do we observe values.
-This is because values are beliefs about what the world _ought_ to look like, i.e. a desire for set of facts that may or not be the current set of facts.
+Facts are beliefs about the current state of the world (e.g. it is raining outside, implementing policy X will reduce crime by Y).
+We may have different beliefs about this state of affairs, but the state of affairs in itself exists independently of us.
+This gives rise to the property of falsifiability.
+Given enough evidence, we can definitively accept or reject a given belief about the state of affairs (this is the job of science).
+On the other hand, values are beliefs about what the world _ought_ to look like, i.e. a desire for set of facts that may or not be the current set of facts.
 Therefore, by definition values cannot themselves be facts, we can't find them in the world.
-This automatically disqualifies science as a mechanism for taking moral decisions, something which to my great surprise, I have found myself having to explain to fellow scientists.
-Science is a very useful mechanism for deciding the truth value for a particular set of facts, but can never say anything about what value should be assigned to it.
+Once we have a good idea about the facts, we weigh them according to some set of values to come to a decision.
+(Anyone who has worked in machine learning or reinforcement learning can map this distinction to features/weights and environment/policy pairs. Scientists uncover and characterize feature sets and environments, but on their own they can never tell us what loss function, weight matrix, reward mechanism or loss function to choose.) 
+If a discussion is going to lead anywhere productive, this distinction should always be made clear.
+For compactness, I say 'fact set' and 'value set' to invoke the set of all values and facts that we consider in a given situation.
 
+Some observations on this framework (can be skipped).
 
----
-
-In a decision-making process, we can assign a _value_ which we can think of as the degree to which a givenu fact matters to us in the context of the decision at hand.
-So for a set of facts $X = \\{x_1, x_2, .., x_N \\}$ we generate a corresponding set of values $\Omega = \\{ \omega_1, \omega_2, .., \omega_N \\}$ based on our own internal moral compass.
-The ultimate decision is some combination of each fact, scaled by how much weight we assign to it through our values.
-
-$$ \text{DECISION}(\Omega,X) = \textrm{sign} \big( w_1 x_1 + w_2 x_2 +  .. + w_N x_N \big) $$
-
-Once we've combined all the facts (in this example, by means of a simple sum), the quantity that comes out can be used to make a decision.
-Here, our decision is given by the sign of the combined values.
-
-A simple example. 
-
-It is raining, and need to decide whether I should run upstairs to get my umbrella but I'm running late for work. 
-I begin a decision process and need to evaluate two possible sets of facts; I go back for my umbrella or I do not. In the case where I do the set of facts is:
-
-The facts (we arbitrarily encode as $ x = 1 $ if true, $ x = -1 $ if false):
-
-1. Will I be on time for work?: $ x_1 = -1 $.
-2. Will I be more comfortable on my walk to work $ x_2 = 1 $.
-
-If I care a lot about comfort, and not so much about my job, I might take these facts and generate the value set: $\Omega = \\{ \omega_1 = 0, \omega_2 = 1 \\} $.
-So the outcome is $$ \text{sign}(0 \cdot -1 + 1 \cdot +1) $$ which is positive, so I go back for the umbrella.
-You can imagine applying the same analysis to the scenario where I do not fetch my umbrella and obtain a -1. 
-You can also easily imagine that given the same set of facts, two people can come to opposing decisions.
-As the problems we face become more complex, and involve more facts (dimensions) we can ask many people, each which would generate their own $ \Omega $ for the state of affairs and we usually start to observe patterns.
-This is because the space of values is not uniformly populated.
-Value space can often be explained in lower dimensional terms such as liberalism, conservatism, authoritarianism, etc (this is what the famous [political compass]() is trying to do) and can be shown to vary in space and time.
-And in a much more careful and detailed manner, the subject of Jonathan Haidt's book [The Righteous Mind]().
-
----
-
-**Note:** This section is meant for a slightly mathematically oriented reader, it can be skipped.
-
-As a side note, this is to say that we can also mistake a change in values for a change in appreciation of facts.
-C.S. Lewis gives a very interesting example of this in [Mere Christianity]() with respect to the old custom of witch burning:
+1. In any situation, the set of possible facts infinite and our mental bandwith is severely finite. This means that we will never be able to make a decision based on a complete knowledge of the state of affairs, and any decision we come to will be necessarily biased and suboptimal with a high probability. Discussion and open mindedness are our only hope at improving our decision making processes.
+2. In my experience of spending most of time with scientists, the failure to distinguish between these two elements is a temptation that leads to the 'fetishization' of science.
+Even outside scientific circles, I often hear the pejorative 'anti-science' being used in disagreements about _values_.
+Science is a very useful mechanism for deciding the truth value for a particular set of facts, but can never say anything about what value should be assigned to it. I myself have struggled to shake off the temptation of using science to decide on value sets. A science fetishist may propose a principe: we ought to choose value sets that can maximize some evidence-based measure such as survival or well-being. But on what evidence was does the principle itself stand? What evidence is there that we should enact that principle and not one where the survival of the blue jay is the sole aim?
+3. We should not confuse changes in our belief of facts with changes in values. C.S. Lewis' discussion of the old practice of witch hunts comes to mind here:
 
 > But surely the reason we do not execute witches is that we do not believe there are such things. If we did - if we really thought that there were people going about who had sold themselves to the devil and received supernatural powers from him in return and were using these powers to kill their neighbours or drive them mad or bring bad weather - surely we would all agree that if anyone deserved the death penalty, these filthy quislings did? Thereis no difference of moral principle here: the difference is simply about a matter of fact. It may be a great advance in knowledge not to belive in witches: thereis no moral advance in not executing them when you do not think they are there. You would not call a man humane for ceasing to set mousetraps if he did so because he believed there were no mice in the house.
 
-This is not to say that all choices of $ \Omega $ are equally 'good'.
-We can act on faith to choose a guiding principle for generating value assignments to facts.
-The key is that we are now in the domain of _faith_, and beyond the realm of empirical evidence or falsifiability.
-Even setting out with a 'scientific' world view, if I say that I belive $ \Omega $ should be chosen so as to maximize the survival of the species, I am saying _on faith_ that I think the survival of the species is a desirable aim.
-We may observe a particular person behaving under a set of values (i.e. someone who values food highly will likely be found eating a lot of the time), but then we are observing a fact.
+---
 
-All of the above is just to say that I have recently been reminded that there is a set of facts which are overlooked in discussions of COVID policy.
-Namely, the aesthetic dimension.
-Having recently moved to Switzerland after nearly a lifetime of living in Canada, it is impossible to avoid seeing the clash between the decadent past and the utilitarian present manifesting itself in the architecture.
-Walking down any street in Basel you will see a sprinkling of brutalistic apartment complexes with flat grey facades shoulder to shoulder with buildings so cheerfully designed that one can only imagine the architect was sketching the blueprint with a spirit of celebration. 
-How is it that hundreds of years ago, when resources were exponentially more scarce, survival was a huge burden, and lifespan was significantly shorter did people sacrifice so much to add seemingly useless details to their architecture?
-
+I come to the question at hand with the personal intuition that something about masks and the accompanying policies feels wrong in a way that I lacked the language to express.
+Using the framework we just established, I was working with limited fact set.
+This became apparent to me when I noticed the stark contrast of brutalistic apartment complexes with flat grey facades shoulder to shoulder with buildings so cheerfully designed that one can only imagine the architect was sketching the blueprint with a spirit of celebration. 
+It is clear that the streets of Basel (and most other European cities of course) are a living battle field of value.
 
 ![]({{site.url}}/assets/ugly.jpeg)
 
-It is very clear that something has changed in the $ \Omega $ of European architecture (of course I'm nowhere near the first to reflect on this [Sir. Roger Scruton](https://en.wikipedia.org/wiki/How_to_Be_a_Conservative) is an authority here.) 
+How is it that hundreds of years ago, when resources were exponentially more scarce, survival was a huge burden, and lifespan was significantly shorter did people sacrifice so much to add seemingly useless details to their architecture?
+Thinking about these questions leads to an expansion of our fact sets to the territory of aesthetics where I believe we would many of us find ourselves appying common value sets. 
+
+
+It is very clear that something has changed in the value set of European architecture (of course I'm nowhere near the first to reflect on this [Sir. Roger Scruton](https://en.wikipedia.org/wiki/How_to_Be_a_Conservative) is an authority here.) 
 With all of this in the background, I recently revisited [The Grand Budapest](https://en.wikipedia.org/wiki/The_Grand_Budapest_Hotel) by Wes Anderson and was able to see the character of Monsieur Gustave in a new light.
-In one line, the movie depicts the life and downfall of Monsieur Gustave, a hotel manager at the opulent Grand Budapest Hotel in fictional 1930s Austria.
+The movie depicts the life and downfall of Monsieur Gustave, a hotel manager at the opulent Grand Budapest Hotel in fictional 1930s Austria.
 Monsieur Gustave's life revolves around seeing that every detail of the hotel is perfect and packed with sophistication and beauty.
 Through a series of events, Monsieur Gustave find himself in several misadventures including being chased by fascists, shootouts, prison escapes, and high speed alpine chases.
 What stood out to me most is that even in situations where survival ought tobe the one and only set of facts with non-zero $ \omega $, he quite comically displays an insistence on superficial details.
