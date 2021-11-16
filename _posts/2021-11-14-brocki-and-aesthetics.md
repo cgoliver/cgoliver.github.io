@@ -14,6 +14,7 @@ Lack of adequate language leads to frustration, and frustration handicaps argume
 I write this to introduce some old and familiar language to this new situation that will hopefully simplify debates open up some common ground.
 To start, I will set up a basic framework for understanding the way we reason through moral situations.
 Using this framework I will examine the surprisingly difficult question of 'should we continue wearing masks (or other such novel COVID practices)?'.
+If masks & co. are saving lives under COVID, why not continue reaping the benefits after COVID (if such a world exists)? 
 
 ---
 
@@ -115,8 +116,7 @@ Slowly but surely, the temptataion of fear and misplaced pragmatism peels back t
 
 > Pragmatism is a matter of human needs; and one of the first of human needs is to be something more than a pragmatist. - GK Chesterton 
  
-Perhaps filling our lives with as much beauty as possible is an aim worth sacrificing for the sake of celebrating our humanity, and not merely clinging to it.
 It is with this lens that I think we can find some common ground with those that insist on the departure of the dehumanizing policies that have visited our lives.
 Those trying to do away with a unidimensional focus safety are not acting selfishly rather, as [Douglas Farrow](https://www.catholicworldreport.com/2021/04/24/get-out-of-my-pub-on-vaccinating-the-young-and-other-bad-ideas/) put it, they are expanding the domain of value and seeing viruses beyond COVID.
 
-Whether or not 'masks & co' are indeed necessary evils is a personal value judgement, but I pray we do not let expedience make us forget that we still paying a price. 
+Whether or not 'masks & co' are indeed necessary evils is a personal value judgement, but I pray we do not let expedience make us forget that we are nonetheless paying a price. 
