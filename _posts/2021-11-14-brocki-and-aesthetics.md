@@ -77,7 +77,7 @@ Looking at the architecture around my neighbourhood quickly confirmed that this 
 How is it that hundreds of years ago, when resources were exponentially more scarce and mere survival was a huge burden, did people sacrifice so much to add seemingly useless, and ironically celebratory details to their architecture?
 (Of course I'm nowhere near the first to reflect on this [Sir. Roger Scruton](https://en.wikipedia.org/wiki/How_to_Be_a_Conservative) is an authority here.)? 
 
-Taking a hit from the Grand Budapest, I make the case here that 1) the purely aesthetic state of affairs induced by certain COVID policies should be a part of the facts we consider, and 2) that we should place considerable value on them when deciding future policies. 
+Taking a hint from the Grand Budapest, I make the case here that 1) the purely aesthetic state of affairs induced by certain COVID policies should be a part of the facts we consider, and 2) that we should place considerable value on them when deciding future policies. 
 
 I can think of three dimensions along which we might object to the premanent use of masks and similar policies.
 The most immediate to consider would be a pragmatic one.
