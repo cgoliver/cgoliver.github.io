@@ -7,14 +7,12 @@ comments: True
 
 > “The mystery of human existence lies not in just staying alive, but in finding something to live for.” - Fyodor Dostoevsky
 
-We have undeniably made sacrifices of many forms in the face of the COVID situation.
+Assuming masks, plexiglass barriers, quarantines, vaccine passports, etc, (masks & co. hereafter) are saving lives under COVID, why not continue reaping the benefits after COVID (if such a world should exist)? 
+We have undeniably learned to sacrifices of many forms in the face of the COVID situation, perhaps masks & co. are a worthwhile sacrifice.
 No doubt everyone reading this has been in a heated disagreent about the proper way to carry out these sacrifices.
-Making matters more difficult is the fact that this situation is seemingly so new that we lack language to express truths that are being called into question which had been comfortably dormant until now.
-Lack of adequate language leads to frustration, and frustration handicaps arguments to the point of futility.
-I write this to introduce some old and familiar language to this new situation that will hopefully simplify debates open up some common ground.
-To start, I will set up a basic framework for understanding the way we reason through moral situations.
-Using this framework I will examine the surprisingly difficult question 'should we continue wearing masks (or other such novel COVID practices)?'.
-Assuming masks & co. are saving lives under COVID, why not continue reaping the benefits after COVID (if such a world exists)? 
+Intuition places us at a starting point on this debate, and in order but move towards as solution we need a proper and complete framework for assessing the situation.
+Making matters more difficult is the fact that this situation is to be so new that we lack language to defend truths which had been comfortably dormant until now.
+I write this to introduce some familiar language to this new situation that will hopefully simplify debates open up some common ground.
 
 ---
 
@@ -42,7 +40,7 @@ Even outside scientific circles, I often hear the pejorative 'anti-science' bein
 Science is a very useful mechanism for deciding the truth value for a particular set of facts, but can never say anything about what value should be assigned to it. I myself have struggled to shake off the temptation of using science to decide on value sets. A science fetishist may propose a principe: we ought to choose value sets that can maximize some evidence-based measure such as survival or well-being. But on what evidence was does the principle itself stand? What evidence is there that we should enact that principle and not one where the survival of the blue jay is the sole aim?
 3. We should not confuse changes in our belief of facts with changes in values. C.S. Lewis' discussion of the old practice of witch hunts comes to mind here:
 
-> But surely the reason we do not execute witches is that we do not believe there are such things. If we did - if we really thought that there were people going about who had sold themselves to the devil and received supernatural powers from him in return and were using these powers to kill their neighbours or drive them mad or bring bad weather - surely we would all agree that if anyone deserved the death penalty, these filthy quislings did? Thereis no difference of moral principle here: the difference is simply about a matter of fact. It may be a great advance in knowledge not to belive in witches: thereis no moral advance in not executing them when you do not think they are there. You would not call a man humane for ceasing to set mousetraps if he did so because he believed there were no mice in the house.
+> But surely the reason we do not execute witches is that we do not believe there are such things. If we did - if we really thought that there were people going about who had sold themselves to the devil and received supernatural powers from him in return and were using these powers to kill their neighbours or drive them mad or bring bad weather - surely we would all agree that if anyone deserved the death penalty, these filthy quislings did? There is no difference of moral principle here: the difference is simply about a matter of fact. It may be a great advance in knowledge not to believe in witches: there is no moral advance in not executing them when you do not think they are there. You would not call a man humane for ceasing to set mousetraps if he did so because he believed there were no mice in the house.
 
 ---
 
@@ -54,7 +52,7 @@ Monsieur Gustave's life revolves around seeing that every detail of the hotel is
 Through a series of events, Monsieur Gustave find himself in several misadventures including being chased by fascists, shootouts, prison escapes, and high speed alpine chases.
 Shockingly (and of course comically in so far as humor points at truth) even in situations where survival ought to be the one and only set of facts of any value, he displays an insistence on superficial details.
 One of many examples of this comes moments after Monsieur Gustave's escape from prison where he climbs out of a sewer and meets his sidekick Zero who was supposed to bring him supplies and help him get to safety.
-While clearly stil under pursuit, he takes the time to ask Zero how things are going with his love interest, Agatha.
+While clearly still under pursuit, he takes the time to ask Zero how things are going with his love interest, Agatha.
 To answer the question, Zero begins to recite some romantic verse.
 Midway through the poem, Monsieur Gustave hears the prison alarm and _politely_ interrupts the poem with:
 
@@ -62,16 +60,16 @@ Midway through the poem, Monsieur Gustave hears the prison alarm and _politely_ 
 
 This is someone who is either foolish to be wasting a precious head start in a deadly foot race with politeness for comedy, or Monsieur Gustave values something worth paying attention to.
 I decided such comical scenes had more to do with the latter, when the movie concludes and we see the hotel in its post-Monsieur Gustave 1960s state.
-The original pink and ornate facade of the hotel is replaced with a dull grey bauhous exterior and, we see a frame of the once grand and golden elevators in their current state:
+The original pink and ornate facade of the hotel is replaced with a dull grey exterior and, we see a frame of the once grand and golden elevators in their current state:
 
 ![]({{site.url}}/assets/elevator_old_2.png)
 ![]({{site.url}}/assets/elevator_new.png)
 
 Loss is the first feeling that comes to mind when faced with this contrast, yet placing your finger on exactly what was lost is not so easy.
 The key is in realizing that the prominence of the safety sign 'DO NOT USE ELEVATOR IN CASE OF FIRE' is not accidental.
-What is being communicated here is that the Hotel Budapest was not simply lost to erosion and time, it was tradeded for expedience, pragamatism and safety.
+What is being communicated here is that the Hotel Budapest was not simply lost to erosion and time, it was traded for expedience, pragmatism and safety.
 The new and improved Hotel Budapest is certainly safer and easier to maintain, but perhaps in the process we traded a grand hotel for a mere building.
-Looking at the architecture around my neighbourhood quickly confirmed that this negotiaion was not just being played out in movies.
+Looking at the architecture around my neighbourhood quickly confirmed that this negotiation was not just being played out in movies.
 
 ![]({{site.url}}/assets/ugly.jpeg)
 
@@ -80,12 +78,12 @@ How is it that hundreds of years ago, when resources were exponentially more sca
 
 Taking a hint from the Grand Budapest, I make the case here that 1) the purely aesthetic state of affairs induced by certain COVID policies should be a part of the facts we consider, and 2) that we should place considerable value on them when deciding future policies. 
 
-I can think of three dimensions along which we might object to the premanent use of masks and similar policies.
+I can think of three dimensions along which we might object to the permanent use of masks and similar policies.
 The most immediate to consider would be a pragmatic one.
 Assuming that we have identified these policies as helping preserve life, we then ask, is the policy low-cost enough and sustainable to maintain in perpetuity?
 For the majority of new COVID measures, the answer is yes.
 Masks are (arguably) a minor annoyance, QR codes can be easily generated and checked in microseconds (and if [done properly](https://en.wikipedia.org/wiki/Zero-knowledge_proof) preserve privacy) vaccinations can be deployed at scale and with very little waiting time, tests are getting faster, and all of this may very well save some number of lives.
-While all of these add up to somewhat minor inconveniences to people's daily lives, we can grant the life-preserving benefits outweight the cons here.
+While all of these add up to somewhat minor inconveniences to people's daily lives, we can grant the life-preserving benefits outweigh the cons here.
 Next, we can look along the rights and freedoms dimension.
 Here it is clear that carrying out these measures would represent significant limitations on natural rights, facilitate further encroachment, and make the policy undesirable under most people's values. 
 Although I agree with such objections, I think this is missing the point.
@@ -112,7 +110,7 @@ Clearly we can't let the principle of safety be our only guiding light, and most
 However, when our intuitions tell us the balance under threat, I propose we notice that since this is not the first time this happens, we 'give our ancestors a vote', as Chesterton would say.
 To this end, I believe that Monsieur Gustave was not merely a vain man, and that the architects and masons of old Europe did not toil out of boredom; rather they were demonstrating the value of celebrating our humanity even when it is costly.
 If we forget to keep this in mind, the small but aesthetic details of our lives that make us human become vulnerable to attack.
-Slowly but surely, the temptataion of fear and misplaced pragmatism peels back the facades and we find ourselves surviving, albeit in, as M. Gustave would say, a 'drab', grey prison.
+Slowly but surely, the temptation of fear and misplaced pragmatism peels back the facades and we find ourselves surviving, albeit in, as M. Gustave would say, a 'drab', grey prison.
 
 > Pragmatism is a matter of human needs; and one of the first of human needs is to be something more than a pragmatist. - GK Chesterton 
  
