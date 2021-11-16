@@ -83,7 +83,7 @@ I can think of three dimensions along which we might object to the premanent use
 The most immediate to consider would be a pragmatic one.
 Assuming that we have identified these policies as helping preserve life, we then ask, is the policy low-cost enough and sustainable to maintain in perpetuity?
 For the majority of new COVID measures, the answer is yes.
-Masks are (arguably) a minor annoyance, QR codes can be easily generated and checked in microseconds(and if [done properly](https://en.wikipedia.org/wiki/Zero-knowledge_proof) preserve privacy) vaccinations can be deployed at scale and with very little waiting time, tests are getting faster, and all of this may very well save some number of lives.
+Masks are (arguably) a minor annoyance, QR codes can be easily generated and checked in microseconds (and if [done properly](https://en.wikipedia.org/wiki/Zero-knowledge_proof) preserve privacy) vaccinations can be deployed at scale and with very little waiting time, tests are getting faster, and all of this may very well save some number of lives.
 While all of these add up to somewhat minor inconveniences to people's daily lives, we can grant the life-preserving benefits outweight the cons here.
 Next, we can look along the rights and freedoms dimension.
 Here it is clear that carrying out these measures would represent significant limitations on natural rights, facilitate further encroachment, and make the policy undesirable under most people's values. 
