@@ -108,7 +108,7 @@ What do we make of the objection: 'Is a single life worth sacrificing for the sa
 Of course I can't provide an exact answer here other than to say that whether we like it or not, we are already making this kind of choice, and so we may as well contemplate as large a fact set as reasonable.
 It is not unlikely that the policy which saves the most lives is the one where entire nations live in literal prisons. 
 Clearly we can't let the principle of safety be our only guiding light, and most of us already see value in some kind of balance.
-However, when our intuitions tell us the balance under threat, I propose we notice this is not the first time this happens, and we thus take Chesterton's approach and 'give our ancestors a vote'.
+However, when our intuitions tell us the balance under threat, I propose we notice that since this is not the first time this happens, we 'give our ancestors a vote', as Chesterton would say.
 To this end, I believe that Monsieur Gustave was not merely a vain man, and that the architects and masons of old Europe did not toil out of boredom; rather they were demonstrating the value of celebrating our humanity even when it is costly.
 If we forget to keep this in mind, the small but aesthetic details of our lives that make us human become vulnerable to attack.
 Slowly but surely, the temptataion of fear and misplaced pragmatism peels back the facades and we find ourselves surviving, albeit in, as M. Gustave would say, a 'drab', grey prison.
