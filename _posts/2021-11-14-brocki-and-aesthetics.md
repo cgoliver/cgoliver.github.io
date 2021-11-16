@@ -8,9 +8,8 @@ comments: True
 > “The mystery of human existence lies not in just staying alive, but in finding something to live for.” - Fyodor Dostoevsky
 
 We have undeniably made sacrifices of many forms in the face of the COVID situation.
-We have made financial sacrifices, sacrifices of liberty, health, sovereignty, spending time with loved ones, etc.
 No doubt everyone reading this has been in a heated disagreent about the proper way to carry out these sacrifices.
-The unprecedented nature of this situation often leaves us at a lack for language to express truths that are being called into question which had been comfortably dormant until now.
+Making matters more difficult is the fact that this situation is seemingly so new that we lack language to express truths that are being called into question which had been comfortably dormant until now.
 Lack of adequate language leads to frustration, and frustration handicaps arguments to the point of futility.
 I write this to introduce some language that will hopefully simplify debates on this issue and ideally bring some common ground.
 To start, I will set up a basic framework for understanding the way we reason through moral situations.
@@ -50,14 +49,8 @@ Science is a very useful mechanism for deciding the truth value for a particular
 ---
 
 I come to the question at hand with the personal intuition that something about masks and the accompanying policies feels wrong in a way that I lacked the language to express.
-Two successive experiences essentially expanded my fact set into the aesthetic: a walk through my neighbourhood in Basel, and what hammered the notion home was later watching Wes Anderson's [The Grand Budapest Hotel](Could not locate Gemfile or .bundle/ directory).
+A couple of days ago, while watching watching Wes Anderson's [The Grand Budapest Hotel]((https://en.wikipedia.org/wiki/The_Grand_Budapest_Hotel)) I realized whas that I was not looking at all of the facts.
 
-I had noticed the stark contrast of brutalistic apartment complexes with flat grey facades shoulder to shoulder with buildings so cheerfully designed that one can only imagine the architect was sketching the blueprint with a spirit of celebration. 
-But when taking this fact seriously, it becomes clear that the streets of Basel (and most other European cities of course) are a living battle field of value.
-How is it that hundreds of years ago, when resources were exponentially more scarce and mere survival was a huge burden, did people sacrifice so much to add seemingly useless details to their architecture?
-(Of course I'm nowhere near the first to reflect on this [Sir. Roger Scruton](https://en.wikipedia.org/wiki/How_to_Be_a_Conservative) is an authority here.)? 
-
-![]({{site.url}}/assets/ugly.jpeg)
 
 
 This question was pushed further when I re-watched [The Grand Budapest Hotel ](https://en.wikipedia.org/wiki/The_Grand_Budapest_Hotel) by Wes Anderson and was able to see the character of Monsieur Gustave in a new light.
@@ -83,9 +76,15 @@ The feeling of loss is inevitable when we are shown the hotel in its current sta
 The key is in realizing that the prominence of the safety sign 'DO NOT USE ELEVATOR IN CASE OF FIRE' is not accidental.
 What is being communicated here is that the Hotel Budapest was not simply lost to erosion and time, it was tradeded for expedience, pragamatism and safety.
 The new and improved Hotel Budapest is certainly safer and easier to maintain, but perhaps we ended up trading a hotel for a building.
-I believe that thinking about these questions requires us expand of our fact sets into the territory of aesthetics, where many of us may find ourselves appying common value sets. 
+A walk around while looking around at the modern architecure encroaching on bright old buildings in my neighbourhood quickly confirmed that this battle was not just being played out in movies.
 
-When I see certain measures that were adopted as emergency responses to the pandemic such a mask wearing, isolation mandates, and vaccine pasports discussed discussed now as potential ['permanent measures'](https://time.com/5952051/masks-after-pandemic-ends/) I worry we are facing a similar tradeoff.
+![]({{site.url}}/assets/ugly.jpeg)
+
+How is it that hundreds of years ago, when resources were exponentially more scarce and mere survival was a huge burden, did people sacrifice so much to add seemingly useless details to their architecture?
+(Of course I'm nowhere near the first to reflect on this [Sir. Roger Scruton](https://en.wikipedia.org/wiki/How_to_Be_a_Conservative) is an authority here.)? 
+
+I believe that thinking about these questions requires us expand of our fact sets into the territory of aesthetics, where many of us may find ourselves appying common values. 
+When I see certain measures, initially adopted as emergency responses to the pandemic such a mask wearing, isolation mandates, and vaccine pasports discussed discussed now as potential ['permanent measures'](https://time.com/5952051/masks-after-pandemic-ends/) I worry we are facing a similar tradeoff.
 What's more worrisome is that we seem to not even see the tradeoff. 
 So I make the case here that 1) the purely aesthetic state of affairs induced by certain COVID policies should be a part of the facts we consider, and 2) that we should place considerable value on them when deciding future policies. 
 
