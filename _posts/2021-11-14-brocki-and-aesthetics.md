@@ -70,7 +70,7 @@ Loss is the first feeling that comes to mind when faced with this contrast, yet 
 The key is in realizing that the prominence of the safety sign 'DO NOT USE ELEVATOR IN CASE OF FIRE' is not accidental.
 What is being communicated here is that the Hotel Budapest was not simply lost to erosion and time, it was tradeded for expedience, pragamatism and safety.
 The new and improved Hotel Budapest is certainly safer and easier to maintain, but perhaps in the process we traded a grand hotel for a mere building.
-Looking at the architecture around my neighbourhood quickly my neighbourhood quickly confirmed that this negotiaion was not just being played out in movies.
+Looking at the architecture around my neighbourhood quickly confirmed that this negotiaion was not just being played out in movies.
 
 ![]({{site.url}}/assets/ugly.jpeg)
 
