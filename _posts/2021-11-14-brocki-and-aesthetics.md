@@ -13,8 +13,8 @@ Making matters more difficult is the fact that this situation is seemingly so ne
 Lack of adequate language leads to frustration, and frustration handicaps arguments to the point of futility.
 I write this to introduce some old and familiar language to this new situation that will hopefully simplify debates open up some common ground.
 To start, I will set up a basic framework for understanding the way we reason through moral situations.
-Using this framework I will examine the surprisingly difficult question of 'should we continue wearing masks (or other such novel COVID practices)?'.
-If masks & co. are saving lives under COVID, why not continue reaping the benefits after COVID (if such a world exists)? 
+Using this framework I will examine the surprisingly difficult question 'should we continue wearing masks (or other such novel COVID practices)?'.
+Assuming masks & co. are saving lives under COVID, why not continue reaping the benefits after COVID (if such a world exists)? 
 
 ---
 
