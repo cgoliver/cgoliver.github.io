@@ -140,4 +140,4 @@ It is with this lens that I think we can find some common ground with those that
 Those trying to do away with a unidimensional focus safety are not acting selfishly rather, as [Douglas Farrow](https://www.catholicworldreport.com/2021/04/24/get-out-of-my-pub-on-vaccinating-the-young-and-other-bad-ideas/) put it, they are expanding the domain of value beyond the body, and seeing viruses beyond COVID.
 
 My objective with this post is mainly to bring attention to the fact of the ugliness that we are bringing upon our lives.
-Whether or masks and company are necessary evils is a personal value judgement, but I pray we do not let expedience make us forget that we are paying a price. 
+Whether or not masks and company are indeed necessary evils is a personal value judgement, but I pray we do not let expedience make us forget that we are paying a price. 
