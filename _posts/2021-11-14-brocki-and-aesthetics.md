@@ -8,9 +8,9 @@ comments: True
 > “The mystery of human existence lies not in just staying alive, but in finding something to live for.” - Fyodor Dostoevsky
 
 Assuming masks, plexiglass barriers, quarantines, vaccine passports, etc, (masks & co. hereafter) are saving lives under COVID, why not continue reaping the benefits after COVID (if such a world should exist)? 
-We have undeniably learned to sacrifices of many forms in the face of the COVID situation, perhaps masks & co. are a worthwhile sacrifice.
-No doubt everyone reading this has been in a heated disagreent about the proper way to carry out these sacrifices.
-Intuition places us at a starting point on this debate, and in order but move towards as solution we need a proper and complete framework for assessing the situation.
+If we grant that these policies and technologies have life-saving properties why do we find so much disagreement about whether we should continue or whether they were justified to begin with?
+Could it be that one side is simply selfish and heartless or does this issue strike at something more fundamental and by that token difficult to articulate?
+Our intuitions places us at a starting point on this debate, and in order but move towards as solution we need a proper and complete framework for assessing the situation.
 Making matters more difficult is the fact that this situation is to be so new that we lack language to defend truths which had been comfortably dormant until now.
 I write this to introduce some familiar language to this new situation that will hopefully simplify debates open up some common ground.
 
@@ -18,7 +18,7 @@ I write this to introduce some familiar language to this new situation that will
 
 Before undertaking any sacrifice we implicitly or explicitly crunch some numbers to decide whether such a sacrifice is worth making.
 We hope that when doing this, we are aware of all the relevant facts, and have sound judgement to digest these facts and turn them into action.
-More specifically, we say that any individual or collective action stems from a decision that we make given a set of facts and values.
+More specifically, we say that any individual or collective action stems from a decision that we make given a set of _facts_ and _values_.
 It is important to note that there are two distinct categories involved here.
 Values are not facts and facts are not values.
 Facts are beliefs about the current state of the world (e.g. it is raining outside, implementing policy X will reduce crime by Y).
