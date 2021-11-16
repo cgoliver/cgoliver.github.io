@@ -50,26 +50,25 @@ Science is a very useful mechanism for deciding the truth value for a particular
 ---
 
 I come to the question at hand with the personal intuition that something about masks and the accompanying policies feels wrong in a way that I lacked the language to express.
-To use the framework we just established, I was working with limited fact set.
-This became apparent to me when I noticed the stark contrast of brutalistic apartment complexes with flat grey facades shoulder to shoulder with buildings so cheerfully designed that one can only imagine the architect was sketching the blueprint with a spirit of celebration. 
-It is clear that the streets of Basel (and most other European cities of course) are a living battle field of value.
+To successive experiences essentially expanded my fact set into the aesthetic: a walk through my neighbourhood in Basel, and what hammered the notion home was later watching Wes Anderson's [The Great Budapets]().
+
+I had noticed the stark contrast of brutalistic apartment complexes with flat grey facades shoulder to shoulder with buildings so cheerfully designed that one can only imagine the architect was sketching the blueprint with a spirit of celebration. 
+But when taking this fact seriously, it becomes clear that the streets of Basel (and most other European cities of course) are a living battle field of value.
+How is it that hundreds of years ago, when resources were exponentially more scarce and mere survival was a huge burden, did people sacrifice so much to add seemingly useless details to their architecture?
+(Of course I'm nowhere near the first to reflect on this [Sir. Roger Scruton](https://en.wikipedia.org/wiki/How_to_Be_a_Conservative) is an authority here.)? 
 
 ![]({{site.url}}/assets/ugly.jpeg)
 
-How is it that hundreds of years ago, when resources were exponentially more scarce, survival was a huge burden, and lifespan was significantly shorter did people sacrifice so much to add seemingly useless details to their architecture?
-Thinking about these questions leads to an expansion of our fact sets to the territory of aesthetics where I believe we would many of us find ourselves appying common value sets. 
 
-
-It is very clear that something has changed in the value set of European architecture (of course I'm nowhere near the first to reflect on this [Sir. Roger Scruton](https://en.wikipedia.org/wiki/How_to_Be_a_Conservative) is an authority here.) 
-With all of this in the background, I recently revisited [The Grand Budapest](https://en.wikipedia.org/wiki/The_Grand_Budapest_Hotel) by Wes Anderson and was able to see the character of Monsieur Gustave in a new light.
+This question was pushed further when I re-watched [The Grand Budapest](https://en.wikipedia.org/wiki/The_Grand_Budapest_Hotel) by Wes Anderson and was able to see the character of Monsieur Gustave in a new light.
 The movie depicts the life and downfall of Monsieur Gustave, a hotel manager at the opulent Grand Budapest Hotel in fictional 1930s Austria.
 Monsieur Gustave's life revolves around seeing that every detail of the hotel is perfect and packed with sophistication and beauty.
 Through a series of events, Monsieur Gustave find himself in several misadventures including being chased by fascists, shootouts, prison escapes, and high speed alpine chases.
-What stood out to me most is that even in situations where survival ought tobe the one and only set of facts with non-zero $ \omega $, he quite comically displays an insistence on superficial details.
-One scene that stands out in this regard comes moments after Monsieur Gustave's escape from prison where he climbs out of a sewer and meets his sidekick Zero who was supposed to bring him supplies and help him get to safety.
-While clearly stil under pursuit, he asks Zero how it is going with his love interest, Agatha.
-To express his love for Agatha to Monsieur Gustave, Zero begins to recite some romantic verse.
-During the recitation, Monsieur Gustave hears the prison guards approaching and _politely_ interrupts the poem with:
+Shockingly (and of course comically in so far as humor points at truth) even in situations where survival ought to be the one and only set of facts of any value, he displays an insistence on superficial details.
+One of many examples of this comes moments after Monsieur Gustave's escape from prison where he climbs out of a sewer and meets his sidekick Zero who was supposed to bring him supplies and help him get to safety.
+While clearly stil under pursuit, he asks Zero how things are going with his love interest, Agatha.
+To answer the question, Zero begins to recite some romantic verse.
+Midway through the poem, Monsieur Gustave hears the prison alarm and _politely_ interrupts the poem with:
 
 > Very good! I'm going to stop you there because the alarm has sounded. But remember where you left off because I insist you finish later.
 
@@ -80,12 +79,13 @@ The original pink and ornate facade of the hotel is replaced with a dull grey ba
 ![]({{site.url}}/assets/elevator_old_2.png)
 ![]({{site.url}}/assets/elevator_new.png)
 
-The prominence of the safety sign 'DO NOT USE ELEVATOR IN CASE OF FIRE' is not accidental.
 The feeling of loss is inevitable when we are shown the hotel in its current state, yet placing your finger on exactly what was lost is not so easy.
-Going further, what is being communicated here is that the Hotel Budapest was not simply lost to erosion and time, it was traded for something else, something which was given value over something else.
-Certainly the new Hotel Budapest is safer with is prominent safety warnings, and easy-to-maintain infrastructure but this unavoidable sense of loss seems to tell us that we are dealing with a dilemma.
+The key is in realizing that the prominence of the safety sign 'DO NOT USE ELEVATOR IN CASE OF FIRE' is not accidental.
+What is being communicated here is that the Hotel Budapest was not simply lost to erosion and time, it was tradeded for expedience, pragamatism and safety.
+The new and improved Hotel Budapest is certainly safer and easier to maintain, but perhaps we ended up trading a hotel for a building.
+I believe that thinking about these questions requires us expand of our fact sets into the territory of aesthetics, where many of us may find ourselves appying common value sets. 
 
-When I see certain measures adopted as emergency responses to the pandemic such a mask wearing, isolation mandates, and vaccine pasports discussed as potential ['permanent measures'](https://time.com/5952051/masks-after-pandemic-ends/) I worry we are facing a similar tradeoff.
+When I see certain measures that were adopted as emergency responses to the pandemic such a mask wearing, isolation mandates, and vaccine pasports discussed discussed now as potential ['permanent measures'](https://time.com/5952051/masks-after-pandemic-ends/) I worry we are facing a similar tradeoff.
 What's more worrisome is that we seem to not even see the tradeoff. 
 So I make the case here that 1) the purely aesthetic state of affairs induced by certain COVID policies should be a part of the facts we consider, and 2) that we should place considerable value on them when deciding future policies. 
 
@@ -106,7 +106,7 @@ For the majority of new COVID measures, the answer is yes.
 Masks are (arguably) a minor annoyance, QR codes can be easily generated and checked in microseconds(and if [done properly](https://en.wikipedia.org/wiki/Zero-knowledge_proof) preserve privacy) vaccinations can be deployed at scale and with very little waiting time, tests are getting faster, and all of this may very well save some number of lives.
 While all of these add up to somewhat minor inconveniences to people's daily lives, we can grant the life-preserving benefits outweight the cons here.
 Next, we can look along the rights and freedoms dimension.
-Here it is clear that carrying out these measures would represent significant limitations on natural rights, facilitate further encroachment, and make the policy undesirable under most people's choices of $\Omega$.
+Here it is clear that carrying out these measures would represent significant limitations on natural rights, facilitate further encroachment, and make the policy undesirable under most people's values. 
 Although I agree with such objections, I think this is missing the point.
 That being, why do we care to fight for the preservation things like the right to not wear a mask in the first place?
 If we didn't care about these rights for some reason other than their being rights, I don't think there would be as much controversy around these discussions. 
@@ -127,7 +127,7 @@ I can anticipate the objection: 'Is a single life worth sacrificing for the sake
 Of course I can't provide an exact answer here other than to say that whether we like it or not, this kind of choice cannot be avoided, and so we may as well contemplate the full set of facts.
 It is not unlikely that the policy which saves the most lives is the one where entire nations live in literal prisons. 
 Under such a state of affairs I can then ask, how many lives are worth sacrificing to return to today's set of affairs that we currently accept?
-To begin answering this question, I have been alluding, we would be wise to take Chesterton's approach and 'give our ancestors a vote'.
+As I have been alluding, we would be wise here to take Chesterton's approach and 'give our ancestors a vote'.
 I believe that Monsieur Gustave was not merely a vain man, and that the architects and masons of old Europe did not toil out of boredom.
 Almost every piece in the Western canon insists to us that man does not live by bread alone, those heroes we most admire understood that life for the sake of living is not worth living.
 If we forget to keep this in mind, the small but aesthetic details of our lives that make us human become vulnerable to attack.
@@ -137,5 +137,7 @@ Slowly but surely, the virus of expedience, fear, and misplaced pragmatism takes
  
 Perhaps filling our lives with as much beauty as possible is an aim worth sacrificing to.
 It is with this lens that I think we can find some common ground with those that insist on the departure of the dehumanizing policies that have visited our lives.
-Those trying to do away with a unidimensional focus safety are not acting selfishly rather, as [Douglas Farrow](https://www.catholicworldreport.com/2021/04/24/get-out-of-my-pub-on-vaccinating-the-young-and-other-bad-ideas/) put it, they are seeing viruses beyond COVID and, all too humanly, expanding the domain of value beyond the body.
-With this, I believe we should at least be able to agree on a common and more complete appraisal of $X$, and the debate can now ensue for the best $\Omega$.
+Those trying to do away with a unidimensional focus safety are not acting selfishly rather, as [Douglas Farrow](https://www.catholicworldreport.com/2021/04/24/get-out-of-my-pub-on-vaccinating-the-young-and-other-bad-ideas/) put it, they are expanding the domain of value beyond the body, and seeing viruses beyond COVID.
+
+My objective with this post is mainly to bring attention to the fact of the ugliness that we are bringing upon our lives.
+Whether or masks and company are necessary evils is a personal value judgement, but I pray we do not let expedience make us forget that we are paying a price. 
