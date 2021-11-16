@@ -33,6 +33,7 @@ Therefore, by definition values cannot themselves be facts, we can't find them i
 This automatically disqualifies science as a mechanism for taking moral decisions, something which to my great surprise, I have found myself having to explain to fellow scientists.
 Science is a very useful mechanism for deciding the truth value for a particular set of facts, but can never say anything about what value should be assigned to it.
 
+
 ---
 
 In a decision-making process, we can assign a _value_ which we can think of as the degree to which a givenu fact matters to us in the context of the decision at hand.
@@ -64,6 +65,8 @@ Value space can often be explained in lower dimensional terms such as liberalism
 And in a much more careful and detailed manner, the subject of Jonathan Haidt's book [The Righteous Mind]().
 
 ---
+
+**Note:** This section is meant for a slightly mathematically oriented reader, it can be skipped.
 
 As a side note, this is to say that we can also mistake a change in values for a change in appreciation of facts.
 C.S. Lewis gives a very interesting example of this in [Mere Christianity]() with respect to the old custom of witch burning:
