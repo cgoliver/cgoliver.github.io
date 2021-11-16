@@ -7,9 +7,9 @@ comments: True
 
 > “The mystery of human existence lies not in just staying alive, but in finding something to live for.” - Fyodor Dostoevsky
 
-Assuming masks, plexiglass barriers, quarantines, vaccine passports, etc, (masks & co. hereafter) are saving lives under COVID, why not continue reaping the benefits after COVID (if such a world should exist)? 
-If we grant that these policies and technologies have life-saving properties why do we find so much disagreement about whether we should continue or whether they were justified to begin with?
-Could it be that one side is simply selfish and heartless or does this issue strike at something more fundamental and by that token difficult to articulate?
+Assuming masks, plexiglass barriers, quarantines, vaccine passports, and the like (masks & co. hereafter) are saving lives under COVID, why not continue reaping the benefits after COVID (if such a world should exist)? 
+If we grant that these policies and technologies confer life-saving properties why do we find so much disagreement about whether we should continue their use or whether they were justified to begin with?
+Could it be that one side is simply selfish and heartless or does this issue strike at something more fundamental and possibly difficult to articulate?
 Our intuitions places us at a starting point on this debate, and in order but move towards as solution we need a proper and complete framework for assessing the situation.
 Making matters more difficult is the fact that this situation is to be so new that we lack language to defend truths which had been comfortably dormant until now.
 I write this to introduce some familiar language to this new situation that will hopefully simplify debates open up some common ground.
