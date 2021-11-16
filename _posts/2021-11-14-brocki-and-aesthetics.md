@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why not carry on with COVID masks & co.? 
+title: The human cost of COVID masks & co. 
 date: 2021-11-14
 comments: True
 ---
