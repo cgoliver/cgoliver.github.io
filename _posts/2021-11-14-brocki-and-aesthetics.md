@@ -33,8 +33,8 @@ Therefore, by definition values cannot themselves be facts, we can't find them i
 This automatically disqualifies science as a mechanism for taking moral decisions, something which to my great surprise, I have found myself having to explain to fellow scientists.
 Science is a very useful mechanism for deciding the truth value for a particular set of facts, but can never say anything about what value should be assigned to it.
 
-<table>
-<tr>
+---
+
 In a decision-making process, we can assign a _value_ which we can think of as the degree to which a givenu fact matters to us in the context of the decision at hand.
 So for a set of facts $X = \\{x_1, x_2, .., x_N \\}$ we generate a corresponding set of values $\Omega = \\{ \omega_1, \omega_2, .., \omega_N \\}$ based on our own internal moral compass.
 The ultimate decision is some combination of each fact, scaled by how much weight we assign to it through our values.
@@ -63,8 +63,7 @@ This is because the space of values is not uniformly populated.
 Value space can often be explained in lower dimensional terms such as liberalism, conservatism, authoritarianism, etc (this is what the famous [political compass]() is trying to do) and can be shown to vary in space and time.
 And in a much more careful and detailed manner, the subject of Jonathan Haidt's book [The Righteous Mind]().
 
-<tr>
-</table>
+---
 
 As a side note, this is to say that we can also mistake a change in values for a change in appreciation of facts.
 C.S. Lewis gives a very interesting example of this in [Mere Christianity]() with respect to the old custom of witch burning:
