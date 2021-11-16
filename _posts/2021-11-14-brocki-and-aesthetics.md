@@ -50,7 +50,7 @@ Science is a very useful mechanism for deciding the truth value for a particular
 ---
 
 I come to the question at hand with the personal intuition that something about masks and the accompanying policies feels wrong in a way that I lacked the language to express.
-Using the framework we just established, I was working with limited fact set.
+To use the framework we just established, I was working with limited fact set.
 This became apparent to me when I noticed the stark contrast of brutalistic apartment complexes with flat grey facades shoulder to shoulder with buildings so cheerfully designed that one can only imagine the architect was sketching the blueprint with a spirit of celebration. 
 It is clear that the streets of Basel (and most other European cities of course) are a living battle field of value.
 
