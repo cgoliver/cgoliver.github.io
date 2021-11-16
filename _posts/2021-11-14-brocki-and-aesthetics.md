@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The human cost of COVID masks & co. 
+title: The intangible cost of COVID masks & co. 
 date: 2021-11-14
 comments: True
 ---
