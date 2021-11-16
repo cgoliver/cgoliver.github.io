@@ -50,7 +50,7 @@ Science is a very useful mechanism for deciding the truth value for a particular
 ---
 
 I come to the question at hand with the personal intuition that something about masks and the accompanying policies feels wrong in a way that I lacked the language to express.
-Two successive experiences essentially expanded my fact set into the aesthetic: a walk through my neighbourhood in Basel, and what hammered the notion home was later watching Wes Anderson's [The Great Budapets]().
+Two successive experiences essentially expanded my fact set into the aesthetic: a walk through my neighbourhood in Basel, and what hammered the notion home was later watching Wes Anderson's [The Grand Budapest Hotel](Could not locate Gemfile or .bundle/ directory).
 
 I had noticed the stark contrast of brutalistic apartment complexes with flat grey facades shoulder to shoulder with buildings so cheerfully designed that one can only imagine the architect was sketching the blueprint with a spirit of celebration. 
 But when taking this fact seriously, it becomes clear that the streets of Basel (and most other European cities of course) are a living battle field of value.
@@ -60,7 +60,7 @@ How is it that hundreds of years ago, when resources were exponentially more sca
 ![]({{site.url}}/assets/ugly.jpeg)
 
 
-This question was pushed further when I re-watched [The Grand Budapest](https://en.wikipedia.org/wiki/The_Grand_Budapest_Hotel) by Wes Anderson and was able to see the character of Monsieur Gustave in a new light.
+This question was pushed further when I re-watched [The Grand Budapest Hotel ](https://en.wikipedia.org/wiki/The_Grand_Budapest_Hotel) by Wes Anderson and was able to see the character of Monsieur Gustave in a new light.
 The movie depicts the life and downfall of Monsieur Gustave, a hotel manager at the opulent Grand Budapest Hotel in fictional 1930s Austria.
 Monsieur Gustave's life revolves around seeing that every detail of the hotel is perfect and packed with sophistication and beauty.
 Through a series of events, Monsieur Gustave find himself in several misadventures including being chased by fascists, shootouts, prison escapes, and high speed alpine chases.
