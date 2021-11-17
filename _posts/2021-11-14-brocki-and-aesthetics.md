@@ -7,12 +7,14 @@ comments: True
 
 > “The mystery of human existence lies not in just staying alive, but in finding something to live for.” - Fyodor Dostoevsky
 
-Assuming that masks, plexiglass barriers, quarantines, vaccine passports, and the like (masks & co. hereafter) are saving lives under COVID, why not continue reaping the benefits after COVID (if such a world should exist)? 
-If we grant that these policies and technologies confer life-saving properties why do we find so much disagreement about whether we should continue their use or whether they were justified to begin with?
+Assuming that masks, plexiglass barriers, quarantines, vaccine passports, and the like (masks & co. hereafter) are saving lives under COVID, why not continue reaping the benefits after COVID or at least in a world where the threat is significantly atenuated? 
+Why do we find so much disagreement about whether we should continue their use or whether they were justified to begin with?
+No doubt the reader has witnessed or been part of such discussions.
+And as I write this, Switzerland, my current place of residence, is in the midst of a referendum on just that question.
 I have struggled with these questions for some time now and of course had many discussions around them.
-This post is to outline two aspects of this question that might lead us toward productive ground.
-First, I present my a very basic a methodology for coming to moral decisions.
-I then use this methodology to understand one possible component to the motivations 'no' side in the masks & co. debate.
+This post is to share two deficiencies I have frequently noticed in such discussions: a proper methodology for thinking about moral decisions, and a consideration of core human values under said methodology.
+Here, I present my understanding of a very basic for coming to moral decisions with the aim of addresing these questions in a detached and organized manner.
+I then use this methodology to contemplate one possible component to the motivations 'no' side in the masks & co. debate which I believe is at risk of being overlooked.
 
 ---
 
@@ -29,7 +31,7 @@ On the other hand, values are beliefs about what the world _ought_ to look like,
 Therefore, by definition values cannot themselves be facts, we can't find them in the world.
 Once we have a good idea about the facts, we weigh them according to some set of values to come to a decision.
 (Anyone who has worked in machine learning or reinforcement learning can map this distinction to features/weights and environment/policy pairs. Scientists uncover and characterize feature sets and environments, but on their own they can never tell us what loss function, weight matrix, reward mechanism or loss function to choose.) 
-If a discussion is going to lead anywhere productive, this distinction should always be made clear.
+If a discussion is going to lead anywhere productive, this distinction should always remain clear.
 For compactness, I say 'fact set' and 'value set' to invoke the set of all values and facts that we consider in a given situation.
 
 Some observations on this framework (can be skipped).
