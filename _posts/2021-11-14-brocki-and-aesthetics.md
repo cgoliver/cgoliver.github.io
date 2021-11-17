@@ -97,7 +97,8 @@ In 'How to be a Conservative', Sir Roger Scruton equates the experience of beaut
 > [Hence] our human need for beauty is not simply a redundant addition to the list of human appetites. It is not something that we could lack and still be fulfilled as people. It is a need arising from our metaphysical condition, as free individuals, seeking our place in an objective world. We can wander through this world, alienated, resentful, full of suspicion and distrust. Or we can find our home here, coming to rest in harmony with others and with ourselves. And the experience of beauty guides us along this second path: it tells us that we are at home in the world, that the world is already ordered in our perceptions as a place fit for the lives of beings like us.
 
 If we were to assign a feeling to the set of covid-related policies, alienation certainly comes to mind.
-It is a fact that a world without faces, hugs, handshakes, with limits on gathering sizes, curfews, contact tracing, where documents are demanded for cultural events meant to bring us together (not surprisingly, the most stressful scenes of The Grand Budapest are when Monsieur Gustave and Zero are being asked for their papers on the train) is, an ugly one, and one that does not properly sustain human life.
+It is a fact that a world without faces, hugs, handshakes, with limits on gathering sizes, curfews, testing, contact tracing, where documents are demanded at cultural venues (not surprisingly, the most stressful scenes of The Grand Budapest are when Monsieur Gustave and Zero are being asked for their papers on the train) is, an ugly one, and one that does not properly sustain human life.
+No matter how necessary, the act of scanning a QR code to enter a museum 
 So long as we believe in a human nature, we can say under any set of circumstances that each of these policies is a ubiquitous monument to fear, distrust, and vanity.
 I say this with the aim of establishing a set of facts that most will agree are true.
 
@@ -108,10 +109,12 @@ What do we make of the objection: 'Is a single life worth sacrificing for the sa
 Of course I can't provide an exact answer here other than to say that whether we like it or not, we are already making this kind of choice, and so we may as well contemplate as large a fact set as reasonable.
 It is not unlikely that the policy which saves the most lives is the one where entire nations live in literal prisons. 
 Clearly we can't let the principle of safety be our only guiding light, and most of us already see value in some kind of balance.
-However, when our intuitions tell us the balance under threat, I propose we notice that since this is not the first time this happens, we 'give our ancestors a vote', as Chesterton would say.
-To this end, I believe that Monsieur Gustave was not merely a vain man, and that the architects and masons of old Europe did not toil out of boredom; rather they were demonstrating the value of celebrating our humanity even when it is costly.
+When our intuitions tell us the balance under threat, I propose we notice that this is not the first time this happens.
+As I try to point out here with the architecture and film examples,  we can see this process unfolding throughout our culture, most fundamentally with the 'man does not live by bread alone' assertion. 
+In this setting, we whould be wise to 'give our ancestors a vote', as Chesterton would say, and I believe they would tell us to not underestimate the aesthetic.
+I believe that Monsieur Gustave was not merely a vain man, and that the architects and masons of old Europe did not toil out of boredom; rather they were demonstrating the value of celebrating our humanity even when it is costly.
 If we forget to keep this in mind, the small but aesthetic details of our lives that make us human become vulnerable to attack.
-Slowly but surely, the temptation of fear and misplaced pragmatism peels back the facades and we find ourselves surviving, albeit in, as M. Gustave would say, a 'drab', grey prison.
+Slowly but surely, the temptation of fear and misplaced pragmatism peels back the facades and we find ourselves surviving, albeit in, 'drab', grey prison to use M. Gustave's words.
 
 > Pragmatism is a matter of human needs; and one of the first of human needs is to be something more than a pragmatist. - GK Chesterton 
  
