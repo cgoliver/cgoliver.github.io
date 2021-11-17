@@ -13,7 +13,7 @@ No doubt the reader has witnessed or been part of such discussions.
 And as I write this, Switzerland, my current place of residence, is in the midst of a referendum on just that question.
 I have struggled with these questions for some time now and of course had many discussions around them.
 This post is to share two deficiencies I have frequently noticed in such discussions: a proper methodology for thinking about moral decisions, and a consideration of core human values under said methodology.
-Here, I present my understanding of a very basic for coming to moral decisions with the aim of addresing these questions in a detached and organized manner.
+With the aim of addresing these questions in a detached and organized manner, I present my understanding of basic methodology in moral questions.
 I then use this methodology to contemplate one possible component to the motivations 'no' side in the masks & co. debate which I believe is at risk of being overlooked.
 
 ---
