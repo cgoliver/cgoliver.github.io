@@ -76,7 +76,7 @@ Looking at the architecture around my neighbourhood quickly confirmed that this 
 How is it that hundreds of years ago, when resources were exponentially more scarce and mere survival was a huge burden, did people sacrifice so much to add seemingly useless, and ironically celebratory details to their architecture?
 (Of course I'm nowhere near the first to reflect on this [Sir. Roger Scruton](https://en.wikipedia.org/wiki/How_to_Be_a_Conservative) is an authority here.)? 
 
-Taking a hint from the Grand Budapest, I make the case here that 1) the purely aesthetic state of affairs induced by certain COVID policies should be a part of the facts we consider, and 2) that we should place considerable value on them when deciding future policies. 
+Taking a hint from the Grand Budapest, I make the case here that 1) the purely aesthetic state of affairs induced by certain COVID policies should be a part of the facts we consider, and 2) that we should place considerable value on them when deciding on future policies. 
 
 I can think of three dimensions along which we might object to the permanent use of masks and similar policies.
 The most immediate to consider would be a pragmatic one.
@@ -84,6 +84,7 @@ Assuming that we have identified these policies as helping preserve life, we the
 For the majority of new COVID measures, the answer is yes.
 Masks are (arguably) a minor annoyance, QR codes can be easily generated and checked in microseconds (and if [done properly](https://en.wikipedia.org/wiki/Zero-knowledge_proof) preserve privacy) vaccinations can be deployed at scale and with very little waiting time, tests are getting faster, and all of this may very well save some number of lives.
 While all of these add up to somewhat minor inconveniences to people's daily lives, we can grant the life-preserving benefits outweigh the cons here.
+This alone makes the policies quite sticky. Once the infrastructure is in place, and people are growing accustomed we become aware only of the risk of undoing them.
 Next, we can look along the rights and freedoms dimension.
 Here it is clear that carrying out these measures would represent significant limitations on natural rights, facilitate further encroachment, and make the policy undesirable under most people's values. 
 Although I agree with such objections, I think this is missing the point.
