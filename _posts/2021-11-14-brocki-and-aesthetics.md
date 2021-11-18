@@ -7,18 +7,28 @@ comments: True
 
 > “The mystery of human existence lies not in just staying alive, but in finding something to live for.” - Fyodor Dostoevsky
 
-Assuming that masks, plexiglass barriers, quarantines, vaccine passports, and the like (masks & co. hereafter) are saving lives under COVID, why not continue reaping the benefits after COVID or at least in a world where the threat is significantly atenuated? 
-Why do we find so much disagreement about whether we should continue their use or whether they were justified to begin with?
-No doubt the reader has witnessed or been part of such discussions.
-And as I write this, Switzerland, my current place of residence, is in the midst of a referendum on just that question.
-I have struggled with these questions for some time now and of course had many discussions around them.
-This post is to share two deficiencies I have frequently noticed in such discussions: a proper methodology for thinking about moral decisions, and a consideration of core human values under said methodology.
-With the aim of addresing these questions in a detached and organized manner, I present my understanding of basic methodology in moral questions.
-I then use this methodology to contemplate one possible component to the motivations 'no' side in the masks & co. debate which I believe is at risk of being overlooked.
+When faced with a new and complex situation our natural instinct is to rapidly condense it into digestable forms.
+Hence, the marked emphasis on case numbers, $R_0$, fatality rates, vaccination rates in our headlines.
+These are extremely narrow proxies for well-being that have the upside being very fast to define and evaluate. 
+Under the circumstances of a seemingly deadly pandemic, these can justifiably serve as evidence to the implementation of policies such as masking, distancing, plexiglass, vaccine coercion, etc (hereafter: _masks & co_).
+While these proxies may be useful guides in times of panic, they fall severely short of ultimate object of interest: the human body and soul.
+Thankfully, when afforded time to look at human side, we are back in familiar territory. 
+Through the ages our cultures have gathered a great deal of wisdom about adequately serving the body and soul.
+Early alarm bells were sounded by [Douglas Farrow](https://www.catholicworldreport.com/2021/04/24/get-out-of-my-pub-on-vaccinating-the-young-and-other-bad-ideas/) to remind us that we are in danger of ignoring this wisdom moving forward. 
+Unfortunately, recent experience suggests that the warnings were well-placed.
+Despite case numbers reaching manageable levels and vaccinations and treatments being widely available, masks & co. show no sign of retreat.
+On pure logical grounds, this raises a red flag.
+When the our temporary proxies ($R_0$, case counts, etc.) implemented in times of panic no longer hold but their effects remain we must ask ourselves what has taken their place.
+Here I claim we are also back in familiar territoriy.
+It is not hard to notice that the tempatations of habit, fear, and unidimensional thinking have played themselves out at every point in our culture. 
+And it is ultimately these vices that have taken the supporting role for policies that under normal circumstances are not justifiable for their undermining of core human values such as beauty.
+By looking at the way we reason about moral arguments, and drawing from simple examples from my daily life I show that we ought to go back to considering a larger picture of human value if we are to avoid a fundamentally ugly future.
+
+
 
 ---
 
-Any sound process of making a moral decision involves applying a choice of _values_ to a given set of _facts_.
+Any moral decision consists in applying a choice of _values_ to a given set of _facts_.
 Facts are beliefs about the current state of the world (e.g. it is raining outside, implementing policy X will reduce crime by Y).
 We may have different beliefs about this state of affairs, but the state of affairs in itself exists independently of us.
 This gives rise to the property of falsifiability.
@@ -27,6 +37,7 @@ On the other hand, values are beliefs about what the world _ought_ to look like,
 Therefore, by definition values cannot themselves be facts as we can't find them in the world outside of ourselves.
 (Anyone who has worked in machine learning or reinforcement learning can map this distinction to features/weights and environment/policy pairs. Scientists uncover and characterize feature sets and environments, but on their own they can never tell us what loss function, weight matrix, reward mechanism or loss function to choose.) 
 If a discussion is going to lead anywhere productive, this distinction should always remain clear.
+The aim of this post is to identify a set of facts that ought to be included in our moral deliberations on most COVID-related policies.
 
 Some observations on this framework (can be skipped).
 
@@ -115,6 +126,6 @@ Slowly but surely, the temptation of fear and misplaced pragmatism peels back th
 > Pragmatism is a matter of human needs; and one of the first of human needs is to be something more than a pragmatist. - GK Chesterton 
  
 It is through this lens that I think we can find some common ground with those that insist on the departure of the dehumanizing policies that have visited our lives.
-Those trying to do away with a unidimensional focus safety are not acting selfishly rather, as [Douglas Farrow](https://www.catholicworldreport.com/2021/04/24/get-out-of-my-pub-on-vaccinating-the-young-and-other-bad-ideas/) put it, they are expanding the domain of value and seeing viruses beyond COVID.
+Those trying to do away with a unidimensional focus safety are not acting selfishly rather, as  put it, they are expanding the domain of value and seeing viruses beyond COVID.
 
 Whether or not 'masks & co' are indeed necessary evils is a personal value judgement, but I pray we do not let expedience make us forget that we are nonetheless paying a price. 
