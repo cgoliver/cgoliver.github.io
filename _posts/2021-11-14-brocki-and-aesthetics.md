@@ -18,7 +18,7 @@ Early alarm bells were sounded by [Douglas Farrow](https://www.catholicworldrepo
 Unfortunately, [recent experience](https://www.nationalgeographic.com/science/article/will-americans-wear-masks-to-prevent-sickness-beyond-covid-19) suggests that the warnings were indeed well-placed.
 Despite case numbers reaching manageable levels and vaccinations and treatments becoming widely available, masks & co. show no sign of retreat.
 On pure logical grounds, this raises a red flag.
-When the temporary proxies ($R_0$, case counts, etc.) implemented in times of panic no longer hold but their effects remain we must ask ourselves what has taken their place.
+When the temporary proxies ($R_0$, case counts, etc.) implemented in times of panic no longer hold but their effects remain we must ask ourselves has stepped in to sustain the policies? 
 Here I claim we are also back in familiar territory.
 It is not hard to notice that the tempatations of habit, fear, and unidimensional thinking have played themselves out at every point in our culture. 
 And it is ultimately these vices that have taken the supporting role for policies, which under normal circumstances are not justifiable for their undermining of core human values.
