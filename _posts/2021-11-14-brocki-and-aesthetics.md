@@ -9,7 +9,7 @@ comments: True
 
 When faced with a new and complex situation our natural instinct is to rapidly condense it into digestable forms.
 Hence, the marked emphasis on case numbers, $R_0$, fatality rates, vaccination rates in our headlines.
-These are extremely narrow proxies for well-being that have the upside being very fast to define and evaluate. 
+These are extremely narrow proxies for well-being that have the upside being very fast to define and measure. 
 Under the circumstances of a seemingly deadly pandemic, these can justifiably serve as evidence to the implementation of policies such as masking, distancing, plexiglass, vaccine coercion, etc (hereafter: _masks & co_).
 While these proxies may be useful guides in times of panic, they fall severely short of ultimate object of interest: the human body and soul.
 Thankfully, when afforded time to look at human side, we are land in familiar territory. 
