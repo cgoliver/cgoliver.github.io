@@ -52,7 +52,8 @@ Science is a very useful mechanism for deciding the truth value for a particular
 
 ---
 
-I come to the question at hand with the personal intuition that something about masks and the accompanying policies feels wrong in a way that I lacked the language to express.
+When discussing the justifiability of masks & co. I notice that discussions comes to an impasse and everything boils down to gut feeling or personal preference.
+While this may often be a reasonable stopping place, it is always worthwile to check whether we are not instead bumping up against something fundamental for which we lack the language to discuss. 
 A couple of days ago, while watching watching Wes Anderson's [The Grand Budapest Hotel]((https://en.wikipedia.org/wiki/The_Grand_Budapest_Hotel)) I realized the problem was I was not looking at all of the facts.
 
 The 2014 movie depicts the life and downfall of Monsieur Gustave, a hotel concierge at the opulent Grand Budapest Hotel in fictional 1930s Austria.
@@ -66,14 +67,15 @@ Midway through the poem, Monsieur Gustave hears the prison alarm and _politely_ 
 
 > Very good! I'm going to stop you there because the alarm has sounded. But remember where you left off because I insist you finish later.
 
-This is someone who is either foolish to be wasting a precious head start in a deadly foot race with politeness for comedy, or Monsieur Gustave values something worth paying attention to.
+This is someone who is either foolish to be wasting a precious head start in a deadly foot race, or Monsieur Gustave values something worth paying attention to.
 I decided such comical scenes had more to do with the latter, when the movie concludes and we see the hotel in its post-Monsieur Gustave 1960s state.
 The original pink and ornate facade of the hotel is replaced with a dull grey exterior and, we see a frame of the once grand and golden elevators in their current state:
 
 ![]({{site.url}}/assets/elevator_old_2.png)
 ![]({{site.url}}/assets/elevator_new.png)
 
-Loss is the first feeling that comes to mind when faced with this contrast, yet placing your finger on exactly what was lost is not so easy.
+The first emotion that comes to mind when faced with this contrast is certainly loss.
+Yet placing your finger on exactly what was lost is not so easy.
 The key is in realizing that the prominence of the safety sign 'DO NOT USE ELEVATOR IN CASE OF FIRE' is not accidental.
 What is being communicated here is that the Hotel Budapest was not simply lost to erosion and time, it was traded for expedience, pragmatism and safety.
 The new and improved Hotel Budapest is certainly safer and easier to maintain, but perhaps in the process we traded a grand hotel for a mere building.
