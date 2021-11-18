@@ -106,7 +106,7 @@ In 'How to be a Conservative', Sir Roger Scruton equates the experience of beaut
 
 If we were to assign a feeling to the set of covid-related policies, alienation certainly comes to mind.
 It is a fact that a world without faces, hugs, handshakes, with limits on gathering sizes, curfews, testing, contact tracing, where documents are demanded at cultural venues (not surprisingly, the most stressful scenes of The Grand Budapest are when Monsieur Gustave and Zero are being asked for their papers on the train) is, an ugly one, and one that does not properly sustain human life.
-No matter how necessary, the act of scanning a QR code to enter a museum 
+Is not the grey building in the above photo not a masked version of the one beside it?
 So long as we believe in a human nature, we can say under any set of circumstances that each of these policies is a ubiquitous monument to fear, distrust, and vanity.
 I say this with the aim of establishing a set of facts that most will agree are true.
 
