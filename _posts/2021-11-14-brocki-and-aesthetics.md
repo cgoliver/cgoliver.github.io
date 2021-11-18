@@ -95,7 +95,7 @@ For the majority of new COVID measures, the answer is yes.
 Masks are (arguably) a minor annoyance, QR codes can be easily generated and checked in microseconds (and if [done properly](https://en.wikipedia.org/wiki/Zero-knowledge_proof) preserve privacy) vaccinations can be deployed at scale and with very little waiting time, tests are getting faster, and all of this may very well save some number of lives.
 While all of these add up to somewhat minor inconveniences to people's daily lives, we can grant the life-preserving benefits outweigh the cons here.
 This alone makes the policies quite sticky. Once the infrastructure is in place, and people are growing accustomed we become aware only of the risk of undoing them.
-Next, we can look along the rights and freedoms dimension.
+Next, we can look along the rights and freedoms axis.
 Here it is clear that carrying out these measures would represent significant limitations on natural rights, facilitate further encroachment, and make the policy undesirable under most people's values. 
 Although I agree with such objections, I think this is missing the point.
 That being, why do we care to fight for the preservation things like the right to not wear a mask in the first place?
