@@ -21,7 +21,7 @@ On pure logical grounds, this raises a red flag.
 When the temporary proxies ($R_0$, case counts, etc.) implemented in times of panic no longer hold but their effects remain we must ask ourselves what has taken their place.
 Here I claim we are also back in familiar territoriy.
 It is not hard to notice that the tempatations of habit, fear, and unidimensional thinking have played themselves out at every point in our culture. 
-And it is ultimately these vices that have taken the supporting role for policies that under normal circumstances are not justifiable for their undermining of core human values such as beauty.
+And it is ultimately these vices that have taken the supporting role for policies, which under normal circumstances are not justifiable for their undermining of core human values.
 By looking at the way we reason about moral arguments, and drawing from simple examples from my daily life I show that we ought to go back to considering a larger picture of human value if we are to avoid a fundamentally ugly future.
 
 
