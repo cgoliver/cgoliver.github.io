@@ -15,7 +15,7 @@ While these proxies may be useful guides in times of panic, they fall severely s
 Thankfully, when afforded time to look at human side, we are back in familiar territory. 
 Through the ages our cultures have gathered a great deal of wisdom about adequately serving the body and soul.
 Early alarm bells were sounded by [Douglas Farrow](https://www.catholicworldreport.com/2021/04/24/get-out-of-my-pub-on-vaccinating-the-young-and-other-bad-ideas/) to remind us that we are in danger of ignoring this wisdom moving forward. 
-Unfortunately, recent experience suggests that the warnings were well-placed.
+Unfortunately, [recent experience](https://www.nationalgeographic.com/science/article/will-americans-wear-masks-to-prevent-sickness-beyond-covid-19) suggests that the warnings were well-placed.
 Despite case numbers reaching manageable levels and vaccinations and treatments being widely available, masks & co. show no sign of retreat.
 On pure logical grounds, this raises a red flag.
 When the our temporary proxies ($R_0$, case counts, etc.) implemented in times of panic no longer hold but their effects remain we must ask ourselves what has taken their place.
