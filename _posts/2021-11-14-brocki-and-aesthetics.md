@@ -12,7 +12,7 @@ Hence, the marked emphasis on case numbers, $R_0$, fatality rates, vaccination r
 These are extremely narrow proxies for well-being that have the upside being very fast to define and measure. 
 Under the circumstances of a seemingly deadly pandemic, these can justifiably serve as evidence to the implementation of policies such as masking, distancing, plexiglass, vaccine coercion, etc (hereafter: _masks & co_).
 While these proxies may be useful guides in times of panic, they fall severely short of ultimate object of interest: the human body and soul.
-Thankfully, when afforded time to look at human side, we are land in familiar territory. 
+Thankfully, when afforded time to look at human side, we land back in familiar territory. 
 Through the ages our cultures have gathered a great deal of wisdom about adequately serving the body and soul.
 Early alarm bells were sounded by [Douglas Farrow](https://www.catholicworldreport.com/2021/04/24/get-out-of-my-pub-on-vaccinating-the-young-and-other-bad-ideas/) to remind us that we are in danger of ignoring this wisdom moving forward. 
 Unfortunately, [recent experience](https://www.nationalgeographic.com/science/article/will-americans-wear-masks-to-prevent-sickness-beyond-covid-19) suggests that the warnings were indeed well-placed.
