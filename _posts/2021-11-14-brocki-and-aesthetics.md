@@ -131,4 +131,4 @@ Slowly but surely, the temptation of fear and misplaced pragmatism peels back th
 It is through this lens that I think we can find some common ground with those that insist on the departure of the dehumanizing policies that have visited our lives.
 Those trying to do away with a unidimensional focus safety are not acting selfishly rather, as  put it, they are expanding the domain of value and seeing viruses beyond COVID.
 
-Whether or not 'masks & co' are indeed necessary evils is a personal value judgement, but I pray we do not let expedience make us forget that we are nonetheless paying a price. 
+Whether or not 'masks & co' are indeed necessary evils is a personal value judgement, but I pray we do not forget we nonetheless paying a price. 
