@@ -56,7 +56,7 @@ I come to the question at hand with the personal intuition that something about 
 A couple of days ago, while watching watching Wes Anderson's [The Grand Budapest Hotel]((https://en.wikipedia.org/wiki/The_Grand_Budapest_Hotel)) I realized the problem was I was not looking at all of the facts.
 
 The 2014 movie depicts the life and downfall of Monsieur Gustave, a hotel concierge at the opulent Grand Budapest Hotel in fictional 1930s Austria.
-Monsieur Gustave's life revolves around seeing that every detail of the hotel is perfect and packed with sophistication and beauty.
+Monsieur Gustave's life revolves around seeing that every detail of the hotel is packed with sophistication and beauty.
 Through a series of events, Monsieur Gustave find himself in several misadventures including being chased by fascists, shootouts, prison escapes, and high speed alpine chases.
 Shockingly (and of course comically in so far as humor points at truth) even in situations where survival ought to be the one and only set of facts of any value, he displays an insistence on superficial details.
 One of many examples of this comes moments after Monsieur Gustave's escape from prison where he climbs out of a sewer and meets his sidekick Zero who was supposed to bring him supplies and help him get to safety.
