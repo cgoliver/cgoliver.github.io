@@ -22,17 +22,13 @@ I try to bring discussions as close to common ground and being as uncontroversia
 
 First, a preamble to set up some common language for the rest of the discussion. 
 Before undertaking any sacrifice we implicitly or explicitly crunch some numbers to decide whether such a sacrifice is worth making.
-We hope that when doing this, we are aware of all the relevant facts, and have sound judgement to digest these facts and turn them into action.
-More specifically, we say that any individual or collective action stems from a decision that we make given a set of facts and values.
-It is important to note that there are two distinct categories involved here.
-Values are not facts and facts are not values.
+We can very briefly summarize this process as applying a choice of _values_ to a given set of _facts_.
 Facts are beliefs about the current state of the world (e.g. it is raining outside, implementing policy X will reduce crime by Y).
 We may have different beliefs about this state of affairs, but the state of affairs in itself exists independently of us.
 This gives rise to the property of falsifiability.
 Given enough evidence, we can definitively accept or reject a given belief about the state of affairs (this is the job of science).
-On the other hand, values are beliefs about what the world _ought_ to look like, i.e. a desire for set of facts that may or not be the current set of facts.
-Therefore, by definition values cannot themselves be facts, we can't find them in the world.
-Once we have a good idea about the facts, we weigh them according to some set of values to come to a decision.
+On the other hand, values are beliefs about what the world _ought_ to look like, i.e. a desire for a set of facts to manifest itself. 
+Therefore, by definition values cannot themselves be facts as we can't find them in the world outside of ourselves.
 (Anyone who has worked in machine learning or reinforcement learning can map this distinction to features/weights and environment/policy pairs. Scientists uncover and characterize feature sets and environments, but on their own they can never tell us what loss function, weight matrix, reward mechanism or loss function to choose.) 
 If a discussion is going to lead anywhere productive, this distinction should always be made clear.
 For compactness, I say 'fact set' and 'value set' to invoke the set of all values and facts that we consider in a given situation.
