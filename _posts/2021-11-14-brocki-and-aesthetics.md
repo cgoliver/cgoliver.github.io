@@ -28,6 +28,7 @@ By looking at the way we reason about moral arguments, and drawing from simple e
 
 ---
 
+I begin with a very brief sketch of the framework I use to think about this questions.
 Any moral decision consists in applying a choice of _values_ to a given set of _facts_.
 Facts are beliefs about the current state of the world (e.g. it is raining outside, implementing policy X will reduce crime by Y).
 We may have different beliefs about this state of affairs, but the state of affairs in itself exists independently of us.
