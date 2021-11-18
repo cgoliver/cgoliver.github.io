@@ -18,17 +18,15 @@ I then use this methodology to contemplate one possible component to the motivat
 
 ---
 
-Before undertaking any sacrifice we implicitly or explicitly crunch some numbers to decide whether such a sacrifice is worth making.
-We can very briefly summarize this process as applying a choice of _values_ to a given set of _facts_.
+Any sound process of making a moral decision involves applying a choice of _values_ to a given set of _facts_.
 Facts are beliefs about the current state of the world (e.g. it is raining outside, implementing policy X will reduce crime by Y).
 We may have different beliefs about this state of affairs, but the state of affairs in itself exists independently of us.
 This gives rise to the property of falsifiability.
 Given enough evidence, we can definitively accept or reject a given belief about the state of affairs (this is the job of science).
-On the other hand, values are beliefs about what the world _ought_ to look like, i.e. a desire for a set of facts to manifest itself. 
+On the other hand, values are beliefs about what the world _ought_ to look like, i.e. a desire for a possible set of facts to manifest itself. 
 Therefore, by definition values cannot themselves be facts as we can't find them in the world outside of ourselves.
 (Anyone who has worked in machine learning or reinforcement learning can map this distinction to features/weights and environment/policy pairs. Scientists uncover and characterize feature sets and environments, but on their own they can never tell us what loss function, weight matrix, reward mechanism or loss function to choose.) 
 If a discussion is going to lead anywhere productive, this distinction should always remain clear.
-For compactness, I say 'fact set' and 'value set' to invoke the set of all values and facts that we consider in a given situation.
 
 Some observations on this framework (can be skipped).
 
