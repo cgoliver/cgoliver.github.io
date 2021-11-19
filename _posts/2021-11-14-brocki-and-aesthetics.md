@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The intangible cost of COVID masks & co. 
+title: Why masks are more than a minor discomfort. 
 date: 2021-11-14
 comments: True
 ---
@@ -92,7 +92,7 @@ The 'pragmatic' axis is the first to consider.
 Assuming that we have identified these policies as helping preserve life, we then ask, is the policy low-cost enough and sustainable to maintain in perpetuity?
 For the majority of new COVID measures, the answer is yes.
 Masks are (arguably) a minor annoyance, QR codes can be easily generated and checked in microseconds (and if [done properly](https://en.wikipedia.org/wiki/Zero-knowledge_proof) preserve privacy) vaccinations can be deployed at scale and with very little waiting time, tests are getting faster, and all of this may very well save some number of lives.
-This alone makes the policies quite sticky. Once the infrastructure is in place, and people are growing accustomed we become aware only of the risk of undoing them.
+This alone makes the policies quite sticky. Once the infrastructure is in place, and people are growing accustomed we become aware only of the risk of undoing them, 'just wear the mask it's not so bad.'.
 Next, we can look along the rights and freedoms axis.
 Here it is clear that these measures represent significant limitations on natural rights, facilitate further government encroachment, and make the policy undesirable under most people's values. 
 Although I agree with such objections, I think this is missing the point.
