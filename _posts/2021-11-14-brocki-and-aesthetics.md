@@ -45,11 +45,11 @@ Some observations on this framework (can be skipped).
 2. In my experience spending most of time with scientists, the failure to distinguish between these two elements is a temptation that leads to the 'fetishization' of science; the belief that science should be applied to domains beyond its scope.
 Even outside scientific circles, I often hear the pejorative 'anti-science' being used in disagreements about _values_.
 Science is a very useful mechanism for deciding the truth value for a particular set of facts, but can never say anything about what value should be assigned to it. I myself have struggled to shake the temptation of using science to decide on value sets. A science fetishist may propose a principe: we ought to choose value sets that can maximize some evidence-based measure such as survival or well-being. But on what evidence was does the principle itself stand? What evidence is there that we should enact that principle and not one where the survival of the blue jay is the sole aim?
-3. We should not confuse changes in our belief of facts with changes in values. C.S. Lewis' discussion of the old practice of witch hunts comes to mind here:
+3. For an extremely thorough analysis of patterns in the way we form values, see [The Righteous Mind by Jonathan Haidt](https://en.wikipedia.org/wiki/The_Righteous_Mind). 
+4. We should not confuse changes in our belief of facts with changes in values. C.S. Lewis' discussion of the old practice of witch hunts comes to mind here:
 
 > But surely the reason we do not execute witches is that we do not believe there are such things. If we did - if we really thought that there were people going about who had sold themselves to the devil and received supernatural powers from him in return and were using these powers to kill their neighbours or drive them mad or bring bad weather - surely we would all agree that if anyone deserved the death penalty, these filthy quislings did? There is no difference of moral principle here: the difference is simply about a matter of fact. It may be a great advance in knowledge not to believe in witches: there is no moral advance in not executing them when you do not think they are there. You would not call a man humane for ceasing to set mousetraps if he did so because he believed there were no mice in the house.
 
-4. For an extremely thorough analysis of patterns in the way we form values, see [The Righteous Mind by Jonathan Haidt](https://en.wikipedia.org/wiki/The_Righteous_Mind). 
 
 ---
 
