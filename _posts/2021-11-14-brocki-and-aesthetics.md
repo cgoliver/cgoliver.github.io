@@ -118,7 +118,7 @@ Without going into the current state of affairs, I address some extreme examples
 What do we make of the objection: 'Is a single life worth sacrificing for the sake of this 'aesthetic' value?'
 Of course I can't provide an exact answer here other than to say that whether we like it or not, we are already making this kind of choice, and so we may as well contemplate as large a fact set as reasonable.
 It is not unlikely that the policy which saves the most lives is the one where entire nations live in literal prisons. 
-Clearly we can't let the principle of safety be our only guiding light, and this toy example illustrates that of us already see value in some kind of balance.
+Clearly we can't let the principle of safety be our only guiding light, and this toy example illustrates that most of us already see value in some kind of balance.
 When our intuitions tell us the balance is under threat, I propose we notice that this is not the first time this happens.
 As I try to point out here with the architecture and film examples,  we can see this process unfolding throughout our culture.
 I believe that Monsieur Gustave was not merely a vain man, and that the architects and masons of old Europe did not toil out of boredom; rather they were demonstrating the value of celebrating our humanity even when it is costly.
