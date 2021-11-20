@@ -107,7 +107,7 @@ In 'How to be a Conservative', Sir Roger Scruton equates the experience of beaut
 
 Most people under normal circumstances would quickly see alienation painted all over recent COVID policies. 
 We can certainly agree that a  world without faces, hugs, handshakes, limited gathering sizes etc. is a decidedly colder one. 
-Is not the grey building in the above photo not a masked version of the one beside it?
+Is the grey building in the above photo not a masked version of the one beside it?
 The act of scanning a health QR code to enter our museums, monuments to the transcendental aspect of humanity, certainly feels a touch self-contradictory.
 So long as we believe in a human nature, we can say under any set of circumstances that each of these policies is a mark to fear, distrust, and vanity.
 These are meant to be obvious truths, but I fear the forces of habit and fear have made us blind to them. 
