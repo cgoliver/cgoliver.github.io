@@ -7,7 +7,7 @@ comments: True
 
 > “The mystery of human existence lies not in just staying alive, but in finding something to live for.” - Fyodor Dostoevsky
 
-When faced with a new and complex situation our we naturally try to condense it into digestable forms.
+When faced with a new and complex situation we naturally try to condense it into digestable forms.
 Hence, the marked emphasis on case numbers, $R_0$, fatality rates, vaccination rates in our headlines.
 We use these as proxies for well-being becuase they have the upside being very fast to define and measure. 
 Under the circumstances of a seemingly deadly pandemic, these can justifiably serve as evidence to the implementation of policies such as masking, distancing, plexiglass, vaccine coercion, etc (hereafter: _masks & co_).
