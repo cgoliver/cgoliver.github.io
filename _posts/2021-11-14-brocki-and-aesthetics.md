@@ -48,6 +48,7 @@ Science is a very useful mechanism for deciding the truth value for a particular
 3. We should not confuse changes in our belief of facts with changes in values. C.S. Lewis' discussion of the old practice of witch hunts comes to mind here:
 
 > But surely the reason we do not execute witches is that we do not believe there are such things. If we did - if we really thought that there were people going about who had sold themselves to the devil and received supernatural powers from him in return and were using these powers to kill their neighbours or drive them mad or bring bad weather - surely we would all agree that if anyone deserved the death penalty, these filthy quislings did? There is no difference of moral principle here: the difference is simply about a matter of fact. It may be a great advance in knowledge not to believe in witches: there is no moral advance in not executing them when you do not think they are there. You would not call a man humane for ceasing to set mousetraps if he did so because he believed there were no mice in the house.
+
 4. For an extremely thorough analysis of patterns in the way we form values, see [The Righteous Mind by Jonathan Haidt](https://en.wikipedia.org/wiki/The_Righteous_Mind). 
 
 ---
