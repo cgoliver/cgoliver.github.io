@@ -106,11 +106,11 @@ In 'How to be a Conservative', Sir Roger Scruton equates the experience of beaut
 > [Hence] our human need for beauty is not simply a redundant addition to the list of human appetites. It is not something that we could lack and still be fulfilled as people. It is a need arising from our metaphysical condition, as free individuals, seeking our place in an objective world. We can wander through this world, alienated, resentful, full of suspicion and distrust. Or we can find our home here, coming to rest in harmony with others and with ourselves. And the experience of beauty guides us along this second path: it tells us that we are at home in the world, that the world is already ordered in our perceptions as a place fit for the lives of beings like us.
 
 Most people under normal circumstances would quickly see alienation painted all over recent COVID policies. 
-These are meant to be obvious truths, but I fear the forces of habit and fear have made us blind to them. 
 We can certainly agree that a  world without faces, hugs, handshakes, limited gathering sizes etc. is a decidedly colder one. 
 Is not the grey building in the above photo not a masked version of the one beside it?
 The act of scanning a health QR code to enter our museums, monuments to the transcendental aspect of humanity, certainly feels a touch self-contradictory.
 So long as we believe in a human nature, we can say under any set of circumstances that each of these policies is a mark to fear, distrust, and vanity.
+These are meant to be obvious truths, but I fear the forces of habit and fear have made us blind to them. 
 
 Given these facts, comes the question of value.
 Of course, under _certain_ states of affairs, such measures can indeed be desirable or at least necessary.
