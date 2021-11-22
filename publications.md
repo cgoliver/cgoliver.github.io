@@ -59,7 +59,7 @@ tr:nth-child(even) {
     <td><img src="/assets/rnaglib.png" id="fig"></td>
     <td><b>RNAGlib: A Python Package for RNA 2.5D Graphs. </b> <br>
 	Vincent Mallet, Carlos Oliver, Jonathan Broadbent,  William L. Hamilton, Jerome Waldispuhl<br>
-	<i> In revision at Bioinformatics </i>(<a href="https://arxiv.org/abs/2109.04434">preprint</a>)</td>
+	<i> Bioinformatics 2021 </i>(<a href="https://arxiv.org/abs/2109.04434">preprint</a><a href="https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btab768/6428528?redirectedFrom=fulltext">article</a>)</td>
   </tr>
 
   <tr>
