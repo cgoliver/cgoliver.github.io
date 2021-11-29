@@ -12,7 +12,7 @@ For that purpose, we define the following criterion given a dictionary and a dat
 
 $$ || X - DR ||_2^2 $$
 
-where R can be thought of soft assignment of each point each dictionary term. Thus, $R \ in \mathbb{R}^{M}$ and tells us to which degree each data point belongs to each term.
+where R can be thought of soft assignment of each point each dictionary term. Thus, $R \in \mathbb{R}^{M}$ and tells us to which degree each data point belongs to each term.
 With this, we have a representation for each data point.
 To ensure that the representation will be sparse, we typically add a term to
 the loss which penalizes the norm of the representation vectors.
@@ -40,11 +40,11 @@ plt.show()
 
 ![]({{site.url}}/assets/scatter.png)
 
-Now we build a model that has two main components: an parameter matrix which
+Now we build a model that has two main components: a parameter matrix which
 holds our dictionray terms, and an attributor which in this case will be a
 simple linear model.
 
-```
+```python
 class DictionaryLearning(torch.nn.Module):
 
     def __init__(self, dim, n_terms):
@@ -76,7 +76,8 @@ class DictionaryLearning(torch.nn.Module):
 ```
 
 
-Now we can train the model
+Now we can train the model.
+We know that the data has two components so we'll choose 2 dictionary terms. But different choices of $M$ can have different interpretations.
 
 ```python
 epochs = 10000
@@ -106,7 +107,7 @@ the data.
 
 ![]({{site.url}}/assets/dict_2.png)
 
-![]({{site.url}}/assets/dict_2.png)
+![]({{site.url}}/assets/dict_3.png)
 
 
 
