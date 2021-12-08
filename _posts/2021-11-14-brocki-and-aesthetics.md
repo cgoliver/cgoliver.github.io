@@ -132,4 +132,11 @@ It is through this lens that I think we can find some common ground with those t
 Those trying to do away with a unidimensional focus safety are not selfish or anti-science (necessarily) rather, they are simply expanding the domain of value and seeing viruses beyond COVID.
 Regarldess of any given state of affairs, we should not underestimate the usefulness of insisting on the simple and uncontroversial fact that masks are an ugly sight; and by that token a serious threat to the health of the soul.
 
+NOTE
+
+I should also add that I was trying here to work with a minimally sufficient set of facts that could defeat the choice for using masks. If the mimimal set (aesthetic concerns) defeats the decision to wear the masks we would not need to give it further consideration. However, it is also clear that more pressing concerns with masks wearings should be considered:
+
+* Faces are an integral part to political freedom and basic definitions of being human. ([source](https://stiriinternationale.ro/the-face-and-the-mask-giorgio-agamben/))
+* Considerable risks for psychological development of children. ([source](https://www.sciencedirect.com/science/article/pii/S1355184120301770?casa_token=pWrACQaLLVwAAAAA:ASI_sXd8deKGuufLvfiJLAVap_8gojRP4--_sYxZoTaOtyLdHyUTClqGIUuzxKQRghJBBbzMgQ))
+
 
