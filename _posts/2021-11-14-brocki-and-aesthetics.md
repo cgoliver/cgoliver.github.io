@@ -18,7 +18,7 @@ Early alarm bells were sounded by [Douglas Farrow](https://www.catholicworldrepo
 Unfortunately, [recent experience](https://www.nationalgeographic.com/science/article/will-americans-wear-masks-to-prevent-sickness-beyond-covid-19) suggests that the warnings were indeed well-placed.
 Despite hospitalizations reaching manageable levels and vaccinations and treatments becoming widely available, masks & co. show no sign of retreat.
 On pure logical grounds, this should raise red flags.
-When the proxies ($R_0$, case counts, etc.) no longer hold but their effects remain, we must ask ourselves has stepped in to take their place? 
+When the proxies ($R_0$, case counts, etc.) no longer hold but their effects remain, we must ask ourselves, what has stepped in to take their place? 
 Here I claim we are also back in familiar territory.
 It is not hard to notice that the tempatations of habit, fear, and unidimensional thinking have played themselves out at every point in our culture. 
 And it is ultimately vices that snuck into the supporting role for policies which, under normal circumstances, are not justifiable for their undermining of core human values.
@@ -97,7 +97,7 @@ This alone makes the policies quite sticky. Once the infrastructure is in place,
 Next, we can look along the rights and freedoms axis.
 Here it is clear that these measures represent significant limitations on natural rights, facilitate further government encroachment, and make the policy undesirable under most people's values. 
 Although I agree with such objections, I think this is missing the point.
-That being, why do we care to fight for the preservation things like the right to not wear a mask in the first place?
+That being, why do we care to fight for the preservation of things like the right to not wear a mask in the first place?
 If we didn't care about these rights for some reason other than their being rights, I don't think there would be as much controversy around these discussions. 
 Finally, arguing along this axis carries a lot of political baggage so it is best if we can find a deeper and hence more unifying dimension.
 This leaves the aesthetic dimension; is beauty adequately sustained under this state of affairs?
