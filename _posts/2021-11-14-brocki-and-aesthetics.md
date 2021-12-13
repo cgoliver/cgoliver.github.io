@@ -21,7 +21,7 @@ On pure logical grounds, this should raise red flags.
 When the proxies ($R_0$, case counts, etc.) no longer hold but their effects remain, we must ask ourselves, what has stepped in to take their place? 
 Here I claim we are also back in familiar territory.
 It is not hard to notice that the tempatations of habit, fear, and unidimensional thinking have played themselves out at every point in our culture. 
-And it is ultimately vices that snuck into the supporting role for policies which, under normal circumstances, are not justifiable for their undermining of core human values.
+And it is ultimately these vices that snuck into the supporting role for policies which, under normal circumstances, are not justifiable for their undermining of core human values.
 By looking at the way we reason about moral arguments, and drawing from simple examples from daily life I show that we ought to go back to considering a larger picture of human value if we are to avoid a fundamentally ugly future.
 
 
