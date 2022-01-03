@@ -13,6 +13,8 @@ This is a live page with my latest reading notes for various scientific topics.
 > Authors: Liisa Holm and Chris Sander 
 > Date: 1993 
 
+[paper](http://www.marcottelab.org/users/CH391L/Handouts/dali.pdf)
+
 *Background:*  Aligning 3D structures of proteins is crucial for discovering functional sub-structures, protein classification, and understanding new proteins.
 At the time of writing, this paper was among the first to propose a general tool for comparing solved 3D structures of proteins.
 The exact alignment problem is NP-Hard, hence the authors propose an approximate method.
