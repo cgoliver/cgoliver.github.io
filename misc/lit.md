@@ -31,6 +31,33 @@ To obtain a full alignment, a seed match is chosen and extended through a monte 
 This process is of course not guaranteed to identify the global minimum, and is sensitive to starting conditions.
 However, the authors repeat the process and show that the algorithm remains quite robust and finds alignments close to the global optimum.
 
+### Hydrogen bonds meet self-attention: all you need for general-purpose protein structure embedding.
+
+[paper](https://www.biorxiv.org/content/10.1101/2021.01.31.428935v2.full.pdf)
+
+*Methods*
+
+* Neural network architectureis proposed to encode protein 3D structures based on local and global information.
+* First, all pairs of residues connected by hydrogen bonds are extracted. A $k$ residue window along the backbone of each residue is added for contact. An MLP is then used to encode the corresponding carbon-alpha distance matrix into a fixed-size embedding.
+* Once an embedding for each bond is computed, a transformer with all-to-all attention is used to pool the embeddings into a single global embedding.
+* The model is trained end-to-end on the [SCOP](https://scop.berkeley.edu/) protein classification. That is, embeddings are trained to be able to predict the structural family of a given protein.
+* Authors show that state of the art performance on SCOP classification is achieved, and that a good correlation with TM-score when using embeddings to retrieve structurally similar proteins is also achieved.
+
+*Comments*
+
+* The model still requires external supervision to work, so the claim that this is a 'general purpose' embedding is somewhat misleading.
+* Transformer model attends to all pairs of hydrogen bonds, probably could take advantage of some sparsity there.
+
+### Structure-based function prediction using graph convolution networks
+
+[paper](https://www.nature.com/articles/s41467-021-23303-9?sap-outbound-id=1737F1826ED10868191D41AF22CE6ACD9A144D59)
+
+* Very simple idea thoroughly examined.
+* Protein structures often offer richer information than protein sequences, however the former are much harder to obtain and thus less available.
+* Language models have been shown to yield rich embeddings of protein residues within their local context (model trained to predict residue given its neighboring residues).
+* When a structure is known, sequence embeddings trained on a large corpus are used as node features and a graph convolution network yields an encoding of the contact map.
+* Model is trained to predict Gene Ontology classification for proteins and shows state of the art performance.
+* [Class Activation Maps](https://medium.com/@GaganaB/class-activation-maps-551477720679) are applied to trace back the importance of protein regions for the prediction.
 
 ## Biology
 
