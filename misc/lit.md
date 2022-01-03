@@ -4,18 +4,39 @@ layout: page
 
 ---
 
-This is a live page with my latest reading on various scientific topics.
-Each section includes subsections which consist either of summaries/thoughts on articles or explanations of general concepts.
+This is a live page with my latest reading notes for various scientific topics.
 
-# Bioinformatics
+## Bioinformatics
 
-# Biology
+### Protein Structure Comparison by Alignment of Distance Matrices 
 
-# General Machine Learning
+> Authors: Liisa Holm and Chris Sander 
+> Date: 1993 
 
-# Graph Theory
+*Background:*  Aligning 3D structures of proteins is crucial for discovering functional sub-structures, protein classification, and understanding new proteins.
+At the time of writing, this paper was among the first to propose a general tool for comparing solved 3D structures of proteins.
+The exact alignment problem is NP-Hard, hence the authors propose an approximate method.
 
-# Graph Machine Learning
+*Results:* This work presents DALI, which is still a widely used protein-protein alignment tool.
+The algorithm performs matching of distance matrices between two proteins.
+To prune the search space, DALI extracts contiguous blocks of 6 amino acids from the distance matrices of each protein.
+These blocks form the objects which are to be matched so as to minimize a penalty function applied to matched blocks $i, j$:
 
-# Reinforcement Learning
+$$ S = \sum_{i}^{L} \sum_{j}^{L} \phi(i, j) $$
+
+Typically, $\phi$ is a function of the intra-residue distance of the matched blocks with some normalizations.
+To obtain a full alignment, a seed match is chosen and extended through a monte carlo search.
+This process is of course not guaranteed to identify the global minimum, and is sensitive to starting conditions.
+However, the authors repeat the process and show that the algorithm remains quite robust and finds alignments close to the global optimum.
+
+
+## Biology
+
+## General Machine Learning
+
+## Graph Machine Learning
+
+## Graph Theory
+
+## Reinforcement Learning
 
