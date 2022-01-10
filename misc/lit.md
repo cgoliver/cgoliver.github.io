@@ -26,11 +26,11 @@ This is a live page with my latest reading notes for various scientific topics.
 * Here, the p-value of a node is denoted as $c_i$
 * From these criteria we get the following optimization problem for a network of $n$ SNPs
 
-$$ /argmax_{f \in \{0, 1\}^n} c^Tf - \lambda f^TLf - \ita || f ||_0$$ 
+$$ \argmax_{f \in \{0, 1\}^n} c^Tf - \lambda f^TLf - \nu || f ||_0$$ 
 
 where $f_i$ is 1 if node $i$ is selected and 0 otherwise. The first term controls the additive significance of the seleted nodes, the second term penalizes disconnected subgraphs since it depends on the graph Laplacian $L$, and the final term is a sparsity constraint since the additive term will encourage selecting all nodes.
 * By rewriting some terms, the optimization is expressed as a min-cut problem over the same graph with two auxilliary nodes inserted $s, t$.
-* $s$ is connected to all nodes with a p-value above a threshold $\ita$ and $t$ to all nodes below the threshold.
+* $s$ is connected to all nodes with a p-value above a threshold $\nu$ and $t$ to all nodes below the threshold.
 * Min-cut max flow solvers can then be used and the resulting $f$ tells us which nodes were selected.
 
 
