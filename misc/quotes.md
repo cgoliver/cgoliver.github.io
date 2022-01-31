@@ -18,5 +18,5 @@ This is a live page containing some quotes that I find interesting.
 > For socialism is not merely the labour question, it is before all things the atheistic question, the question of the form taken by atheism to-day, the question of the tower of Babel built without God, not to mount to Heaven from Earth but to set up Heaven on earth.  
 > Fyodor Dostoevsky, The Brothers Karamazov
 
-> In the mouth of the foolish is a rod of pride: but the lips of the wise shall preserve them.
+> In the mouth of the foolish is a rod of pride: but the lips of the wise shall preserve them.  
 > Proverbs 14:3
