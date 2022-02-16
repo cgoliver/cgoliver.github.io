@@ -21,7 +21,7 @@ button:focus{
 
 <script>
 function Copy(id){
-navigator.clipboard.writeText("https://carlosoliver.co/misc/quotes.html#" + id);
+navigator.clipboard.writeText("https://carlosoliver.co/misc/lit.html#" + id);
 console.log("https://carlosoliver.co/misc/quotes.html#" + id);
 }
 
