@@ -37,7 +37,7 @@ This is a live page with my latest reading notes for various scientific topics.
 <div id='foldseek'>
 </div>
 
-## Foldseek: fast and accurate protein structure search <button onclick="Copy('foldseek')"><button>
+<h2> Foldseek: fast and accurate protein structure search </h2> <button onclick="Copy('foldseek')"><button>
 
 > Authors: van Kempen et al.
 
