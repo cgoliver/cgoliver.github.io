@@ -12,6 +12,7 @@ button {
     cursor:pointer;
     overflow: hidden;
     outline:none;
+    color: #a00;
 }
 </style>
 
