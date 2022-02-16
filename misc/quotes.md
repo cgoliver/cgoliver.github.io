@@ -14,7 +14,7 @@ button {
     outline:none;
     color: #a00;
 }
-button:after{
+button:focus{
    content:"[copied]";
 }
 </style>
