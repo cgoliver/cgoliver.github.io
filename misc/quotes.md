@@ -27,7 +27,7 @@ console.log("https://carlosoliver.co/misc/quotes.html#" + id);
 
 </script>
 
-This is a live page containing some quotes that I find interesting. Quotes are in alphabetical order by author last name. Bible verses are considered to have 'B' as the author letter.
+This is a live page of quotes that I find interesting. Quotes are in alphabetical order by author last name. Bible verses are considered to have 'B' as the author letter.
 
 ---
 
