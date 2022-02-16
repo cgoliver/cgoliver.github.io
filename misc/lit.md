@@ -40,6 +40,7 @@ This is a live page with my latest reading notes for various scientific topics.
 ## Foldseek: fast and accurate protein structure search
 
 > Authors: van Kempen et al.
+
 > Date: 2022
 
 [paper](https://www.biorxiv.org/content/biorxiv/early/2022/02/09/2022.02.07.479398.full.pdf)
@@ -63,6 +64,7 @@ This is a live page with my latest reading notes for various scientific topics.
 ## Efficient network-guided multi-locus association mapping with graph cuts
 
 > Authors: Azencott et al.
+
 > Date: 2013
 
 [paper](https://academic.oup.com/bioinformatics/article/29/13/i171/198210)
@@ -94,6 +96,7 @@ where $f_i$ is 1 if node $i$ is selected and 0 otherwise. The first term control
 ### Protein Structure Comparison by Alignment of Distance Matrices 
 
 > Authors: Liisa Holm and Chris Sander 
+
 > Date: 1993 
 
 [paper](http://www.marcottelab.org/users/CH391L/Handouts/dali.pdf)
@@ -153,6 +156,7 @@ However, the authors repeat the process and show that the algorithm remains quit
 ### Representation Learning for Frequent Subgraph Mining
 
 > Authors: Rex Ying et al.
+
 > Date: 2021
 
 <button onClick="Copy('sp-miner')">[copy link]</button>
