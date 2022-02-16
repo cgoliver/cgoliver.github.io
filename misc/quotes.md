@@ -26,6 +26,8 @@ console.log("https://carlosoliver.co/misc/quotes.html#"+id);
 
 This is a live page containing some quotes that I find interesting.
 
+---
+
 <div id="1">
 </div>
 To my thinking, miracles are never a stumbling block to the realist. It is not miracles that dispose realists to belief...Faith does not, in the realist, spring from the miracle but the miracle from faith.  
