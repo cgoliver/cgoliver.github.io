@@ -174,3 +174,26 @@ An iterative method for obtaining motifs is then proposed which moves through th
 The main limitations are that there is no statistical notion of sufficient representation, and the notion of structural similarity between motifs is not dealt with.
 Additionally, the use of GCNs as the representation function and training method make it such that the type of motif recoverable is of a certain structure, namely a `node-anchored subgraph'. 
 
+<div id='gromov'></div>
+### Scalable Gromov-Wasserstein Learning for Graph Partitioning and Matching
+
+> Authors: Rex Ying et al.
+
+> Date: 2021
+
+[paper](https://proceedings.neurips.cc/paper/2019/file/6e62a992c676f611616097dbea8ea030-Paper.pdf)
+<button onClick="Copy('gromov')">[copy link]</button>
+
+* Gromov-Wasserstein discrepancy between graphs is a mapping from nodes in $G_s$ to $G_t$ which minimizes a cost on pairs of nodes mapped to each other. 
+
+$$d_{gw)(G_s, G_t)} = \min_{T \in \Pi(\mu_s, \mu_t)} \bigg( \sum_{i, j \in \mathcal{V})s} \sum_{i', j' \in \mathcal{V}_t} |c_{ij}^s - c_{i' j'}|^{p}T_{ii'}T_{jj'}\bigg)  $$,
+
+where $\Pi(\mu_s, \mu_t) = \{T \geq 0 | T1_{|\mathcal{V}_t|} = \muT^{T}1_{|\mathcal_{V}_s|}. 
+
+
+
+
+
+
+
+
