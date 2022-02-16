@@ -14,6 +14,9 @@ button {
     outline:none;
     color: #a00;
 }
+button:after{
+   content:"[copied]";
+}
 </style>
 
 <script>
