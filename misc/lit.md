@@ -4,16 +4,69 @@ layout: page
 
 ---
 
+<style>
+button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    color: #a00;
+}
+button:focus{
+   color:#595959;
+}
+</style>
+
+<script>
+function Copy(id){
+navigator.clipboard.writeText("https://carlosoliver.co/misc/quotes.html#" + id);
+console.log("https://carlosoliver.co/misc/quotes.html#" + id);
+}
+
+</script>
+
+
 This is a live page with my latest reading notes for various scientific topics.
+
+---
 
 ## Bioinformatics
 
+<div id='foldseek'>
+</div>
+
+## Foldseek: fast and accurate protein structure search
+
+> Authors: van Kempen et al.
+> Date: 2022
+
+[paper](https://www.biorxiv.org/content/biorxiv/early/2022/02/09/2022.02.07.479398.full.pdf)
+<button onclick="Copy('foldseek')">[copy link]</button>
+
+
+* Given a query protein 3D structure and a protein database, return the most similar structures to the query in the database.
+* Established tools for this task are: DALI, and TMAlign
+* Both perform a kind of matching between structures. Dali works on matching contact maps, and TMAlign directly on structures. The resulting matchings tend to favor global compatibility and have the disadvantage of being computationally expensive.
+* Foldseek tries to propose a search system that can scale to databases of millions of protein structures.
+* The idea is to flatten a 3D structure into a sequence (similar to 3DBLAST) since searching over sequences is fast.
+* Unlike the 3DBLAST method which encodes backbone conformations into the sequence, Foldseek includes contact information (i.e. the conformation of the contact between the residue being encoded and its nearest neighbor in 3D space)
+* The types of conformations are binned into 20 categories to give rise to a 'conformation alphabet'
+* This results in a mapping from 3D structures to sequences with an augmented alphabet.
+* Given a query, a BLAST filtering narrows down promising candidates, and the hits are refined using Smith-Waterman sequence alignment.
+* SCOP is used to evaluate the retrieval accuracy of the tool.
+* Manual inspection suggests that Foldseek is able to recover locally matching structures.
+
+<div id='scones'>
+</div>
 ## Efficient network-guided multi-locus association mapping with graph cuts
 
 > Authors: Azencott et al.
 > Date: 2013
 
 [paper](https://academic.oup.com/bioinformatics/article/29/13/i171/198210)
+<button onclick="Copy('scones')">[copy link]</button>
 
 * Genome-wide association studies use genomic sequences from multiple individuals for which a given phenotype is known to compute the degree to which a given single-nucleotide polymorphism is associated to the phenotype.
 * Usually, the association is expressed as a p-value.
@@ -34,12 +87,17 @@ where $f_i$ is 1 if node $i$ is selected and 0 otherwise. The first term control
 * Min-cut max flow solvers can then be used and the resulting $f$ tells us which nodes were selected.
 
 
+
+<div id='dali'>
+</div>
+
 ### Protein Structure Comparison by Alignment of Distance Matrices 
 
 > Authors: Liisa Holm and Chris Sander 
 > Date: 1993 
 
 [paper](http://www.marcottelab.org/users/CH391L/Handouts/dali.pdf)
+<button onclick="Copy('dali')">[copy link]</button>
 
 *Background:*  Aligning 3D structures of proteins is crucial for discovering functional sub-structures, protein classification, and understanding new proteins.
 At the time of writing, this paper was among the first to propose a general tool for comparing solved 3D structures of proteins.
@@ -57,9 +115,11 @@ To obtain a full alignment, a seed match is chosen and extended through a monte 
 This process is of course not guaranteed to identify the global minimum, and is sensitive to starting conditions.
 However, the authors repeat the process and show that the algorithm remains quite robust and finds alignments close to the global optimum.
 
+<div id='hydrogen'></div>
 ### Hydrogen bonds meet self-attention: all you need for general-purpose protein structure embedding.
 
 [paper](https://www.biorxiv.org/content/10.1101/2021.01.31.428935v2.full.pdf)
+<button onclick="Copy('dali')">[copy link]</button>
 
 *Methods*
 
@@ -74,9 +134,11 @@ However, the authors repeat the process and show that the algorithm remains quit
 * The model still requires external supervision to work, so the claim that this is a 'general purpose' embedding is somewhat misleading.
 * Transformer model attends to all pairs of hydrogen bonds, probably could take advantage of some sparsity there.
 
+<div id='func-pred'></div>
 ### Structure-based function prediction using graph convolution networks
 
 [paper](https://www.nature.com/articles/s41467-021-23303-9?sap-outbound-id=1737F1826ED10868191D41AF22CE6ACD9A144D59)
+<button onClick="Copy('func-pred')">[copy link]</button>
 
 * Very simple idea thoroughly examined.
 * Protein structures often offer richer information than protein sequences, however the former are much harder to obtain and thus less available.
@@ -85,16 +147,15 @@ However, the authors repeat the process and show that the algorithm remains quit
 * Model is trained to predict Gene Ontology classification for proteins and shows state of the art performance.
 * [Class Activation Maps](https://medium.com/@GaganaB/class-activation-maps-551477720679) are applied to trace back the importance of protein regions for the prediction.
 
-## Biology
-
-## General Machine Learning
-
 ## Graph Machine Learning
 
+<div id='sp-miner'></div>
 ### Representation Learning for Frequent Subgraph Mining
 
 > Authors: Rex Ying et al.
->> Date: 2021
+> Date: 2021
+
+<button onClick="Copy('sp-miner')">[copy link]</button>
 
 *Background:* The goal here is to identify subgraphs that have some minimum number of occurrences in a set of graphs.
 Hence, a motif in this context is a specific subgraph with a certain number of occurrences.
@@ -109,9 +170,4 @@ An iterative method for obtaining motifs is then proposed which moves through th
 
 The main limitations are that there is no statistical notion of sufficient representation, and the notion of structural similarity between motifs is not dealt with.
 Additionally, the use of GCNs as the representation function and training method make it such that the type of motif recoverable is of a certain structure, namely a `node-anchored subgraph'. 
-
-
-## Graph Theory
-
-## Reinforcement Learning
 
