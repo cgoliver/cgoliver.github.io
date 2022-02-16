@@ -24,9 +24,13 @@ Fyodor Dostoevsky, *The Brothers Karamazov* <button onclick="myFunction('1')">co
 For socialism is not merely the labour question, it is before all things the atheistic question, the question of the form taken by atheism to-day, the question of the tower of Babel built without God, not to mount to Heaven from Earth but to set up Heaven on earth.  
 -- Fyodor Dostoevsky, *The Brothers Karamazov* <button onclick="myFunction('2')">copy link</button>
 
-> In the mouth of the foolish is a rod of pride: but the lips of the wise shall preserve them.  
-> -- Proverbs 14:3
+<div id="3">
+</div>
+In the mouth of the foolish is a rod of pride: but the lips of the wise shall preserve them.  
+-- Proverbs 14:3 <button onclick="myFunction('3')">copy link</button>
 
-> My bad dreams were of two kinds, those about spectres and those about insects. The second were, beyond comparison, the worse; to this day I would rather meet a ghost than a tarantula. [...] As Owen Barfield once said to me, 'The trouble about insects is that they are like French locomotives - they have all the works on the outside.' The *works* - that is the trouble. Their angular limbs, their jerky movements, their dry, metallic noises, all suggest either machines that have come to life or life degenerating into mechanism. You may add that in the hive and the ant-hill we see fully realised the two things that some of us most dread for our own species - the dominance of the female and the dominance of the collective.
-> -- CS Lewis, Surprised By Joy
+<div id="4">
+</div>
+My bad dreams were of two kinds, those about spectres and those about insects. The second were, beyond comparison, the worse; to this day I would rather meet a ghost than a tarantula. [...] As Owen Barfield once said to me, 'The trouble about insects is that they are like French locomotives - they have all the works on the outside.' The *works* - that is the trouble. Their angular limbs, their jerky movements, their dry, metallic noises, all suggest either machines that have come to life or life degenerating into mechanism. You may add that in the hive and the ant-hill we see fully realised the two things that some of us most dread for our own species - the dominance of the female and the dominance of the collective.
+-- CS Lewis, *Surprised By Joy* <button onclick="myFunction('4')">copy link<button>
 
