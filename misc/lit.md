@@ -188,8 +188,7 @@ Additionally, the use of GCNs as the representation function and training method
 
 $$d_{gw}(G_s, G_t) = min_{T \in \Pi(\mu_s, \mu_t)} \bigg( \sum_{i, j \in \mathcal{V}_s} \sum_{i', j' \in \mathcal{V}_t} |c_{ij}^s - c_{i' j'}^t|^{p}T_{ii'}T_{jj'} \bigg)$$,
 
-where $\Pi(\mu_s, \mu_t) = \{T \geq 0 | T1_{|\mathcal{V}_t|\} = \muT^{T}1_{|\mathcal_{V}_s|}$. The vector $\mu$ contains a probability for every node in the graph, and $C_{ij}$ is the adjacency (or edge weight) information for nodes $i$ and $j$.
-
+where $\Pi(\mu_s, \mu_t) = \{ T \geq 0 | T1_{|\mathcal{V}_t|} = \mu_s,  T^{T}1_{|\mathcal{V}_s|} = \mu_t \}$. The vector $\mu$ contains a probability for every node in the graph, and $C_{ij}$ is the adjacency (or edge weight) information for nodes $i$ and $j$.
 
 
 
