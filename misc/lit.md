@@ -234,6 +234,7 @@ $$ GED(G_s, G_t) = \min_{(e_1, ..., e_k) \in \upsilon(G_s, G_t)} \sum_{i=1}^{k} 
 where $\upsilon(G_s, G_t)$ is a set of sequences of edit operations $e_i$ and $c(e_)$ assigns a numeric cost to each operation.
 Edit operations typically consist of substitions which look like an assignment from a node in $G_s$ to a node in $G_t$, insertions and deletions which look like the creation of removal of nodes in one of the graphs.
 This function is very flexible because it allows us to assign specific cost depending on the graph and the insertion/deletion operations accomodate for matching graphs to subgraphs when comapring graphs of different sizes. 
+Of course, the cardinality of $\upsilon$ grows exponentially with the size of the graphs.
 
 * Graph partitioning is traditionally done by identifying subgraphs which have high connectivity within itself and low connectivity to the rest of the graph. This is also known as 'modularity'.
 * If we think of each 'module' as forming a single 'super node' then a partitioned graph corresponds to a set of disconnected 'super nodes'.
