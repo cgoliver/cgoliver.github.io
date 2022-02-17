@@ -235,3 +235,94 @@ Of course this can be hacked by just making $\bf T \rightarrow \bf 0$ but this t
 Relevant literature:
 
 * [Wasserstein-based Graph Alignment](https://arxiv.org/pdf/2003.06048.pdf)
+
+## Graph Theory
+
+### Approximate Graph Mining with Label Costs
+
+> Authors: Anchuri et al.
+
+> Year: 2013
+
+Most motif mining papers try to find patterns (motifs) that are isomorphic to a large number of subgraphs in a dataset of graphs.
+Here, the authors ateempt to relax the constraint in the setting where nodes have a 'label' and allow motifs to match subgraphs with some discrepancy in the node labels. 
+
+
+[paper](https://dl.acm.org/doi/pdf/10.1145/2487575.2487602)
+
+
+### ASAP: Fast, Approximate Graph Pattern Mining at Scale
+
+
+> Authors: Iyer et al.
+
+> Year: 2018
+
+
+[paper](https://www.usenix.org/system/files/osdi18-iyer.pdf)
+
+
+### REAFUM: Representative Approximate Frequent Subgraph Mining
+
+[paper](https://epubs.siam.org/doi/pdf/10.1137/1.9781611974010.85)
+
+
+### Ap-FSM: A parallel algorithm for approximate frequent subgraph mining using Pregel
+
+[paper](https://www.sciencedirect.com/science/article/pii/S0957417418302409?casa_token=nOi8L-oTtdAAAAAA:jZiYPorKCqA-vD-S4vRk_NC6EdRrrJWwQ8X8B9Rl_3IsVKOpbPbH1SGvObNr2BP5gsvKhijrPqY)
+
+
+### A survery of frequent subgraph mining algorithms
+
+[paper](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A58904230A6680001F17FCE91CB8C65F/S0269888912000331a.pdf/survey_of_frequent_subgraph_mining_algorithms.pdf)
+
+
+### ManIACS: Approximate Mining of Frequent Subgraph Patterns through Sampling
+
+[paper](https://dl.acm.org/doi/pdf/10.1145/3447548.3467344)
+
+
+### TKG: Efficient Mining of Top-K Frequent Subgraphs
+
+[paper](http://www.philippe-fournier-viger.com/2019_BDA_TKG_Top-k-subgraphs.pdf)
+
+
+### MARGIN: Maximal Frequent Subgraph Mining
+
+[paper](https://dl.acm.org/doi/pdf/10.1145/1839490.1839491)
+
+
+### Frequent subgraph mining for biologically meaningful structural motifs
+
+
+[paper](https://www.biorxiv.org/content/10.1101/2020.05.14.095695v1.full.pdf)
+
+### Large graph sampling algorithm for frequent subgraph mining
+
+[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9456952)
+
+### Pangolin: An efficient and flexible graph mining system on CPU and GPU
+
+[paper](https://dl.acm.org/doi/pdf/10.14778/3389133.3389137)
+
+
+### G-Finder: Approximate Attributed Subgraph matching
+
+[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9006525&casa_token=YCeHeY_6yVMAAAAA:wimWLdTB2NrnGo4MX20on-29kDLzIiuwWoHF5uZN8UFsg89MzMB_x6y_xSYGxfS7QKRNM8cFrA&tag=1)
+
+### Extension of Canonical Adjacency Matrices for Frequent Approximate Subgraph Mining on Multi-Graph Collections
+
+[paper](https://www.worldscientific.com/doi/pdf/10.1142/S0218001417500252?casa_token=7ivI3tIMuroAAAAA:UJYDJK7x9fZsbvUf1yUw66uJtFL-PZLqgP5Q3ZA57Kcu0seTUHe63GHlEf813K24XoVPqlcBqMNJ)
+
+### An Efficient System for Subgraph Discovery
+
+[paper](https://ieeexplore.ieee.org/abstract/document/8622126?casa_token=-ggWYIFBr5UAAAAA:oBHVjU2431vhZ9NcxwNhEi61vJ-Y41IBidKlJMcPC-2yyk_tPDt8MV-Q8512QSIZZKIEogcT-g)
+
+### Efficiently mining recurrent substructures from protein three-dimensional structure graphs
+
+[paper](https://www.liebertpub.com/doi/full/10.1089/cmb.2018.0171)
+
+
+### Frequent pattern mining in big social graphs
+
+[paper](https://ieeexplore.ieee.org/abstract/document/9395505?casa_token=pflfaIYzMw8AAAAA:kaj7b1HSztGLjlTbJ5SQNeYbn6oV-eoF80kURwUvQpwJ0xZSGnofgdSny6D7kU3E73yO6lZkMg)
