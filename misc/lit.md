@@ -203,9 +203,9 @@ Additionally, the use of GCNs as the representation function and training method
 <div id='gromov'></div>
 ### Scalable Gromov-Wasserstein Learning for Graph Partitioning and Matching
 
-> Authors: Rex Ying et al.
+> Authors: Xu et al.
 
-> Date: 2021
+> Date: 2019 
 
 [paper](https://proceedings.neurips.cc/paper/2019/file/6e62a992c676f611616097dbea8ea030-Paper.pdf)
 <button onClick="Copy('gromov')">[copy link]</button>
