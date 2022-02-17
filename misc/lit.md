@@ -219,13 +219,21 @@ $$ d_{gw}(G_s, G_t) = \min_{\bf T \in \Pi(\bf \mu_s, \bf \mu_t)} \bigg( \sum_{i,
 where $$\Pi(\bf \mu_s, \bf \mu_t) = \{ \bf T \geq \bf 0 \vert \bf T1_{\lvert \mathcal{V}_t \rvert} = \bf \mu_s,  \bf T^{T} \bf 1_{\lvert \mathcal{V}_s \rvert} = \bf \mu_t \}$$
 
 The double summation reads as: for each pair of nodes $i, j$ in the nodes of $G_s$, look at each pair of nodes $i', j'$ in $G_t$ and compute a score. 
-The score is given by the difference in adjacency between $i, j$ and $i', j'$. 
+The first term in score is given by the difference in adjacency between $i, j$ and $i', j'$. 
 So the absolute value term is zero when the pair of nodes in $G_s$ and in $G_t$ being looked at is eithr both adjacent or non-adjacent.
 This adjacency term which looks at the original graphs adjacency matrices $C$, is multiplied by the mapping state of the pairs, $\bf T$.
 Here, $\bf T_{ab}$ tells us whether node $a$ in the first graph is mapped to node $b$ in the second graph.
 So the term $T_{ii'}$ gives us the probability that $i \in G_s$ is assigned to $i' in G_t$.
 When this probability is large for both pairs of nodes, i.e. $i, j$ both have a high probability of being mapped to some $i', j'$, we punish discrepancies in their adjacency status, as measured by $\lvert c_{ij}^s - c_{i'j'}^t$.
 Of course this can be hacked by just making $\bf T \rightarrow \bf 0$ but this term is excluded in the search set $\Pi(\bf \bf \mu_s, \bf \mu_t)$ by only choosing $\bf T$ that assign probability from each node in $G_s$ to every other node in $G_t$.
+
+As an aside, I would like to contrast this distance function with the well-known graph edit distance (GED), which goes like this:
+
+$$ GED(G_s, G_t) = \min_{(e_1, ..., e_k) \in \upsilon(G_s, G_t)} \sum_{i=1}^{k} c(e_i),$$
+
+where $\upsilon(G_s, G_t)$ is a set of sequences of edit operations $e_i$ and $c(e_)$ assigns a numeric cost to each operation.
+Edit operations typically consist of substitions which look like an assignment from a node in $G_s$ to a node in $G_t$, insertions and deletions which look like the creation of removal of nodes in one of the graphs.
+This function is very flexible because it allows us to assign specific cost depending on the graph and the insertion/deletion operations accomodate for matching graphs to subgraphs when comapring graphs of different sizes. 
 
 * Graph partitioning is traditionally done by identifying subgraphs which have high connectivity within itself and low connectivity to the rest of the graph. This is also known as 'modularity'.
 * If we think of each 'module' as forming a single 'super node' then a partitioned graph corresponds to a set of disconnected 'super nodes'.
