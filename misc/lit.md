@@ -188,7 +188,7 @@ Additionally, the use of GCNs as the representation function and training method
 * The mapping is done in order to minimize the optimal transport between two node 'distributions' which typically reflect the degree distribution of the nodes in two graphs.
 * Using this distance, two other concepts are introduced: graph partitioining, and barycenter computation.
 
-$$ d_{gw}(G_s, G_t) = \min_{T \in \Pi(\mu_s, \mu_t)} $$
+$$ d_{gw}(G_s, G_t) = \min_{T \in \Pi(\mu_s, \mu_t)} \bigg(   \bigg) $$
 
 $$ d_{gw}(G_s, G_t) = min_{T \in \Pi(\mu_s, \mu_t)} \bigg( \sum_{i, j \in \mathcal{V}_s} \sum_{i', j' \in \mathcal{V}_t} |c_{ij}^s - c_{i' j'}^t|^{p}T_{ii'}T_{jj'} \bigg) $$,
 
