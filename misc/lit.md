@@ -34,10 +34,25 @@ This is a live page with my latest reading notes for various scientific topics.
 
 ## Bioinformatics
 
+### Learning structural motif representations for efficient protein structure search
+
+<div id='deepfold'></div>
+
+> Authors: Liu et al.
+
+> Date: 2018
+
+[paper](https://academic.oup.com/bioinformatics/article/34/17/i773/5093231?login=false)
+
+
+
 <div id='foldseek'>
 </div>
 
-<h2> Foldseek: fast and accurate protein structure search </h2> <button onclick="Copy('foldseek')">[copy link]<button>
+### Foldseek: fast and accurate protein structure search 
+
+
+<button onclick="Copy('foldseek')">[copy link]<button>
 
 > Authors: van Kempen et al.
 
@@ -190,7 +205,7 @@ Additionally, the use of GCNs as the representation function and training method
 
 $$ d_{gw}(G_s, G_t) = \min_{\bf T \in \Pi(\bf \mu_s, \bf \mu_t)} \bigg( \sum_{i, j \in \mathcal{V}_s} \sum_{i', j' \in \mathcal{V}_t} \lvert c_{ij}^s - c_{i' j'}^t \rvert^{p} \bf T_{ii'} \bf T_{jj'} \bigg) $$
 
-where $\Pi(\mu_s, \mu_t) = \{ \bf T \geq \bf 0 | \bf T \bf 1_{\lvert \mathcal{V}_t \rvert} = \bf \mu_s,  \bf T^{T} 1_{\lvert \mathcal{V}_s \rvert } = \bf \mu_t \}$. 
+where $\Pi(\bf \mu_s, \bf \mu_t) = \{ \bf T \geq \bf 0 \vert \bf T \bf 1_{\lvert \mathcal{V}_t \rvert} = \bf \mu_s,  \bf T^{T} 1_{\lvert \mathcal{V}_s \rvert } = \bf \mu_t \}$. 
 
 * Graph partitioning is traditionally done by identifying subgraphs which have high connectivity within itself and low connectivity to the rest of the graph. This is also known as 'modularity'.
 * If we think of each 'module' as forming a single 'super node' then a partitioned graph corresponds to a set of disconnected 'super nodes'.
