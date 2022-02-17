@@ -44,13 +44,6 @@ This is a live page with my latest reading notes for various scientific topics.
 
 [paper](https://academic.oup.com/bioinformatics/article/34/17/i773/5093231?login=false)
 
-
-
-<div id='foldseek'>
-</div>
-
-### Foldseek: fast and accurate protein structure search 
-
 Two strategies are possible for comparing a pair of protein structres: alignment-based, and alignment-free.
 One of the most widely-used alignment methods is [TMalign](https://academic.oup.com/nar/article-abstract/33/7/2302/2401364), which tries to explicitly superimpose two proteins on each other while minimizing a discrepancy score.
 The problem with alignment-based methods is that they often do not scale when trying to compare many structures against each other which is the setting in structure retrieval.
@@ -60,6 +53,13 @@ Alignment-free methods instead encode protein structures into a vector space whe
 Related work:
 
 * 
+
+
+
+<div id='foldseek'>
+</div>
+
+### Foldseek: fast and accurate protein structure search 
 
 
 <button onclick="Copy('foldseek')">[copy link]<button>
