@@ -44,7 +44,7 @@ This is a live page with my latest reading notes for various scientific topics.
 
 [paper](https://academic.oup.com/bioinformatics/article/34/17/i773/5093231?login=false)
 
-Two strategies are possible for comparing a pair of protein structres: alignment-based, and alignment-free.
+We can compare protein structures in two ways: alignment-based, and alignment-free.
 One of the most widely-used alignment methods is [TMalign](https://academic.oup.com/nar/article-abstract/33/7/2302/2401364), which tries to explicitly superimpose two proteins on each other while minimizing a discrepancy score.
 The problem with alignment-based methods is that they often do not scale when trying to compare many structures against each other which is the setting in structure retrieval.
 Alignment-free methods instead encode protein structures into a vector space where comparisons are very quick.
@@ -52,7 +52,8 @@ Alignment-free methods instead encode protein structures into a vector space whe
 
 Related work:
 
-* 
+* [TMalign](https://academic.oup.com/nar/article-abstract/33/7/2302/2401364)
+* [FragBag](https://www.pnas.org/content/107/8/3481.short)
 
 
 
@@ -215,7 +216,7 @@ Additionally, the use of GCNs as the representation function and training method
 
 $$ d_{gw}(G_s, G_t) = \min_{\bf T \in \Pi(\bf \mu_s, \bf \mu_t)} \bigg( \sum_{i, j \in \mathcal{V}_s} \sum_{i', j' \in \mathcal{V}_t} \lvert c_{ij}^s - c_{i' j'}^t \rvert^{p} \bf T_{ii'} \bf T_{jj'} \bigg) $$
 
-where $ \Pi(\bf \mu_s, \bf \mu_t) = \{ \bf T \geq \bf 0 \vert $
+where $\Pi(\bf \mu_s, \bf \mu_t) = \{ \bf T \geq \bf 0 \vert$
 
 * Graph partitioning is traditionally done by identifying subgraphs which have high connectivity within itself and low connectivity to the rest of the graph. This is also known as 'modularity'.
 * If we think of each 'module' as forming a single 'super node' then a partitioned graph corresponds to a set of disconnected 'super nodes'.
