@@ -225,6 +225,7 @@ This adjacency term which looks at the original graphs adjacency matrices $C$, i
 Here, $\bf T_{ab}$ tells us whether node $a$ in the first graph is mapped to node $b$ in the second graph.
 So the term $T_{ii'}$ gives us the probability that $i \in G_s$ is assigned to $i' in G_t$.
 When this probability is large for both pairs of nodes, i.e. $i, j$ both have a high probability of being mapped to some $i', j'$, we punish discrepancies in their adjacency status, as measured by $\lvert c_{ij}^s - c_{i'j'}^t$.
+Of course this can be hacked by just making $\bf T \rightarrow \bf 0$ but this term is excluded in the search set $\Pi(\bf \bf \mu_s, \bf \mu_t)$.
 
 * Graph partitioning is traditionally done by identifying subgraphs which have high connectivity within itself and low connectivity to the rest of the graph. This is also known as 'modularity'.
 * If we think of each 'module' as forming a single 'super node' then a partitioned graph corresponds to a set of disconnected 'super nodes'.
