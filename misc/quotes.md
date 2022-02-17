@@ -36,6 +36,13 @@ This is a live page of quotes that I find interesting. Quotes are in alphabetica
 In the mouth of the foolish is a rod of pride: but the lips of the wise shall preserve them.  
 -- Proverbs 14:3 <button onclick="Copy('proverbs-mouth')">[copy link]</button>
 
+<div id="buk-typewriter">
+</div>
+Get a large typewriter and as the footsteps go up and down outside your window Hit that thing hit it hard Make it a heavyweight fight Make it the bull when he first charges in And remember the old dogs who fought so well: Hemingway, Celine, Dostoevsky, Hamsun. If you think they didn’t go crazy in tiny rooms just like you’re doing now Without women without food without hope Then you’re not ready. Drink more beer. There’s time. And if there’s not that’s all right too.
+-- Charles Bukowski, *Love is a Dog from Hell* <button onClick="Copy('buk-typewriter')"></button>
+
+
+
 <div id="cs-insects">
 </div>
 My bad dreams were of two kinds, those about spectres and those about insects. The second were, beyond comparison, the worse; to this day I would rather meet a ghost than a tarantula. [...] As Owen Barfield once said to me, 'The trouble about insects is that they are like French locomotives - they have all the works on the outside.' The *works* - that is the trouble. Their angular limbs, their jerky movements, their dry, metallic noises, all suggest either machines that have come to life or life degenerating into mechanism. You may add that in the hive and the ant-hill we see fully realised the two things that some of us most dread for our own species - the dominance of the female and the dominance of the collective.<br>
