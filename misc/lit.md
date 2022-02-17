@@ -184,9 +184,15 @@ Additionally, the use of GCNs as the representation function and training method
 [paper](https://proceedings.neurips.cc/paper/2019/file/6e62a992c676f611616097dbea8ea030-Paper.pdf)
 <button onClick="Copy('gromov')">[copy link]</button>
 
-* Gromov-Wasserstein discrepancy between graphs is a mapping from nodes in $G_s$ to $G_t$ which minimizes a cost on pairs of nodes mapped to each other. 
+* Gromov-Wasserstein discrepancy between graphs is a soft mapping from nodes in $G_s$ to $G_t$ which minimizes a cost on pairs of nodes mapped to each other which can be iteratively minimized.
+* The mapping is done in order to minimize the optimal transport between two node 'distributions' which typically reflect the degree distribution of the nodes in two graphs.
+* Using this distance, two other concepts are introduced: graph partitioining, and barycenter computation.
 
 $$d_{gw}(G_s, G_t) = min_{T \in \Pi(\mu_s, \mu_t)} \bigg( \sum_{i, j \in \mathcal{V}_s} \sum_{i', j' \in \mathcal{V}_t} |c_{ij}^s - c_{i' j'}^t|^{p}T_{ii'}T_{jj'} \bigg)$$,
 
-where $\Pi(\mu_s, \mu_t) = \{ T \geq 0 | T1_{|\mathcal{V}_t|} = \mu_s,  T^{T}1_{|\mathcal{V}_s|} = \mu_t \}$. The vector $\mu$ contains a probability for every node in the graph, and $C_{ij}$ is the adjacency (or edge weight) information for nodes $i$ and $j$.
+* Graph partitioning is traditionally done by identifying subgraphs which have high connectivity within itself and low connectivity to the rest of the graph. This is also known as 'modularity'.
+* If we think of each 'module' as forming a single 'super node' then a partitioned graph corresponds to a set of disconnected 'super nodes'.
+* To use GW distance for graph partitioning, one tries to identify a mapping from the given graph to a disconnected graph of $K$ nodes.
+
+
 
