@@ -78,14 +78,14 @@ The man of science, [...], was still writing a little something, diffidently, do
 
 <div id="celine-love">
 </div>
-Being in love is nothing, it’s sticking together that’s difficult.
+Being in love is nothing, it’s sticking together that’s difficult.<br>
 -- Louis Ferdinand Celine, *Journey to the End of the Night* <button onClick="Copy('celine-love')">[copy link]</button>
 
 ---
 
 <div id="celine-mania">
 </div>
-I’ve known a good many sufferers from conviction mania … Of many different types … And in the last analysis, those who talk about justice seem to be the maddest of the lot!
+I’ve known a good many sufferers from conviction mania … Of many different types … And in the last analysis, those who talk about justice seem to be the maddest of the lot!<br>
 -- Louis Ferdinand Celine, *Journey to the End of the Night* <button onClick="Copy('celine-mania')">[copy link]</button>
 
 ---
