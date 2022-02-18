@@ -247,11 +247,19 @@ Relevant literature:
 
 > Year: 2013
 
+[paper](https://dl.acm.org/doi/pdf/10.1145/2487575.2487602)
+
 Most motif mining papers try to find patterns (motifs) that are isomorphic to a large number of subgraphs in a dataset of graphs.
 Here, the authors ateempt to relax the constraint in the setting where nodes have a 'label' and allow motifs to match subgraphs with some discrepancy in the node labels. 
 
+Graphs are associated with a cost matrix $C[l_i][l_j]$ gives the cost of matching node label $l_i$ to $l_j$ where each graph has a vector of node labels $L$.
+A motif is represented as a 'pattern graph' which is isomorphic to some subgraphs of the whole dataset such that some function $\phi$ is an injective mapping from the pattern graph nodes $G_P$ to some subgraph of the data $V_S$.
+This means that instances of $G_P$ will be isomorphic to it, but to allow for some flexibility, an isomorpic mapping can have some cost $C(\phi) = \sum_{u \in V_P} C[L(u)][L(\phi(u))]$, or the sum of label substitution costs.
+The *support* of a pattern is a function of the number of occurrences of the pattern in the data which can be defined in different ways.
+The *representative set* of a node is the set of nodes that map to it.
+The overall approach is then to generate possible pattern graphs and compute its support, and yield the representative set of all the patterns with large support.
+Of course enumerating all possible patterns grows exponentially with the size of the pattern.
 
-[paper](https://dl.acm.org/doi/pdf/10.1145/2487575.2487602)
 
 
 ### ASAP: Fast, Approximate Graph Pattern Mining at Scale
