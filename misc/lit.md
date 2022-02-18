@@ -283,6 +283,8 @@ Pattern size appears to be sufficiently large.
 
 > Year: 2015
 
+[paper](https://epubs.siam.org/doi/pdf/10.1137/1.9781611974010.85)
+
 The goal is to identify subgraphs patterns with any kind of noise (not just labels or single edge deletions).
 Most similar previous works are [RAM](https://link.springer.com/chapter/10.1007/978-3-540-69497-7_14) and [APGM](https://dl.acm.org/doi/pdf/10.1145/2487575.2487602) which allow for fixed number of edge removals and node label changes respectively.
 In a nutshell, the algorithm selects 'representative' graphs in the dataset which are maximally distinct and then identifies subgraphs in the data that match one of the representatives.
@@ -300,7 +302,6 @@ Evaluation is done by injecting motifs into synthetic graphs and computing retri
 
 
 
-[paper](https://epubs.siam.org/doi/pdf/10.1137/1.9781611974010.85)
 
 
 ### Ap-FSM: A parallel algorithm for approximate frequent subgraph mining using Pregel
