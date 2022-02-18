@@ -38,19 +38,19 @@ In the mouth of the foolish is a rod of pride: but the lips of the wise shall pr
 ---
 
 <div id='bonfi-comm'></div>
-‘Have you ever been a member of the Communist or Anarchist parties, Mr Mortdecai?’ ‘Good Lord no!’ I cried gaily, ‘filthy capitalist, me. Grind the workers’ faces, I say.’ ‘When you were at school?’ he prompted gently. ‘Oh. Well, yes, I think I did take the Red side in the debating society at school once or twice. But in the Lower Sixth we all got either religion or Communism – it goes with acne you know. Vanishes as soon as you have proper sexual intercourse.’
+‘Have you ever been a member of the Communist or Anarchist parties, Mr Mortdecai?’ ‘Good Lord no!’ I cried gaily, ‘filthy capitalist, me. Grind the workers’ faces, I say.’ ‘When you were at school?’ he prompted gently. ‘Oh. Well, yes, I think I did take the Red side in the debating society at school once or twice. But in the Lower Sixth we all got either religion or Communism – it goes with acne you know. Vanishes as soon as you have proper sexual intercourse.’<br>
 -- Kyril Bonfiglioli, *Don't Point That Thing at Me* <button onclick="Copy('bonfi-comm')">[copy link]</button>
 
 ---
 
 <div id='bonfi-sleep'></div>
-Sleep is not, with me, a mere switching off: it is a very positive pleasure to be supped and savoured with expertise. It was a good night; sleep pampered me like a familiar, salty mistress who yet always has a new delight with which to surprise her jaded lover.
+Sleep is not, with me, a mere switching off: it is a very positive pleasure to be supped and savoured with expertise. It was a good night; sleep pampered me like a familiar, salty mistress who yet always has a new delight with which to surprise her jaded lover.<br>
 -- Kyril Bonfiglioli, *Don't Point That Thing at Me* <button onclick="Copy('bonfi-sleep')">[copy link]</button>
 
 ---
 
 <div id='bonfi-art'></div>
-Destroying the painting was out of the question: my soul is all stained and shagged with sin like a cigarette smoker’s moustache but I am quite incapable of destroying works of art. Steal them, yes, cheerfully, it is a mark of respect and love, but destroy them, never.
+Destroying the painting was out of the question: my soul is all stained and shagged with sin like a cigarette smoker’s moustache but I am quite incapable of destroying works of art. Steal them, yes, cheerfully, it is a mark of respect and love, but destroy them, never.<br>
 -- Kyril Bonfiglioli, *Don't Point That Thing at Me* <button onclick="Copy('bonfi-art')">[copy link]</button>
 
 ---
@@ -64,14 +64,14 @@ Get a large typewriter and as the footsteps go up and down outside your window H
 
 <div id="celine-science">
 </div>
-A true man of science takes at least twenty years on an average to make the great discovery, that is, to convince himself that one man’s lunacy is not necessarily another man’s delight, and that all of us here below are bored with the bees in our neighbors’ bonnets.
+A true man of science takes at least twenty years on an average to make the great discovery, that is, to convince himself that one man’s lunacy is not necessarily another man’s delight, and that all of us here below are bored with the bees in our neighbors’ bonnets.<br>
 -- Louis Ferdinand Celine, *Journey to the End of the Night* <button onClick="Copy('celine-science')">[copy link]</button>
 
 ---
 
 <div id="celine-academy">
 </div>
-The man of science, [...], was still writing a little something, diffidently, doubtingly in one corner of his laboratory book, with a view to a forthcoming and utterly pointless paper that he would feel obliged to present before long to some infinitely impartial and disinterested Academy and that would serve to justify his presence at the Institute and the meager advantages it conferred.
+The man of science, [...], was still writing a little something, diffidently, doubtingly in one corner of his laboratory book, with a view to a forthcoming and utterly pointless paper that he would feel obliged to present before long to some infinitely impartial and disinterested Academy and that would serve to justify his presence at the Institute and the meager advantages it conferred.<br>
 -- Louis Ferdinand Celine, *Journey to the End of the Night* <button onClick="Copy('celine-academy')">[copy link]</button>
 
 ---
@@ -113,13 +113,13 @@ For socialism is not merely the labour question, it is before all things the ath
 
 <div id="dost-monster">
 </div>
-The most monstrous monster is the monster with noble feelings; 
+The most monstrous monster is the monster with noble feelings;<br>
 -- Fyodor Dostoevsky, *The Eternal Husband* <button onclick="Copy('dost-monster')">[copy link]</button>
 
 ---
 
 <div id="seneca-epic"></div>
-The difference here between the Epicurean and our own school is this: our wise man feels his troubles but overcomes them, while their wise man does not even feel them.
+The difference here between the Epicurean and our own school is this: our wise man feels his troubles but overcomes them, while their wise man does not even feel them.<br>
 -- Seneca, *Letters from a Stoic* <button onclick="Copy('seneca-epic')">[copy link]</button>
 
 ---
