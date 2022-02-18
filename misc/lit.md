@@ -326,3 +326,8 @@ Here, the authors ateempt to relax the constraint in the setting where nodes hav
 ### Frequent pattern mining in big social graphs
 
 [paper](https://ieeexplore.ieee.org/abstract/document/9395505?casa_token=pflfaIYzMw8AAAAA:kaj7b1HSztGLjlTbJ5SQNeYbn6oV-eoF80kURwUvQpwJ0xZSGnofgdSny6D7kU3E73yO6lZkMg)
+
+### Motifs in temporal networks
+
+[paper](https://dl.acm.org/doi/abs/10.1145/3018661.3018731)
+

@@ -9,8 +9,7 @@ button {
     background-color: Transparent;
     background-repeat:no-repeat;
     border: none;
-    cursor:pointer;
-    overflow: hidden;
+    cursor:pointer; overflow: hidden;
     outline:none;
     color: #a00;
 }
@@ -36,12 +35,44 @@ This is a live page of quotes that I find interesting. Quotes are in alphabetica
 In the mouth of the foolish is a rod of pride: but the lips of the wise shall preserve them.  
 -- Proverbs 14:3 <button onclick="Copy('proverbs-mouth')">[copy link]</button>
 
+<div id='bonfi-comm'></div>
+‘Have you ever been a member of the Communist or Anarchist parties, Mr Mortdecai?’ ‘Good Lord no!’ I cried gaily, ‘filthy capitalist, me. Grind the workers’ faces, I say.’ ‘When you were at school?’ he prompted gently. ‘Oh. Well, yes, I think I did take the Red side in the debating society at school once or twice. But in the Lower Sixth we all got either religion or Communism – it goes with acne you know. Vanishes as soon as you have proper sexual intercourse.’
+-- Kyril Bonfiglioli, *Don't Point That Thing at Me* <button onclick="Copy('bonfi-comm')">[copy link]</button>
+
+
+<div id='bonfi-sleep'></div>
+Sleep is not, with me, a mere switching off: it is a very positive pleasure to be supped and savoured with expertise. It was a good night; sleep pampered me like a familiar, salty mistress who yet always has a new delight with which to surprise her jaded lover.
+-- Kyril Bonfiglioli, *Don't Point That Thing at Me* <button onclick="Copy('bonfi-sleep')">[copy link]</button>
+
+<div id='bonfi-art'></div>
+Destroying the painting was out of the question: my soul is all stained and shagged with sin like a cigarette smoker’s moustache but I am quite incapable of destroying works of art. Steal them, yes, cheerfully, it is a mark of respect and love, but destroy them, never.
+-- Kyril Bonfiglioli, *Don't Point That Thing at Me* <button onclick="Copy('bonfi-art')">[copy link]</button>
+
 <div id="buk-typewriter">
 </div>
 Get a large typewriter and as the footsteps go up and down outside your window Hit that thing hit it hard Make it a heavyweight fight Make it the bull when he first charges in And remember the old dogs who fought so well: Hemingway, Celine, Dostoevsky, Hamsun. If you think they didn’t go crazy in tiny rooms just like you’re doing now Without women without food without hope Then you’re not ready. Drink more beer. There’s time. And if there’s not that’s all right too.<br>
 -- Charles Bukowski, *Love is a Dog from Hell* <button onClick="Copy('buk-typewriter')">[copy link]</button>
 
 
+<div id="celine-science">
+</div>
+A true man of science takes at least twenty years on an average to make the great discovery, that is, to convince himself that one man’s lunacy is not necessarily another man’s delight, and that all of us here below are bored with the bees in our neighbors’ bonnets.
+-- Louis Ferdinand Celine, *Journey to the End of the Night* <button onClick="Copy('celine-science')">[copy link]</button>
+
+<div id="celine-academy">
+</div>
+The man of science, [...], was still writing a little something, diffidently, doubtingly in one corner of his laboratory book, with a view to a forthcoming and utterly pointless paper that he would feel obliged to present before long to some infinitely impartial and disinterested Academy and that would serve to justify his presence at the Institute and the meager advantages it conferred.
+-- Louis Ferdinand Celine, *Journey to the End of the Night* <button onClick="Copy('celine-academy')">[copy link]</button>
+
+<div id="celine-love">
+</div>
+Being in love is nothing, it’s sticking together that’s difficult.
+-- Louis Ferdinand Celine, *Journey to the End of the Night* <button onClick="Copy('celine-love')">[copy link]</button>
+
+<div id="celine-mania">
+</div>
+I’ve known a good many sufferers from conviction mania … Of many different types … And in the last analysis, those who talk about justice seem to be the maddest of the lot!
+-- Louis Ferdinand Celine, *Journey to the End of the Night* <button onClick="Copy('celine-mania')">[copy link]</button>
 
 <div id="cs-insects">
 </div>
@@ -59,4 +90,11 @@ To my thinking, miracles are never a stumbling block to the realist. It is not m
 For socialism is not merely the labour question, it is before all things the atheistic question, the question of the form taken by atheism to-day, the question of the tower of Babel built without God, not to mount to Heaven from Earth but to set up Heaven on earth.  
 -- Fyodor Dostoevsky, *The Brothers Karamazov* <button onclick="Copy('dost-socialism')">[copy link]</button>
 
+<div id="dost-monster">
+</div>
+The most monstrous monster is the monster with noble feelings; 
+-- Fyodor Dostoevsky, *The Eternal Husband* <button onclick="Copy('dost-monster')">[copy link]</button>
 
+<div id="seneca-epic"></div>
+The difference here between the Epicurean and our own school is this: our wise man feels his troubles but overcomes them, while their wise man does not even feel them.
+-- Seneca, *Letters from a Stoic* <button onclick="Copy('seneca-epic')">[copy link]</button>
