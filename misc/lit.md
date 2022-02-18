@@ -291,12 +291,12 @@ Given a dataset of graphs, $D$, we want to find all subgraphs in $D$ whose suppo
 
 $$sup_{g_i} \lvert \frac{g \in D \vert g_i \subseteq_\beta g \rvert}{\lvert D \rvert}$$
 
-which counts the number of subgraphs in D that are isomorphic to which $g_i$ is isomorphic within $\Beta$ edit operations.
+which counts the number of subgraphs in D that are isomorphic to which $g_i$ is isomorphic within $\beta$ edit operations.
 The normalization factor is over the number of graphs in the dataset which could introduce soem bias towards smaller motifs or motifs which occur multiple times within the same graph.
 The algorithm proposes $m$ candidate representatives and then identifies compatible instances.
 For the representative selection a greedy approach which tries to maximize the distance between representatives and minimize the distance to the rest of the graphs is used.
 To do this, GED would be optimal but too expensive to comptue so graphs are decomposed into bags of 'star' subgraphs (i.e node-anchored subgraphs) and matched to each other.
-Evaluation is done by injecting motifs into synthetic graphs and computing retrieval accuracy on various settings of $\Beta$
+Evaluation is done by injecting motifs into synthetic graphs and computing retrieval accuracy on various settings of $\beta$
 
 
 
