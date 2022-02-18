@@ -28,7 +28,7 @@ console.log("https://carlosoliver.co/misc/quotes.html#" + id);
 </script>
 
 
-This is a live page with my latest reading notes for various scientific topics.
+*This is a live page with my latest reading notes for various scientific topics.*
 
 ---
 
@@ -227,9 +227,12 @@ When this probability is large for both pairs of nodes, i.e. $i, j$ both have a 
 Of course this can be hacked by just making $\bf T \rightarrow \bf 0$ but this term is excluded in the search set $\Pi(\bf \bf \mu_s, \bf \mu_t)$ by only choosing $\bf T$ that assign probability from each node in $G_s$ to every other node in $G_t$.
 
 
+* Solving this distance is non-convex and the authors use a proximal gradient method to decompose the problem into smaller convex ones. 
 * Graph partitioning is traditionally done by identifying subgraphs which have high connectivity within itself and low connectivity to the rest of the graph. This is also known as 'modularity'.
 * If we think of each 'module' as forming a single 'super node' then a partitioned graph corresponds to a set of disconnected 'super nodes'.
 * To use GW distance for graph partitioning, one tries to identify a mapping from the given graph to a disconnected graph of $K$ nodes.
+* Graph partitioning can be applied recurively. Once the nodes are partitioned, apply a matching step across nodes assigned to the same 'super node' and then partition within the 'super node'. This helps with scalability.
+* Authors find a strong sensitivity to hyperparameters but promising accuracy on large graph alignment tasks. 
 
 
 Relevant literature:
