@@ -34,7 +34,10 @@ console.log("https://carlosoliver.co/misc/quotes.html#" + id);
 
 ## Bioinformatics
 
+
 ### Learning structural motif representations for efficient protein structure search
+
+[paper](https://dl.acm.org/doi/pdf/10.1145/974614.974655)
 
 <div id='deepfold'></div>
 
@@ -177,6 +180,16 @@ However, the authors repeat the process and show that the algorithm remains quit
 
 ## Graph Machine Learning
 
+
+### Subgraph Augmentation with Application to Graph Mining
+
+[paper](https://link.springer.com/chapter/10.1007/978-981-16-2609-8_4)
+
+### Sampling Subgraph Network With Application to Graph Classification
+
+
+[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9547804)
+
 <div id='sp-miner'></div>
 ### Representation Learning for Frequent Subgraph Mining
 
@@ -238,6 +251,14 @@ Of course this can be hacked by just making $\bf T \rightarrow \bf 0$ but this t
 Relevant literature:
 
 * [Wasserstein-based Graph Alignment](https://arxiv.org/pdf/2003.06048.pdf)
+
+### Motif-Aware Adversarial Graph Representation Learning
+
+> Authors: Zhao et al.
+
+> Year: 2022
+
+[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9684408)
 
 ## Graph Theory
 
