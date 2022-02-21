@@ -412,3 +412,7 @@ The algorithm allowes for some inexact matching such as missing nodes or edges.
 
 [paper](https://dl.acm.org/doi/abs/10.1145/3018661.3018731)
 
+
+### Efficient sampling algorithm for estimating subgraph concentrations and detecting network motifs
+
+[paper](https://academic.oup.com/bioinformatics/article/20/11/1746/300212?login=true)
