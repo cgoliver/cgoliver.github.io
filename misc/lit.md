@@ -241,6 +241,7 @@ Relevant literature:
 
 ## Graph Theory
 
+<div id="wass"></div>
 ### Approximate Graph Mining with Label Costs
 
 > Authors: Anchuri et al.
@@ -248,6 +249,8 @@ Relevant literature:
 > Year: 2013
 
 [paper](https://dl.acm.org/doi/pdf/10.1145/2487575.2487602)
+
+<button onClick="Copy('wass')">[copy link]</button>
 
 Most motif mining papers try to find patterns (motifs) that are isomorphic to a large number of subgraphs in a dataset of graphs.
 Here, the authors ateempt to relax the constraint in the setting where nodes have a 'label' and allow motifs to match subgraphs with some discrepancy in the node labels. 
@@ -277,6 +280,7 @@ Pattern size appears to be sufficiently large.
 [paper](https://www.usenix.org/system/files/osdi18-iyer.pdf)
 
 
+<div id='reafum'></div>
 ### REAFUM: Representative Approximate Frequent Subgraph Mining
 
 > Authors: Li et al.
@@ -284,6 +288,8 @@ Pattern size appears to be sufficiently large.
 > Year: 2015
 
 [paper](https://epubs.siam.org/doi/pdf/10.1137/1.9781611974010.85)
+
+<button onclick="Copy('reafum')">[copy link]</button>
 
 The goal is to identify subgraphs patterns with any kind of noise (not just labels or single edge deletions).
 Most similar previous works are [RAM](https://link.springer.com/chapter/10.1007/978-3-540-69497-7_14) and [APGM](https://dl.acm.org/doi/pdf/10.1145/2487575.2487602) which allow for fixed number of edge removals and node label changes respectively.
@@ -301,9 +307,6 @@ To do this, GED would be optimal but too expensive to comptue so graphs are deco
 Evaluation is done by injecting motifs into synthetic graphs and computing retrieval accuracy on various settings of $\beta$
 
 
-
-
-
 ### Ap-FSM: A parallel algorithm for approximate frequent subgraph mining using Pregel
 
 [paper](https://www.sciencedirect.com/science/article/pii/S0957417418302409?casa_token=nOi8L-oTtdAAAAAA:jZiYPorKCqA-vD-S4vRk_NC6EdRrrJWwQ8X8B9Rl_3IsVKOpbPbH1SGvObNr2BP5gsvKhijrPqY)
@@ -314,9 +317,22 @@ Evaluation is done by injecting motifs into synthetic graphs and computing retri
 [paper](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A58904230A6680001F17FCE91CB8C65F/S0269888912000331a.pdf/survey_of_frequent_subgraph_mining_algorithms.pdf)
 
 
+<div id="maniacs"></div>
 ### ManIACS: Approximate Mining of Frequent Subgraph Patterns through Sampling
 
+> Authors: Preti et al.
+
+> Year: 2021
+
 [paper](https://dl.acm.org/doi/pdf/10.1145/3447548.3467344)
+
+<button onclick="Copy('maniacs')">[copy link]</button>
+
+The problem is called 'Frequent Subgraph Pattern Mining' (FSPM) in which a single graph is mined for the most frequent small graph patterns. 
+A *pattern set* for a fixed size $k$ is the set of all possible *connected* graphs with up to $k$ vertices.
+Using a specific frequency definition, the tool is able to prune *pattern space* to compute exact patterns with a large frequency.
+The algorithm is limited to working on a single graph.
+
 
 
 ### TKG: Efficient Mining of Top-K Frequent Subgraphs
@@ -346,6 +362,13 @@ Evaluation is done by injecting motifs into synthetic graphs and computing retri
 ### G-Finder: Approximate Attributed Subgraph matching
 
 [paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9006525&casa_token=YCeHeY_6yVMAAAAA:wimWLdTB2NrnGo4MX20on-29kDLzIiuwWoHF5uZN8UFsg89MzMB_x6y_xSYGxfS7QKRNM8cFrA&tag=1)
+
+> Authors: Liu et al.
+
+> Year: 2019
+
+Proposes data structures and search algorithms for retrieving the top $k$ most similar subgraphs given a query graph.
+The algorithm allowes for some inexact matching such as missing nodes or edges.
 
 ### Extension of Canonical Adjacency Matrices for Frequent Approximate Subgraph Mining on Multi-Graph Collections
 
