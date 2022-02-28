@@ -21,6 +21,8 @@ highlighter: rouge
 collections:
         talks:
                 output: true
+        papers:
+                output: true
         misc:
                 output: true
 
