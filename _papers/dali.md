@@ -1,6 +1,7 @@
 ---
 
 layout: page
+title: Protein Structure Comparison by Alignment of Distance Matrices
 
 ---
 

@@ -1,6 +1,7 @@
 ---
 
 layout: page
+title: Learning Structural Motif Representations for Efficient Protein Structure Search
 
 ---
 

@@ -1,6 +1,7 @@
 ---
 
 layout: page
+title: Structure-based function prediction using graph convolution networks
 
 ---
 

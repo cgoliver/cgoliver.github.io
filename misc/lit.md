@@ -11,6 +11,16 @@ layout: page
 ## Bioinformatics
 
 
+<ul>
+  {% for post in site.papers %}
+  <li>
+    <a href="{{ post.url }}" title="{{ post.title }}">
+    </a>
+  </li>
+  {% endfor %}
+</ul>
+
+
 [Protein Structure Comparison by Alignment of Distance Matrices]({{ site.url  }}/misc/papers/dali.md) 
 
 {% include_relative papers/foldseek.md %}

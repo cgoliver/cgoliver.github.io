@@ -1,6 +1,7 @@
 ---
 
 layout: page
+title: Foldseek fast and accurate protein structure search
 
 --- 
 
