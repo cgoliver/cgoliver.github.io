@@ -2,7 +2,7 @@
 
 layout: page
 title: Foldseek fast and accurate protein structure search
-topic: bioinformatics
+topic: Bioinformatics
 
 --- 
 

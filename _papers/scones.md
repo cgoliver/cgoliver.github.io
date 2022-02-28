@@ -2,7 +2,7 @@
 
 layout: page
 title: Efficient network-guided multi-locus association mapping with graph cuts
-topic: bioinformatics
+topic: Bioinformatics
 
 ---
 
