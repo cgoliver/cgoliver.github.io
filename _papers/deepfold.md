@@ -2,18 +2,16 @@
 
 layout: page
 title: Learning Structural Motif Representations for Efficient Protein Structure Search
+topic: bioinformatics
 
 ---
 
-### Learning structural motif representations for efficient protein structure search
+Authors: Liu et al.
+Date: 2018
 
 [paper](https://dl.acm.org/doi/pdf/10.1145/974614.974655)
 
-<div id='deepfold'></div>
 
-> Authors: Liu et al.
-
-> Date: 2018
 
 [paper](https://academic.oup.com/bioinformatics/article/34/17/i773/5093231?login=false)
 

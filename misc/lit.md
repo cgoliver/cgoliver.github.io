@@ -12,7 +12,8 @@ layout: page
 
 
 <ul>
-  {% for post in site.papers %}
+  {% assign filtered_posts = site.posts | where: 'topic', 'bioinformatics' %}
+  {% for post in filtered_post %}
   <li>
     <a href="{{ post.url }}" title="{{ post.title }}">
 	{{post.title}}

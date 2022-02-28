@@ -2,17 +2,14 @@
 
 layout: page
 title: Protein Structure Comparison by Alignment of Distance Matrices
+topic: bioinformatics
 
 ---
 
-### Protein Structure Comparison by Alignment of Distance Matrices 
-
-> Authors: Liisa Holm and Chris Sander 
-
-> Date: 1993 
+Authors: Liisa Holm and Chris Sander 
+Date: 1993 
 
 [paper](http://www.marcottelab.org/users/CH391L/Handouts/dali.pdf)
-<button onclick="Copy('dali')">[copy link]</button>
 
 *Background:*  Aligning 3D structures of proteins is crucial for discovering functional sub-structures, protein classification, and understanding new proteins.
 At the time of writing, this paper was among the first to propose a general tool for comparing solved 3D structures of proteins.

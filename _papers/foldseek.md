@@ -2,17 +2,12 @@
 
 layout: page
 title: Foldseek fast and accurate protein structure search
+topic: bioinformatics
 
 --- 
 
-### Foldseek: fast and accurate protein structure search 
-
-
-<button onclick="Copy('foldseek')">[copy link]<button>
-
-> Authors: van Kempen et al.
-
-> Date: 2022
+Authors: van Kempen et al.
+Date: 2022
 
 [paper](https://www.biorxiv.org/content/biorxiv/early/2022/02/09/2022.02.07.479398.full.pdf)
 

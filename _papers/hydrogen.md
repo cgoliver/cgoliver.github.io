@@ -2,13 +2,11 @@
 
 layout: page
 title: Hydrogen bonds meet self-attention, all you need for general-purpose protein structure embedding
+topic: bioinformatics
 
 ---
 
-### Hydrogen bonds meet self-attention: all you need for general-purpose protein structure embedding.
-
 [paper](https://www.biorxiv.org/content/10.1101/2021.01.31.428935v2.full.pdf)
-<button onclick="Copy('dali')">[copy link]</button>
 
 *Methods*
 

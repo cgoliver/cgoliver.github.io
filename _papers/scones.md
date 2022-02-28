@@ -2,17 +2,14 @@
 
 layout: page
 title: Efficient network-guided multi-locus association mapping with graph cuts
+topic: bioinformatics
 
 ---
 
-## Efficient network-guided multi-locus association mapping with graph cuts
-
-> Authors: Azencott et al.
-
-> Date: 2013
+Authors: Azencott et al.
+Date: 2013
 
 [paper](https://academic.oup.com/bioinformatics/article/29/13/i171/198210)
-<button onclick="Copy('scones')">[copy link]</button>
 
 * Genome-wide association studies use genomic sequences from multiple individuals for which a given phenotype is known to compute the degree to which a given single-nucleotide polymorphism is associated to the phenotype.
 * Usually, the association is expressed as a p-value.
