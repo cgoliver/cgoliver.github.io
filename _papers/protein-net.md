@@ -1,7 +1,7 @@
 ---
 
 layout: page
-title: ProteinNet: a standardized data set for machine learning of protein structure
+title: ProteinNet, a standardized data set for machine learning of protein structure
 topic: Bioinformatics
 
 ---
