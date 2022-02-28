@@ -1,7 +1,7 @@
 ---
 
 layout: page
-title: ManIACS: Approximate Mining of Frequent Subgraph Patterns through Sampling
+title: ManIACS, Approximate Mining of Frequent Subgraph Patterns through Sampling
 topic: Data Mining
 
 ---
