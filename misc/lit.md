@@ -34,6 +34,8 @@ console.log("https://carlosoliver.co/misc/quotes.html#" + id);
 
 ## Bioinformatics
 
+{% include papers/test.md %}
+
 
 ### Learning structural motif representations for efficient protein structure search
 
@@ -180,6 +182,10 @@ However, the authors repeat the process and show that the algorithm remains quit
 
 ## Graph Machine Learning
 
+### Towards Effective and Generalizable Fine-Tuning for Pre-trained Molecular Graph Models
+
+[paper](https://www.biorxiv.org/content/biorxiv/early/2022/02/06/2022.02.03.479055.full.pdf)
+
 
 ### Subgraph Augmentation with Application to Graph Mining
 
@@ -259,6 +265,11 @@ Relevant literature:
 > Year: 2022
 
 [paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9684408)
+
+
+### Self-Supervised Graph Transformer on Large-Scale Molecular Data
+
+[paper](https://arxiv.org/pdf/2007.02835.pdf)
 
 ## Graph Theory
 
@@ -368,8 +379,13 @@ The algorithm is limited to working on a single graph.
 
 ### Frequent subgraph mining for biologically meaningful structural motifs
 
+> Authors: Keller et al.
+
+> Year: 2020
 
 [paper](https://www.biorxiv.org/content/10.1101/2020.05.14.095695v1.full.pdf)
+
+
 
 ### Large graph sampling algorithm for frequent subgraph mining
 
@@ -416,3 +432,7 @@ The algorithm allowes for some inexact matching such as missing nodes or edges.
 ### Efficient sampling algorithm for estimating subgraph concentrations and detecting network motifs
 
 [paper](https://academic.oup.com/bioinformatics/article/20/11/1746/300212?login=true)
+
+
+## Cheminformatics
+
