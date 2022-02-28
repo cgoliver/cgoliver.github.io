@@ -15,6 +15,7 @@ layout: page
   {% for post in site.papers %}
   <li>
     <a href="{{ post.url }}" title="{{ post.title }}">
+	{{post.title}}
     </a>
   </li>
   {% endfor %}
