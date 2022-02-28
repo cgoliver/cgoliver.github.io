@@ -1,9 +1,3 @@
----
-
-layout: page
-
----
-
 ### Protein Structure Comparison by Alignment of Distance Matrices 
 
 > Authors: Liisa Holm and Chris Sander 
