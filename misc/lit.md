@@ -8,19 +8,17 @@ layout: page
 
 ---
 
+
+{% assign items_grouped = site.posts | group_by: 'topic' %}
+  {% for group in items_grouped %}
+    <h3>{{group.name}}</h3>
+    {% for item in group.items %}
+        <p>{{item.title}}</p>
+    {% endfor %}
+  {% endfor %}
+
 ## Bioinformatics
 
-
-<ul>
-  {% assign filtered_posts = site.posts | where: 'topic', 'bioinformatics' %}
-  {% for post in filtered_posts %}
-  <li>
-    <a href="{{ post.url }}" title="{{ post.title }}">
-	{{post.title}}
-    </a>
-  </li>
-  {% endfor %}
-</ul>
 
 
 [Protein Structure Comparison by Alignment of Distance Matrices]({{ site.url  }}/misc/papers/dali.md) 
