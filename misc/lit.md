@@ -34,7 +34,7 @@ console.log("https://carlosoliver.co/misc/quotes.html#" + id);
 
 ## Bioinformatics
 
-{% include papers/test.md %}
+{% include_relative papers/test.md %}
 
 
 ### Learning structural motif representations for efficient protein structure search
