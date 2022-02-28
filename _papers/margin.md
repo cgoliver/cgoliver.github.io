@@ -1,7 +1,7 @@
 ---
 
 layout: page
-title:  MARGIN: Maximal Frequent Subgraph Mining
+title:  MARGIN, Maximal Frequent Subgraph Mining
 topic: Data Mining
 
 ---

@@ -1,7 +1,7 @@
 ----
 
 layout: page
-title:A survery of frequent subgraph mining algorithms
+title: A survery of frequent subgraph mining algorithms
 topic: Data Mining
 
 ---

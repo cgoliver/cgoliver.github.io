@@ -1,7 +1,7 @@
 ---
 
 layout: page
-title Representation Learning for Frequent Subgraph Mining
+title: Representation Learning for Frequent Subgraph Mining
 topic: Data Mining
 
 ---

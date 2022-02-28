@@ -1,7 +1,7 @@
 ---
 
 layout: page
-title: TKG: Efficient Mining of Top-K Frequent Subgraphs
+title: TKG, Efficient Mining of Top-K Frequent Subgraphs
 topic: Data Mining
 
 ---

@@ -1,7 +1,7 @@
 ---
 
 layout: page
-title: G-Finder: Approximate Attributed Subgraph matching
+title: G-Finder, Approximate Attributed Subgraph matching
 topic: Data Mining
 
 ---

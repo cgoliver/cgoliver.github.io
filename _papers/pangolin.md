@@ -1,7 +1,7 @@
 ---
 
 layout: page
-title: Pangolin: An efficient and flexible graph mining system on CPU and GPU
+title: Pangolin, An efficient and flexible graph mining system on CPU and GPU
 topic: Data Mining
 
 ---
