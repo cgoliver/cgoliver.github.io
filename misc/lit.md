@@ -4,30 +4,6 @@ layout: page
 
 ---
 
-<style>
-button {
-    background-color: Transparent;
-    background-repeat:no-repeat;
-    border: none;
-    cursor:pointer;
-    overflow: hidden;
-    outline:none;
-    color: #a00;
-}
-button:focus{
-   color:#595959;
-}
-</style>
-
-<script>
-function Copy(id){
-navigator.clipboard.writeText("https://carlosoliver.co/misc/lit.html#" + id);
-console.log("https://carlosoliver.co/misc/quotes.html#" + id);
-}
-
-</script>
-
-
 *This is a live page with my latest reading notes for various scientific topics.*
 
 ---
@@ -35,11 +11,15 @@ console.log("https://carlosoliver.co/misc/quotes.html#" + id);
 ## Bioinformatics
 
 
-{% include_relative papers/test.md %}
+[Protein Structure Comparison by Alignment of Distance Matrices]({{ site.url  }}/misc/papers/dali.md) 
 
 {% include_relative papers/foldseek.md %}
 
 {% include_relative papers/scones.md %}
+
+{% include_relative papers/hydrogen.md %}
+
+{% include_relative papers/dali.md %}
 
 
 ### Towards Effective and Generalizable Fine-Tuning for Pre-trained Molecular Graph Models
