@@ -9,13 +9,13 @@ layout: page
 ---
 
 
-{% assign items_grouped = site.posts | group_by: 'topic' %}
-  {% for group in items_grouped %}
-    <h3>{{group.name}}</h3>
-    {% for item in group.items %}
-        <p>{{item.title}}</p>
-    {% endfor %}
-  {% endfor %}
+{% assign items_grouped = site.papers | group_by: 'topic' %}
+{% for group in items_grouped %}
+	<h3>{{group.name}}</h3>
+	{% for item in group.items %}
+		<p>{{item.title}}</p>
+	{% endfor %}
+{% endfor %}
 
 ## Bioinformatics
 
