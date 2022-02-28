@@ -2,7 +2,7 @@
 
 layout: page
 title: Scalable Gromov-Wasserstein Learning for Graph Partitioning and Matching
-topicl Graph Machine Learning
+topic: Graph Machine Learning
 
 ---
 
