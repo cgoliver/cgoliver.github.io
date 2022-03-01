@@ -7,7 +7,10 @@ topic: Bioinformatics
 ---
 
 Authors: Krivak et al.
+
 Year: 2018
+
+[paper](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-018-0285-8)
 
 Given a 3D protein structure, the task is to return a list of sub-structures that are likely to accomodate a ligand (small molecule).
 These sites are also known as 'pockets' or cavities.

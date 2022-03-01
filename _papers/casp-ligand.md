@@ -22,7 +22,7 @@ A binding site is defined as the set of residues having at least one non-hydroge
 These predictions are compared with the binding site obtained according to the above definition.
 With this, the Matthews Correlation Coefficient is obtained:
 
-$$ MCC = \frac{TP \timesTN - FP \times FN}{\sqrt{(TP + FP) \times (TP + FN) + (TN + FP) \times (TN + FN)}} $$
+$$ MCC = \frac{TP \times TN - FP \times FN}{\sqrt{(TP + FP) \times (TP + FN) + (TN + FP) \times (TN + FN)}} $$
 
 Since there were several targets in the prediction, multiple MCCs are combined using a Z-score with respect to the average MCC and the standard deviation of MCCs.
 Using this combined statistic, a final performance score is obtained.
