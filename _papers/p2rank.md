@@ -2,7 +2,7 @@
 
 layout: page
 title: P2Rank, Machine Learning Based Tool for Rapid and Accurate Prediction of Ligand Binding Sites from Protein Structure
-topic: bioinformatics
+topic: Bioinformatics
 
 ---
 
