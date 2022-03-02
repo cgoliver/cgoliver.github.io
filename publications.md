@@ -72,7 +72,7 @@ tr:nth-child(even) {
     <td><img src="/assets/optimol.png" id="fig"></td>
     <td><b>OptiMol: Optimization of binding affinities in chemical space for drug discovery. </b> <br>
 	Jacques Boitreaud, Vincent Mallet, Carlos Oliver, Jerome Waldispuhl<br>
-	<i> ACM JCIM (2020) </i>(<a href="https://pubs.acs.org/doi/10.1021/acs.jcim.0c00833">article</a>|<a href="https://www.biorxiv.org/content/10.1101/2020.05.23.112201v2">preprint</a>)</td>
+	<i> ACM JCIM (2020) </i>(<a href="https://pubs.acs.org/doi/10.1021/acs.jcim.0c00833">article</a> | <a href="https://www.biorxiv.org/content/10.1101/2020.05.23.112201v2">preprint</a>)</td>
   </tr> 
 
   <tr>
