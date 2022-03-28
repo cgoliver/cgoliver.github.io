@@ -1,9 +1,7 @@
 ---
-
 layout: page
 title: Explanatory Learning, Beyond Empricism in Neural Networks 
 topic: Machine Learning 
-
 ---
 
 Authors: Mariani et al.
