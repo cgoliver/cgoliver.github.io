@@ -24,6 +24,3 @@ Arrangements that follow a common 'rule' are said to belong to the same phenomen
 The authors define several problems using this framework where we can be given multiple phenomena, explanations to some phenomena and not others, and partial sets of observations for said phenomena. The goal is usually to train a model that can accept an obeservation and determine whether it belongs to a given phenomenon, and going futher be able to generate explanations that satisfy an interpreter. 
 
 Different approaches to this problem hint at debates in epistemology. For example, an approach that only works with occurrences and directly tries to map them to a correct interpretation would be called fully empirical since it assumes that all necessary knowledge can be derived from observations (i.e. data). Whereas a 'rationalist' approach tries to generate explanations before seeing the observations, and these observations are tested on data and updated. The authors formaize the rationalist approach in terms of deep learning architectures as 'Critical Rationalist Networks'. These models are built on language transformer models which generate English sentences as possible explanations which are fed to a decoder that determines whether the explanation generated the correct interpretation. Interestingly the critical rationalist approach outperforms the purely empirical one.
-
-
-
