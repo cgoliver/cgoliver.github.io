@@ -112,8 +112,6 @@ The most monstrous monster is the monster with noble feelings;<br>
 
 ---
 
----
-
 <div id="dost-monster">
 </div>
 And a war's been a long time coming.
