@@ -112,7 +112,7 @@ The most monstrous monster is the monster with noble feelings;<br>
 
 ---
 
-<div id="dost-monster">
+<div id="lenker-indiana">
 </div>
 And a war's been a long time coming.
 
@@ -122,7 +122,7 @@ We're standing at the end of a story.
 
 At the foot of a palindrome.
 
--- Adrianne Lenker, *Indiana* <button onclick="Copy('dost-monster')">[copy link]</button>
+-- Adrianne Lenker, *Indiana* <button onclick="Copy('lenker-indiana')">[copy link]</button>
 
 ---
 
