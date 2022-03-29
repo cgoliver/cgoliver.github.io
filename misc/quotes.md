@@ -117,8 +117,11 @@ The most monstrous monster is the monster with noble feelings;<br>
 <div id="dost-monster">
 </div>
 And a war's been a long time coming.
+
 Yes a long long war's gonna come.
+
 We're standing at the end of a story.
+
 At the foot of a palindrome.
 
 -- Adrianne Lenker, *Indiana* <button onclick="Copy('dost-monster')">[copy link]</button>
