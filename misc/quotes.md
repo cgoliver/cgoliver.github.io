@@ -114,12 +114,9 @@ The most monstrous monster is the monster with noble feelings;<br>
 
 <div id="lenker-indiana">
 </div>
-And a war's been a long time coming.
-
-Yes a long long war's gonna come.
-
-We're standing at the end of a story.
-
+And a war's been a long time coming.<br>
+Yes a long long war's gonna come.<br>
+We're standing at the end of a story.<br>
 At the foot of a palindrome.
 
 -- Adrianne Lenker, *Indiana* <button onclick="Copy('lenker-indiana')">[copy link]</button>
