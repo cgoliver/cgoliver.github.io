@@ -1,7 +1,7 @@
 ---
 
 layout: page
-title: RAM: Randomized Approximate Graph Mining 
+title: RAM, Randomized Approximate Graph Mining 
 topic: Data Mining 
 
 ---
