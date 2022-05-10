@@ -10,5 +10,5 @@ layout: page
 
 
 {% for author in site.quotes %}
-* {{author}}
+* {{author.name }}
 {% endfor %}
