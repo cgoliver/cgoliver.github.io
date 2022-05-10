@@ -25,6 +25,8 @@ collections:
                 output: true
         misc:
                 output: true
+        quotes:
+                output: true
 
 #gems:
 #  - jekyll-assets
