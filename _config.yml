@@ -23,10 +23,12 @@ collections:
                 output: true
         papers:
                 output: true
+                sorty_by: topic
         misc:
                 output: true
         quotes:
                 output: true
+                sort_by: name 
 
 #gems:
 #  - jekyll-assets
