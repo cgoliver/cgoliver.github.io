@@ -12,6 +12,21 @@ To try to see God is like trying to look at your own eyes, for he is nearer to u
 
 ---
 
+<div id="watts-decision">
+</div>
+The mere intellectual decision that there is no God cannot wipe out the thought patterns and habits of centuries all at once. But in time a faith based on nothing but habit will weaken, and the complete insanity of the meaningless life will take its place if man cannot be diverted with make-believe meanings -- commercial enterprise, material 'success', absorption in political and social reform movements, all of which can easily be maintained in an era of physical expansion. Yet when that era ends, only futility is left.<br>
+-- Alan Watts, *Behold the Spirit* <button onclick="Copy('watts', 'watts-decision')">[copy link]</button>
+
+---
+
+<div id="watts-human">
+</div>
+Human desire differs from animal desire in that it is at root insatiable. Man is characterized by a hunger for the infinite, for an eternity of life, love and joy which, whether he knows it or not, can be nothing other than God.<br>
+-- Alan Watts, *Behold the Spirit* <button onclick="Copy('watts', 'watts-human')">[copy link]</button>
+
+---
+
+
 <div id="watts-mouse">
 </div>
 Every attempt to find plan and purpose and respectable rationality in the universe, whether on a supernatural or a merely naturalistic basis, is bound to end in absurdity, and of the two the naturalistic explanations are the most absurd. Perhaps the song of birds is "explainable" simply as a device for sexual attraction; perhaps the radiant wings of insects are no more than protective colouring; perhaps the beauty of the morning-glory is merely to entice the bee, appealing no doubt to his acute aesthetic appreciation of colour and form. Perhaps. But if the aim of so much splendour is merely to stimulate the sexual process of purely instinctual organisms, the mountain has laboured and brought forth a mouse.<br>
