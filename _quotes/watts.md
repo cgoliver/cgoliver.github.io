@@ -7,7 +7,7 @@ name: Alan Watts
 
 <div id="watts-eyes">
 </div>
-To try to see God is like trying to look at your own eyes, for he is nearer to us than we are to ourselves.
+To try to see God is like trying to look at your own eyes, for he is nearer to us than we are to ourselves.<br>
 -- Alan Watts, *Behold the Spirit* <button onclick="Copy('watts', 'watts-eyes')">[copy link]</button>
 
 ---
