@@ -18,9 +18,7 @@ order: 2
 <style>
 img {
 border: 0px solid #787878;
-    min-width: 200px;
     max-width: 200px;
-    min-height: 100px;
     max-height: 130px;
     margin-right: 20px;
 }
