@@ -49,19 +49,23 @@ tr:nth-child(even) {
 
 <table>
   <tr>
-    <td><img src="/assets/relattentional.png" id="fig"></td>
-    <td><b>Edge Similarity-Aware Graph Neural Networks. </b> <br>
-	Vincent Mallet, Carlos Oliver, William L. Hamilton<br>
-	<i> arXiv 2021</i>(<a href="https://arxiv.org/abs/2109.09432">preprint</a>)</td>
+    <td><img src="/assets/motifiesta.png" id="fig"></td>
+    <td><b>Approximate Network Motif Mining via Graph Learning </b> <br>
+	Carlos Oliver, Dexiong Chen, Vincent Mallet, Pericles Philippopoulos, Karsten Borgwardt <br>
+	<a href="https://arxiv.org/abs/2206.01008">preprint</a>)</td>
   </tr>
-
   <tr>
     <td><img src="/assets/rnaglib.png" id="fig"></td>
     <td><b>RNAGlib: A Python Package for RNA 2.5D Graphs. </b> <br>
 	Vincent Mallet, Carlos Oliver, Jonathan Broadbent,  William L. Hamilton, Jerome Waldispuhl<br>
 	<i> Bioinformatics </i>(<a href="https://arxiv.org/abs/2109.04434">preprint</a> | <a href="https://academic.oup.com/bioinformatics/article/38/5/1458/6462185?login=true">article</a>)</td>
   </tr>
-
+  <tr>
+    <td><img src="/assets/relattentional.png" id="fig"></td>
+    <td><b>Edge Similarity-Aware Graph Neural Networks. </b> <br>
+	Vincent Mallet, Carlos Oliver, William L. Hamilton<br>
+	<i> arXiv 2021</i>(<a href="https://arxiv.org/abs/2109.09432">preprint</a>)</td>
+  </tr>
   <tr>
     <td><img src="/assets/vernal.png" id="fig"></td>
     <td><b>VeRNAl: A tool for fuzzy network motif mining in RNA. </b> <br>
