@@ -9,18 +9,14 @@ order: 2
 ---
 
 <head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<link rel = "stylesheet"
-   type = "text/css"
-   href = "style.css" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <style>
 img {
 border: 0px solid #787878;
     max-width: 200px;
     max-height: 130px;
-    margin-right: 20px;
+    padding-right: 50px;
+    padding-right: 50px;
 }
 #txt {
     font-size:11pt;

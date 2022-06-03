@@ -142,7 +142,7 @@ body {
   counter-reset: sidenote-counter;
 
   color: hsl(0, 5%, 10%);
-  background-color: hsl(210, 20%, 98%);
+  background-color: #ffffff;
 
   text-rendering: optimizeLegibility;
 }
@@ -259,6 +259,10 @@ td {
   text-align: left;
   padding: 0.5rem;
   line-height: 1.1;
+}
+
+tr {
+  border-bottom: .1px solid grey; 
 }
 /* Table caption */
 caption {
