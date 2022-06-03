@@ -25,36 +25,17 @@ border: 0px solid #787878;
 #txt {
     font-size:11pt;
 }
-table {
-  border-collapse: collapse;
-  width: 100%;
-margin: 0 auto;
-}
 
-.pic {
-    text-align: center;
-}
-
-
-td, th {
-  <!--border: 1px solid #dddddd;-->
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
 </style>
 </head>
 
 
 <table>
   <tr>
-    <td class="pic"><img src="/assets/motifiesta.png" id="fig"></td>
+    <td><img src="/assets/motifiesta.png" id="fig"></td>
     <td><b>Approximate Network Motif Mining via Graph Learning </b> <br>
 	Carlos Oliver, Dexiong Chen, Vincent Mallet, Pericles Philippopoulos, Karsten Borgwardt <br>
-	<a href="https://arxiv.org/abs/2206.01008">(preprint)</a></td>
+	(<a href="https://arxiv.org/abs/2206.01008">preprint</a>)</td>
   </tr>
   <tr>
     <td><img src="/assets/rnaglib.png" id="fig"></td>
