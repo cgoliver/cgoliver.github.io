@@ -54,7 +54,7 @@ tr:nth-child(even) {
     <td class="pic"><img src="/assets/motifiesta.png" id="fig"></td>
     <td><b>Approximate Network Motif Mining via Graph Learning </b> <br>
 	Carlos Oliver, Dexiong Chen, Vincent Mallet, Pericles Philippopoulos, Karsten Borgwardt <br>
-	<a href="https://arxiv.org/abs/2206.01008">preprint</a>)</td>
+	<a href="https://arxiv.org/abs/2206.01008">(preprint)</a></td>
   </tr>
   <tr>
     <td><img src="/assets/rnaglib.png" id="fig"></td>
