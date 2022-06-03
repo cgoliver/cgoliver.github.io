@@ -177,6 +177,7 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
+  text-align: center;
 }
 
 /* Inherit fonts for inputs and buttons */

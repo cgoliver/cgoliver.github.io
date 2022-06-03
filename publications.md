@@ -15,8 +15,6 @@ img {
 border: 0px solid #787878;
     max-width: 200px;
     max-height: 130px;
-    padding-right: 50px;
-    padding-right: 50px;
 }
 #txt {
     font-size:11pt;
