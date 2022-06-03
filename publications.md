@@ -31,6 +31,10 @@ table {
 margin: 0 auto;
 }
 
+.pic {
+    text-align: center;
+}
+
 
 td, th {
   <!--border: 1px solid #dddddd;-->
@@ -47,7 +51,7 @@ tr:nth-child(even) {
 
 <table>
   <tr>
-    <td><img src="/assets/motifiesta.png" id="fig"></td>
+    <td class="pic"><img src="/assets/motifiesta.png" id="fig"></td>
     <td><b>Approximate Network Motif Mining via Graph Learning </b> <br>
 	Carlos Oliver, Dexiong Chen, Vincent Mallet, Pericles Philippopoulos, Karsten Borgwardt <br>
 	<a href="https://arxiv.org/abs/2206.01008">preprint</a>)</td>
