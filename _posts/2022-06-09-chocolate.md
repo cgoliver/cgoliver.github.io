@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What is the best Lindt chocolate  
+title: Choosing a Lindt chococlate bar. 
 date: 2022-06-09
 comments: True
 ---
