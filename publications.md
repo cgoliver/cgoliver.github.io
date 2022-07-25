@@ -26,6 +26,12 @@ border: 0px solid #787878;
 
 <table>
   <tr>
+    <td><img src="/assets/mds.png" id="fig"></td>
+    <td><b>Unsupervised Manifold Alignment with Joint Multidimensional Scaling</b> <br>
+	Dexiong Chen, Bowen Fan, Carlos Oliver, Karsten Borgwardt <br>
+	(<a href="https://arxiv.org/abs/2207.02968">preprint</a>)</td>
+  </tr>
+  <tr>
     <td><img src="/assets/motifiesta.png" id="fig"></td>
     <td><b>Approximate Network Motif Mining via Graph Learning </b> <br>
 	Carlos Oliver, Dexiong Chen, Vincent Mallet, Pericles Philippopoulos, Karsten Borgwardt <br>
