@@ -7,13 +7,11 @@
 
 # Site settings
 title: Carlos Oliver
-email: carlos[at]ozeki[dot]io
-email_academic: carlos[dot]oliver[at]bsse[dot]ethz[dot]ch
+email: carlos@ozeki.io
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 github_username:  cgoliver
-twitter_username: carlosgoliver
 
 # Build settings
 markdown: kramdown
