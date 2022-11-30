@@ -8,6 +8,7 @@
 # Site settings
 title: Carlos Oliver
 email: carlos[at]ozeki[dot]io
+email_academic: carlos[dot]oliver[at]bsse[dot]ethz[dot]ch
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
