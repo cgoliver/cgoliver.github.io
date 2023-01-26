@@ -20,10 +20,10 @@
 
 <html>
 
- <div id='content'>
   {% include head.html %}
   <body>
 
+    <div class='content'>
     {% include header.html %}
 
         {{ content }}
@@ -33,6 +33,7 @@
     <!--{% if jekyll.environment == 'production' %}-->
     <!--{% include analytics.html %}-->
     <!--{% endif %}-->
+    </div>
   </body>
 </div>
 
