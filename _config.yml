@@ -29,5 +29,6 @@ collections:
                 output: true
                 sort_by: name 
 
+comments: false
 #gems:
 #  - jekyll-assets
