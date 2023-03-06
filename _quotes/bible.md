@@ -21,6 +21,21 @@ For God has not given us a spirit of fear, but of power and of love and of a sou
 ---
 
 For my thoughts are not your thoughts, neither are your ways my ways, saith the LORD. For as the heavens are higher than the earth, so are my ways higher than your ways, and my thoughts than your thoughts.
+
 -- Isaiah 55:8-9
 
 ---
+
+Behold I am sending you as sheep in the midst of wolved, sso be wise as serpents and innocent as doves. Beware of men, for they will deliver you over to courts and flog you in their synagogues, and you will be dragged before governors and kings for my sake...
+
+-- Matthew 10:16-18
+
+---
+
+And blesses is the one who is not offended by me.
+
+-- Matthew 11:6
+
+---
+
+
