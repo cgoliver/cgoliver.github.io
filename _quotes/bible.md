@@ -26,13 +26,13 @@ For my thoughts are not your thoughts, neither are your ways my ways, saith the 
 
 ---
 
-Behold I am sending you as sheep in the midst of wolved, sso be wise as serpents and innocent as doves. Beware of men, for they will deliver you over to courts and flog you in their synagogues, and you will be dragged before governors and kings for my sake...
+Behold I am sending you as sheep in the midst of wolves, so be wise as serpents and innocent as doves. Beware of men, for they will deliver you over to courts and flog you in their synagogues, and you will be dragged before governors and kings for my sake...
 
 -- Matthew 10:16-18
 
 ---
 
-And blesses is the one who is not offended by me.
+And blessed is the one who is not offended by me.
 
 -- Matthew 11:6
 
