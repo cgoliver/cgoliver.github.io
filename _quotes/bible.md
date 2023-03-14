@@ -21,6 +21,13 @@ For God has not given us a spirit of fear, but of power and of love and of a sou
 ---
 
 For my thoughts are not your thoughts, neither are your ways my ways, saith the LORD. For as the heavens are higher than the earth, so are my ways higher than your ways, and my thoughts than your thoughts.
+
 -- Isaiah 55:8-9
+
+---
+
+And beside this, giving all diligence, add to your faith virtue; and to virtue knowledge; And to knowledge temperance; and to temperance patience; and to patience godliness; And to godliness brotherly kindness; and to brotherly kindness charity. For if these things be in you, and abound, they make you that ye shall neither be barren nor unfruitful in the knowledge of our Lord Jesus Christ.
+
+-- 2 Peter 1:5-8
 
 ---
