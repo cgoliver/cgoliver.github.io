@@ -17,8 +17,8 @@ Rating system: <sup>*</sup> don't read, <sup>**</sup> have a look, <sup>***</sup
 
 ## B
 
-* [_Introduction to Christianity_ - Pope Benedict XVI](https://www.goodreads.com/book/show/638182.Introduction_to_Christianity) <sup>***</sup>
-* [_El Aleph_ - Jorge Luis Borges](https://www.goodreads.com/book/show/21795321-el-aleph?from_search=true&from_srp=true&qid=ZtWFpU2Qdi&rank=1) <sup>***</sup>
+* [_Introduction to Christianity_](https://www.goodreads.com/book/show/638182.Introduction_to_Christianity) - Pope Benedict XVI <sup>***</sup>
+* [_El Aleph_](https://www.goodreads.com/book/show/21795321-el-aleph) - Jorge Luis Borges <sup>***</sup>
 * [_Ficciones_ - Jorge Luis Borges](https://www.goodreads.com/book/show/426504.Ficciones) <sup>***</sup>
 * [_2666_ - Roberto Bolano](https://www.goodreads.com/book/show/63032.2666?from_search=true&from_srp=true&qid=L9YcrUH4vI&rank=1) <sup>***</sup>
 * [_Don't Point That Thing At Me_ - Kyril Bonfiglioni](https://www.goodreads.com/book/show/22598061-don-t-point-that-thing-at-me) <sup>**</sup>
