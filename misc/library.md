@@ -17,7 +17,7 @@ Rating system: $^{*}$ don't read, $^{**}$ have a look, $^{***}$ must read
 
 ## B
 
-* _El Aleph_ - Jorge Luis Borges
+* _El Aleph_ - Jorge Luis Borges $^{***}$
 * _Ficciones_ - Jorge Luis Borges
 * _2666_ - Roberto Bolano
 * _The Dog Master_ - Cameron Bruce 
