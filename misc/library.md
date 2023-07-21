@@ -25,7 +25,7 @@ Books I've read in my library (in no particular order).
 * _The Rape of Nanking_ - Iris Chang
 * _Orthodoxy_ - GK Chesterton
 * _Heretics_ - GK Chesterton
-* _The Man Who Was Thursday_ - GK Chesterton
+* [_The Man Who Was Thursday_ - GK Chesterton](https://www.goodreads.com/book/show/184419.The_Man_Who_Was_Thursday)
 * _And Then There Were None_ - Agatha Christie
 * _Death on the Nile_ - Agatha Christie
 * _Recursion_ - Blake Crouch
@@ -40,6 +40,7 @@ Books I've read in my library (in no particular order).
 * [_The Boy Crisis_ - Warren Farrell](https://www.goodreads.com/book/show/37854870-the-boy-crisis) 
 * [_The Value of Art_ - Michael Findlay](https://www.goodreads.com/book/show/13641387-the-value-of-art)
 * _Man's Search for Meaning_ - Viktor Frankl
+* [_Capitalism and Freedom_ - Milton Friedman](https://www.goodreads.com/book/show/51877.Capitalism_and_Freedom)
 * _The Great Code: The Bible and Literature_ - Northrop Frye
 
 ## H
@@ -47,6 +48,7 @@ Books I've read in my library (in no particular order).
 * [_The Girl on the Traion_ - Paula Hawkins](https://www.goodreads.com/book/show/22557272-the-girl-on-the-train)
 * _The Road to Serfdom_ - Friedrich Hayek
 * _The Constitution of Liberty_ - Friedrich Hayek
+* [_The Sun Also Rises_ - Ernest Hemmingway](https://www.goodreads.com/book/show/3876.The_Sun_Also_Rises)
 
 
 ## K
@@ -55,6 +57,7 @@ Books I've read in my library (in no particular order).
 * _The Stand_ - Stephen King
 * _Pet Sematary_ - Stephen King
 * [_The Outsider_ - Stephen King](https://www.goodreads.com/book/show/36124936-the-outsider)
+* [_The Good Girl_ - Mary Kubica](https://www.goodreads.com/book/show/18812405-the-good-girl)
 * _The Unbearable Lightness of Being_ - Milan Kundera
 
 ## L
@@ -71,6 +74,10 @@ Books I've read in my library (in no particular order).
 * _The Madness of Crowds_ - Douglas Murray
 * _The Strange Death of Europe_ - Douglas Murray
 
+## N
+
+* [_Lolita_ - Vladimir Nabokov](https://www.goodreads.com/book/show/7604.Lolita)
+
 ## P
 
 * [_Break, Blow, Burn_ - Camille Paglia](https://www.goodreads.com/book/show/48258.Break_Blow_Burn)
@@ -81,14 +88,16 @@ Books I've read in my library (in no particular order).
 * _God, Freedom, and Evil_ - Alvin Plantinga
 * _Enlightenment Now_ - Steven Pinker
 * _The Blank Slate_ - Steven Pinker
+* [_Zen and the Art of Motorcycle Maintenance_ - Robert M. Pirsig](https://www.goodreads.com/book/show/629.Zen_and_the_Art_of_Motorcycle_Maintenance)
 * [_The Revenant_ - Michael Punke](https://www.goodreads.com/book/show/22836957-the-revenant)
 
 ## R
 
+* [_The Fountainhead_ - Ayn Rand](https://www.goodreads.com/book/show/2122.The_Fountainhead)
 * _Introduction to Christianity_ - Joseph Cardinal Ratzinger
 * _The Archimedes Codex_ - Netz Reviel
 * _Barney's Version_ - Mordecai Richler
-* _The Apprenticeship of Duddy Kravitz_ - Mordecai Richler
+* [_The Apprenticeship of Duddy Kravitz_ - Mordecai Richler](https://www.goodreads.com/book/show/203073.The_Apprenticeship_of_Duddy_Kravitz)
 * _Letters to a Young Poet_ - Rainer Maria Rilke
 * _What Has Government Done with Our Money?_ - Murray Rothbard
 
@@ -96,6 +105,7 @@ Books I've read in my library (in no particular order).
 
 * _How to be a Conservative_ - Sir Roger Scruton
 * _Letters from a Stoic_ - Seneca
+* [_The Right Side of History: How Reason and Moral Purpose Made the West Great_ - Ben Shapiro](https://www.goodreads.com/book/show/42649659-the-right-side-of-history)
 * _Permanent Record_ - Edward Snowden
 * _The Gulag Archipelago_ - Aleksandr Solzhenitsyn
 * _East of Eden_ - John Steinbeck
