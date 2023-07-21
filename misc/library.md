@@ -26,11 +26,11 @@ Rating system: <sup>*</sup> don't read, <sup>**</sup> have a look, <sup>***</sup
 
 ## C
 
-* _Journey to the End of the Night_ - Louis Ferdinand Celine
-* _The Rape of Nanking_ - Iris Chang
-* _Orthodoxy_ - GK Chesterton
-* _Heretics_ - GK Chesterton
-* [_The Man Who Was Thursday_ - GK Chesterton](https://www.goodreads.com/book/show/184419.The_Man_Who_Was_Thursday)
+* [_Journey to the End of the Night_ - Louis Ferdinand Celine](https://www.goodreads.com/book/show/677992.Journey_to_the_End_of_the_Night) <sup>**</sup>
+* [_The Rape of Nanking_ - Iris Chang](https://www.goodreads.com/book/show/95784.The_Rape_of_Nanking) <sup>***</sup>
+* [_Orthodoxy_ - GK Chesterton](https://www.goodreads.com/book/show/87665.Orthodoxy) <sup>***</sup>
+* [_Heretics_ - GK Chesterton](https://www.goodreads.com/book/show/612143.Heretics) <sup>***</sup>
+* [_The Man Who Was Thursday_ - GK Chesterton](https://www.goodreads.com/book/show/184419.The_Man_Who_Was_Thursday) <sup>**</sup>
 * _And Then There Were None_ - Agatha Christie
 * _Death on the Nile_ - Agatha Christie
 * _Recursion_ - Blake Crouch
