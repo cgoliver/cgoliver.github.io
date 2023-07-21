@@ -31,42 +31,46 @@ Rating system: <sup>*</sup> don't read, <sup>**</sup> have a look, <sup>***</sup
 * [_Orthodoxy_ - GK Chesterton](https://www.goodreads.com/book/show/87665.Orthodoxy) <sup>***</sup>
 * [_Heretics_ - GK Chesterton](https://www.goodreads.com/book/show/612143.Heretics) <sup>***</sup>
 * [_The Man Who Was Thursday_ - GK Chesterton](https://www.goodreads.com/book/show/184419.The_Man_Who_Was_Thursday) <sup>**</sup>
-* _And Then There Were None_ - Agatha Christie
-* _Death on the Nile_ - Agatha Christie
-* _Recursion_ - Blake Crouch
+* [_And Then There Were None_ - Agatha Christie](https://www.goodreads.com/book/show/46265792-and-then-there-were-none) <sup>**</sup>
+* [_Death on the Nile_ - Agatha Christie](https://www.goodreads.com/book/show/131359.Death_on_the_Nile) <sup>**</sup>
+* [_Recursion_ - Blake Crouch](https://www.goodreads.com/book/show/42046112-recursion) <sup>*</sup>
 
 ## D
 
-* _White Fragility_ - Robin DiAngelo
-* _Crime and Punishment_ - Fyodor Dostoevsky
+* [_White Fragility_ - Robin DiAngelo](https://www.goodreads.com/book/show/43708708-white-fragility) <sup>*</sup>
+* [_Crime and Punishment_ - Fyodor Dostoevsky](https://www.goodreads.com/book/show/20351058-crime-and-punishment) <sup>***</sup>
 
 ## F
 
-* [_The Boy Crisis_ - Warren Farrell](https://www.goodreads.com/book/show/37854870-the-boy-crisis) 
-* [_The Value of Art_ - Michael Findlay](https://www.goodreads.com/book/show/13641387-the-value-of-art)
-* _Man's Search for Meaning_ - Viktor Frankl
-* [_Capitalism and Freedom_ - Milton Friedman](https://www.goodreads.com/book/show/51877.Capitalism_and_Freedom)
-* _The Great Code: The Bible and Literature_ - Northrop Frye
+* [_The Boy Crisis_ - Warren Farrell](https://www.goodreads.com/book/show/37854870-the-boy-crisis) <sup>**</sup>
+* [_The Value of Art_ - Michael Findlay](https://www.goodreads.com/book/show/13641387-the-value-of-art) <sup>**</sup>
+* [_Man's Search for Meaning_ - Viktor Frankl](https://www.goodreads.com/book/show/17204679-man-s-search-for-meaning) <sup>***</sup>
+* [_Capitalism and Freedom_ - Milton Friedman](https://www.goodreads.com/book/show/51877.Capitalism_and_Freedom) <sup>**</sup>
+* [_The Great Code: The Bible and Literature_ - Northrop Frye](https://www.goodreads.com/book/show/318117.The_Great_Code) <sup>**</sup>
 
 ## H
 
-* [_The Girl on the Traion_ - Paula Hawkins](https://www.goodreads.com/book/show/22557272-the-girl-on-the-train)
-* _The Road to Serfdom_ - Friedrich Hayek
-* _The Constitution of Liberty_ - Friedrich Hayek
-* [_The Sun Also Rises_ - Ernest Hemmingway](https://www.goodreads.com/book/show/3876.The_Sun_Also_Rises)
+* [_The Girl on the Traion_ - Paula Hawkins](https://www.goodreads.com/book/show/22557272-the-girl-on-the-train) <sup>**</sup>
+* [_The Road to Serfdom_ - Friedrich Hayek](https://www.goodreads.com/book/show/299215.The_Road_to_Serfdom) <sup>**</sup>
+* [_The Constitution of Liberty_ - Friedrich Hayek](https://www.goodreads.com/book/show/1044658.The_Constitution_of_Liberty) <sup>***</sup>
+* [_The Sun Also Rises_ - Ernest Hemmingway](https://www.goodreads.com/book/show/3876.The_Sun_Also_Rises) <sup>***</sup>
 
 
 ## K
 
-* [_The Gunslinger (The Dark Tower #1)_ - Stephen King](https://www.goodreads.com/book/show/43615.The_Gunslinger)
-* _The Stand_ - Stephen King
-* _Pet Sematary_ - Stephen King
-* [_The Outsider_ - Stephen King](https://www.goodreads.com/book/show/36124936-the-outsider)
-* [_The Good Girl_ - Mary Kubica](https://www.goodreads.com/book/show/18812405-the-good-girl)
-* _The Unbearable Lightness of Being_ - Milan Kundera
+* [_The Gunslinger (The Dark Tower #1)_ - Stephen King](https://www.goodreads.com/book/show/43615.The_Gunslinger) <sup>***</sup>
+* [_The Stand_ - Stephen King](https://www.goodreads.com/book/show/87591651-the-stand) <sup>**</sup>
+* [_Pet Sematary_ - Stephen King](https://www.goodreads.com/book/show/33124137-pet-sematary) <sup>**</sup>
+* [_The Outsider_ - Stephen King](https://www.goodreads.com/book/show/36124936-the-outsider) <sup>**</sup>
+* [_The Good Girl_ - Mary Kubica](https://www.goodreads.com/book/show/18812405-the-good-girl) <sup>*</sup>
+* [_The Unbearable Lightness of Being_ - Milan Kundera](https://www.goodreads.com/book/show/96573.The_Unbearable_Lightness_of_Being) <sup>***</sup>
 
 ## L
-* _False Alarm_ - Bjorn Lomborg
+
+
+* [_Mere Christianity_ - CS Lewis](https://www.goodreads.com/book/show/40792344-mere-christianity) <sup>***</sup>
+* [_Surprised by Joy_ - CS Lewis](https://www.goodreads.com/book/show/121732.Surprised_by_Joy) <sup>**</sup>
+* [_False Alarm_ - Bjorn Lomborg](https://www.goodreads.com/book/show/49089453-false-alarm) <sup>***</sup>
 
 ## M
 
