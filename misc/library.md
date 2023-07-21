@@ -51,64 +51,64 @@ Rating system: <sup>*</sup> don't read, <sup>**</sup> have a look, <sup>***</sup
 
 ## H
 
-* [_The Girl on the Traion_ - Paula Hawkins](https://www.goodreads.com/book/show/22557272-the-girl-on-the-train) <sup>**</sup>
-* [_The Road to Serfdom_ - Friedrich Hayek](https://www.goodreads.com/book/show/299215.The_Road_to_Serfdom) <sup>**</sup>
-* [_The Constitution of Liberty_ - Friedrich Hayek](https://www.goodreads.com/book/show/1044658.The_Constitution_of_Liberty) <sup>***</sup>
-* [_The Sun Also Rises_ - Ernest Hemmingway](https://www.goodreads.com/book/show/3876.The_Sun_Also_Rises) <sup>***</sup>
+* [_The Girl on the Train](https://www.goodreads.com/book/show/22557272-the-girl-on-the-train)_ - Paula Hawkins <sup>**</sup>
+* [_The Road to Serfdom_](https://www.goodreads.com/book/show/299215.The_Road_to_Serfdom) - Friedrich Hayek <sup>**</sup>
+* [_The Constitution of Liberty_](https://www.goodreads.com/book/show/1044658.The_Constitution_of_Liberty) - Friedrich Hayek <sup>***</sup>
+* [_The Sun Also Rises_](https://www.goodreads.com/book/show/3876.The_Sun_Also_Rises) - Ernest Hemmingway <sup>***</sup>
 
 
 ## K
 
-* [_The Gunslinger (The Dark Tower #1)_ - Stephen King](https://www.goodreads.com/book/show/43615.The_Gunslinger) <sup>***</sup>
-* [_The Stand_ - Stephen King](https://www.goodreads.com/book/show/87591651-the-stand) <sup>**</sup>
-* [_Pet Sematary_ - Stephen King](https://www.goodreads.com/book/show/33124137-pet-sematary) <sup>**</sup>
-* [_The Outsider_ - Stephen King](https://www.goodreads.com/book/show/36124936-the-outsider) <sup>**</sup>
-* [_The Good Girl_ - Mary Kubica](https://www.goodreads.com/book/show/18812405-the-good-girl) <sup>*</sup>
-* [_The Unbearable Lightness of Being_ - Milan Kundera](https://www.goodreads.com/book/show/96573.The_Unbearable_Lightness_of_Being) <sup>***</sup>
+* [_The Gunslinger (The Dark Tower #1)_](https://www.goodreads.com/book/show/43615.The_Gunslinger) - Stephen King <sup>***</sup>
+* [_The Stand_](https://www.goodreads.com/book/show/87591651-the-stand) - Stephen King <sup>**</sup>
+* [_Pet Sematary_](https://www.goodreads.com/book/show/33124137-pet-sematary) - Stephen King <sup>**</sup>
+* [_The Outsider_](https://www.goodreads.com/book/show/36124936-the-outsider) - Stephen King <sup>**</sup>
+* [_The Good Girl_](https://www.goodreads.com/book/show/18812405-the-good-girl) - Mary Kubica <sup>*</sup>
+* [_The Unbearable Lightness of Being_](https://www.goodreads.com/book/show/96573.The_Unbearable_Lightness_of_Being) - Milan Kundera <sup>***</sup>
 
 ## L
 
 
-* [_Mere Christianity_ - CS Lewis](https://www.goodreads.com/book/show/40792344-mere-christianity) <sup>***</sup>
-* [_Surprised by Joy_ - CS Lewis](https://www.goodreads.com/book/show/121732.Surprised_by_Joy) <sup>**</sup>
-* [_False Alarm_ - Bjorn Lomborg](https://www.goodreads.com/book/show/49089453-false-alarm) <sup>***</sup>
+* [_Mere Christianity_](https://www.goodreads.com/book/show/40792344-mere-christianity) - CS Lewis <sup>***</sup>
+* [_Surprised by Joy_](https://www.goodreads.com/book/show/121732.Surprised_by_Joy) - CS Lewis <sup>**</sup>
+* [_False Alarm_](https://www.goodreads.com/book/show/49089453-false-alarm) - Bjorn Lomborg <sup>***</sup>
 
 ## M
 
-* [_Rebecca_ - Daphne du Maurier](https://www.goodreads.com/book/show/17899948-rebecca) <sup>**</sup>
-* [_Decoding the Heavens_ - Jo Marchant](https://www.goodreads.com/book/show/5456216-decoding-the-heavens) <sup>**</sup>
-* [_Greenlights_ - Matthew McConaughey](https://www.goodreads.com/book/show/52838315-greenlights) <sup>**</sup>
-* [_The Silent Patient_ - Alex Michaelides](https://www.goodreads.com/book/show/40097951-the-silent-patient) <sup>**</sup>
-* [_Liberty and Property_ - Ludwig von Mises](https://www.goodreads.com/book/show/6727005-liberty-and-property) <sup>***</sup>
-* [_The Art of Raising a Puppy_ - Group of Monks](https://www.goodreads.com/book/show/57258037-the-art-of-raising-a-puppy) <sup>**</sup>
-* [_The Madness of Crowds_ - Douglas Murray](https://www.goodreads.com/book/show/44667183-the-madness-of-crowds) <sup>***</sup>
-* [_The Strange Death of Europe_ - Douglas Murray](https://www.goodreads.com/book/show/33584231-the-strange-death-of-europe) <sup>***</sup>
+* [_Rebecca_](https://www.goodreads.com/book/show/17899948-rebecca) - Daphne du Maurier <sup>**</sup>
+* [_Decoding the Heavens_](https://www.goodreads.com/book/show/5456216-decoding-the-heavens) - Jo Marchant <sup>**</sup>
+* [_Greenlights_](https://www.goodreads.com/book/show/52838315-greenlights) - Matthew McConaughey <sup>**</sup>
+* [_The Silent Patient_](https://www.goodreads.com/book/show/40097951-the-silent-patient)- Alex Michaelides <sup>**</sup>
+* [_Liberty and Property_](https://www.goodreads.com/book/show/6727005-liberty-and-property) - Ludwig von Mises <sup>***</sup>
+* [_The Art of Raising a Puppy_](https://www.goodreads.com/book/show/57258037-the-art-of-raising-a-puppy) - Group of Monks <sup>**</sup>
+* [_The Madness of Crowds_](https://www.goodreads.com/book/show/44667183-the-madness-of-crowds) - Douglas Murray <sup>***</sup>
+* [_The Strange Death of Europe_](https://www.goodreads.com/book/show/33584231-the-strange-death-of-europe) - Douglas Murray <sup>***</sup>
 
 ## N
 
-* [_Lolita_ - Vladimir Nabokov](https://www.goodreads.com/book/show/7604.Lolita) <sup>**</sup>
+* [_Lolita_](https://www.goodreads.com/book/show/7604.Lolita) - Vladimir Nabokov <sup>**</sup>
 
 ## P
 
-* [_Break, Blow, Burn_ - Camille Paglia](https://www.goodreads.com/book/show/48258.Break_Blow_Burn) <sup>***</sup>
-* [_End the Fed_ - Ron Paul](https://www.goodreads.com/book/show/6388946-end-the-fed) <sup>**</sup>
-* [_12 Rules For Life_ - Jordan B. Peterson](https://www.goodreads.com/book/show/30257963-12-rules-for-life) <sup>***</sup>
-* [_Beyond Order: 12 More Rules For Life_ - Jordan B. Peterson](https://www.goodreads.com/book/show/56019043-beyond-order) <sup>***</sup>
-* [_Knowledge and Christian Belief_ - Alvin Plantinga](https://www.goodreads.com/book/show/22962483-knowledge-and-christian-belief) <sup>***</sup>
-* [_God, Freedom, and Evil_ - Alvin Plantinga](https://www.goodreads.com/book/show/496895.God_Freedom_and_Evil) <sup>***</sup>
-* [_Enlightenment Now_ - Steven Pinker](https://www.goodreads.com/book/show/35696171-enlightenment-now) <sup>***</sup>
-* [_The Blank Slate_ - Steven Pinker](https://www.goodreads.com/book/show/48618164-the-blank-slate) <sup>***</sup>
-* [_Zen and the Art of Motorcycle Maintenance_ - Robert M. Pirsig](https://www.goodreads.com/book/show/629.Zen_and_the_Art_of_Motorcycle_Maintenance) <sup>**</sup>
-* [_The Revenant_ - Michael Punke](https://www.goodreads.com/book/show/22836957-the-revenant) <sup>**</sup>
+* [_Break, Blow, Burn_](https://www.goodreads.com/book/show/48258.Break_Blow_Burn) - Camille Paglia <sup>***</sup>
+* [_End the Fed_](https://www.goodreads.com/book/show/6388946-end-the-fed) - Ron Paul <sup>**</sup>
+* [_12 Rules For Life_](https://www.goodreads.com/book/show/30257963-12-rules-for-life) - Jordan B. Peterson <sup>***</sup>
+* [_Beyond Order: 12 More Rules For Life_](https://www.goodreads.com/book/show/56019043-beyond-order) - Jordan B. Peterson <sup>***</sup>
+* [_Knowledge and Christian Belief_](https://www.goodreads.com/book/show/22962483-knowledge-and-christian-belief) - Alvin Plantinga <sup>***</sup>
+* [_God, Freedom, and Evil_](https://www.goodreads.com/book/show/496895.God_Freedom_and_Evil) - Alvin Plantinga <sup>***</sup>
+* [_Enlightenment Now_](https://www.goodreads.com/book/show/35696171-enlightenment-now) - Steven Pinker <sup>***</sup>
+* [_The Blank Slate_](https://www.goodreads.com/book/show/48618164-the-blank-slate) - Steven Pinker <sup>***</sup>
+* [_Zen and the Art of Motorcycle Maintenance_](https://www.goodreads.com/book/show/629.Zen_and_the_Art_of_Motorcycle_Maintenance) - Robert M. Pirsig <sup>**</sup>
+* [_The Revenant_](https://www.goodreads.com/book/show/22836957-the-revenant) - Michael Punke <sup>**</sup>
 
 ## R
 
-* [_The Fountainhead_ - Ayn Rand](https://www.goodreads.com/book/show/2122.The_Fountainhead) <sup>**</sup>
-* [_The Archimedes Codex_ - Netz Reviel](https://www.goodreads.com/book/show/28927936-the-archimedes-codex) <sup>**</sup>
-* [_Barney's Version_ - Mordecai Richler](https://www.goodreads.com/book/show/196564.Barney_s_Version) <sup>***</sup>
-* [_The Apprenticeship of Duddy Kravitz_ - Mordecai Richler](https://www.goodreads.com/book/show/203073.The_Apprenticeship_of_Duddy_Kravitz) <sup>**</sup>
-* [_Letters to a Young Poet_ - Rainer Maria Rilke](https://www.goodreads.com/book/show/46199.Letters_to_a_Young_Poet) <sup>***</sup>
-* [_What Has Government Done with Our Money?_ - Murray Rothbard](https://www.goodreads.com/book/show/81977.What_Has_Government_Done_to_Our_Money_and_The_Case_for_a_100_Percent_Gold_Dollar) <sup>**</sup>
+* [_The Fountainhead_](https://www.goodreads.com/book/show/2122.The_Fountainhead) - Ayn Rand <sup>**</sup>
+* [_The Archimedes Codex_](https://www.goodreads.com/book/show/28927936-the-archimedes-codex) - Netz Reviel <sup>**</sup>
+* [_Barney's Version_](https://www.goodreads.com/book/show/196564.Barney_s_Version) - Mordecai Richler <sup>***</sup>
+* [_The Apprenticeship of Duddy Kravitz_](https://www.goodreads.com/book/show/203073.The_Apprenticeship_of_Duddy_Kravitz) - Mordecai Richler <sup>**</sup>
+* [_Letters to a Young Poet_](https://www.goodreads.com/book/show/46199.Letters_to_a_Young_Poet) - Rainer Maria Rilke <sup>***</sup>
+* [_What Has Government Done with Our Money?_](https://www.goodreads.com/book/show/81977.What_Has_Government_Done_to_Our_Money_and_The_Case_for_a_100_Percent_Gold_Dollar) - Murray Rothbard <sup>**</sup>
 
 ## S
 
