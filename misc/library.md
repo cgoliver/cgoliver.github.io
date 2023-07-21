@@ -93,18 +93,18 @@ Rating system: <sup>*</sup> don't read, <sup>**</sup> have a look, <sup>***</sup
 * _God, Freedom, and Evil_ - Alvin Plantinga
 * _Enlightenment Now_ - Steven Pinker
 * _The Blank Slate_ - Steven Pinker
-* [_Zen and the Art of Motorcycle Maintenance_ - Robert M. Pirsig](https://www.goodreads.com/book/show/629.Zen_and_the_Art_of_Motorcycle_Maintenance)
-* [_The Revenant_ - Michael Punke](https://www.goodreads.com/book/show/22836957-the-revenant)
+* [_Zen and the Art of Motorcycle Maintenance_ - Robert M. Pirsig](https://www.goodreads.com/book/show/629.Zen_and_the_Art_of_Motorcycle_Maintenance) <sup>**</sup>
+* [_The Revenant_ - Michael Punke](https://www.goodreads.com/book/show/22836957-the-revenant) <sup>**</sup>
 
 ## R
 
-* [_The Fountainhead_ - Ayn Rand](https://www.goodreads.com/book/show/2122.The_Fountainhead)
-* _Introduction to Christianity_ - Joseph Cardinal Ratzinger
-* _The Archimedes Codex_ - Netz Reviel
-* _Barney's Version_ - Mordecai Richler
-* [_The Apprenticeship of Duddy Kravitz_ - Mordecai Richler](https://www.goodreads.com/book/show/203073.The_Apprenticeship_of_Duddy_Kravitz)
-* _Letters to a Young Poet_ - Rainer Maria Rilke
-* _What Has Government Done with Our Money?_ - Murray Rothbard
+* [_The Fountainhead_ - Ayn Rand](https://www.goodreads.com/book/show/2122.The_Fountainhead) <sup>**</sup>
+* _Introduction to Christianity_ - Joseph Cardinal Ratzinger <sup>***</sup>
+* [_The Archimedes Codex_ - Netz Reviel](https://www.goodreads.com/book/show/28927936-the-archimedes-codex) <sup>**</sup>
+* [_Barney's Version_ - Mordecai Richler](https://www.goodreads.com/book/show/196564.Barney_s_Version) <sup>***</sup>
+* [_The Apprenticeship of Duddy Kravitz_ - Mordecai Richler](https://www.goodreads.com/book/show/203073.The_Apprenticeship_of_Duddy_Kravitz) <sup>**</sup>
+* [_Letters to a Young Poet_ - Rainer Maria Rilke](https://www.goodreads.com/book/show/46199.Letters_to_a_Young_Poet) <sup>***</sup>
+* [_What Has Government Done with Our Money?_ - Murray Rothbard](https://www.goodreads.com/book/show/81977.What_Has_Government_Done_to_Our_Money_and_The_Case_for_a_100_Percent_Gold_Dollar) <sup>**</sup>
 
 ## S
 
@@ -125,4 +125,6 @@ Rating system: <sup>*</sup> don't read, <sup>**</sup> have a look, <sup>***</sup
 
 ## W
 
-* [_54_ - Wu Ming](https://www.goodreads.com/book/show/333785.54)
+* [_Fire and Fury: Inside The Trump White House_ - Michael Wolff](https://www.goodreads.com/book/show/36595101-fire-and-fury) <sup>**</sup>
+* [_54_ - Wu Ming](https://www.goodreads.com/book/show/333785.54) <sup>**</sup>
+
