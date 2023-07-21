@@ -36,6 +36,7 @@ Books I've read in my library (in no particular order).
 
 ## F
 
+* [_The Value of Art_ - Michael Findlay](https://www.goodreads.com/book/show/13641387-the-value-of-art)
 * _Man's Search for Meaning_ - Viktor Frankl
 * _The Great Code: The Bible and Literature_ - Northrop Frye
 
