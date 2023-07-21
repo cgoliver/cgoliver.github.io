@@ -10,8 +10,7 @@ permalink: /research
 
 # Data-driven structure function group
 
-
-## Big picture
+I am leading a research group as Project Leader at the Max Planck Institute for Biochemistry.
 
 Many real-world systems exhibit __structural__ properties that are strongly linked to the way they operate.
 A prominent example of this phenomenon is the realtionship between structure and function in biomolecules.
