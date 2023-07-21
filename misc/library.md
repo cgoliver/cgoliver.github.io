@@ -19,35 +19,35 @@ Rating system: <sup>*</sup> don't read, <sup>**</sup> have a look, <sup>***</sup
 
 * [_Introduction to Christianity_](https://www.goodreads.com/book/show/638182.Introduction_to_Christianity) - Pope Benedict XVI <sup>***</sup>
 * [_El Aleph_](https://www.goodreads.com/book/show/21795321-el-aleph) - Jorge Luis Borges <sup>***</sup>
-* [_Ficciones_ - Jorge Luis Borges](https://www.goodreads.com/book/show/426504.Ficciones) <sup>***</sup>
-* [_2666_ - Roberto Bolano](https://www.goodreads.com/book/show/63032.2666?from_search=true&from_srp=true&qid=L9YcrUH4vI&rank=1) <sup>***</sup>
-* [_Don't Point That Thing At Me_ - Kyril Bonfiglioni](https://www.goodreads.com/book/show/22598061-don-t-point-that-thing-at-me) <sup>**</sup>
-* [_The Dog Master_ - Cameron Bruce](https://www.goodreads.com/book/show/22238176-the-dog-master) <sup>*</sup>
-* [_Love is a Dog from Hell_ - Charles Bukowski](https://www.goodreads.com/book/show/6563890-love-is-a-dog-from-hell) <sup>***</sup>
+* [_Ficciones_](https://www.goodreads.com/book/show/426504.Ficciones) - Jorge Luis Borges <sup>***</sup>
+* [_2666_](https://www.goodreads.com/book/show/63032.2666) - Roberto Bolano <sup>***</sup>
+* [_Don't Point That Thing At Me_](https://www.goodreads.com/book/show/22598061-don-t-point-that-thing-at-me) - Kyril Bonfiglioni <sup>**</sup>
+* [_The Dog Master_](https://www.goodreads.com/book/show/22238176-the-dog-master) - Cameron Bruce <sup>*</sup>
+* [_Love is a Dog from Hell_](https://www.goodreads.com/book/show/6563890-love-is-a-dog-from-hell) - Charles Bukowski] <sup>***</sup>
 
 ## C
 
-* [_Journey to the End of the Night_ - Louis Ferdinand Celine](https://www.goodreads.com/book/show/677992.Journey_to_the_End_of_the_Night) <sup>**</sup>
-* [_The Rape of Nanking_ - Iris Chang](https://www.goodreads.com/book/show/95784.The_Rape_of_Nanking) <sup>***</sup>
-* [_Orthodoxy_ - GK Chesterton](https://www.goodreads.com/book/show/87665.Orthodoxy) <sup>***</sup>
-* [_Heretics_ - GK Chesterton](https://www.goodreads.com/book/show/612143.Heretics) <sup>***</sup>
-* [_The Man Who Was Thursday_ - GK Chesterton](https://www.goodreads.com/book/show/184419.The_Man_Who_Was_Thursday) <sup>**</sup>
-* [_And Then There Were None_ - Agatha Christie](https://www.goodreads.com/book/show/46265792-and-then-there-were-none) <sup>**</sup>
-* [_Death on the Nile_ - Agatha Christie](https://www.goodreads.com/book/show/131359.Death_on_the_Nile) <sup>**</sup>
-* [_Recursion_ - Blake Crouch](https://www.goodreads.com/book/show/42046112-recursion) <sup>*</sup>
+* [_Journey to the End of the Night_](https://www.goodreads.com/book/show/677992.Journey_to_the_End_of_the_Night) - Louis Ferdinand Celine <sup>**</sup>
+* [_The Rape of Nanking_](https://www.goodreads.com/book/show/95784.The_Rape_of_Nanking) - Iris Chang <sup>***</sup>
+* [_Orthodoxy_](https://www.goodreads.com/book/show/87665.Orthodoxy) - GK Chesterton <sup>***</sup>
+* [_Heretics_](https://www.goodreads.com/book/show/612143.Heretics) - GK Chesterton <sup>***</sup>
+* [_The Man Who Was Thursday_](https://www.goodreads.com/book/show/184419.The_Man_Who_Was_Thursday) - GK Chesterton <sup>**</sup>
+* [_And Then There Were None_](https://www.goodreads.com/book/show/46265792-and-then-there-were-none) - Agatha Christie <sup>**</sup>
+* [_Death on the Nile_](https://www.goodreads.com/book/show/131359.Death_on_the_Nile)- Agatha Christie <sup>**</sup>
+* [_Recursion_](https://www.goodreads.com/book/show/42046112-recursion) - Blake Crouch <sup>*</sup>
 
 ## D
 
-* [_White Fragility_ - Robin DiAngelo](https://www.goodreads.com/book/show/43708708-white-fragility) <sup>*</sup>
-* [_Crime and Punishment_ - Fyodor Dostoevsky](https://www.goodreads.com/book/show/20351058-crime-and-punishment) <sup>***</sup>
+* [_White Fragility_](https://www.goodreads.com/book/show/43708708-white-fragility) - Robin DiAngelo <sup>*</sup>
+* [_Crime and Punishment_](https://www.goodreads.com/book/show/20351058-crime-and-punishment) - Fyodor Dostoevsky <sup>***</sup>
 
 ## F
 
-* [_The Boy Crisis_ - Warren Farrell](https://www.goodreads.com/book/show/37854870-the-boy-crisis) <sup>**</sup>
-* [_The Value of Art_ - Michael Findlay](https://www.goodreads.com/book/show/13641387-the-value-of-art) <sup>**</sup>
-* [_Man's Search for Meaning_ - Viktor Frankl](https://www.goodreads.com/book/show/17204679-man-s-search-for-meaning) <sup>***</sup>
-* [_Capitalism and Freedom_ - Milton Friedman](https://www.goodreads.com/book/show/51877.Capitalism_and_Freedom) <sup>**</sup>
-* [_The Great Code: The Bible and Literature_ - Northrop Frye](https://www.goodreads.com/book/show/318117.The_Great_Code) <sup>**</sup>
+* [_The Boy Crisis_](https://www.goodreads.com/book/show/37854870-the-boy-crisis) - Warren Farrell <sup>**</sup>
+* [_The Value of Art_](https://www.goodreads.com/book/show/13641387-the-value-of-art) - Michael Findlay <sup>**</sup>
+* [_Man's Search for Meaning_](https://www.goodreads.com/book/show/17204679-man-s-search-for-meaning) - Viktor Frankl <sup>***</sup>
+* [_Capitalism and Freedom_](https://www.goodreads.com/book/show/51877.Capitalism_and_Freedom) - Milton Friedman <sup>**</sup>
+* [_The Great Code: The Bible and Literature_](https://www.goodreads.com/book/show/318117.The_Great_Code) - Northrop Frye <sup>**</sup>
 
 ## H
 
@@ -112,23 +112,23 @@ Rating system: <sup>*</sup> don't read, <sup>**</sup> have a look, <sup>***</sup
 
 ## S
 
-* _How to be a Conservative_ - Sir Roger Scruton
-* _Letters from a Stoic_ - Seneca
-* [_The Right Side of History: How Reason and Moral Purpose Made the West Great_ - Ben Shapiro](https://www.goodreads.com/book/show/42649659-the-right-side-of-history)
-* _Permanent Record_ - Edward Snowden
-* _The Gulag Archipelago_ - Aleksandr Solzhenitsyn
-* _East of Eden_ - John Steinbeck
+* [_How to be a Conservative_](https://www.goodreads.com/book/show/22511969-how-to-be-a-conservative) - Sir Roger Scruton <sup>***</sup>
+* [_Letters from a Stoic_](https://www.goodreads.com/book/show/97411.Letters_from_a_Stoic) - Seneca <sup>***</sup>
+* [_The Right Side of History: How Reason and Moral Purpose Made the West Great_](https://www.goodreads.com/book/show/42649659-the-right-side-of-history) - Ben Shapiro <sup>**</sup>
+* [_Permanent Record_](https://www.goodreads.com/book/show/46223297-permanent-record) - Edward Snowden <sup>***</sup>
+* [_The Gulag Archipelago_](https://www.goodreads.com/book/show/691665.The_Gulag_Archipelago_1918_1956) - Aleksandr Solzhenitsyn <sup>***</sup>
+* [_East of Eden_](https://www.goodreads.com/book/show/8132407-east-of-eden) - John Steinbeck <sup>***</sup>
 
 ## T
 
-* _A Confession_ - Leo Tolstoy
+* [_A Confession_](https://www.goodreads.com/book/show/51736406-a-confession) - Leo Tolstoy <sup>***</sup>
 
 ## V
 
-* _La Llamada de la Tribu_ - Mario Vargas Llosa
+* [_La Llamada de la Tribu_](https://www.goodreads.com/book/show/38649613-la-llamada-de-la-tribu) - Mario Vargas Llosa <sup>***</sup>
 
 ## W
 
-* [_Fire and Fury: Inside The Trump White House_ - Michael Wolff](https://www.goodreads.com/book/show/36595101-fire-and-fury) <sup>**</sup>
-* [_54_ - Wu Ming](https://www.goodreads.com/book/show/333785.54) <sup>**</sup>
+* [_Fire and Fury: Inside The Trump White House_](https://www.goodreads.com/book/show/36595101-fire-and-fury) - Michael Wolff <sup>*</sup>
+* [_54_](https://www.goodreads.com/book/show/333785.54) - Wu Ming <sup>**</sup>
 
