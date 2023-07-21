@@ -13,12 +13,12 @@ Rating system: <sup>*</sup> don't read, <sup>**</sup> have a look, <sup>***</sup
 
 ## A
 
-* _Meditations_ - Marcus Aurelius
+* [_Meditations_ - Marcus Aurelius](https://www.goodreads.com/book/show/61348881-meditations?from_search=true&from_srp=true&qid=t7pBgdvRmj&rank=3) <sup>**</sup>
 
 ## B
 
-* _El Aleph_ - Jorge Luis Borges <sup>***</sup>
-* _Ficciones_ - Jorge Luis Borges
+* [_El Aleph_ - Jorge Luis Borges](https://www.goodreads.com/book/show/21795321-el-aleph?from_search=true&from_srp=true&qid=ZtWFpU2Qdi&rank=1) <sup>***</sup>
+* [_Ficciones_ - Jorge Luis Borges](https://www.goodreads.com/book/show/426504.Ficciones) <sup>***</sup>
 * _2666_ - Roberto Bolano
 * [_Don't Point That Thing At Me_ - Kyril Bonfiglioni](https://www.goodreads.com/book/show/22598061-don-t-point-that-thing-at-me) <sup>**</sup>
 * _The Dog Master_ - Cameron Bruce 
@@ -81,14 +81,14 @@ Rating system: <sup>*</sup> don't read, <sup>**</sup> have a look, <sup>***</sup
 
 ## N
 
-* [_Lolita_ - Vladimir Nabokov](https://www.goodreads.com/book/show/7604.Lolita)
+* [_Lolita_ - Vladimir Nabokov](https://www.goodreads.com/book/show/7604.Lolita) <sup>**</sup>
 
 ## P
 
-* [_Break, Blow, Burn_ - Camille Paglia](https://www.goodreads.com/book/show/48258.Break_Blow_Burn)
-* _End the Fed_ - Ron Paul
-* _12 Rules For Life_ - Jordan B. Peterson
-* _Beyond Order: 12 More Rules For Life_ - Jordan B. Peterson
+* [_Break, Blow, Burn_ - Camille Paglia](https://www.goodreads.com/book/show/48258.Break_Blow_Burn) <sup>***</sup>
+* [_End the Fed_ - Ron Paul](https://www.goodreads.com/book/show/6388946-end-the-fed) <sup>**</sup>
+* [_12 Rules For Life_ - Jordan B. Peterson](https://www.goodreads.com/book/show/30257963-12-rules-for-life) <sup>***</sup>
+* [_Beyond Order: 12 More Rules For Life_ - Jordan B. Peterson](https://www.goodreads.com/book/show/56019043-beyond-order) <sup>***</sup>
 * _Knowledge and Christian Belief_ - Alvin Plantinga
 * _God, Freedom, and Evil_ - Alvin Plantinga
 * _Enlightenment Now_ - Steven Pinker
