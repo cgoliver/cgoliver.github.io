@@ -4,7 +4,7 @@ layout: page
 
 ---
 
-*This is a live page with collected quotes
+This is a live page with collected quotes
 
 ---
 
@@ -12,3 +12,7 @@ layout: page
 {% for author in site.quotes %}
 * [{{ author.name }}]({{ author.url }})
 {% endfor %}
+
+---
+
+
