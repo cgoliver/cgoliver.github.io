@@ -13,10 +13,11 @@ Rating system: <sup>*</sup> don't read, <sup>**</sup> have a look, <sup>***</sup
 
 ## A
 
-* [_Meditations_ - Marcus Aurelius](https://www.goodreads.com/book/show/61348881-meditations?from_search=true&from_srp=true&qid=t7pBgdvRmj&rank=3) <sup>**</sup>
+* [_Meditations_](https://www.goodreads.com/book/show/61348881-meditations)- Marcus Aurelius <sup>**</sup>
 
 ## B
 
+* [_Introduction to Christianity_ - Pope Benedict XVI](https://www.goodreads.com/book/show/638182.Introduction_to_Christianity) <sup>***</sup>
 * [_El Aleph_ - Jorge Luis Borges](https://www.goodreads.com/book/show/21795321-el-aleph?from_search=true&from_srp=true&qid=ZtWFpU2Qdi&rank=1) <sup>***</sup>
 * [_Ficciones_ - Jorge Luis Borges](https://www.goodreads.com/book/show/426504.Ficciones) <sup>***</sup>
 * [_2666_ - Roberto Bolano](https://www.goodreads.com/book/show/63032.2666?from_search=true&from_srp=true&qid=L9YcrUH4vI&rank=1) <sup>***</sup>
@@ -74,14 +75,14 @@ Rating system: <sup>*</sup> don't read, <sup>**</sup> have a look, <sup>***</sup
 
 ## M
 
-* _Rebecca_ - Daphne du Maurier
-* _Decoding the Heavens_ - Jo Marchant
-* _Greenlights_ - Matthew McConaughey
-* _The Silent Patient_ - Alex Michaelides
-* _Liberty and Property_ - Ludwig von Mises
-* _The Art of Raising a Puppy_ - Group of Monks
-* _The Madness of Crowds_ - Douglas Murray
-* _The Strange Death of Europe_ - Douglas Murray
+* [_Rebecca_ - Daphne du Maurier](https://www.goodreads.com/book/show/17899948-rebecca) <sup>**</sup>
+* [_Decoding the Heavens_ - Jo Marchant](https://www.goodreads.com/book/show/5456216-decoding-the-heavens) <sup>**</sup>
+* [_Greenlights_ - Matthew McConaughey](https://www.goodreads.com/book/show/52838315-greenlights) <sup>**</sup>
+* [_The Silent Patient_ - Alex Michaelides](https://www.goodreads.com/book/show/40097951-the-silent-patient) <sup>**</sup>
+* [_Liberty and Property_ - Ludwig von Mises](https://www.goodreads.com/book/show/6727005-liberty-and-property) <sup>***</sup>
+* [_The Art of Raising a Puppy_ - Group of Monks](https://www.goodreads.com/book/show/57258037-the-art-of-raising-a-puppy) <sup>**</sup>
+* [_The Madness of Crowds_ - Douglas Murray](https://www.goodreads.com/book/show/44667183-the-madness-of-crowds) <sup>***</sup>
+* [_The Strange Death of Europe_ - Douglas Murray](https://www.goodreads.com/book/show/33584231-the-strange-death-of-europe) <sup>***</sup>
 
 ## N
 
@@ -93,17 +94,16 @@ Rating system: <sup>*</sup> don't read, <sup>**</sup> have a look, <sup>***</sup
 * [_End the Fed_ - Ron Paul](https://www.goodreads.com/book/show/6388946-end-the-fed) <sup>**</sup>
 * [_12 Rules For Life_ - Jordan B. Peterson](https://www.goodreads.com/book/show/30257963-12-rules-for-life) <sup>***</sup>
 * [_Beyond Order: 12 More Rules For Life_ - Jordan B. Peterson](https://www.goodreads.com/book/show/56019043-beyond-order) <sup>***</sup>
-* _Knowledge and Christian Belief_ - Alvin Plantinga
-* _God, Freedom, and Evil_ - Alvin Plantinga
-* _Enlightenment Now_ - Steven Pinker
-* _The Blank Slate_ - Steven Pinker
+* [_Knowledge and Christian Belief_ - Alvin Plantinga](https://www.goodreads.com/book/show/22962483-knowledge-and-christian-belief) <sup>***</sup>
+* [_God, Freedom, and Evil_ - Alvin Plantinga](https://www.goodreads.com/book/show/496895.God_Freedom_and_Evil) <sup>***</sup>
+* [_Enlightenment Now_ - Steven Pinker](https://www.goodreads.com/book/show/35696171-enlightenment-now) <sup>***</sup>
+* [_The Blank Slate_ - Steven Pinker](https://www.goodreads.com/book/show/48618164-the-blank-slate) <sup>***</sup>
 * [_Zen and the Art of Motorcycle Maintenance_ - Robert M. Pirsig](https://www.goodreads.com/book/show/629.Zen_and_the_Art_of_Motorcycle_Maintenance) <sup>**</sup>
 * [_The Revenant_ - Michael Punke](https://www.goodreads.com/book/show/22836957-the-revenant) <sup>**</sup>
 
 ## R
 
 * [_The Fountainhead_ - Ayn Rand](https://www.goodreads.com/book/show/2122.The_Fountainhead) <sup>**</sup>
-* _Introduction to Christianity_ - Joseph Cardinal Ratzinger <sup>***</sup>
 * [_The Archimedes Codex_ - Netz Reviel](https://www.goodreads.com/book/show/28927936-the-archimedes-codex) <sup>**</sup>
 * [_Barney's Version_ - Mordecai Richler](https://www.goodreads.com/book/show/196564.Barney_s_Version) <sup>***</sup>
 * [_The Apprenticeship of Duddy Kravitz_ - Mordecai Richler](https://www.goodreads.com/book/show/203073.The_Apprenticeship_of_Duddy_Kravitz) <sup>**</sup>
