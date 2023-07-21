@@ -1,7 +1,7 @@
 ---
 
 layout: page
-title: "Data-driven Structure Function Research Group"
+title: "Research Group"
 nav: true
 order: 1
 permalink: /research
