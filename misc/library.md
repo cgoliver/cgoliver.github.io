@@ -20,6 +20,7 @@ Rating system: <sup>*</sup> don't read, <sup>**</sup> have a look, <sup>***</sup
 * _El Aleph_ - Jorge Luis Borges <sup>***</sup>
 * _Ficciones_ - Jorge Luis Borges
 * _2666_ - Roberto Bolano
+* [_Don't Point That Thing At Me_ - Kyril Bonfiglioni](https://www.goodreads.com/book/show/22598061-don-t-point-that-thing-at-me) <sup>**</sup>
 * _The Dog Master_ - Cameron Bruce 
 * [_Love is a Dog from Hell_ - Charles Bukowski](https://www.goodreads.com/book/show/6563890-love-is-a-dog-from-hell)
 
