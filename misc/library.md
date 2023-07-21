@@ -51,7 +51,7 @@ Rating system: <sup>*</sup> don't read, <sup>**</sup> have a look, <sup>***</sup
 
 ## H
 
-* [_The Girl on the Train](https://www.goodreads.com/book/show/22557272-the-girl-on-the-train)_ - Paula Hawkins <sup>**</sup>
+* [_The Girl on the Train_](https://www.goodreads.com/book/show/22557272-the-girl-on-the-train) - Paula Hawkins <sup>**</sup>
 * [_The Road to Serfdom_](https://www.goodreads.com/book/show/299215.The_Road_to_Serfdom) - Friedrich Hayek <sup>**</sup>
 * [_The Constitution of Liberty_](https://www.goodreads.com/book/show/1044658.The_Constitution_of_Liberty) - Friedrich Hayek <sup>***</sup>
 * [_The Sun Also Rises_](https://www.goodreads.com/book/show/3876.The_Sun_Also_Rises) - Ernest Hemmingway <sup>***</sup>
