@@ -5,7 +5,7 @@ layout: page
 
 ---
 
-Books I've read in my library (in no particular order).
+Books I've read. (Rating system: * don't read, ** have a look, \*** must read) 
 
 ## A
 
