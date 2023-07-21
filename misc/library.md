@@ -17,6 +17,7 @@ Books I've read in my library (in no particular order).
 * _Ficciones_ - Jorge Luis Borges
 * _2666_ - Roberto Bolano
 * _The Dog Master_ - Cameron Bruce 
+* [_Love is a Dog from Hell_ - Charles Bukowski](https://www.goodreads.com/book/show/6563890-love-is-a-dog-from-hell)
 
 ## C
 
@@ -36,20 +37,24 @@ Books I've read in my library (in no particular order).
 
 ## F
 
+* [_The Boy Crisis_ - Warren Farrell](https://www.goodreads.com/book/show/37854870-the-boy-crisis) 
 * [_The Value of Art_ - Michael Findlay](https://www.goodreads.com/book/show/13641387-the-value-of-art)
 * _Man's Search for Meaning_ - Viktor Frankl
 * _The Great Code: The Bible and Literature_ - Northrop Frye
 
 ## H
 
+* [_The Girl on the Traion_ - Paula Hawkins](https://www.goodreads.com/book/show/22557272-the-girl-on-the-train)
 * _The Road to Serfdom_ - Friedrich Hayek
 * _The Constitution of Liberty_ - Friedrich Hayek
 
 
 ## K
 
+* [_The Gunslinger (The Dark Tower #1)_ - Stephen King](https://www.goodreads.com/book/show/43615.The_Gunslinger)
 * _The Stand_ - Stephen King
 * _Pet Sematary_ - Stephen King
+* [_The Outsider_ - Stephen King](https://www.goodreads.com/book/show/36124936-the-outsider)
 * _The Unbearable Lightness of Being_ - Milan Kundera
 
 ## L
@@ -68,6 +73,7 @@ Books I've read in my library (in no particular order).
 
 ## P
 
+* [_Break, Blow, Burn_ - Camille Paglia](https://www.goodreads.com/book/show/48258.Break_Blow_Burn)
 * _End the Fed_ - Ron Paul
 * _12 Rules For Life_ - Jordan B. Peterson
 * _Beyond Order: 12 More Rules For Life_ - Jordan B. Peterson
@@ -75,6 +81,7 @@ Books I've read in my library (in no particular order).
 * _God, Freedom, and Evil_ - Alvin Plantinga
 * _Enlightenment Now_ - Steven Pinker
 * _The Blank Slate_ - Steven Pinker
+* [_The Revenant_ - Michael Punke](https://www.goodreads.com/book/show/22836957-the-revenant)
 
 ## R
 
@@ -100,3 +107,7 @@ Books I've read in my library (in no particular order).
 ## V
 
 * _La Llamada de la Tribu_ - Mario Vargas Llosa
+
+## W
+
+* [_54_ - Wu Ming](https://www.goodreads.com/book/show/333785.54)
