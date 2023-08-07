@@ -21,6 +21,6 @@ As we gain access to more and more data on structured objects we need to develop
 
 # Open Positions
 
-We are looking for a highly motivated **PhD student** interested in working at the intersection of structural biology, deep learning and pattern mining on graphs. [posting]({{site.url}}/assets/phd_search.pdf) [submit application](https://recruitingapp-5446.de.umantis.com/VacanciesIntraxData/452/Application/New/2)
+We are looking for a highly motivated **PhD student** interested in working at the intersection of structural biology, deep learning and pattern mining on graphs. ([posting]({{site.url}}/assets/phd_search.pdf))([submit application](https://recruitingapp-5446.de.umantis.com/VacanciesIntraxData/452/Application/New/2))
 
 Please contact me for more info: oliver@biochem.mpg.de
