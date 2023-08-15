@@ -60,3 +60,15 @@ For it is sanctified by the word of God and prayer.
 Wherefore, my beloved brethren, let every man be swift to hear, slow to speak, slow to wrath.
 
 -- James 1:19
+
+---
+
+For whether we live, we live unto the Lord; and whether we die, we die unto the Lord: whether we live therefore, or die, we are the Lord's.
+
+-- Romans 14:8
+
+---
+
+
+
+
