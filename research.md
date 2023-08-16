@@ -12,7 +12,7 @@ permalink: /research
 
 I am leading a research group as Project Leader at the Max Planck Institute for Biochemistry.
 
-Many real-world depend on __structural__ properties to operate.
+Many real-world systems depend on __structural__ properties to perform their functions.
 A prominent example of this phenomenon is the realtionship between structure and function in biomolecules.
 The spatial arrangement (geometry/structure) of biomolecules tells us a lot about which kinds of interactions are favorable and therefore which biological functions are accessible to DNA/proteins/RNA. 
 As we gain access to more and more data on structured objects we need to develop algorithms capable of extracting these structure-function insights in a scalable manner. 
