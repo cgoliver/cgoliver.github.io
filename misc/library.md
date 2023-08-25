@@ -44,6 +44,7 @@ Rating system: <sup>*</sup> don't read, <sup>**</sup> have a look, <sup>***</sup
 ## F
 
 * [_The Boy Crisis_](https://www.goodreads.com/book/show/37854870-the-boy-crisis) - Warren Farrell <sup>**</sup>
+* [_Nation of Bastards: Essays on the End of Marriage_](https://www.goodreads.com/book/show/2145716.Nation_of_Bastards) - Douglas B. Farrow <sup>***</sup>
 * [_The Value of Art_](https://www.goodreads.com/book/show/13641387-the-value-of-art) - Michael Findlay <sup>**</sup>
 * [_Man's Search for Meaning_](https://www.goodreads.com/book/show/17204679-man-s-search-for-meaning) - Viktor Frankl <sup>***</sup>
 * [_Capitalism and Freedom_](https://www.goodreads.com/book/show/51877.Capitalism_and_Freedom) - Milton Friedman <sup>**</sup>
