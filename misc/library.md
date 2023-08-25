@@ -24,6 +24,7 @@ Rating system: <sup>*</sup> don't read, <sup>**</sup> have a look, <sup>***</sup
 * [_Don't Point That Thing At Me_](https://www.goodreads.com/book/show/22598061-don-t-point-that-thing-at-me) - Kyril Bonfiglioni <sup>**</sup>
 * [_The Dog Master_](https://www.goodreads.com/book/show/22238176-the-dog-master) - Cameron Bruce <sup>*</sup>
 * [_Love is a Dog from Hell_](https://www.goodreads.com/book/show/6563890-love-is-a-dog-from-hell) - Charles Bukowski] <sup>***</sup>
+* [_Post Office_](https://www.goodreads.com/book/show/40409718-post-office) - Charles Bukowski] <sup>**</sup>
 
 ## C
 
