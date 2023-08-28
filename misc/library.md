@@ -72,6 +72,7 @@ Rating system: <sup>*</sup> don't read, <sup>**</sup> have a look, <sup>***</sup
 
 
 * [_Mere Christianity_](https://www.goodreads.com/book/show/40792344-mere-christianity) - CS Lewis <sup>***</sup>
+* [_The Problem of Pain_](https://www.goodreads.com/book/show/13650513-the-problem-of-pain) - CS Lewis <sup>***</sup>
 * [_Surprised by Joy_](https://www.goodreads.com/book/show/121732.Surprised_by_Joy) - CS Lewis <sup>**</sup>
 * [_False Alarm_](https://www.goodreads.com/book/show/49089453-false-alarm) - Bjorn Lomborg <sup>***</sup>
 
