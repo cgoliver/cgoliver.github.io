@@ -69,6 +69,11 @@ For whether we live, we live unto the Lord; and whether we die, we die unto the 
 
 ---
 
+There is neither Jew nor Greek, there is neither bond nor free, there is neither male nor female: for ye are all one in Christ Jesus.
 
+-- Galatians 3:28
+
+
+---
 
 
