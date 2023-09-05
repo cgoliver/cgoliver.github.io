@@ -44,6 +44,9 @@ Rating system: <sup>*</sup> don't read, <sup>**</sup> have a look, <sup>***</sup
 
 ## F
 
+
+* [_La rabbia e l'orgoglio_](https://www.goodreads.com/book/show/70693.La_rabbia_e_l_orgoglio) - Oriana Fallaci<sup>**</sup>
+* [_Oriana Fallaci intervista sé stessa - L'Apocalise_](https://www.goodreads.com/book/show/2677219-oriana-fallaci-intervista-s-stessa---l-apocalisse) - Oriana Fallaci<sup>**</sup>
 * [_The Boy Crisis_](https://www.goodreads.com/book/show/37854870-the-boy-crisis) - Warren Farrell <sup>**</sup>
 * [_Nation of Bastards: Essays on the End of Marriage_](https://www.goodreads.com/book/show/2145716.Nation_of_Bastards) - Douglas B. Farrow <sup>***</sup>
 * [_The Value of Art_](https://www.goodreads.com/book/show/13641387-the-value-of-art) - Michael Findlay <sup>**</sup>
@@ -53,6 +56,8 @@ Rating system: <sup>*</sup> don't read, <sup>**</sup> have a look, <sup>***</sup
 
 ## H
 
+
+* [Dune](https://www.goodreads.com/book/show/44767458-dune) - Frank Herbert <sup>**</sup>
 * [_The Girl on the Train_](https://www.goodreads.com/book/show/22557272-the-girl-on-the-train) - Paula Hawkins <sup>**</sup>
 * [_The Road to Serfdom_](https://www.goodreads.com/book/show/299215.The_Road_to_Serfdom) - Friedrich Hayek <sup>**</sup>
 * [_The Constitution of Liberty_](https://www.goodreads.com/book/show/1044658.The_Constitution_of_Liberty) - Friedrich Hayek <sup>***</sup>
