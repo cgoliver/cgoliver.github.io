@@ -57,7 +57,7 @@ Rating system: <sup>*</sup> don't read, <sup>**</sup> have a look, <sup>***</sup
 ## H
 
 
-* [Dune](https://www.goodreads.com/book/show/44767458-dune) - Frank Herbert <sup>**</sup>
+* [_Dune_](https://www.goodreads.com/book/show/44767458-dune) - Frank Herbert <sup>**</sup>
 * [_The Girl on the Train_](https://www.goodreads.com/book/show/22557272-the-girl-on-the-train) - Paula Hawkins <sup>**</sup>
 * [_The Road to Serfdom_](https://www.goodreads.com/book/show/299215.The_Road_to_Serfdom) - Friedrich Hayek <sup>**</sup>
 * [_The Constitution of Liberty_](https://www.goodreads.com/book/show/1044658.The_Constitution_of_Liberty) - Friedrich Hayek <sup>***</sup>
