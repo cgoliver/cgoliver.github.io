@@ -137,6 +137,7 @@ Rating system: <sup>*</sup> don't read, <sup>**</sup> have a look, <sup>***</sup
 
 ## W
 
+* [_Behold the Spirit_](https://www.goodreads.com/book/show/432224.Behold_the_Spirit) - Alan Watts<sup>***</sup>
 * [_Fire and Fury: Inside The Trump White House_](https://www.goodreads.com/book/show/36595101-fire-and-fury) - Michael Wolff <sup>*</sup>
 * [_54_](https://www.goodreads.com/book/show/333785.54) - Wu Ming <sup>**</sup>
 
