@@ -76,4 +76,9 @@ There is neither Jew nor Greek, there is neither bond nor free, there is neither
 
 ---
 
+Charity suffereth long, and is kind; charity envieth not; charity vaunteth not itself, is not puffed up,
+Doth not behave itself unseemly, seeketh not her own, is not easily provoked, thinketh no evil;
 
+-- 1 Corinthians 13:4-5
+
+---
