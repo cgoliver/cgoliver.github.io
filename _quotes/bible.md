@@ -82,3 +82,9 @@ Doth not behave itself unseemly, seeketh not her own, is not easily provoked, th
 -- 1 Corinthians 13:4-5
 
 ---
+
+Teach me to do thy will; for thou art my God: thy spirit is good; lead me into the land of uprightness.
+
+-- Psalm 143:10
+
+---
