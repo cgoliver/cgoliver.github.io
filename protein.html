@@ -66,6 +66,7 @@ Package cost: <input type="text" id="cost" /><br>
 <th scope="col">Price per 1g of protein </th>
 </tr>
 </table>
+<button id="downloadButton">Download as CSV</button>
 
 </body>
 
@@ -96,6 +97,52 @@ function calculate(){
   cell3.innerHTML = priceScore;
 }
 
+
+// Function to convert a table to a CSV string
+function tableToCSV(table) {
+    const rows = table.querySelectorAll('tr');
+    const csvData = [];
+
+    for (const row of rows) {
+        const cols = row.querySelectorAll('td, th');
+        const rowData = [];
+
+        for (const col of cols) {
+            rowData.push(col.textContent.trim());
+        }
+
+        csvData.push(rowData.join(','));
+    }
+
+    return csvData.join('\n');
+}
+
+// Select the button and table
+const downloadButton = document.getElementById("downloadButton");
+const table = document.getElementById("resultTable");
+
+// Add a click event listener to the button
+downloadButton.addEventListener("click", () => {
+    // Convert the table to a CSV string
+    const csvContent = tableToCSV(table);
+
+    // Create a Blob containing the CSV data
+    const csvBlob = new Blob([csvContent], { type: "text/csv" });
+
+    // Create a download link
+    const downloadLink = document.createElement("a");
+    downloadLink.href = URL.createObjectURL(csvBlob);
+    downloadLink.download = "protein.csv"; // You can specify the file name here
+
+    // Trigger the download
+    downloadLink.click();
+
+    // Clean up the URL object
+    URL.revokeObjectURL(downloadLink.href);
+});
+
+
 </script>
 
 </html>
+
