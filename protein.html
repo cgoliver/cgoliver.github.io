@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<meta charset=utf-8 />
+<title>Victoria & Carlos' Protein Calculator</title>
+<style type="text/css">
+ body
+    {
+        width:80%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+</style> 
+</head>
+<body>
+
+	<h2> Victoria & Carlos' Protein Calculator </h2>
+
+<img src="assets/whale_weights.png" width="200px"></img>
+
+<br><br><br>
+
+<b> How does it work? </b>
+
+
+<p style="width: 500px;">
+Ever find yourself spending hours at the grocery store staring at the nutritional information of 10 different yoghurts looking for the one that will give you the most protein for the fewest calories and lowest cost?
+
+Look no further. Simply enter basic nutritional info to get a score for calorie and cost efficiency of any food with respect to its protein content. 
+</p>
+
+<br><br>
+
+<form>
+Protein per serving: <input type="text" id="protein" /><br>
+Calories per serving: <input type="text" id="calories" /><br>
+Serving size: <input type="text" id="serving" /><br>
+Item size: <input type="text" id="itemSize" /><br>
+Item cost: <input type="text" id="cost" /><br>
+<input type="button" onClick="calculate()" value="Calculate!"/>
+</form>
+<p>Calories per gram of protein: 
+<span id = "calpergram"></span>
+<p>Cost per gram of protein: 
+<span id = "costpergram"></span>
+</p>
+</body>
+
+<script>
+	function calculate()
+{
+        prot = document.getElementById("protein").value;
+        cals = document.getElementById("calories").value;
+        serving = document.getElementById("serving").value;
+        itemSize = document.getElementById("itemSize").value;
+        cost = document.getElementById("cost").value;
+
+        document.getElementById("calpergram").innerHTML = (cals / prot).toFixed(3);
+        document.getElementById("costpergram").innerHTML = ((cost / (itemSize / serving)) / prot).toFixed(3);
+}
+
+</script>
+
+</html>
