@@ -24,6 +24,7 @@ th, td {
 tr:nth-child(even) {background-color: #f2f2f2;}
 
 </style> 
+<script src="https://d3js.org/d3.v7.min.js"></script>
 </head>
 <body>
 
@@ -49,16 +50,19 @@ This app runs fully on the client side so your data is never stored.
 <br><br>
 
 <form id="myForm">
-Item name: <input type="text" id="itemName" /><br>
-Protein per serving: <input type="text" id="protein" /><br>
-Calories per serving: <input type="text" id="calories" /><br>
-Serving size: <input type="text" id="serving" /><br>
-Package size: <input type="text" id="itemSize" /><br>
-Package cost: <input type="text" id="cost" /><br>
+Item name: <input type="text" id="itemName" placeholder="Protein Powder" /><br>
+Protein per serving: <input type="text" id="protein" placeholder=24 /><br>
+Calories per serving: <input type="text" id="calories" placeholder=120 /><br>
+Serving size: <input type="text" id="serving" placeholder=30 /><br>
+Package size: <input type="text" id="itemSize" placeholder=900 /><br>
+Package cost: <input type="text" id="cost" placeholder=39 /><br>
 <input type="button" onClick="calculate()" value="Calculate!"/>
 <input type="button" onClick="tableClear()" value="Another one!"/>
 </form>
 
+
+<div id="chart-container">
+</div>
 
 <table id="resultTable" cellspacing="35">
 <tr>
@@ -72,6 +76,113 @@ Package cost: <input type="text" id="cost" /><br>
 </body>
 
 <script>
+
+let data = [];
+
+// Set up the SVG container
+
+
+var margin = {top: 20, right: 30, bottom: 60, left: 60},
+    width = 460 - margin.left - margin.right,
+    height = 400 - margin.top - margin.bottom;
+
+// append the svg object to the body of the page
+var svg = d3.select("#chart-container")
+  .append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform",
+          "translate(" + margin.left + "," + margin.top + ")");
+
+  var x = d3.scaleLinear()
+    .domain([0, 20])
+    .range([ 0, width ]);
+  var xAxis = svg.append("g")
+    .attr("transform", "translate(0," + height + ")")
+    .call(d3.axisBottom(x));
+
+  // Add Y axis
+  var y = d3.scaleLinear()
+    .domain([0, 1])
+    .range([ height, 0]);
+  var yAxis = svg.append("g")
+    .call(d3.axisLeft(y));
+
+svg.append("text")
+    .attr("class", "x label")
+    .attr("text-anchor", "end")
+    .attr("x", width / 2  + 50)
+    .attr("y", height + 50)
+    .text("Calories per 1g of protein");
+
+svg.append("text")
+    .attr("class", "y label")
+    .attr("text-anchor", "end")
+    .attr("y", -55)
+    .attr("x", -69)
+    .attr("dy", ".75em")
+    .attr("transform", "rotate(-90)")
+    .text("Cost per 1g of protein");
+
+var myColor = d3.scaleSequential().domain([0,1])
+		  .interpolator(d3.interpolatePuRd);
+
+function updateScatterplot() {
+            // Remove existing points
+            svg.selectAll("circle").remove();
+            svg.selectAll("#label").remove();
+
+            // Add new points
+            svg.selectAll("circle")
+                .data(data)
+                .enter()
+                .append("circle")
+                .attr("cx", d => x(d.protScore))
+                .attr("cy", d => y(d.priceScore))
+                .attr("r", 5) // Radius of the circle
+		.attr("fill", function(d){return myColor(x(d.protScore)  / y(d.priceScore) )});
+
+	     svg.selectAll("#label")
+		.data(data)
+		.enter()
+	        .append("text")
+		.attr("id", "label")
+	        .attr("x", d => x(d.protScore) + 15)
+		.attr("y", d => y(d.priceScore) - 15)
+		.attr("text-anchor", "middle")
+		.text(d => d.itemName); // Color of the circle
+
+
+
+
+
+	x.domain(d3.extent(data, function(d) { return +d.protScore; }));
+	y.domain(d3.extent(data, function(d) { return +d.priceScore; }));
+
+ xAxis.transition().duration(1000).call(d3.axisBottom(x))
+ yAxis.transition().duration(1000).call(d3.axisLeft(y))
+
+       svg.selectAll("circle")
+       .data(data)
+       .transition()
+       .duration(1000)
+       .attr("cx", function (d) { return x(d.protScore); } )
+       .attr("cy", function (d) { return y(d.priceScore); } );
+
+
+svg.selectAll("#label")
+       .data(data)
+       .transition()
+       .duration(1000)
+       .attr("x", function (d) { return x(d.protScore) + 15; } )
+       .attr("y", function (d) { return y(d.priceScore); - 15} );
+
+
+
+
+  }
+
 function tableClear(){
 	document.getElementById("myForm").reset();
 }
@@ -96,6 +207,9 @@ function calculate(){
   cell1.innerHTML = itemName;
   cell2.innerHTML = protScore;
   cell3.innerHTML = priceScore;
+
+  data.push({ 'protScore': protScore, 'priceScore': priceScore, 'itemName': itemName});
+  updateScatterplot();
 }
 
 
