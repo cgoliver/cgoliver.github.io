@@ -77,7 +77,10 @@ Package cost: <input type="text" id="cost" placeholder=39 /><br>
 
 <script>
 
-let data = [];
+	let data = [{'itemName': 'ON Protein Powder', 'protScore': 5.000, 'priceScore': 0.054},
+	            {'itemName': 'Whole Milk Berchtesgadener','protScore': 20.0, 'priceScore': 0.042},
+	            {'itemName': 'SKYR Yoghurt','protScore': 24.5, 'priceScore': 0.027}
+	       	    ]
 
 // Set up the SVG container
 
@@ -128,6 +131,8 @@ svg.append("text")
 var myColor = d3.scaleSequential().domain([0,1])
 		  .interpolator(d3.interpolatePuRd);
 
+updateScatterplot();
+
 function updateScatterplot() {
             // Remove existing points
             svg.selectAll("circle").remove();
@@ -156,12 +161,18 @@ function updateScatterplot() {
 
 
 
+	var xExtent = d3.extent(data, function(d) { return d.protScore; }),
+	xRange = xExtent[1] - xExtent[0],
+	yExtent = d3.extent(data, function(d) { return d.priceScore; }),
+	yRange = yExtent[1] - yExtent[0];
 
-	x.domain(d3.extent(data, function(d) { return +d.protScore; }));
-	y.domain(d3.extent(data, function(d) { return +d.priceScore; }));
+	// set domain to be extent +- 5%
+	x.domain([xExtent[0] - (xRange * .1), xExtent[1] + (xRange * .1)]);
+	y.domain([yExtent[0] - (yRange * .1), yExtent[1] + (yRange * .1)]);
 
- xAxis.transition().duration(1000).call(d3.axisBottom(x))
- yAxis.transition().duration(1000).call(d3.axisLeft(y))
+
+	 xAxis.transition().duration(1000).call(d3.axisBottom(x))
+	 yAxis.transition().duration(1000).call(d3.axisLeft(y))
 
        svg.selectAll("circle")
        .data(data)
