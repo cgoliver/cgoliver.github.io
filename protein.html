@@ -141,15 +141,15 @@ function updateScatterplot() {
                 .attr("cx", d => x(d.protScore))
                 .attr("cy", d => y(d.priceScore))
                 .attr("r", 5) // Radius of the circle
-		.attr("fill", function(d){return myColor(x(d.protScore)  / y(d.priceScore) )});
+		.attr("fill", function(d){return stringToColor(d.itemName)});
 
 	     svg.selectAll("#label")
 		.data(data)
 		.enter()
 	        .append("text")
 		.attr("id", "label")
-	        .attr("x", d => x(d.protScore) + 15)
-		.attr("y", d => y(d.priceScore) - 15)
+	        .attr("x", d => x(d.protScore) + 20)
+		.attr("y", d => y(d.priceScore) - 20)
 		.attr("text-anchor", "middle")
 		.text(d => d.itemName); // Color of the circle
 
@@ -175,8 +175,8 @@ svg.selectAll("#label")
        .data(data)
        .transition()
        .duration(1000)
-       .attr("x", function (d) { return x(d.protScore) + 15; } )
-       .attr("y", function (d) { return y(d.priceScore); - 15} );
+       .attr("x", function (d) { return x(d.protScore) + 20; } )
+       .attr("y", function (d) { return y(d.priceScore); - 20} );
 
 
 
@@ -231,6 +231,21 @@ function tableToCSV(table) {
 
     return csvData.join('\n');
 }
+
+ function stringToColor(str) {
+            // Hash the string using a simple hash function
+            let hash = 0;
+            for (let i = 0; i < str.length; i++) {
+                hash = str.charCodeAt(i) + ((hash << 5) - hash);
+            }
+
+            // Create a hexadecimal color code
+            const color = "#";
+            const hex = (hash & 0x00FFFFFF).toString(16).toUpperCase();
+
+            // Ensure the color code has 6 digits
+            return color + "00000".substring(0, 6 - hex.length) + hex;
+        }
 
 // Select the button and table
 const downloadButton = document.getElementById("downloadButton");
