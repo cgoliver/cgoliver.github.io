@@ -117,7 +117,7 @@ svg.append("text")
     .attr("text-anchor", "end")
     .attr("x", width / 2  + 50)
     .attr("y", height + 50)
-    .text("Calories per 1g of protein");
+    .text("Calories per unit of protein");
 
 svg.append("text")
     .attr("class", "y label")
@@ -126,7 +126,7 @@ svg.append("text")
     .attr("x", -69)
     .attr("dy", ".75em")
     .attr("transform", "rotate(-90)")
-    .text("Cost per 1g of protein");
+    .text("Cost (EUR) per unit of protein");
 
 var myColor = d3.scaleSequential().domain([0,1])
 		  .interpolator(d3.interpolatePuRd);
