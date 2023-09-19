@@ -88,3 +88,9 @@ Teach me to do thy will; for thou art my God: thy spirit is good; lead me into t
 -- Psalm 143:10
 
 ---
+
+Let no corrupt communication proceed out of your mouth, but that which is good to the use of edifying, that it may minister grace unto the hearers.
+
+--  Ephesians 4:29
+
+---
