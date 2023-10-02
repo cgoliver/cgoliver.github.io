@@ -94,3 +94,9 @@ Let no corrupt communication proceed out of your mouth, but that which is good t
 --  Ephesians 4:29
 
 ---
+
+The fear of man bringeth a snare: but whoso putteth his trust in the LORD shall be safe.
+
+-- Proverbs 29:25
+
+---
