@@ -26,20 +26,20 @@ Here are some active projects.
 
 We recently developed [ProteinShake](https://proteinshake.ai) which allows deep learning practitioners easy asccess to impactful biological tasks on proteins. (Accepted at NeurIPS 2023)
  
-![](/assets/shake_tasks.png)
+<img src="/assets/shake_tasks.png" width=250px></img>
 
  
 ## Representation learning on RNA 3D networks
 
 RNA structures adopt complex folds by forming base pairs, we have developed unsupervised learning methods which have proven useful in [drug discovery](https://academic.oup.com/nar/article/48/14/7690/5870337) and [network motif mining](https://academic.oup.com/bioinformatics/article/38/4/970/6428528) applications. Through [rnaglib](https://academic.oup.com/bioinformatics/article/38/5/1458/6462185) we hope to explore more applications.
 
-![](/assets/rna_pre.png)
+<img src="/assets/rna_pre.png" width=250px></img>
 
 ## Graph pattern mining
 
 Structural patterns adopted by molecules are often dynamic and noisy, making traditional graph pattern mining algorithms less appropriate. [MotiFiesta](https://arxiv.org/abs/2206.01008) captures approximate network patterns in any graph dataset while at the same time serving as pre-training for classification models.
 
-![](/assets/motifiesta.png)
+<img src="/assets/motifiesta.png" width=250px></img>
 
 # Open Positions
 
