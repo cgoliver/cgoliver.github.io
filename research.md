@@ -12,9 +12,7 @@ This is regarding the direction of my project research group the Max Planck Inst
 
 ---
 
-So much depends upon the structure of protein and RNA. 
-
-The 3D spatial arrangement (geometry/structure) of biomolecules dictates what kinds of physical interactions are favorable and therefore which biological functions are accessible to DNA/RNA/proteins. 
+The spatial arrangement in 3D (structure) of biomolecules dictates what kinds of physical interactions are favorable and therefore which biological functions are accessible to DNA/RNA/proteins. 
 Finding exactly which geometrical patterns within these molecules are the ones we should pay attention to is a needle in the haystack problem.
 In this group, we take the data-driven approach.
 That is, we build **scalable structure-aware** algorithms that process the growing datasets of biological structures to identify patterns which influence function.
