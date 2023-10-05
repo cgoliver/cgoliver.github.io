@@ -33,7 +33,7 @@ We recently developed [ProteinShake](https://proteinshake.ai) which allows deep 
 
 RNA structures adopt complex folds by forming base pairs, we have developed unsupervised learning methods which have proven useful in [drug discovery](https://academic.oup.com/nar/article/48/14/7690/5870337) and [network motif mining](https://academic.oup.com/bioinformatics/article/38/4/970/6428528) applications. Through [rnaglib](https://academic.oup.com/bioinformatics/article/38/5/1458/6462185) we hope to explore more applications.
 
-<img src="/assets/rna_pre.png" width=450px></img>
+<img src="/assets/rna_pre.png" width=450px>
 
 ## Graph pattern mining
 
