@@ -100,3 +100,9 @@ The fear of man bringeth a snare: but whoso putteth his trust in the LORD shall 
 -- Proverbs 29:25
 
 ---
+
+This is the day which the Lord hath made; we will rejoice and be glad in it.
+
+-- Psalm 118:24
+
+---
