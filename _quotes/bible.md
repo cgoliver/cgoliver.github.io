@@ -106,3 +106,15 @@ This is the day which the Lord hath made; we will rejoice and be glad in it.
 -- Psalm 118:24
 
 ---
+
+Blessed is the man that walketh not in the counsel of the ungodly, nor standeth in the way of sinners, nor sitteth in the seat of the scornful.
+
+But his delight is in the law of the Lord; and in his law doth he meditate day and night.
+
+And he shall be like a tree planted by the rivers of water, that bringeth forth his fruit in his season; his leaf also shall not wither; and whatsoever he doeth shall prosper.
+
+The ungodly are not so: but are like the chaff which the wind driveth away.
+
+-- Psalm 1:1-4
+
+---
