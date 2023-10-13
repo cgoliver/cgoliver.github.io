@@ -26,6 +26,11 @@ border: 0px solid #787878;
 
 <table>
   <tr>
+    <td><img src="/assets/ps_logo.png" id="fig"></td>
+    <td><b>ProteinShake: Building Datasets and Benchmarks for Deep Learning on Protein Structures</b> <br>
+	Tim Kucera*, Carlos Oliver*, Dexiong Chen, Karsten Borgwardt <br>
+	(accepted at NeurIPS 2023 Datasets and Benchmarks) (preprint coming soon) </td>
+  <tr>
     <td><img src="/assets/mds.png" id="fig"></td>
     <td><b>Unsupervised Manifold Alignment with Joint Multidimensional Scaling</b> <br>
 	Dexiong Chen, Bowen Fan, Carlos Oliver, Karsten Borgwardt <br>
