@@ -29,7 +29,7 @@ border: 0px solid #787878;
     <td><img src="/assets/ps_logo.png" id="fig"></td>
     <td><b>ProteinShake: Building Datasets and Benchmarks for Deep Learning on Protein Structures</b> <br>
 	Tim Kucera*, Carlos Oliver*, Dexiong Chen, Karsten Borgwardt <br>
-	<i>accepted at NeurIPS 2023 Datasets and Benchmarks </i> (preprint coming soon) </td>
+	<i>accepted at NeurIPS 2023 Datasets and Benchmarks </i> <br> (preprint coming soon) </td>
   </tr>
   <tr>
     <td><img src="/assets/mds.png" id="fig"></td>
