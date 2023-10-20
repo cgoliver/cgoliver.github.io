@@ -26,6 +26,13 @@ border: 0px solid #787878;
 
 <table>
   <tr>
+    <td><img src="/assets/amr.png" id="fig"></td>
+    <td><b>Multimodal learning in clinical proteomics: enhancing antimicrobial resistance models with chemical information</b><br>
+	Giovanni Visonà*, Diane Duroux*, Lucas Miranda, Emese Sükei, Yiran Li, Karsten Borgwardt*, and Carlos Oliver* <br>
+	<i>Accepted at Bioinformatics</i> <br> (preprint coming soon) </td>
+  </tr>
+
+  <tr>
     <td><img src="/assets/ps_logo.png" id="fig"></td>
     <td><b>ProteinShake: Building Datasets and Benchmarks for Deep Learning on Protein Structures</b> <br>
 	Tim Kucera*, Carlos Oliver*, Dexiong Chen, Karsten Borgwardt <br>
