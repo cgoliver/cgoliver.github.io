@@ -26,6 +26,12 @@ border: 0px solid #787878;
 
 <table>
   <tr>
+    <td><img src="/assets/gmsm.png" id="fig"></td>
+    <td><b>Graph-matching-based learning of substitution matrices for biological structures with functional priors</b><br>
+	Paolo Pellizzoni*, Carlos Oliver*, Karsten Borgwardt <br>
+	<i>Accepted at RECOMB 2024</i> (preprint coming soon.) </td>
+  </tr>
+  <tr>
     <td><img src="/assets/rnamigos2.png" id="fig"></td>
     <td><b>Semi-supervised learning and large-scale docking data accelerate RNA virtual screening</b><br>
 	Juan G. Carvajal Pati&ntilde;o*, Vincent Mallet*, David Becerra, L. Fernando Ni&ntilde;o V, Carlos Oliver*, Jerome Waldispuhl*<br>
