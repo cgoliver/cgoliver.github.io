@@ -33,6 +33,7 @@ Rating system: <sup>*</sup> don't read, <sup>**</sup> have a look, <sup>***</sup
 * [_Orthodoxy_](https://www.goodreads.com/book/show/87665.Orthodoxy) - GK Chesterton <sup>***</sup>
 * [_Heretics_](https://www.goodreads.com/book/show/612143.Heretics) - GK Chesterton <sup>***</sup>
 * [_The Man Who Was Thursday_](https://www.goodreads.com/book/show/184419.The_Man_Who_Was_Thursday) - GK Chesterton <sup>**</sup>
+* [_St. Thomas Aquinas_](https://www.goodreads.com/book/show/20766432-st-thomas-aquinas-by-g-k-chesterton) - GK Chesterton <sup>*</sup>
 * [_And Then There Were None_](https://www.goodreads.com/book/show/46265792-and-then-there-were-none) - Agatha Christie <sup>**</sup>
 * [_Death on the Nile_](https://www.goodreads.com/book/show/131359.Death_on_the_Nile)- Agatha Christie <sup>**</sup>
 * [_Recursion_](https://www.goodreads.com/book/show/42046112-recursion) - Blake Crouch <sup>*</sup>
@@ -57,6 +58,7 @@ Rating system: <sup>*</sup> don't read, <sup>**</sup> have a look, <sup>***</sup
 ## H
 
 
+* [_The Case for Trump_](https://www.goodreads.com/book/show/41189928-the-case-for-trump) - Victor Davis Hanson <sup>***</sup>
 * [_Dune_](https://www.goodreads.com/book/show/44767458-dune) - Frank Herbert <sup>**</sup>
 * [_The Girl on the Train_](https://www.goodreads.com/book/show/22557272-the-girl-on-the-train) - Paula Hawkins <sup>**</sup>
 * [_The Road to Serfdom_](https://www.goodreads.com/book/show/299215.The_Road_to_Serfdom) - Friedrich Hayek <sup>**</sup>
