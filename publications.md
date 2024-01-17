@@ -42,7 +42,7 @@ border: 0px solid #787878;
     <td><img src="/assets/amr.png" id="fig"></td>
     <td><b>Multimodal learning in clinical proteomics: enhancing antimicrobial resistance models with chemical information</b><br>
 	Giovanni Visonà*, Diane Duroux*, Lucas Miranda, Emese Sükei, Yiran Li, Karsten Borgwardt*, and Carlos Oliver* <br>
-	<i>Accepted at Bioinformatics</i> <br> (<a href="https://academic.oup.com/bioinformatics/article/39/12/btad717/7450077">paper</a>) </td>
+	<i>Accepted at Bioinformatics</i>  (<a href="https://academic.oup.com/bioinformatics/article/39/12/btad717/7450077">paper</a>) </td>
   </tr>
 
   <tr>
