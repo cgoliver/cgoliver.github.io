@@ -23,6 +23,7 @@ border: 0px solid #787878;
 </style>
 </head>
 
+<h5>* = equal contribution</h5>
 
 <table>
   <tr>
