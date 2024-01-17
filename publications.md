@@ -24,6 +24,7 @@ border: 0px solid #787878;
 </head>
 
 <h5>* = equal contribution</h5>
+<h5>' = co-corresponding</h5>
 
 <table>
   <tr>
@@ -35,13 +36,13 @@ border: 0px solid #787878;
   <tr>
     <td><img src="/assets/rnamigos2.png" id="fig"></td>
     <td><b>Semi-supervised learning and large-scale docking data accelerate RNA virtual screening</b><br>
-	Juan G. Carvajal Pati&ntilde;o*, Vincent Mallet*, David Becerra, L. Fernando Ni&ntilde;o V, Carlos Oliver*, Jerome Waldispuhl*<br>
+	Juan G. Carvajal Pati&ntilde;o*, Vincent Mallet*, David Becerra, L. Fernando Ni&ntilde;o V, Carlos Oliver', Jerome Waldispuhl'<br>
 	<i>bioRxiv</i> (<a href="https://www.biorxiv.org/content/10.1101/2023.11.23.568394v1.full.pdf+html">preprint</a>) </td>
   </tr>
   <tr>
     <td><img src="/assets/amr.png" id="fig"></td>
     <td><b>Multimodal learning in clinical proteomics: enhancing antimicrobial resistance models with chemical information</b><br>
-	Giovanni Visonà*, Diane Duroux*, Lucas Miranda, Emese Sükei, Yiran Li, Karsten Borgwardt*, and Carlos Oliver* <br>
+	Giovanni Visonà*, Diane Duroux*, Lucas Miranda, Emese Sükei, Yiran Li, Karsten Borgwardt', and Carlos Oliver' <br>
 	<i>Accepted at Bioinformatics</i>  (<a href="https://academic.oup.com/bioinformatics/article/39/12/btad717/7450077">paper</a>) </td>
   </tr>
 
