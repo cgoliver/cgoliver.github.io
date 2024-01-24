@@ -118,3 +118,11 @@ The ungodly are not so: but are like the chaff which the wind driveth away.
 -- Psalm 1:1-4
 
 ---
+
+Be ye angry, and sin not: let not the sun go down upon your wrath: Neither give place to the devil.
+
+-- Ephesians 4:26-27
+
+---
+
+
