@@ -31,33 +31,33 @@ border: 0px solid #787878;
     <td><img src="/assets/pst.png" id="fig"></td>
     <td><b>Endowing protein language models with structural knowledge</b><br>
 	Dexiong Chen*, Philip Hartout*, Paolo Pellizzoni, Carlos Oliver, and Karsten Borgwardt <br>
-	<i>arXiV</i> (<a href="https://arxiv.org/pdf/2401.14819.pdf">preprint</a>) </td>
+	<i>arXiV (2024) </i> (<a href="https://arxiv.org/pdf/2401.14819.pdf">preprint</a>) </td>
   </tr>
 
   <tr>
     <td><img src="/assets/gmsm.png" id="fig"></td>
     <td><b>Graph-matching-based learning of substitution matrices for biological structures with functional priors</b><br>
 	Paolo Pellizzoni*, Carlos Oliver*, Karsten Borgwardt <br>
-	<i>Accepted at RECOMB 2024</i> (preprint coming soon.) </td>
+	<i>RECOMB (2024) </i> (preprint coming soon.) </td>
   </tr>
   <tr>
     <td><img src="/assets/rnamigos2.png" id="fig"></td>
     <td><b>Semi-supervised learning and large-scale docking data accelerate RNA virtual screening</b><br>
 	Juan G. Carvajal Pati&ntilde;o*, Vincent Mallet*, David Becerra, L. Fernando Ni&ntilde;o V, Carlos Oliver', Jerome Waldispuhl'<br>
-	<i>bioRxiv</i> (<a href="https://www.biorxiv.org/content/10.1101/2023.11.23.568394v1.full.pdf+html">preprint</a>) </td>
+	<i>bioRxiv (2023) </i> (<a href="https://www.biorxiv.org/content/10.1101/2023.11.23.568394v1.full.pdf+html">preprint</a>) </td>
   </tr>
   <tr>
     <td><img src="/assets/amr.png" id="fig"></td>
     <td><b>Multimodal learning in clinical proteomics: enhancing antimicrobial resistance models with chemical information</b><br>
 	Giovanni Visonà*, Diane Duroux*, Lucas Miranda, Emese Sükei, Yiran Li, Karsten Borgwardt', and Carlos Oliver' <br>
-	<i>Accepted at Bioinformatics</i>  (<a href="https://academic.oup.com/bioinformatics/article/39/12/btad717/7450077">paper</a>) </td>
+	<i>Bioinformatics (2023) </i>  (<a href="https://academic.oup.com/bioinformatics/article/39/12/btad717/7450077">paper</a>) </td>
   </tr>
 
   <tr>
     <td><img src="/assets/ps_logo.png" id="fig"></td>
     <td><b>ProteinShake: Building Datasets and Benchmarks for Deep Learning on Protein Structures</b> <br>
 	Tim Kucera*, Carlos Oliver*, Dexiong Chen, Karsten Borgwardt <br>
-	<i>NeurIPS 2023 Datasets and Benchmarks </i> (<a href="https://openreview.net/pdf?id=27vPcG4vKV">preprint</a>)</td>
+	<i>NeurIPS Datasets and Benchmarks (2023) </i> (<a href="https://openreview.net/pdf?id=27vPcG4vKV">preprint</a>)</td>
   </tr>
   <tr>
     <td><img src="/assets/mds.png" id="fig"></td>
@@ -69,19 +69,19 @@ border: 0px solid #787878;
     <td><img src="/assets/motifiesta.png" id="fig"></td>
     <td><b>Approximate Network Motif Mining via Graph Learning </b> <br>
 	Carlos Oliver, Dexiong Chen, Vincent Mallet, Pericles Philippopoulos, Karsten Borgwardt <br>
-	(<a href="https://arxiv.org/abs/2206.01008">preprint</a>)</td>
+	<i>ArXiV (2022)</i> (<a href="https://arxiv.org/abs/2206.01008">preprint</a>)</td>
   </tr>
   <tr>
     <td><img src="/assets/rgl_fig.png" id="fig"></td>
     <td><b>RNAGlib: A Python Package for RNA 2.5D Graphs. </b> <br>
 	Vincent Mallet, Carlos Oliver, Jonathan Broadbent,  William L. Hamilton, Jerome Waldispuhl<br>
-	<i> Bioinformatics </i>(<a href="https://arxiv.org/abs/2109.04434">preprint</a> | <a href="https://academic.oup.com/bioinformatics/article/38/5/1458/6462185?login=true">article</a>)</td>
+	<i> Bioinformatics (2021) </i>(<a href="https://arxiv.org/abs/2109.04434">preprint</a> | <a href="https://academic.oup.com/bioinformatics/article/38/5/1458/6462185?login=true">article</a>)</td>
   </tr>
   <tr>
     <td><img src="/assets/relattentional.png" id="fig"></td>
     <td><b>Edge Similarity-Aware Graph Neural Networks. </b> <br>
 	Vincent Mallet, Carlos Oliver, William L. Hamilton<br>
-	<i> arXiv 2021</i>(<a href="https://arxiv.org/abs/2109.09432">preprint</a>)</td>
+	<i> arXiv (2021)</i>(<a href="https://arxiv.org/abs/2109.09432">preprint</a>)</td>
   </tr>
   <tr>
     <td><img src="/assets/vernal.png" id="fig"></td>
