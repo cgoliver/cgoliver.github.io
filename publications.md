@@ -28,6 +28,13 @@ border: 0px solid #787878;
 
 <table>
   <tr>
+    <td><img src="/assets/pst.png" id="fig"></td>
+    <td><b>Endowing protein language models with structural knowledge</b><br>
+	Dexiong Chen*, Philip Hartout*, Paolo Pellizzoni, Carlos Oliver, and Karsten Borgwardt <br>
+	<i>arXiV</i> (<a href="https://arxiv.org/pdf/2401.14819.pdf">preprint</a>) </td>
+  </tr>
+
+  <tr>
     <td><img src="/assets/gmsm.png" id="fig"></td>
     <td><b>Graph-matching-based learning of substitution matrices for biological structures with functional priors</b><br>
 	Paolo Pellizzoni*, Carlos Oliver*, Karsten Borgwardt <br>
