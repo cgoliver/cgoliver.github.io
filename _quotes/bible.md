@@ -125,4 +125,14 @@ Be ye angry, and sin not: let not the sun go down upon your wrath: Neither give 
 
 ---
 
+So then faith cometh by hearing, and hearing by the word of God.
 
+-- Romans 10:17
+
+---
+
+I am crucified with Christ: nevertheless I live; yet not I, but Christ liveth in me: and the life which I now live in the flesh I live by the faith of the Son of God, who loved me, and gave himself for me.
+
+-- Galatians 2:20
+
+---
