@@ -136,3 +136,16 @@ I am crucified with Christ: nevertheless I live; yet not I, but Christ liveth in
 -- Galatians 2:20
 
 ---
+
+The LORD is my shepherd; I shall not want. He maketh me to lie down in green pastures: he leadeth me beside the still waters. He restoreth my soul: he leadeth me in the paths of righteousness for his name's sake.
+
+-- Psalm 23:1-3
+
+---
+
+Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me; thy rod and thy staff they comfort me.
+
+-- Psalm 23:4
+
+---
+
