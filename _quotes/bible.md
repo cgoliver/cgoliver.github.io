@@ -149,3 +149,9 @@ Yea, though I walk through the valley of the shadow of death, I will fear no evi
 
 ---
 
+Blessed be the Lord my strength which teacheth my hands to war, and my fingers to fight:
+My goodness, and my fortress; my high tower, and my deliverer; my shield, and he in whom I trust; who subdueth my people under me.
+
+-- Psalm 144:1-2
+
+---
