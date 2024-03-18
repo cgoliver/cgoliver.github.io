@@ -29,6 +29,14 @@ border: 0px solid #787878;
 <table>
   <tr>
     <td><img src="/assets/pst.png" id="fig"></td>
+    <td><b>3D-based RNA function prediction with rnaglib</b><br>
+	Carlos Oliver, Vincent Mallet, and Jerome Waldispuhl<br>
+	<i>arXiV (2024), to appear as book chapter in Springer Nature: Methods in Molecular Biology </i> (<a href="https://arxiv.org/pdf/2402.09330.pdf">preprint</a>) </td>
+  </tr>
+
+
+  <tr>
+    <td><img src="/assets/pst.png" id="fig"></td>
     <td><b>Endowing protein language models with structural knowledge</b><br>
 	Dexiong Chen*, Philip Hartout*, Paolo Pellizzoni, Carlos Oliver, and Karsten Borgwardt <br>
 	<i>arXiV (2024) </i> (<a href="https://arxiv.org/pdf/2401.14819.pdf">preprint</a>) </td>
@@ -36,7 +44,7 @@ border: 0px solid #787878;
 
   <tr>
     <td><img src="/assets/gmsm.png" id="fig"></td>
-    <td><b>Graph-matching-based learning of substitution matrices for biological structures with functional priors</b><br>
+    <td><b>Structure-and function-aware substitution matrices via learnable graph matching.</b><br>
 	Paolo Pellizzoni*, Carlos Oliver*, Karsten Borgwardt <br>
 	<i>RECOMB (2024) </i> (preprint coming soon.) </td>
   </tr>
