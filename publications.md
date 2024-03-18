@@ -28,7 +28,7 @@ border: 0px solid #787878;
 
 <table>
   <tr>
-    <td><img src="/assets/pst.png" id="fig"></td>
+    <td><img src="/assets/book.png" id="fig"></td>
     <td><b>3D-based RNA function prediction with rnaglib</b><br>
 	Carlos Oliver, Vincent Mallet, and Jerome Waldispuhl<br>
 	<i>arXiV (2024), to appear as book chapter in Springer Nature: Methods in Molecular Biology </i> (<a href="https://arxiv.org/pdf/2402.09330.pdf">preprint</a>) </td>
