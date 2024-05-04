@@ -106,6 +106,7 @@ Rating system: <sup>*</sup> don't read, <sup>**</sup> have a look, <sup>***</sup
 * [_Beyond Order: 12 More Rules For Life_](https://www.goodreads.com/book/show/56019043-beyond-order) - Jordan B. Peterson <sup>***</sup>
 * [_Knowledge and Christian Belief_](https://www.goodreads.com/book/show/22962483-knowledge-and-christian-belief) - Alvin Plantinga <sup>***</sup>
 * [_God, Freedom, and Evil_](https://www.goodreads.com/book/show/496895.God_Freedom_and_Evil) - Alvin Plantinga <sup>***</sup>
+* [_Where the Conflict Really Lies: Science, Religion, and Naturalism_](https://www.goodreads.com/book/show/11289743-where-the-conflict-really-lies) - Alvin Plantinga <sup>***</sup>
 * [_Enlightenment Now_](https://www.goodreads.com/book/show/35696171-enlightenment-now) - Steven Pinker <sup>***</sup>
 * [_The Blank Slate_](https://www.goodreads.com/book/show/48618164-the-blank-slate) - Steven Pinker <sup>***</sup>
 * [_Zen and the Art of Motorcycle Maintenance_](https://www.goodreads.com/book/show/629.Zen_and_the_Art_of_Motorcycle_Maintenance) - Robert M. Pirsig <sup>**</sup>
