@@ -20,7 +20,6 @@ border: 0px solid #787878;
 }
 h1,
     h2 {
-        color: green;
         text-align: center;
     }
 
@@ -45,6 +44,11 @@ h1,
 
 </style>
 </head>
+
+For full size images, right click (or hold down on phone) and click "Open in new tab".
+
+
+Will be updating and adding more things over the next days.
 
 <table>
 <tr>
@@ -129,5 +133,39 @@ h1,
   </tr>
 
 
+  <tr>
+    <td><img src="/assets/selling/gimbal.jpeg"></td>
+    <td>DJI Ronin SC Gimbal</td>
+    <td> 185 EUR </td>
+    <td> Perfect condition. Used once, all parts there. </td>
+    <td> Available</td>
+  </tr>
 
+
+  <tr>
+    <td><img src="/assets/selling/bamboo.jpeg"></td>
+    <td>Bamboo Chair</td>
+    <td> 50 EUR </td>
+    <td> Perfect condition. </td>
+    <td> Available</td>
+  </tr>
+
+  <tr>
+    <td><img src="/assets/selling/side.jpeg"></td>
+    <td>Side table</td>
+    <td> 50 EUR </td>
+    <td> Perfect condition. </td>
+    <td> Available</td>
+  </tr>
+
+  <tr>
+    <td><img src="/assets/selling/type.jpeg"></td>
+    <td>Olympica Monica Typewriter</td>
+    <td> 35 EUR </td>
+    <td> Perfect condition. Extra ribbon included.</td>
+    <td> Available</td>
+  </tr>
+
+ 
+ 
 </table>
