@@ -52,11 +52,11 @@ h1,
         <th>Item</th>
         <th>Price</th>
         <th>Notes</th>
-        <th>Status></th>
+        <th>Status</th>
 </tr>
 
   <tr>
-    <td><img src="/assets/guitar.jpeg"></td>
+    <td><img src="/assets/selling/guitar.jpeg"></td>
     <td>Classical Guitar Ariana</td>
     <td> 45 EUR </td>
     <td> Signs of wear and tear but works </td>
@@ -64,7 +64,7 @@ h1,
   </tr>
 
   <tr>
-    <td><img src="/assets/coffee.jpeg"></td>
+    <td><img src="/assets/selling/coffee.jpeg"></td>
     <td>Petromax Coffee Percolator</td>
     <td> 15 EUR </td>
     <td> Signs of wear and tear but works </td>
@@ -72,13 +72,21 @@ h1,
   </tr>
 
   <tr>
-    <td><img src="/assets/lamp_desk.jpeg"></td>
+    <td><img src="/assets/selling/lamp_desk.jpeg"></td>
     <td>IKEA Desk Lamp</td>
     <td> 20 EUR </td>
     <td> Good as new</td>
     <td> Available</td>
   </tr>
 
+
+  <tr>
+    <td><img src="/assets/selling/lamp_2.jpeg"></td>
+    <td>JYSK Mushroom Lamp</td>
+    <td> 20 EUR </td>
+    <td> Good as new</td>
+    <td> Available</td>
+  </tr>
 
 
 </table>
