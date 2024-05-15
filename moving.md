@@ -71,5 +71,14 @@ h1,
     <td> Available</td>
   </tr>
 
+  <tr>
+    <td><img src="/assets/lamp_desk.jpeg"></td>
+    <td>IKEA Desk Lamp</td>
+    <td> 20 EUR </td>
+    <td> Good as new</td>
+    <td> Available</td>
+  </tr>
+
+
 
 </table>
