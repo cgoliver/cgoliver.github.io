@@ -89,10 +89,10 @@ h1,
   </tr>
 
   <tr>
-    <td><img src="/assets/selling/robot.jpeg"></td>
-    <td>Robot vacuum </td>
-    <td> 50 EUR </td>
-    <td> Works perfectly, needs cleaning </td>
+    <td><img src="/assets/selling/chest.jpeg"></td>
+    <td>Wooden chest</td>
+    <td> 20 EUR </td>
+    <td> Works perfectly. 100cm W 45 H 40 D </td>
     <td> Available</td>
   </tr>
 
