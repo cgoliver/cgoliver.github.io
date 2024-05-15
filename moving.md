@@ -18,6 +18,30 @@ border: 0px solid #787878;
 #txt {
     font-size:11pt;
 }
+h1,
+    h2 {
+        color: green;
+        text-align: center;
+    }
+
+
+    table {
+        width: 60%;
+        border-collapse: collapse;
+        margin: 20px auto;
+    }
+
+    th,
+    td {
+        padding: 8px;
+        border: 1px solid #ddd;
+        text-align: left;
+        word-wrap: break-word;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
 
 </style>
 </head>
