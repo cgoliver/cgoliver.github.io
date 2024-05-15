@@ -39,4 +39,13 @@ border: 0px solid #787878;
     <td> Available</td>
   </tr>
 
+  <tr>
+    <td><img src="/assets/coffee.jpeg"></td>
+    <td>Petromax Coffee Percolator</td>
+    <td> 15 EUR </td>
+    <td> Signs of wear and tear but works </td>
+    <td> Available</td>
+  </tr>
+
+
 </table>
