@@ -13,7 +13,6 @@ nav: false
 img {
 border: 0px solid #787878;
     max-width: 400px;
-    max-height: 130px;
 }
 #txt {
     font-size:11pt;
