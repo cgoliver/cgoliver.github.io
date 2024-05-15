@@ -166,5 +166,13 @@ Will be updating and adding more things over the next days.
   </tr>
 
  
+  <tr>
+    <td><img src="/assets/selling/nes.jpeg"></td>
+    <td>Nespresso Machine</td>
+    <td> 30 EUR </td>
+    <td> Perfect condition.</td>
+    <td> Available</td>
+  </tr>
+
  
 </table>
