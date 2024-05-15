@@ -112,6 +112,13 @@ h1,
     <td> Some scratches </td>
     <td> Available</td>
   </tr>
+  <tr>
+    <td><img src="/assets/selling/desk.jpeg"></td>
+    <td>KARE Desk and Rattan Chair</td>
+    <td> 50 EUR Desk, 20 EUR Chair</td>
+    <td> Some scratches. </td>
+    <td> Available</td>
+  </tr>
 
   <tr>
     <td><img src="/assets/selling/sofa.jpeg"></td>
@@ -120,6 +127,7 @@ h1,
     <td> Perfect condition. Under blanket is just more white. </td>
     <td> Available</td>
   </tr>
+
 
 
 </table>
