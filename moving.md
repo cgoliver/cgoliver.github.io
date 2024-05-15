@@ -174,5 +174,13 @@ Will be updating and adding more things over the next days.
     <td> Available</td>
   </tr>
 
+  <tr>
+    <td><img src="/assets/selling/vdesk.jpeg"></td>
+    <td>Vintage Solid Wood Small Desk</td>
+    <td> 80 EUR </td>
+    <td> Excellent condition.</td>
+    <td> Available</td>
+  </tr>
+
  
 </table>
