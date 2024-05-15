@@ -183,4 +183,12 @@ Will be updating and adding more things over the next days.
   </tr>
 
  
+  <tr>
+    <td><img src="/assets/selling/air.jpeg"></td>
+    <td>Levoit Air Purifier</td>
+    <td> 40 EUR </td>
+    <td> Excellent condition. Used only for a couple of months.</td>
+    <td> Available</td>
+  </tr>
+
 </table>
