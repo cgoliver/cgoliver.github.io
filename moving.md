@@ -96,6 +96,14 @@ h1,
     <td> Available</td>
   </tr>
 
+  <tr>
+    <td><img src="/assets/selling/wash.jpeg"></td>
+    <td>Washer and dryer</td>
+    <td> 250 EUR each </td>
+    <td> Works perfectly. Model: IKEA UDDARP. Stacker included </td>
+    <td> Available</td>
+  </tr>
+
 
 
 </table>
