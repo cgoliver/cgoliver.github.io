@@ -105,5 +105,21 @@ h1,
   </tr>
 
 
+  <tr>
+    <td><img src="/assets/selling/bookcase.jpeg"></td>
+    <td>KARE Bookcase</td>
+    <td> 20 EUR </td>
+    <td> Some scratches </td>
+    <td> Available</td>
+  </tr>
+
+  <tr>
+    <td><img src="/assets/selling/sofa.jpeg"></td>
+    <td>Sofa</td>
+    <td> 40 EUR </td>
+    <td> Perfect condition. Under blanket is just more white. </td>
+    <td> Available</td>
+  </tr>
+
 
 </table>
