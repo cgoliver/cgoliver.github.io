@@ -25,7 +25,7 @@ h1,
 
 
     table {
-        width: 60%;
+        width: 75%;
         border-collapse: collapse;
         margin: 20px auto;
     }
