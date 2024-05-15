@@ -12,7 +12,7 @@ nav: false
 <style>
 img {
 border: 0px solid #787878;
-    max-width: 200px;
+    max-width: 400px;
     max-height: 130px;
 }
 #txt {
