@@ -152,9 +152,9 @@ Will be updating and adding more things over the next days.
 
   <tr>
     <td><img src="/assets/selling/side.jpeg"></td>
-    <td>Side table</td>
+    <td>Vintage side table</td>
     <td> 50 EUR </td>
-    <td> Perfect condition. </td>
+    <td> Perfect condition. 52 H 54 W 34 D</td>
     <td> Available</td>
   </tr>
 
