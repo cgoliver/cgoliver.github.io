@@ -24,7 +24,7 @@ h1,
 
 
     table {
-        width: 75%;
+        width: 85%;
         border-collapse: collapse;
         margin: 20px auto;
     }
