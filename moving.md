@@ -88,5 +88,14 @@ h1,
     <td> Available</td>
   </tr>
 
+  <tr>
+    <td><img src="/assets/selling/robot.jpeg"></td>
+    <td>Robot vacuum </td>
+    <td> 50 EUR </td>
+    <td> Works perfectly, needs cleaning </td>
+    <td> Available</td>
+  </tr>
+
+
 
 </table>
