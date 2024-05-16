@@ -104,7 +104,7 @@ Will be updating and adding more things over the next days.
     <td>Washer and dryer</td>
     <td> 250 EUR each </td>
     <td> Works perfectly. Model: IKEA UDDARP. Stacker included </td>
-    <td> Available</td>
+    <td> Dryer reserved </td>
   </tr>
 
 
@@ -146,7 +146,7 @@ Will be updating and adding more things over the next days.
     <td>Bamboo Chair</td>
     <td> 50 EUR </td>
     <td> Perfect condition. </td>
-    <td> Available</td>
+    <td> Reserved </td>
   </tr>
 
   <tr>
@@ -171,7 +171,7 @@ Will be updating and adding more things over the next days.
     <td>Nespresso Machine</td>
     <td> 30 EUR </td>
     <td> Perfect condition.</td>
-    <td> Available</td>
+    <td> Reserved </td>
   </tr>
 
   <tr>
