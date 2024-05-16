@@ -171,7 +171,7 @@ Will be updating and adding more things over the next days.
     <td>Nespresso Machine</td>
     <td> 30 EUR </td>
     <td> Perfect condition.</td>
-    <td> Reserved </td>
+    <td> Sold </td>
   </tr>
 
   <tr>
