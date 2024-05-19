@@ -46,7 +46,7 @@ border: 0px solid #787878;
     <td><img src="/assets/gmsm.png" id="fig"></td>
     <td><b>Structure-and function-aware substitution matrices via learnable graph matching.</b><br>
 	Paolo Pellizzoni*, Carlos Oliver*, Karsten Borgwardt <br>
-	<i>RECOMB (2024) </i> (preprint coming soon, contact me if you want to read) </td>
+	<i>RECOMB (2024) </i> (<a href="https://link.springer.com/chapter/10.1007/978-1-0716-3989-4_18" >proceedings</a>)</td>
   </tr>
   <tr>
     <td><img src="/assets/rnamigos2.png" id="fig"></td>
