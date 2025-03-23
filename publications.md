@@ -28,6 +28,12 @@ border: 0px solid #787878;
 
 <table>
   <tr>
+    <td><img src="/assets/rnamigos2.png" id="fig"></td>
+    <td><b>RNAmigos2: accelerated structure-based RNA virtual screening with deep graph learning</b><br>
+	Juan G. Carvajal Pati&ntilde;o*, Vincent Mallet*, David Becerra, L. Fernando Ni&ntilde;o V, Carlos Oliver', Jerome Waldispuhl'<br>
+	<i>Nature Communications 2025 </i> (<a href="https://www.biorxiv.org/content/10.1101/2023.11.23.568394v3">preprint</a>) (<a href="https://www.nature.com/articles/s41467-025-57852-0">article</a>)</td>
+  </tr>
+  <tr>
     <td><img src="/assets/book.png" id="fig"></td>
     <td><b>3D-based RNA function prediction with rnaglib</b><br>
 	Carlos Oliver, Vincent Mallet, and Jerome Waldispuhl<br>
@@ -44,12 +50,6 @@ border: 0px solid #787878;
     <td><b>Structure-and function-aware substitution matrices via learnable graph matching.</b><br>
 	Paolo Pellizzoni*, Carlos Oliver*, Karsten Borgwardt <br>
 	<i>RECOMB (2024) </i> (<a href="https://link.springer.com/chapter/10.1007/978-1-0716-3989-4_18" >proceedings</a>)</td>
-  </tr>
-  <tr>
-    <td><img src="/assets/rnamigos2.png" id="fig"></td>
-    <td><b>Semi-supervised learning and large-scale docking data accelerate RNA virtual screening</b><br>
-	Juan G. Carvajal Pati&ntilde;o*, Vincent Mallet*, David Becerra, L. Fernando Ni&ntilde;o V, Carlos Oliver', Jerome Waldispuhl'<br>
-	<i>bioRxiv (2023) </i> (<a href="https://www.biorxiv.org/content/10.1101/2023.11.23.568394v1.full.pdf+html">preprint</a>) </td>
   </tr>
   <tr>
     <td><img src="/assets/amr.png" id="fig"></td>
