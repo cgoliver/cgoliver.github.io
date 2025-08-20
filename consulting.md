@@ -7,7 +7,7 @@ nav: true
 
 ---
 
-**Consulting Services in AI-Driven Computational Biology and Drug Discovery**  
+## Consulting Services in AI-Driven Computational Biology and Drug Discovery
 
 **Contact:** cgoliver@protonmail.com | https://carlosoliver.co | Nashville, TN, USA  
 
