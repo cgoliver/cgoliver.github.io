@@ -1,13 +1,12 @@
 ---
 
 layout: page
-title: "Consulting"
+title: ""
 permalink: /consulting
 nav: true
 
 ---
 
-# Carlos Oliver, PhD  
 **Consulting Services in AI-Driven Computational Biology and Drug Discovery**  
 
 **Contact:** cgoliver@protonmail.com | https://carlosoliver.co | Nashville, TN, USA  
