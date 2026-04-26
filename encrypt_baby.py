@@ -93,16 +93,20 @@ def load_pages() -> list[dict]:
             sys.exit(f"error: duplicate page id {page_id!r} (file {f.name})")
         seen_ids.add(page_id)
         title = meta.get("title") or f.stem.replace("_", " ").replace("-", " ").strip()
+        category = meta.get("category") or None
         try:
             order = int(meta.get("order", "100"))
         except ValueError:
             order = 100
-        pages.append({
+        page = {
             "id": page_id,
             "title": title,
             "order": order,
             "content": body.strip("\n"),
-        })
+        }
+        if category:
+            page["category"] = category
+        pages.append(page)
     pages.sort(key=lambda p: (p["order"], p["title"].lower()))
     for p in pages:
         del p["order"]
