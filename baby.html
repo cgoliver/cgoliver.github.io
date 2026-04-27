@@ -329,6 +329,27 @@ mark { background: var(--hl); color: inherit; padding: 0 1px; border-radius: 1px
 (function () {
   'use strict';
 
+  // ---------- session persistence (survives refresh, cleared on tab close) ----------
+  const SESSION_KEY = 'babypedia-session';
+  function saveSession(pagesArr, blob) {
+    try {
+      const fp = blob.salt + ':' + blob.iv;
+      sessionStorage.setItem(SESSION_KEY, JSON.stringify({ fp, pages: pagesArr }));
+    } catch (e) {}
+  }
+  function loadSession(blob) {
+    try {
+      const raw = sessionStorage.getItem(SESSION_KEY);
+      if (!raw) return null;
+      const data = JSON.parse(raw);
+      if (!data || data.fp !== blob.salt + ':' + blob.iv) return null;
+      return Array.isArray(data.pages) ? data.pages : null;
+    } catch (e) { return null; }
+  }
+  function clearSession() {
+    try { sessionStorage.removeItem(SESSION_KEY); } catch (e) {}
+  }
+
   // ---------- persistent check state ----------
   const CHECK_KEY = 'babypedia-checks';
   let checkStore = {};
@@ -755,6 +776,7 @@ mark { background: var(--hl); color: inherit; padding: 0 1px; border-radius: 1px
   });
 
   lockBtn.addEventListener('click', () => {
+    clearSession();
     pages = [];
     currentId = null;
     currentQuery = '';
@@ -797,6 +819,7 @@ mark { background: var(--hl); color: inherit; padding: 0 1px; border-radius: 1px
         content: String(p.content || ''),
         category: p.category ? String(p.category) : null
       }));
+      saveSession(pages, blob);
       passwordInput.value = '';
       lockEl.hidden = true;
       appEl.hidden = false;
@@ -836,7 +859,28 @@ mark { background: var(--hl); color: inherit; padding: 0 1px; border-radius: 1px
     document.body.innerHTML =
       '<p style="text-align:center;padding:40px;color:#c75450;font-family:ui-monospace,monospace">' +
       'browser does not support Web Crypto (need https or localhost)</p>';
+    return;
   }
+
+  (function tryRestoreSession() {
+    let blob;
+    try { blob = getBlob(); } catch (e) { return; }
+    if (blob.placeholder) return;
+    const cached = loadSession(blob);
+    if (!cached || !cached.length) return;
+    pages = cached.map(p => ({
+      id: String(p.id),
+      title: String(p.title || p.id),
+      content: String(p.content || ''),
+      category: p.category ? String(p.category) : null
+    }));
+    lockEl.hidden = true;
+    appEl.hidden = false;
+    const requested = decodeURIComponent((location.hash || '').slice(1));
+    const initial = pages.find(p => p.id === requested) ? requested : (pages[0] && pages[0].id);
+    if (initial) renderPage(initial);
+    else { contentEl.innerHTML = '<p>no pages</p>'; renderNav(); }
+  })();
 })();
 </script>
 
