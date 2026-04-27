@@ -166,78 +166,55 @@ body {
 
 #body {
   display: grid;
-  grid-template-columns: 280px 1fr 200px;
+  grid-template-columns: 280px 1fr;
   overflow: hidden;
   min-height: 0;
 }
-#app.nav-collapsed #body { grid-template-columns: 0 1fr 200px; }
-#app.nav-collapsed #nav { display: none; }
-#nav-toggle { display: inline-block; }
-#toc {
-  border-left: 1px solid var(--border);
-  overflow-y: auto;
-  padding: 32px 16px 60px;
-  font: 12px/1.4 ui-monospace, "SF Mono", Menlo, monospace;
-}
-#toc.hidden { display: none; }
-#toc-title {
-  color: var(--muted);
-  font-size: 10px;
-  letter-spacing: 0.3em;
-  text-transform: uppercase;
-  margin: 0 0 12px 10px;
-}
-#toc-list { list-style: none; padding: 0; margin: 0; }
-#toc-list li { margin: 0; }
-#toc-list a {
-  display: block;
-  color: var(--muted);
-  text-decoration: none;
-  padding: 5px 10px;
-  border-left: 2px solid transparent;
-  line-height: 1.35;
-}
-#toc-list a:hover { color: var(--accent); }
-#toc-list a.active { color: var(--accent); border-left-color: var(--accent); }
-#toc-list .toc-h3 a { padding-left: 22px; font-size: 11px; }
-
-.inline-toc {
-  display: none;
-  margin: 0 0 24px;
-  padding: 10px 14px;
-  background: var(--code-bg);
-  border: 1px solid var(--border);
-  border-radius: 4px;
-}
-.inline-toc summary {
-  cursor: pointer;
-  color: var(--muted);
-  font: 500 10px/1 ui-monospace, "SF Mono", Menlo, monospace;
-  letter-spacing: 0.3em;
-  text-transform: uppercase;
-  padding: 4px 0;
-  user-select: none;
-  list-style: none;
-}
-.inline-toc summary::-webkit-details-marker { display: none; }
-.inline-toc summary::before { content: "▸ "; opacity: 0.6; }
-.inline-toc[open] summary::before { content: "▾ "; }
-.inline-toc ul { list-style: none; padding: 8px 0 4px; margin: 0; }
-.inline-toc li { margin: 0; }
-.inline-toc a {
-  display: block;
-  padding: 4px 0;
-  color: var(--fg);
-  text-decoration: none;
-  font: 13px/1.4 ui-monospace, "SF Mono", Menlo, monospace;
-}
-.inline-toc a:hover { color: var(--accent); }
-.inline-toc .toc-h3 a { padding-left: 18px; font-size: 12px; }
 #nav {
+  display: flex;
+  flex-direction: column;
   border-right: 1px solid var(--border);
+  overflow: hidden;
+  min-height: 0;
+}
+#nav-pages {
+  flex: 1 1 auto;
   overflow-y: auto;
+  min-height: 0;
   padding: 8px 0;
 }
+#nav-sections-wrap {
+  flex: 0 1 auto;
+  max-height: 45%;
+  overflow-y: auto;
+  border-top: 1px solid var(--border);
+  padding: 10px 0 14px;
+  background: rgba(0,0,0,0.04);
+}
+:root[data-theme="light"] #nav-sections-wrap { background: rgba(0,0,0,0.025); }
+#nav-sections-wrap[hidden] { display: none; }
+#nav-sections-title {
+  font: 500 10px/1 ui-monospace, "SF Mono", Menlo, monospace;
+  color: var(--muted);
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  padding: 4px 18px 10px;
+  margin: 0;
+}
+#nav-sections { list-style: none; padding: 0; margin: 0; }
+#nav-sections li { margin: 0; }
+#nav-sections a {
+  display: block;
+  padding: 5px 18px;
+  color: var(--muted);
+  text-decoration: none;
+  border-left: 2px solid transparent;
+  font: 12px/1.4 ui-monospace, "SF Mono", Menlo, monospace;
+  cursor: pointer;
+}
+#nav-sections a:hover { color: var(--accent); }
+#nav-sections a.active { color: var(--accent); border-left-color: var(--accent); background: var(--active); }
+#nav-sections .toc-h3 a { padding-left: 28px; font-size: 11px; }
 .nav-item {
   display: block;
   padding: 9px 18px;
@@ -307,17 +284,11 @@ mark { background: var(--hl); color: inherit; padding: 0 1px; border-radius: 1px
 ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--muted); }
 
-@media (max-width: 880px) {
-  #body { grid-template-columns: 280px 1fr; }
-  #app.nav-collapsed #body { grid-template-columns: 0 1fr; }
-  #toc { display: none; }
-  .inline-toc { display: block; }
-}
 @media (max-width: 720px) {
   html, body { overflow-x: hidden; }
   #body { grid-template-columns: 1fr; }
   #nav { display: none; border-right: 0; border-bottom: 1px solid var(--border); }
-  #app.show-nav #nav { display: block; }
+  #app.show-nav #nav { display: flex; }
   #app.show-nav #content { display: none; }
   #content { padding: 18px 14px 60px; }
   #content h1 { font-size: 24px; }
@@ -328,7 +299,6 @@ mark { background: var(--hl); color: inherit; padding: 0 1px; border-radius: 1px
   #header h1 { display: none; }
   #header button { padding: 6px 8px; letter-spacing: 0.15em; }
   #nav-btn { display: block; }
-  #nav-toggle { display: none; }
 }
 </style>
 </head>
@@ -346,7 +316,6 @@ mark { background: var(--hl); color: inherit; padding: 0 1px; border-radius: 1px
 
 <div id="app" hidden>
   <div id="header">
-    <button id="nav-toggle" type="button" title="toggle navigation">≡</button>
     <h1>babypedia</h1>
     <input type="search" id="search" placeholder="search…" autocomplete="off" spellcheck="false">
     <button id="nav-btn" type="button" title="pages">pages</button>
@@ -354,12 +323,14 @@ mark { background: var(--hl); color: inherit; padding: 0 1px; border-radius: 1px
     <button id="lock-btn" type="button" title="lock">lock</button>
   </div>
   <div id="body">
-    <nav id="nav"></nav>
+    <nav id="nav">
+      <div id="nav-pages"></div>
+      <div id="nav-sections-wrap" hidden>
+        <div id="nav-sections-title">on this page</div>
+        <ul id="nav-sections"></ul>
+      </div>
+    </nav>
     <main id="content"></main>
-    <aside id="toc" class="hidden">
-      <div id="toc-title">on this page</div>
-      <ul id="toc-list"></ul>
-    </aside>
   </div>
 </div>
 
@@ -645,24 +616,14 @@ mark { background: var(--hl); color: inherit; padding: 0 1px; border-radius: 1px
   const lockError = document.getElementById('lock-error');
   const appEl = document.getElementById('app');
   const navEl = document.getElementById('nav');
+  const navPagesEl = document.getElementById('nav-pages');
+  const navSectionsEl = document.getElementById('nav-sections');
+  const navSectionsWrap = document.getElementById('nav-sections-wrap');
   const contentEl = document.getElementById('content');
   const searchEl = document.getElementById('search');
   const lockBtn = document.getElementById('lock-btn');
   const navBtn = document.getElementById('nav-btn');
-  const navToggleBtn = document.getElementById('nav-toggle');
   const themeBtn = document.getElementById('theme-btn');
-
-  const NAV_KEY = 'babypedia-nav-collapsed';
-  (function initNavCollapsed() {
-    let v = false;
-    try { v = localStorage.getItem(NAV_KEY) === '1'; } catch (e) {}
-    if (v) appEl.classList.add('nav-collapsed');
-  })();
-  navToggleBtn.addEventListener('click', () => {
-    const next = !appEl.classList.contains('nav-collapsed');
-    appEl.classList.toggle('nav-collapsed', next);
-    try { localStorage.setItem(NAV_KEY, next ? '1' : '0'); } catch (e) {}
-  });
 
   let pages = [];
   let currentId = null;
@@ -671,52 +632,30 @@ mark { background: var(--hl); color: inherit; padding: 0 1px; border-radius: 1px
   let tocObserver = null;
 
   function buildToc() {
-    const tocEl = document.getElementById('toc');
-    const tocList = document.getElementById('toc-list');
     if (tocObserver) { tocObserver.disconnect(); tocObserver = null; }
-    tocList.innerHTML = '';
-    const oldInline = contentEl.querySelector('.inline-toc');
-    if (oldInline) oldInline.remove();
-
+    navSectionsEl.innerHTML = '';
     const headings = contentEl.querySelectorAll('h2, h3');
     if (headings.length < 2) {
-      tocEl.classList.add('hidden');
+      navSectionsWrap.hidden = true;
       return;
     }
-    tocEl.classList.remove('hidden');
-
-    const buildList = ul => {
-      headings.forEach(h => {
-        const li = document.createElement('li');
-        if (h.tagName === 'H3') li.classList.add('toc-h3');
-        const a = document.createElement('a');
-        a.href = '#' + h.id;
-        a.textContent = h.textContent;
-        a.dataset.target = h.id;
-        li.appendChild(a);
-        ul.appendChild(li);
-      });
-    };
-    buildList(tocList);
-
-    const inline = document.createElement('details');
-    inline.className = 'inline-toc';
-    const summary = document.createElement('summary');
-    summary.textContent = 'sections';
-    inline.appendChild(summary);
-    const inlineUl = document.createElement('ul');
-    buildList(inlineUl);
-    inline.appendChild(inlineUl);
-    const h1 = contentEl.querySelector('h1');
-    if (h1) h1.insertAdjacentElement('afterend', inline);
-    else contentEl.insertBefore(inline, contentEl.firstChild);
-
+    navSectionsWrap.hidden = false;
+    headings.forEach(h => {
+      const li = document.createElement('li');
+      if (h.tagName === 'H3') li.classList.add('toc-h3');
+      const a = document.createElement('a');
+      a.href = '#' + h.id;
+      a.textContent = h.textContent;
+      a.dataset.target = h.id;
+      li.appendChild(a);
+      navSectionsEl.appendChild(li);
+    });
     if ('IntersectionObserver' in window) {
       tocObserver = new IntersectionObserver(entries => {
         for (const entry of entries) {
           if (entry.isIntersecting) {
             const id = entry.target.id;
-            tocList.querySelectorAll('a').forEach(l => l.classList.toggle('active', l.dataset.target === id));
+            navSectionsEl.querySelectorAll('a').forEach(l => l.classList.toggle('active', l.dataset.target === id));
           }
         }
       }, { root: contentEl, rootMargin: '-10% 0px -75% 0px' });
@@ -749,7 +688,7 @@ mark { background: var(--hl); color: inherit; padding: 0 1px; border-radius: 1px
   function renderNav() {
     const results = search(pages, currentQuery);
     if (!results.length) {
-      navEl.innerHTML = '<div class="nav-empty">no matches</div>';
+      navPagesEl.innerHTML = '<div class="nav-empty">no matches</div>';
       return;
     }
     const noCat = [];
@@ -773,7 +712,7 @@ mark { background: var(--hl); color: inherit; padding: 0 1px; border-radius: 1px
       for (const p of items) html += navItemHtml(p);
       html += '</div></div>';
     }
-    navEl.innerHTML = html;
+    navPagesEl.innerHTML = html;
   }
 
   function renderPage(id) {
@@ -859,9 +798,9 @@ mark { background: var(--hl); color: inherit; padding: 0 1px; border-radius: 1px
     lockEl.hidden = false;
     passwordInput.value = '';
     contentEl.innerHTML = '';
-    navEl.innerHTML = '';
-    document.getElementById('toc-list').innerHTML = '';
-    document.getElementById('toc').classList.add('hidden');
+    navPagesEl.innerHTML = '';
+    navSectionsEl.innerHTML = '';
+    navSectionsWrap.hidden = true;
     searchEl.value = '';
     history.replaceState(null, '', location.pathname);
     passwordInput.focus();
