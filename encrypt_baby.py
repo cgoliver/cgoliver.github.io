@@ -74,7 +74,12 @@ def parse_front_matter(text: str) -> tuple[dict, str]:
         if ":" not in line:
             continue
         k, v = line.split(":", 1)
-        meta[k.strip().lower()] = v.strip().strip('"').strip("'")
+        k, v = k.strip().lower(), v.strip()
+        if v.startswith("[") and v.endswith("]"):
+            inner = v[1:-1].strip()
+            meta[k] = [t.strip().strip('"').strip("'") for t in inner.split(",") if t.strip()]
+        else:
+            meta[k] = v.strip('"').strip("'")
     return meta, m.group(2)
 
 
@@ -94,6 +99,9 @@ def load_pages() -> list[dict]:
         seen_ids.add(page_id)
         title = meta.get("title") or f.stem.replace("_", " ").replace("-", " ").strip()
         category = meta.get("category") or None
+        tags_meta = meta.get("tags") or []
+        if isinstance(tags_meta, str):
+            tags_meta = [t.strip() for t in tags_meta.split(",") if t.strip()]
         try:
             order = int(meta.get("order", "100"))
         except ValueError:
@@ -106,6 +114,8 @@ def load_pages() -> list[dict]:
         }
         if category:
             page["category"] = category
+        if tags_meta:
+            page["tags"] = list(tags_meta)
         pages.append(page)
     pages.sort(key=lambda p: (p["order"], p["title"].lower()))
     for p in pages:
