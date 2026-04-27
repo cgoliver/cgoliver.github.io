@@ -170,6 +170,10 @@ body {
   overflow: hidden;
   min-height: 0;
 }
+#app.nav-hidden #nav { display: none; }
+#app.nav-hidden #body { grid-template-columns: 1fr; }
+#nav-toggle { display: inline-block; }
+
 #nav {
   display: flex;
   flex-direction: column;
@@ -177,31 +181,62 @@ body {
   overflow: hidden;
   min-height: 0;
 }
+.nav-panel-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+  background: transparent;
+  border: 0;
+  padding: 12px 18px 8px;
+  color: var(--muted);
+  font: 500 10px/1 ui-monospace, "SF Mono", Menlo, monospace;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  cursor: pointer;
+  user-select: none;
+  text-align: left;
+  flex: 0 0 auto;
+}
+.nav-panel-header:hover { color: var(--accent); }
+.nav-panel-header .chevron { display: inline-block; width: 12px; opacity: 0.6; }
+
+#nav-pages-wrap {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  min-height: 0;
+}
+#nav-pages-wrap.collapsed { flex: 0 0 auto; }
+#nav-pages-wrap.collapsed #nav-pages { display: none; }
 #nav-pages {
   flex: 1 1 auto;
   overflow-y: auto;
   min-height: 0;
-  padding: 8px 0;
+  padding: 0 0 8px;
 }
+
 #nav-sections-wrap {
+  display: flex;
+  flex-direction: column;
   flex: 0 1 auto;
+  min-height: 0;
   max-height: 45%;
-  overflow-y: auto;
   border-top: 1px solid var(--border);
-  padding: 10px 0 14px;
   background: rgba(0,0,0,0.04);
 }
 :root[data-theme="light"] #nav-sections-wrap { background: rgba(0,0,0,0.025); }
 #nav-sections-wrap[hidden] { display: none; }
-#nav-sections-title {
-  font: 500 10px/1 ui-monospace, "SF Mono", Menlo, monospace;
-  color: var(--muted);
-  letter-spacing: 0.3em;
-  text-transform: uppercase;
-  padding: 4px 18px 10px;
+#nav-sections-wrap.collapsed { flex: 0 0 auto; max-height: none; }
+#nav-sections-wrap.collapsed #nav-sections { display: none; }
+#nav-sections {
+  flex: 1 1 auto;
+  overflow-y: auto;
+  min-height: 0;
+  list-style: none;
+  padding: 0 0 12px;
   margin: 0;
 }
-#nav-sections { list-style: none; padding: 0; margin: 0; }
 #nav-sections li { margin: 0; }
 #nav-sections a {
   display: block;
@@ -299,6 +334,7 @@ mark { background: var(--hl); color: inherit; padding: 0 1px; border-radius: 1px
   #header h1 { display: none; }
   #header button { padding: 6px 8px; letter-spacing: 0.15em; }
   #nav-btn { display: block; }
+  #nav-toggle { display: none; }
 }
 </style>
 </head>
@@ -316,6 +352,7 @@ mark { background: var(--hl); color: inherit; padding: 0 1px; border-radius: 1px
 
 <div id="app" hidden>
   <div id="header">
+    <button id="nav-toggle" type="button" title="show/hide sidebar">≡</button>
     <h1>babypedia</h1>
     <input type="search" id="search" placeholder="search…" autocomplete="off" spellcheck="false">
     <button id="nav-btn" type="button" title="pages">pages</button>
@@ -324,9 +361,16 @@ mark { background: var(--hl); color: inherit; padding: 0 1px; border-radius: 1px
   </div>
   <div id="body">
     <nav id="nav">
-      <div id="nav-pages"></div>
+      <div id="nav-pages-wrap">
+        <button class="nav-panel-header" id="pages-toggle" type="button">
+          <span class="chevron">▾</span> pages
+        </button>
+        <div id="nav-pages"></div>
+      </div>
       <div id="nav-sections-wrap" hidden>
-        <div id="nav-sections-title">on this page</div>
+        <button class="nav-panel-header" id="sections-toggle" type="button">
+          <span class="chevron">▾</span> on this page
+        </button>
         <ul id="nav-sections"></ul>
       </div>
     </nav>
@@ -624,6 +668,39 @@ mark { background: var(--hl); color: inherit; padding: 0 1px; border-radius: 1px
   const lockBtn = document.getElementById('lock-btn');
   const navBtn = document.getElementById('nav-btn');
   const themeBtn = document.getElementById('theme-btn');
+
+  function setupPanelToggle(buttonId, wrapId, key) {
+    const btn = document.getElementById(buttonId);
+    const wrap = document.getElementById(wrapId);
+    const chev = btn.querySelector('.chevron');
+    const apply = collapsed => {
+      wrap.classList.toggle('collapsed', collapsed);
+      if (chev) chev.textContent = collapsed ? '▸' : '▾';
+    };
+    let initial = false;
+    try { initial = localStorage.getItem(key) === '1'; } catch (e) {}
+    apply(initial);
+    btn.addEventListener('click', () => {
+      const next = !wrap.classList.contains('collapsed');
+      apply(next);
+      try { localStorage.setItem(key, next ? '1' : '0'); } catch (e) {}
+    });
+  }
+  setupPanelToggle('pages-toggle', 'nav-pages-wrap', 'babypedia-pages-collapsed');
+  setupPanelToggle('sections-toggle', 'nav-sections-wrap', 'babypedia-sections-collapsed');
+
+  const navToggleBtn = document.getElementById('nav-toggle');
+  const NAV_HIDDEN_KEY = 'babypedia-nav-hidden';
+  (function initNavHidden() {
+    let v = false;
+    try { v = localStorage.getItem(NAV_HIDDEN_KEY) === '1'; } catch (e) {}
+    if (v) appEl.classList.add('nav-hidden');
+  })();
+  navToggleBtn.addEventListener('click', () => {
+    const next = !appEl.classList.contains('nav-hidden');
+    appEl.classList.toggle('nav-hidden', next);
+    try { localStorage.setItem(NAV_HIDDEN_KEY, next ? '1' : '0'); } catch (e) {}
+  });
 
   let pages = [];
   let currentId = null;
