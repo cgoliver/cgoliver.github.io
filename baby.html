@@ -166,10 +166,37 @@ body {
 
 #body {
   display: grid;
-  grid-template-columns: 280px 1fr;
+  grid-template-columns: 280px 1fr 220px;
   overflow: hidden;
   min-height: 0;
 }
+#toc {
+  border-left: 1px solid var(--border);
+  overflow-y: auto;
+  padding: 32px 16px 60px;
+  font: 12px/1.4 ui-monospace, "SF Mono", Menlo, monospace;
+}
+#toc.hidden { display: none; }
+#toc-title {
+  color: var(--muted);
+  font-size: 10px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  margin: 0 0 12px 10px;
+}
+#toc-list { list-style: none; padding: 0; margin: 0; }
+#toc-list li { margin: 0; }
+#toc-list a {
+  display: block;
+  color: var(--muted);
+  text-decoration: none;
+  padding: 5px 10px;
+  border-left: 2px solid transparent;
+  line-height: 1.35;
+}
+#toc-list a:hover { color: var(--accent); }
+#toc-list a.active { color: var(--accent); border-left-color: var(--accent); }
+#toc-list .toc-h3 a { padding-left: 22px; font-size: 11px; }
 #nav {
   border-right: 1px solid var(--border);
   overflow-y: auto;
@@ -244,6 +271,10 @@ mark { background: var(--hl); color: inherit; padding: 0 1px; border-radius: 1px
 ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--muted); }
 
+@media (max-width: 1100px) {
+  #body { grid-template-columns: 280px 1fr; }
+  #toc { display: none; }
+}
 @media (max-width: 720px) {
   html, body { overflow-x: hidden; }
   #body { grid-template-columns: 1fr; }
@@ -285,6 +316,10 @@ mark { background: var(--hl); color: inherit; padding: 0 1px; border-radius: 1px
   <div id="body">
     <nav id="nav"></nav>
     <main id="content"></main>
+    <aside id="toc" class="hidden">
+      <div id="toc-title">on this page</div>
+      <ul id="toc-list"></ul>
+    </aside>
   </div>
 </div>
 
@@ -559,6 +594,41 @@ mark { background: var(--hl); color: inherit; padding: 0 1px; border-radius: 1px
   let currentId = null;
   let currentQuery = '';
   const collapsedCats = new Set();
+  let tocObserver = null;
+
+  function buildToc() {
+    const tocEl = document.getElementById('toc');
+    const tocList = document.getElementById('toc-list');
+    if (tocObserver) { tocObserver.disconnect(); tocObserver = null; }
+    tocList.innerHTML = '';
+    const headings = contentEl.querySelectorAll('h2, h3');
+    if (headings.length < 2) {
+      tocEl.classList.add('hidden');
+      return;
+    }
+    tocEl.classList.remove('hidden');
+    headings.forEach(h => {
+      const li = document.createElement('li');
+      if (h.tagName === 'H3') li.classList.add('toc-h3');
+      const a = document.createElement('a');
+      a.href = '#' + h.id;
+      a.textContent = h.textContent;
+      a.dataset.target = h.id;
+      li.appendChild(a);
+      tocList.appendChild(li);
+    });
+    if ('IntersectionObserver' in window) {
+      tocObserver = new IntersectionObserver(entries => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) {
+            const id = entry.target.id;
+            tocList.querySelectorAll('a').forEach(l => l.classList.toggle('active', l.dataset.target === id));
+          }
+        }
+      }, { root: contentEl, rootMargin: '-10% 0px -75% 0px' });
+      headings.forEach(h => tocObserver.observe(h));
+    }
+  }
 
   function getBlob() {
     const raw = document.getElementById('encrypted-data').textContent;
@@ -625,6 +695,7 @@ mark { background: var(--hl); color: inherit; padding: 0 1px; border-radius: 1px
       cb.checked = (k in checkStore) ? !!checkStore[k] : (cb.dataset.src === '1');
     });
     contentEl.scrollTop = 0;
+    buildToc();
     if (location.hash !== '#' + encodeURIComponent(id)) {
       history.replaceState(null, '', '#' + encodeURIComponent(id));
     }
@@ -664,6 +735,14 @@ mark { background: var(--hl); color: inherit; padding: 0 1px; border-radius: 1px
     }
   });
 
+  document.getElementById('toc-list').addEventListener('click', e => {
+    const a = e.target.closest('a[data-target]');
+    if (!a) return;
+    e.preventDefault();
+    const target = contentEl.querySelector('#' + CSS.escape(a.dataset.target));
+    if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+
   navBtn.addEventListener('click', () => {
     appEl.classList.toggle('show-nav');
   });
@@ -680,11 +759,14 @@ mark { background: var(--hl); color: inherit; padding: 0 1px; border-radius: 1px
     currentId = null;
     currentQuery = '';
     collapsedCats.clear();
+    if (tocObserver) { tocObserver.disconnect(); tocObserver = null; }
     appEl.hidden = true;
     lockEl.hidden = false;
     passwordInput.value = '';
     contentEl.innerHTML = '';
     navEl.innerHTML = '';
+    document.getElementById('toc-list').innerHTML = '';
+    document.getElementById('toc').classList.add('hidden');
     searchEl.value = '';
     history.replaceState(null, '', location.pathname);
     passwordInput.focus();
