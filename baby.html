@@ -281,6 +281,23 @@ mark { background: var(--hl); color: inherit; padding: 0 1px; border-radius: 1px
 (function () {
   'use strict';
 
+  // ---------- persistent check state ----------
+  const CHECK_KEY = 'babypedia-checks';
+  let checkStore = {};
+  try { checkStore = JSON.parse(localStorage.getItem(CHECK_KEY) || '{}') || {}; } catch (e) {}
+  function saveChecks() {
+    try { localStorage.setItem(CHECK_KEY, JSON.stringify(checkStore)); } catch (e) {}
+  }
+  function checkKey(pageId, text) {
+    let h = 0;
+    const s = String(text);
+    for (let i = 0; i < s.length; i++) {
+      h = ((h << 5) - h) + s.charCodeAt(i);
+      h |= 0;
+    }
+    return (pageId || '') + ':' + (h >>> 0).toString(36);
+  }
+
   // ---------- theme ----------
   const THEME_KEY = 'babypedia-theme';
   function applyTheme(t) {
@@ -363,7 +380,7 @@ mark { background: var(--hl); color: inherit; padding: 0 1px; border-radius: 1px
     return s;
   }
 
-  function renderMarkdown(md) {
+  function renderMarkdown(md, pageId) {
     const lines = md.replace(/\r\n/g, '\n').split('\n');
     let i = 0;
     let out = '';
@@ -439,8 +456,9 @@ mark { background: var(--hl); color: inherit; padding: 0 1px; border-radius: 1px
           let prefix = '';
           const cb = item.match(/^\[([ xX])\]\s+(.*)$/);
           if (cb) {
-            const checked = cb[1].toLowerCase() === 'x';
-            prefix = '<input type="checkbox" disabled' + (checked ? ' checked' : '') + '> ';
+            const sourceChecked = cb[1].toLowerCase() === 'x';
+            const key = checkKey(pageId, cb[2]);
+            prefix = '<input type="checkbox" data-check="' + key + '" data-src="' + (sourceChecked ? '1' : '0') + '"> ';
             item = cb[2];
           }
           html += '<li>' + prefix + inline(item);
@@ -588,7 +606,11 @@ mark { background: var(--hl); color: inherit; padding: 0 1px; border-radius: 1px
       return;
     }
     currentId = id;
-    contentEl.innerHTML = renderMarkdown(page.content);
+    contentEl.innerHTML = renderMarkdown(page.content, id);
+    contentEl.querySelectorAll('input[type="checkbox"][data-check]').forEach(cb => {
+      const k = cb.dataset.check;
+      cb.checked = (k in checkStore) ? !!checkStore[k] : (cb.dataset.src === '1');
+    });
     contentEl.scrollTop = 0;
     if (location.hash !== '#' + encodeURIComponent(id)) {
       history.replaceState(null, '', '#' + encodeURIComponent(id));
@@ -619,6 +641,14 @@ mark { background: var(--hl); color: inherit; padding: 0 1px; border-radius: 1px
   searchEl.addEventListener('input', e => {
     currentQuery = e.target.value;
     renderNav();
+  });
+
+  contentEl.addEventListener('change', e => {
+    const cb = e.target;
+    if (cb.matches && cb.matches('input[type="checkbox"][data-check]')) {
+      checkStore[cb.dataset.check] = cb.checked;
+      saveChecks();
+    }
   });
 
   navBtn.addEventListener('click', () => {
