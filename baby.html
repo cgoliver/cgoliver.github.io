@@ -75,6 +75,10 @@ body {
   opacity: 0.75;
   margin: 0 0 14px;
 }
+#lock-tagline .latin {
+  font-style: normal;
+  letter-spacing: 0.05em;
+}
 #password {
   background: transparent;
   color: var(--fg);
@@ -262,7 +266,7 @@ mark { background: var(--hl); color: inherit; padding: 0 1px; border-radius: 1px
 <div id="lock">
   <form id="lock-form" autocomplete="off">
     <h1>babypedia</h1>
-    <p id="lock-tagline">clean materials, real evidence, nothing extra</p>
+    <p id="lock-tagline">clean materials, real evidence, <span class="latin">ne quid nimis</span></p>
     <input type="password" id="password" autocomplete="current-password" autofocus spellcheck="false">
     <button type="submit">unlock</button>
     <p id="lock-error"></p>
