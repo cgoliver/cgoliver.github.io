@@ -166,12 +166,11 @@ body {
 
 #body {
   display: grid;
-  grid-template-columns: 280px 1fr 220px;
+  grid-template-columns: 280px 1fr 200px;
   overflow: hidden;
   min-height: 0;
-  transition: grid-template-columns 0.2s ease;
 }
-#app.nav-collapsed #body { grid-template-columns: 0 1fr 220px; }
+#app.nav-collapsed #body { grid-template-columns: 0 1fr 200px; }
 #app.nav-collapsed #nav { display: none; }
 #nav-toggle { display: inline-block; }
 #toc {
@@ -201,6 +200,39 @@ body {
 #toc-list a:hover { color: var(--accent); }
 #toc-list a.active { color: var(--accent); border-left-color: var(--accent); }
 #toc-list .toc-h3 a { padding-left: 22px; font-size: 11px; }
+
+.inline-toc {
+  display: none;
+  margin: 0 0 24px;
+  padding: 10px 14px;
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+}
+.inline-toc summary {
+  cursor: pointer;
+  color: var(--muted);
+  font: 500 10px/1 ui-monospace, "SF Mono", Menlo, monospace;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  padding: 4px 0;
+  user-select: none;
+  list-style: none;
+}
+.inline-toc summary::-webkit-details-marker { display: none; }
+.inline-toc summary::before { content: "▸ "; opacity: 0.6; }
+.inline-toc[open] summary::before { content: "▾ "; }
+.inline-toc ul { list-style: none; padding: 8px 0 4px; margin: 0; }
+.inline-toc li { margin: 0; }
+.inline-toc a {
+  display: block;
+  padding: 4px 0;
+  color: var(--fg);
+  text-decoration: none;
+  font: 13px/1.4 ui-monospace, "SF Mono", Menlo, monospace;
+}
+.inline-toc a:hover { color: var(--accent); }
+.inline-toc .toc-h3 a { padding-left: 18px; font-size: 12px; }
 #nav {
   border-right: 1px solid var(--border);
   overflow-y: auto;
@@ -275,10 +307,11 @@ mark { background: var(--hl); color: inherit; padding: 0 1px; border-radius: 1px
 ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--muted); }
 
-@media (max-width: 1100px) {
+@media (max-width: 880px) {
   #body { grid-template-columns: 280px 1fr; }
   #app.nav-collapsed #body { grid-template-columns: 0 1fr; }
   #toc { display: none; }
+  .inline-toc { display: block; }
 }
 @media (max-width: 720px) {
   html, body { overflow-x: hidden; }
@@ -642,22 +675,42 @@ mark { background: var(--hl); color: inherit; padding: 0 1px; border-radius: 1px
     const tocList = document.getElementById('toc-list');
     if (tocObserver) { tocObserver.disconnect(); tocObserver = null; }
     tocList.innerHTML = '';
+    const oldInline = contentEl.querySelector('.inline-toc');
+    if (oldInline) oldInline.remove();
+
     const headings = contentEl.querySelectorAll('h2, h3');
     if (headings.length < 2) {
       tocEl.classList.add('hidden');
       return;
     }
     tocEl.classList.remove('hidden');
-    headings.forEach(h => {
-      const li = document.createElement('li');
-      if (h.tagName === 'H3') li.classList.add('toc-h3');
-      const a = document.createElement('a');
-      a.href = '#' + h.id;
-      a.textContent = h.textContent;
-      a.dataset.target = h.id;
-      li.appendChild(a);
-      tocList.appendChild(li);
-    });
+
+    const buildList = ul => {
+      headings.forEach(h => {
+        const li = document.createElement('li');
+        if (h.tagName === 'H3') li.classList.add('toc-h3');
+        const a = document.createElement('a');
+        a.href = '#' + h.id;
+        a.textContent = h.textContent;
+        a.dataset.target = h.id;
+        li.appendChild(a);
+        ul.appendChild(li);
+      });
+    };
+    buildList(tocList);
+
+    const inline = document.createElement('details');
+    inline.className = 'inline-toc';
+    const summary = document.createElement('summary');
+    summary.textContent = 'sections';
+    inline.appendChild(summary);
+    const inlineUl = document.createElement('ul');
+    buildList(inlineUl);
+    inline.appendChild(inlineUl);
+    const h1 = contentEl.querySelector('h1');
+    if (h1) h1.insertAdjacentElement('afterend', inline);
+    else contentEl.insertBefore(inline, contentEl.firstChild);
+
     if ('IntersectionObserver' in window) {
       tocObserver = new IntersectionObserver(entries => {
         for (const entry of entries) {
@@ -776,7 +829,7 @@ mark { background: var(--hl); color: inherit; padding: 0 1px; border-radius: 1px
     }
   });
 
-  document.getElementById('toc-list').addEventListener('click', e => {
+  document.addEventListener('click', e => {
     const a = e.target.closest('a[data-target]');
     if (!a) return;
     e.preventDefault();
