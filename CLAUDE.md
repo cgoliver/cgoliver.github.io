@@ -7,7 +7,7 @@ When writing or editing a `_baby_src/*.md` page, always include:
 Add `tags: [...]` to the front matter using the existing taxonomy where it fits, extending only when nothing matches:
 
 - **Stage:** `pre-birth`, `birth`, `newborn`, `first-6-months`, `6-months-plus`
-- **Topic:** `sleep`, `feeding`, `diapering`, `potty`, `nutrition`, `health`, `safety`, `vaccines`, `sustainability`
+- **Topic:** `sleep`, `feeding`, `diapering`, `potty`, `nutrition`, `health`, `safety`, `vaccines`, `sustainability`, `newborn-care`
 - **Kind:** `principles`, `decisions`
 
 Tags drive the click-to-filter sidebar — they're the primary cross-cutting navigation across pages.
