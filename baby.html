@@ -65,8 +65,15 @@ body {
   letter-spacing: 0.4em;
   text-transform: uppercase;
   color: var(--muted);
-  margin: 0 0 12px;
+  margin: 0 0 4px;
   padding-left: 0.4em;
+}
+#lock-tagline {
+  text-align: center;
+  font: italic 12px/1.4 ui-serif, "Iowan Old Style", Georgia, serif;
+  color: var(--muted);
+  opacity: 0.75;
+  margin: 0 0 14px;
 }
 #password {
   background: transparent;
@@ -247,6 +254,7 @@ mark { background: var(--hl); color: inherit; padding: 0 1px; border-radius: 1px
 <div id="lock">
   <form id="lock-form" autocomplete="off">
     <h1>babypedia</h1>
+    <p id="lock-tagline">for the baby, not the registry</p>
     <input type="password" id="password" autocomplete="current-password" autofocus spellcheck="false">
     <button type="submit">unlock</button>
     <p id="lock-error"></p>
