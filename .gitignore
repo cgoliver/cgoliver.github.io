@@ -13,3 +13,4 @@ _site/
 # Python bytecode from encrypt_baby.py
 __pycache__/
 *.pyc
+baby.txt
