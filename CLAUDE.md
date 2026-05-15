@@ -33,6 +33,15 @@ Add images from Wikimedia Commons (the only stable hotlink-friendly source) when
 - Add an italic caption on the line below: `*caption text*`
 - Don't use brand-site or random-blog images — they break, get hotlink-blocked, or change.
 
+## Style — "baby" usage
+
+Never use the word "baby" as a bare noun (as if it's a proper name). It reads cringe. Use **"the baby"**, **"your baby"**, **"a baby"**, or **"babies"** depending on context.
+
+- **Wrong:** *"feed baby every 2 hours"*, *"baby's hands feel cool"*, *"meeting baby"*, *"baby spends 14 hours"*
+- **Right:** *"feed the baby every 2 hours"*, *"the baby's hands feel cool"*, *"meeting the baby"*, *"the baby spends 14 hours"*
+
+Compound nouns (*baby gear*, *baby food*, *baby furniture*), brand names (*Babyletto*, *Babybay*), page titles (*Baby Temperature*), and quoted marketing phrases (*"grows with baby"* in quotes) are fine. Possessives where the article is replaced by a pronoun (*your baby*, *its mother*) are fine. The rule is about bare-noun usage.
+
 ## When Carlos asks a baby-related question
 
 Default to **wiki-first**, not chat-first. The chat answer is the byproduct; the durable artifact is the wiki page.
