@@ -65,7 +65,7 @@ b {
     <td><img src="/assets/pst.png" class="pub-img" alt="Endowing protein language models"></td>
     <td><b>Endowing protein language models with structural knowledge</b><br>
     Philip Hartout*, Dexiong Chen*, Paolo Pellizzoni, Carlos Oliver, and Karsten Borgwardt<br>
-    <i>Bioinformatics, 41(11):btaf582, 2025</i> (<a href="https://arxiv.org/abs/2401.14819">preprint</a>)</td>
+    <i>Bioinformatics, 41(11):btaf582, 2025</i> (<a href="https://arxiv.org/abs/2401.14819">preprint</a>) (<a href="https://academic.oup.com/bioinformatics/article/41/11/btaf582/8305579">article</a>)</td>
   </tr>
   <tr>
     <td><img src="/assets/rnamigos2.png" class="pub-img" alt="RNAmigos2"></td>
