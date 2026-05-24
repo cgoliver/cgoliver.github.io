@@ -61,46 +61,16 @@ b {
 
 <table class="publications-table">
   <tr>
+    <td><img src="/assets/ensembits.png" class="pub-img" alt="ENSEMBITS"></td>
+    <td><b>ENSEMBITS: an alphabet of protein conformational ensembles</b><br>
+    Kaiwen Shi, Carlos Oliver<br>
+    <i>Submitted, NeurIPS 2026</i> (<a href="https://arxiv.org/abs/2605.13789">preprint</a>)</td>
+  </tr>
+  <tr>
     <td><img src="/assets/rna_drug_design_fig1a.png" class="pub-img" alt="RNA drug design"></td>
     <td><b>Machine learning for RNA-targeting drug design</b><br>
     Wissam Karroucha, Carlos Oliver, Veronique Stoven, Vincent Mallet<br>
     <i>Journal of Chemical Information and Modeling (in revision), 2025</i> (<a href="https://arxiv.org/abs/2512.15645">preprint</a>)</td>
-  </tr>
-  <tr>
-    <td><img src="/assets/ensembits.png" class="pub-img" alt="ENSEMBITS"></td>
-    <td><b>ENSEMBITS: an alphabet of protein conformational ensembles</b><br>
-    Kaiwen Shi, Carlos Oliver<br>
-    <i>arXiv preprint arXiv:2605.13789, 2026</i> (<a href="https://arxiv.org/abs/2605.13789">preprint</a>)</td>
-  </tr>
-  <tr>
-    <td><img src="/assets/blobs.png" class="pub-img" alt="BioBlobs"></td>
-    <td><b>BioBlobs: Unsupervised Discovery of Functional Substructures for Protein Function Prediction</b><br>
-    Xin (Allen) Wang, Kaiwen Shi, Carlos Oliver<br>
-    <i>Workshop on Machine Learning for Structural Biology, 2025 (Accepted)</i> (<a href="https://arxiv.org/abs/2510.01632">preprint</a>)</td>
-  </tr>
-  <tr>
-    <td><img src="/assets/rna_rev.png" class="pub-img" alt="What's so hard about RNA-targeting drug discovery"></td>
-    <td><b>What's so hard about RNA-targeting drug discovery?</b><br>
-    Carlos Oliver, Jerome Waldispuhl<br>
-    <i>Nature Computational Science, 2025</i> (<a href="https://www.nature.com/articles/s43588-025-00853-2">article</a>)</td>
-  </tr>
-  <tr>
-    <td><img src="/assets/rnaglibtask.png" class="pub-img" alt="RNA 3D Structure-Function benchmark"></td>
-    <td><b>A Comprehensive Benchmark for RNA 3D Structure-Function Modeling</b><br>
-    Luis Wyss*, Vincent Mallet*, Wissam Karroucha, Karsten Borgwardt', Carlos Oliver'<br>
-    <i>ICLR 2025 Workshop on AI for Nucleic Acids</i> (<a href="https://arxiv.org/abs/2503.21681">preprint</a>)</td>
-  </tr>
-  <tr>
-    <td><img src="/assets/rnamigos2.png" class="pub-img" alt="RNAmigos2"></td>
-    <td><b>RNAmigos2: accelerated structure-based RNA virtual screening with deep graph learning</b><br>
-    Juan G. Carvajal Patiño*, Vincent Mallet*, David Becerra, L. Fernando Niño V, Carlos Oliver', Jerome Waldispuhl'<br>
-    <i>Nature Communications 2025</i> (<a href="https://www.biorxiv.org/content/10.1101/2023.11.23.568394v3">preprint</a>) (<a href="https://www.nature.com/articles/s41467-025-57852-0">article</a>)</td>
-  </tr>
-  <tr>
-    <td><img src="/assets/book.png" class="pub-img" alt="3D-based RNA function prediction"></td>
-    <td><b>3D-based RNA function prediction with rnaglib</b><br>
-    Carlos Oliver, Vincent Mallet, and Jerome Waldispuhl<br>
-    <i>arXiV (2024), to appear as book chapter in Springer Nature: Methods in Molecular Biology</i> (<a href="https://arxiv.org/pdf/2402.09330.pdf">preprint</a>)</td>
   </tr>
   <tr>
     <td><img src="/assets/pst.png" class="pub-img" alt="Endowing protein language models"></td>
@@ -109,10 +79,40 @@ b {
     <i>Bioinformatics, 41(11):btaf582, 2025</i> (<a href="https://arxiv.org/abs/2401.14819">preprint</a>)</td>
   </tr>
   <tr>
+    <td><img src="/assets/blobs.png" class="pub-img" alt="BioBlobs"></td>
+    <td><b>BioBlobs: Unsupervised Discovery of Functional Substructures for Protein Function Prediction</b><br>
+    Xin (Allen) Wang, Kaiwen Shi, Carlos Oliver<br>
+    <i>Submitted, NeurIPS 2026</i> (<a href="https://arxiv.org/abs/2510.01632">preprint</a>)</td>
+  </tr>
+  <tr>
+    <td><img src="/assets/rna_rev.png" class="pub-img" alt="What's so hard about RNA-targeting drug discovery"></td>
+    <td><b>What's so hard about RNA-targeting drug discovery?</b><br>
+    Carlos Oliver, Jerome Waldispuhl<br>
+    <i>Nature Computational Science, 2025</i> (<a href="https://www.nature.com/articles/s43588-025-00853-2">article</a>)</td>
+  </tr>
+  <tr>
+    <td><img src="/assets/rnamigos2.png" class="pub-img" alt="RNAmigos2"></td>
+    <td><b>RNAmigos2: accelerated structure-based RNA virtual screening with deep graph learning</b><br>
+    Juan G. Carvajal Patiño*, Vincent Mallet*, David Becerra, L. Fernando Niño V, Carlos Oliver', Jerome Waldispuhl'<br>
+    <i>Nature Communications 2025</i> (<a href="https://www.biorxiv.org/content/10.1101/2023.11.23.568394v3">preprint</a>) (<a href="https://www.nature.com/articles/s41467-025-57852-0">article</a>)</td>
+  </tr>
+  <tr>
+    <td><img src="/assets/rnaglibtask.png" class="pub-img" alt="RNA 3D Structure-Function benchmark"></td>
+    <td><b>A Comprehensive Benchmark for RNA 3D Structure-Function Modeling</b><br>
+    Luis Wyss*, Vincent Mallet*, Wissam Karroucha, Karsten Borgwardt', Carlos Oliver'<br>
+    <i>ICLR 2025 Workshop on AI for Nucleic Acids</i> (<a href="https://arxiv.org/abs/2503.21681">preprint</a>)</td>
+  </tr>
+  <tr>
     <td><img src="/assets/gmsm.png" class="pub-img" alt="Structure-and function-aware substitution"></td>
     <td><b>Structure-and function-aware substitution matrices via learnable graph matching</b><br>
     Paolo Pellizzoni*, Carlos Oliver*, Karsten Borgwardt<br>
     <i>RECOMB (2024)</i> (<a href="https://link.springer.com/chapter/10.1007/978-1-0716-3989-4_18">proceedings</a>)</td>
+  </tr>
+  <tr>
+    <td><img src="/assets/book.png" class="pub-img" alt="3D-based RNA function prediction"></td>
+    <td><b>3D-based RNA function prediction with rnaglib</b><br>
+    Carlos Oliver, Vincent Mallet, and Jerome Waldispuhl<br>
+    <i>arXiV (2024), to appear as book chapter in Springer Nature: Methods in Molecular Biology</i> (<a href="https://arxiv.org/pdf/2402.09330.pdf">preprint</a>)</td>
   </tr>
   <tr>
     <td><img src="/assets/amr.png" class="pub-img" alt="Multimodal learning in clinical proteomics"></td>
