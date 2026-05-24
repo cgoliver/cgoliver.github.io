@@ -162,6 +162,12 @@ b {
 <h3>Workshop</h3>
 <table class="publications-table">
   <tr>
+    <td><img src="/assets/blobs.png" class="pub-img" alt="BioBlobs"></td>
+    <td><b>BioBlobs: Unsupervised Discovery of Functional Substructures for Protein Function Prediction</b><br>
+    Xin (Allen) Wang, Kaiwen Shi, Carlos Oliver<br>
+    <i>Workshop on Machine Learning for Structural Biology, 2025 (Accepted)</i> (<a href="https://arxiv.org/abs/2510.01632">preprint</a>)</td>
+  </tr>
+  <tr>
     <td><img src="/assets/rnaglibtask.png" class="pub-img" alt="RNA 3D Structure-Function benchmark"></td>
     <td><b>A Comprehensive Benchmark for RNA 3D Structure-Function Modeling</b><br>
     Luis Wyss*, Vincent Mallet*, Wissam Karroucha, Karsten Borgwardt', Carlos Oliver'<br>
