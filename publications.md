@@ -53,51 +53,126 @@ b {
         display: block;
     }
 }
+
+/* Topic filter and pills */
+.topic-filter {
+    margin: 15px 0 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+.topic-filter button {
+    padding: 4px 12px;
+    border: 1px solid #aaa;
+    background: #fff;
+    border-radius: 14px;
+    cursor: pointer;
+    font-size: 10pt;
+    font-family: inherit;
+}
+.topic-filter button:hover { background: #f0f0f0; }
+.topic-filter button.active {
+    background: #333;
+    color: #fff;
+    border-color: #333;
+}
+.topic-pills { margin-top: 6px; }
+.topic-pill {
+    display: inline-block;
+    padding: 2px 8px;
+    margin: 2px 4px 2px 0;
+    font-size: 9pt;
+    border-radius: 10px;
+    background: #e8e8e8;
+    color: #333;
+}
+.topic-pill[data-topic="rna-sf"] { background: #d4edda; color: #155724; }
+.topic-pill[data-topic="protein-sf"] { background: #cce5ff; color: #004085; }
+.topic-pill[data-topic="protein-dyn"] { background: #e2d4f2; color: #4a235a; }
+.topic-pill[data-topic="graphs"] { background: #ffe0b2; color: #6a3500; }
+.topic-pill[data-topic="benchmarks"] { background: #fff3cd; color: #856404; }
+.topic-pill[data-topic="drug"] { background: #f8d7da; color: #721c24; }
+.topic-pill[data-topic="motif"] { background: #d1ecf1; color: #0c5460; }
 </style>
 </head>
 
 <h5>* = equal contribution</h5>
 <h5>' = co-corresponding</h5>
 
+<div class="topic-filter">
+    <button class="active" data-topic="all">All</button>
+    <button data-topic="rna-sf">RNA Structure-Function</button>
+    <button data-topic="protein-sf">Protein Structure-Function</button>
+    <button data-topic="protein-dyn">Protein Dynamics</button>
+    <button data-topic="graphs">Graphs</button>
+    <button data-topic="benchmarks">Benchmarks</button>
+    <button data-topic="drug">Drug Discovery</button>
+    <button data-topic="motif">Motif Mining</button>
+</div>
+
 <h3>Journal</h3>
 <table class="publications-table">
-  <tr>
+  <tr data-topics="protein-sf graphs">
     <td><img src="/assets/pst.png" class="pub-img" alt="Endowing protein language models"></td>
     <td><b>Endowing protein language models with structural knowledge</b><br>
     Philip Hartout*, Dexiong Chen*, Paolo Pellizzoni, Carlos Oliver, and Karsten Borgwardt<br>
-    <i>Bioinformatics, 41(11):btaf582, 2025</i> (<a href="https://arxiv.org/abs/2401.14819">preprint</a>) (<a href="https://academic.oup.com/bioinformatics/article/41/11/btaf582/8305579">article</a>)</td>
+    <i>Bioinformatics, 41(11):btaf582, 2025</i> (<a href="https://arxiv.org/abs/2401.14819">preprint</a>) (<a href="https://academic.oup.com/bioinformatics/article/41/11/btaf582/8305579">article</a>)
+    <div class="topic-pills">
+      <span class="topic-pill" data-topic="protein-sf">Protein Structure-Function</span>
+      <span class="topic-pill" data-topic="graphs">Graphs</span>
+    </div></td>
   </tr>
-  <tr>
+  <tr data-topics="rna-sf drug graphs">
     <td><img src="/assets/rnamigos2.png" class="pub-img" alt="RNAmigos2"></td>
     <td><b>RNAmigos2: accelerated structure-based RNA virtual screening with deep graph learning</b><br>
     Juan G. Carvajal Patiño*, Vincent Mallet*, David Becerra, L. Fernando Niño V, Carlos Oliver', Jerome Waldispuhl'<br>
-    <i>Nature Communications 2025</i> (<a href="https://www.biorxiv.org/content/10.1101/2023.11.23.568394v3">preprint</a>) (<a href="https://www.nature.com/articles/s41467-025-57852-0">article</a>)</td>
+    <i>Nature Communications 2025</i> (<a href="https://www.biorxiv.org/content/10.1101/2023.11.23.568394v3">preprint</a>) (<a href="https://www.nature.com/articles/s41467-025-57852-0">article</a>)
+    <div class="topic-pills">
+      <span class="topic-pill" data-topic="rna-sf">RNA Structure-Function</span>
+      <span class="topic-pill" data-topic="drug">Drug Discovery</span>
+      <span class="topic-pill" data-topic="graphs">Graphs</span>
+    </div></td>
   </tr>
-  <tr>
+  <tr data-topics="drug">
     <td><img src="/assets/amr.png" class="pub-img" alt="Multimodal learning in clinical proteomics"></td>
     <td><b>Multimodal learning in clinical proteomics: enhancing antimicrobial resistance models with chemical information</b><br>
     Giovanni Visonà*, Diane Duroux*, Lucas Miranda, Emese Sükei, Yiran Li, Karsten Borgwardt', and Carlos Oliver'<br>
-    <i>Bioinformatics (2023)</i> (<a href="https://academic.oup.com/bioinformatics/article/39/12/btad717/7450077">paper</a>)</td>
+    <i>Bioinformatics (2023)</i> (<a href="https://academic.oup.com/bioinformatics/article/39/12/btad717/7450077">paper</a>)
+    <div class="topic-pills">
+      <span class="topic-pill" data-topic="drug">Drug Discovery</span>
+    </div></td>
   </tr>
-  <tr>
+  <tr data-topics="rna-sf graphs">
     <td><img src="/assets/rgl_fig.png" class="pub-img" alt="RNAGlib"></td>
     <td><b>RNAGlib: A Python Package for RNA 2.5D Graphs</b><br>
     Vincent Mallet, Carlos Oliver, Jonathan Broadbent, William L. Hamilton, Jerome Waldispuhl<br>
-    <i>Bioinformatics (2021)</i> (<a href="https://arxiv.org/abs/2109.04434">preprint</a> | <a href="https://academic.oup.com/bioinformatics/article/38/5/1458/6462185?login=true">article</a>)</td>
+    <i>Bioinformatics (2021)</i> (<a href="https://arxiv.org/abs/2109.04434">preprint</a> | <a href="https://academic.oup.com/bioinformatics/article/38/5/1458/6462185?login=true">article</a>)
+    <div class="topic-pills">
+      <span class="topic-pill" data-topic="rna-sf">RNA Structure-Function</span>
+      <span class="topic-pill" data-topic="graphs">Graphs</span>
+    </div></td>
   </tr>
-  <tr>
+  <tr data-topics="drug graphs">
     <td><img src="/assets/optimol.png" class="pub-img" alt="OptiMol"></td>
     <td><b>OptiMol: Optimization of binding affinities in chemical space for drug discovery</b><br>
     Jacques Boitreaud, Vincent Mallet, Carlos Oliver, Jerome Waldispuhl<br>
-    <i>ACS JCIM (2020)</i> (<a href="https://pubs.acs.org/doi/10.1021/acs.jcim.0c00833">article</a> | <a href="https://www.biorxiv.org/content/10.1101/2020.05.23.112201v2">preprint</a>)</td>
+    <i>ACS JCIM (2020)</i> (<a href="https://pubs.acs.org/doi/10.1021/acs.jcim.0c00833">article</a> | <a href="https://www.biorxiv.org/content/10.1101/2020.05.23.112201v2">preprint</a>)
+    <div class="topic-pills">
+      <span class="topic-pill" data-topic="drug">Drug Discovery</span>
+      <span class="topic-pill" data-topic="graphs">Graphs</span>
+    </div></td>
   </tr>
-  <tr>
+  <tr data-topics="rna-sf drug">
     <td><img src="/assets/rnamigos.png" class="pub-img" alt="Augmented RNA base pairing"></td>
     <td><b>Augmented RNA base pairing networks imprint small molecule binding preferences</b><br>
     Carlos Oliver, Vincent Mallet, Roman Sarrazin Gendron, Vladimir Reinharz, William L. Hamilton, Nicolas Moitessier, Jerome Waldispuhl<br>
-    <i>Nucleic Acids Research (2020)</i> (<a href="https://academic.oup.com/nar/article/doi/10.1093/nar/gkaa583/5870337">article</a> | <a href="https://www.biorxiv.org/content/10.1101/701326v3">preprint</a>)</td>
+    <i>Nucleic Acids Research (2020)</i> (<a href="https://academic.oup.com/nar/article/doi/10.1093/nar/gkaa583/5870337">article</a> | <a href="https://www.biorxiv.org/content/10.1101/701326v3">preprint</a>)
+    <div class="topic-pills">
+      <span class="topic-pill" data-topic="rna-sf">RNA Structure-Function</span>
+      <span class="topic-pill" data-topic="drug">Drug Discovery</span>
+    </div></td>
   </tr>
-  <tr>
+  <tr data-topics="">
     <td><img src="/assets/dips.png" class="pub-img" alt="Difficulty Scaling in Proof of Work"></td>
     <td><b>Difficulty Scaling in Proof of Work for Decentralized Problem Solving</b><br>
     Pericles Philippopoulos, Alessandro Ricottone, Carlos Oliver<br>
@@ -107,110 +182,195 @@ b {
 
 <h3>Perspectives</h3>
 <table class="publications-table">
-  <tr>
+  <tr data-topics="rna-sf drug">
     <td><img src="/assets/rna_rev.png" class="pub-img" alt="What's so hard about RNA-targeting drug discovery"></td>
     <td><b>What's so hard about RNA-targeting drug discovery?</b><br>
     Carlos Oliver, Jerome Waldispuhl<br>
-    <i>Nature Computational Science, 2025</i> (<a href="https://www.nature.com/articles/s43588-025-00853-2">article</a>)</td>
+    <i>Nature Computational Science, 2025</i> (<a href="https://www.nature.com/articles/s43588-025-00853-2">article</a>)
+    <div class="topic-pills">
+      <span class="topic-pill" data-topic="rna-sf">RNA Structure-Function</span>
+      <span class="topic-pill" data-topic="drug">Drug Discovery</span>
+    </div></td>
   </tr>
 </table>
 
 <h3>Reviews</h3>
 <table class="publications-table">
-  <tr>
+  <tr data-topics="rna-sf drug">
     <td><img src="/assets/rna_drug_design_fig1a.png" class="pub-img" alt="RNA drug design"></td>
     <td><b>Machine learning for RNA-targeting drug design</b><br>
     Wissam Karroucha, Carlos Oliver, Veronique Stoven, Vincent Mallet<br>
-    <i>Journal of Chemical Information and Modeling (in revision), 2025</i> (<a href="https://arxiv.org/abs/2512.15645">preprint</a>)</td>
+    <i>Journal of Chemical Information and Modeling (in revision), 2025</i> (<a href="https://arxiv.org/abs/2512.15645">preprint</a>)
+    <div class="topic-pills">
+      <span class="topic-pill" data-topic="rna-sf">RNA Structure-Function</span>
+      <span class="topic-pill" data-topic="drug">Drug Discovery</span>
+    </div></td>
   </tr>
 </table>
 
 <h3>Conference</h3>
 <table class="publications-table">
-  <tr>
+  <tr data-topics="protein-sf graphs">
     <td><img src="/assets/gmsm.png" class="pub-img" alt="Structure-and function-aware substitution"></td>
     <td><b>Structure-and function-aware substitution matrices via learnable graph matching</b><br>
     Paolo Pellizzoni*, Carlos Oliver*, Karsten Borgwardt<br>
-    <i>RECOMB (2024)</i> (<a href="https://link.springer.com/chapter/10.1007/978-1-0716-3989-4_18">proceedings</a>)</td>
+    <i>RECOMB (2024)</i> (<a href="https://link.springer.com/chapter/10.1007/978-1-0716-3989-4_18">proceedings</a>)
+    <div class="topic-pills">
+      <span class="topic-pill" data-topic="protein-sf">Protein Structure-Function</span>
+      <span class="topic-pill" data-topic="graphs">Graphs</span>
+    </div></td>
   </tr>
-  <tr>
+  <tr data-topics="protein-sf benchmarks">
     <td><img src="/assets/ps_logo.png" class="pub-img" alt="ProteinShake"></td>
     <td><b>ProteinShake: Building Datasets and Benchmarks for Deep Learning on Protein Structures</b><br>
     Tim Kucera*, Carlos Oliver*, Dexiong Chen, Karsten Borgwardt<br>
-    <i>NeurIPS Datasets and Benchmarks (2023)</i> (<a href="https://openreview.net/pdf?id=27vPcG4vKV">preprint</a>)</td>
+    <i>NeurIPS Datasets and Benchmarks (2023)</i> (<a href="https://openreview.net/pdf?id=27vPcG4vKV">preprint</a>)
+    <div class="topic-pills">
+      <span class="topic-pill" data-topic="protein-sf">Protein Structure-Function</span>
+      <span class="topic-pill" data-topic="benchmarks">Benchmarks</span>
+    </div></td>
   </tr>
-  <tr>
+  <tr data-topics="graphs">
     <td><img src="/assets/mds.png" class="pub-img" alt="Unsupervised Manifold Alignment"></td>
     <td><b>Unsupervised Manifold Alignment with Joint Multidimensional Scaling</b><br>
     Dexiong Chen, Bowen Fan, Carlos Oliver, Karsten Borgwardt<br>
-    <i>ICLR 2022</i> (<a href="https://arxiv.org/abs/2207.02968">preprint</a>)</td>
+    <i>ICLR 2022</i> (<a href="https://arxiv.org/abs/2207.02968">preprint</a>)
+    <div class="topic-pills">
+      <span class="topic-pill" data-topic="graphs">Graphs</span>
+    </div></td>
   </tr>
-  <tr>
+  <tr data-topics="rna-sf motif">
     <td><img src="/assets/vernal.png" class="pub-img" alt="VeRNAl"></td>
     <td><b>VeRNAl: A tool for fuzzy network motif mining in RNA</b><br>
     Carlos Oliver, Vincent Mallet, Pericles Philippopoulos, William L. Hamilton, Jerome Waldispuhl<br>
-    <i>RECOMB 2021 & Bioinformatics</i> (<a href="https://arxiv.org/abs/2009.00664">preprint</a> | <a href="https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btab768/6428528?redirectedFrom=fulltext">article</a>)</td>
+    <i>RECOMB 2021 & Bioinformatics</i> (<a href="https://arxiv.org/abs/2009.00664">preprint</a> | <a href="https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btab768/6428528?redirectedFrom=fulltext">article</a>)
+    <div class="topic-pills">
+      <span class="topic-pill" data-topic="rna-sf">RNA Structure-Function</span>
+      <span class="topic-pill" data-topic="motif">Motif Mining</span>
+    </div></td>
   </tr>
-  <tr>
+  <tr data-topics="rna-sf motif">
     <td><img src="/assets/bp2.png" class="pub-img" alt="Stochastic Sampling"></td>
     <td><b>Stochastic Sampling of Structural Contexts Improves the Scalability and Accuracy of RNA 3D Module Identification</b><br>
     Roman Sarrazin Gendron, Hua-Ting Yao, Vladimir Reinharz, Carlos Oliver, Yann Pony, Jerome Waldispuhl<br>
-    <i>Accepted at RECOMB 2020</i> (<a href="https://www.biorxiv.org/content/biorxiv/early/2020/01/18/834762.full.pdf">preprint</a>)</td>
+    <i>Accepted at RECOMB 2020</i> (<a href="https://www.biorxiv.org/content/biorxiv/early/2020/01/18/834762.full.pdf">preprint</a>)
+    <div class="topic-pills">
+      <span class="topic-pill" data-topic="rna-sf">RNA Structure-Function</span>
+      <span class="topic-pill" data-topic="motif">Motif Mining</span>
+    </div></td>
   </tr>
 </table>
 
 <h3>Workshop</h3>
 <table class="publications-table">
-  <tr>
+  <tr data-topics="protein-sf motif">
     <td><img src="/assets/blobs.png" class="pub-img" alt="BioBlobs"></td>
     <td><b>BioBlobs: Unsupervised Discovery of Functional Substructures for Protein Function Prediction</b><br>
     Xin (Allen) Wang, Kaiwen Shi, Carlos Oliver<br>
-    <i>Workshop on Machine Learning for Structural Biology, 2025 (Accepted)</i> (<a href="https://arxiv.org/abs/2510.01632">preprint</a>)</td>
+    <i>Workshop on Machine Learning for Structural Biology, 2025 (Accepted)</i> (<a href="https://arxiv.org/abs/2510.01632">preprint</a>)
+    <div class="topic-pills">
+      <span class="topic-pill" data-topic="protein-sf">Protein Structure-Function</span>
+      <span class="topic-pill" data-topic="motif">Motif Mining</span>
+    </div></td>
   </tr>
-  <tr>
+  <tr data-topics="rna-sf benchmarks">
     <td><img src="/assets/rnaglibtask.png" class="pub-img" alt="RNA 3D Structure-Function benchmark"></td>
     <td><b>A Comprehensive Benchmark for RNA 3D Structure-Function Modeling</b><br>
     Luis Wyss*, Vincent Mallet*, Wissam Karroucha, Karsten Borgwardt', Carlos Oliver'<br>
-    <i>ICLR 2025 Workshop on AI for Nucleic Acids</i> (<a href="https://arxiv.org/abs/2503.21681">preprint</a>)</td>
+    <i>ICLR 2025 Workshop on AI for Nucleic Acids</i> (<a href="https://arxiv.org/abs/2503.21681">preprint</a>)
+    <div class="topic-pills">
+      <span class="topic-pill" data-topic="rna-sf">RNA Structure-Function</span>
+      <span class="topic-pill" data-topic="benchmarks">Benchmarks</span>
+    </div></td>
   </tr>
 </table>
 
 <h3>Preprints</h3>
 <table class="publications-table">
-  <tr>
+  <tr data-topics="protein-dyn">
     <td><img src="/assets/ensembits.png" class="pub-img" alt="ENSEMBITS"></td>
     <td><b>ENSEMBITS: an alphabet of protein conformational ensembles</b><br>
     Kaiwen Shi, Carlos Oliver<br>
-    <i>Submitted, NeurIPS 2026</i> (<a href="https://arxiv.org/abs/2605.13789">preprint</a>)</td>
+    <i>Submitted, NeurIPS 2026</i> (<a href="https://arxiv.org/abs/2605.13789">preprint</a>)
+    <div class="topic-pills">
+      <span class="topic-pill" data-topic="protein-dyn">Protein Dynamics</span>
+    </div></td>
   </tr>
-  <tr>
+  <tr data-topics="protein-sf motif">
     <td><img src="/assets/blobs.png" class="pub-img" alt="BioBlobs"></td>
     <td><b>BioBlobs: Unsupervised Discovery of Functional Substructures for Protein Function Prediction</b><br>
     Xin (Allen) Wang, Kaiwen Shi, Carlos Oliver<br>
-    <i>Submitted, NeurIPS 2026</i> (<a href="https://arxiv.org/abs/2510.01632">preprint</a>)</td>
+    <i>Submitted, NeurIPS 2026</i> (<a href="https://arxiv.org/abs/2510.01632">preprint</a>)
+    <div class="topic-pills">
+      <span class="topic-pill" data-topic="protein-sf">Protein Structure-Function</span>
+      <span class="topic-pill" data-topic="motif">Motif Mining</span>
+    </div></td>
   </tr>
-  <tr>
+  <tr data-topics="rna-sf graphs">
     <td><img src="/assets/book.png" class="pub-img" alt="3D-based RNA function prediction"></td>
     <td><b>3D-based RNA function prediction with rnaglib</b><br>
     Carlos Oliver, Vincent Mallet, and Jerome Waldispuhl<br>
-    <i>arXiV (2024), to appear as book chapter in Springer Nature: Methods in Molecular Biology</i> (<a href="https://arxiv.org/pdf/2402.09330.pdf">preprint</a>)</td>
+    <i>arXiV (2024), to appear as book chapter in Springer Nature: Methods in Molecular Biology</i> (<a href="https://arxiv.org/pdf/2402.09330.pdf">preprint</a>)
+    <div class="topic-pills">
+      <span class="topic-pill" data-topic="rna-sf">RNA Structure-Function</span>
+      <span class="topic-pill" data-topic="graphs">Graphs</span>
+    </div></td>
   </tr>
-  <tr>
+  <tr data-topics="graphs motif">
     <td><img src="/assets/motifiesta.png" class="pub-img" alt="Approximate Network Motif Mining"></td>
     <td><b>Approximate Network Motif Mining via Graph Learning</b><br>
     Carlos Oliver, Dexiong Chen, Vincent Mallet, Pericles Philippopoulos, Karsten Borgwardt<br>
-    <i>ArXiV (2022)</i> (<a href="https://arxiv.org/abs/2206.01008">preprint</a>)</td>
+    <i>ArXiV (2022)</i> (<a href="https://arxiv.org/abs/2206.01008">preprint</a>)
+    <div class="topic-pills">
+      <span class="topic-pill" data-topic="graphs">Graphs</span>
+      <span class="topic-pill" data-topic="motif">Motif Mining</span>
+    </div></td>
   </tr>
-  <tr>
+  <tr data-topics="graphs">
     <td><img src="/assets/relattentional.png" class="pub-img" alt="Edge Similarity-Aware GNNs"></td>
     <td><b>Edge Similarity-Aware Graph Neural Networks</b><br>
     Vincent Mallet, Carlos Oliver, William L. Hamilton<br>
-    <i>arXiv (2021)</i> (<a href="https://arxiv.org/abs/2109.09432">preprint</a>)</td>
+    <i>arXiv (2021)</i> (<a href="https://arxiv.org/abs/2109.09432">preprint</a>)
+    <div class="topic-pills">
+      <span class="topic-pill" data-topic="graphs">Graphs</span>
+    </div></td>
   </tr>
-  <tr>
+  <tr data-topics="drug protein-sf">
     <td><img src="/assets/tarlig.png" class="pub-img" alt="Leveraging binding site structure"></td>
     <td><b>Leveraging binding site structure for drug discovery with point-cloud methods</b><br>
     Vincent Mallet, Carlos Oliver, Nicolas Moitessier, Jerome Waldispuhl<br>
-    <i>arXiv (2019)</i> (<a href="https://arxiv.org/pdf/1905.12033.pdf">preprint</a>)</td>
+    <i>arXiv (2019)</i> (<a href="https://arxiv.org/pdf/1905.12033.pdf">preprint</a>)
+    <div class="topic-pills">
+      <span class="topic-pill" data-topic="drug">Drug Discovery</span>
+      <span class="topic-pill" data-topic="protein-sf">Protein Structure-Function</span>
+    </div></td>
   </tr>
 </table>
+
+<script>
+(function() {
+  function applyFilter(topic) {
+    document.querySelectorAll('.topic-filter button').forEach(b => {
+      b.classList.toggle('active', b.dataset.topic === topic);
+    });
+    document.querySelectorAll('.publications-table tr').forEach(tr => {
+      if (topic === 'all') {
+        tr.style.display = '';
+      } else {
+        var topics = (tr.dataset.topics || '').split(/\s+/);
+        tr.style.display = topics.indexOf(topic) >= 0 ? '' : 'none';
+      }
+    });
+    document.querySelectorAll('h3').forEach(h => {
+      var next = h.nextElementSibling;
+      if (!next || !next.classList.contains('publications-table')) return;
+      var visible = Array.from(next.querySelectorAll('tr')).some(tr => tr.style.display !== 'none');
+      h.style.display = visible ? '' : 'none';
+      next.style.display = visible ? '' : 'none';
+    });
+  }
+  document.querySelectorAll('.topic-filter button').forEach(btn => {
+    btn.addEventListener('click', function() { applyFilter(btn.dataset.topic); });
+  });
+})();
+</script>
