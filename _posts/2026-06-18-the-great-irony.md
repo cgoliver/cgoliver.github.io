@@ -9,20 +9,57 @@ comments: True
 
 > "If we are all going to be destroyed by an atomic bomb, let that bomb when it comes find us doing sensible and human things—praying, working, teaching, reading, listening to music, bathing the children, playing tennis, chatting to our friends over a pint and a game of darts—not huddled together like frightened sheep and thinking about bombs. They may break our bodies (a microbe can do that) but they need not dominate our minds." - C.S. Lewis
 
-Do not let your life pass you by gazing into the vast darkness, sword drawn, while the angels behind you grow silent and cobwebs fill your home.
+Do not let your life pass you by<br>
+gazing into the vast darkness,<br>
+sword drawn,<br>
+while the angels behind you<br>
+grow silent<br>
+and cobwebs fill your home.
 
 This is how the demons win.
 
-They will loom eternal and seize your gaze so that when you turn and go down from your tower you will find nothing worth defending.
+They will loom eternal<br>
+and seize your gaze<br>
+so that when you turn<br>
+and go down from your tower<br>
+you will find<br>
+nothing worth defending.
 
-Know that nothingness, the undoing of creation, is precisely the devil's aim.
+Know that nothingness,<br>
+the undoing of creation,<br>
+is precisely the devil's aim.
 
-And if you are not careful he will deliver it to you by your own hand.
+And if you are not careful<br>
+he will deliver it to you<br>
+by your own hand.
 
-Instead, exalt in creation, tend your garden vigorously, cultivate so much stillness, beauty, and holiness in your life that when the barbarians break through and burn it all, God will shed a tear and the demons will shudder at the light of your glorious flame.
+Instead,<br>
+exalt in creation,<br>
+tend your garden<br>
+vigorously,<br>
+cultivate so much stillness,<br>
+beauty,<br>
+and holiness in your life<br>
+that when the barbarians<br>
+break through<br>
+and burn it all,<br>
+God will shed a tear<br>
+and the demons will shudder<br>
+at the light<br>
+of your glorious flame.
 
-This is the great secret our Lord Jesus Christ revealed on the Cross.
+This is the great secret<br>
+our Lord Jesus Christ<br>
+revealed on the Cross.
 
-For one fleeting instant, the devil rejoiced at his triumph over the spotless Man, only to let loose a mortal cry when he realized what he had done.
+For one fleeting instant,<br>
+the devil rejoiced<br>
+at his triumph<br>
+over the spotless Man,<br>
+only to let loose a mortal cry<br>
+when he realized<br>
+what he had done.
 
-He had just delivered the perfect offering to God.
+He had just delivered<br>
+the perfect offering<br>
+to God.
