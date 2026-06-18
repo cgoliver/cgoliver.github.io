@@ -53,7 +53,8 @@ the devil rejoiced<br>
 at his triumph<br>
 over the spotless Man,<br>
 only to let loose a mortal cry<br>
-when he realized<br>
-he had just delivered<br>
+when he realized.<br>
+
+He had just delivered<br>
 the perfect offering<br>
 to God.
