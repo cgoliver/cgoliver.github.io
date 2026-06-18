@@ -15,25 +15,25 @@ and cobwebs fill your home.
 This is how the demons win.
 
 They loom eternal<br>
-and seize your gaze<br>
+and steal your gaze<br>
 so that when you turn<br>
 and go down from your tower<br>
 you will find<br>
 nothing worth defending.
 
 Know that nothingness,<br>
-the undoing of creation,<br>
-is precisely the devil's aim.
+the undoing of creation,
+is the devil's aim.
 
 And if you are not careful<br>
 he will deliver it to you<br>
 by your own hand.
 
-Instead,<br>
-exalt in creation,<br>
+Exalt in creation,<br>
 tend your garden<br>
 vigorously,<br>
-cultivate so much stillness,<br>
+cultivate so much
+stillness,<br>
 beauty,<br>
 and holiness in your life<br>
 that when the barbarians<br>
@@ -45,10 +45,9 @@ at the light<br>
 of your glorious flame.
 
 This is the great secret<br>
-our Lord Jesus Christ<br>
 revealed on the Cross.
 
-For one fleeting instant,<br>
+For a fleeting instant,<br>
 the devil rejoiced<br>
 at his triumph<br>
 over the spotless Man,<br>
