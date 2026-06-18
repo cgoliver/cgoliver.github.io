@@ -6,7 +6,7 @@ comments: True
 ---
 
 Do not let your life pass you by<br>
-gazing into the vast darkness,<br>
+shouting into the vast darkness,<br>
 sword drawn,<br>
 while the angels behind you<br>
 grow silent<br>
