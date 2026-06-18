@@ -22,7 +22,7 @@ you will find<br>
 nothing worth defending.
 
 Know that nothingness,<br>
-the undoing of creation,
+the undoing of creation,<br>
 is the devil's aim.
 
 And if you are not careful<br>
