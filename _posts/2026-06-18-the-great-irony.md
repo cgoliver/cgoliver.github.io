@@ -54,8 +54,6 @@ at his triumph<br>
 over the spotless Man,<br>
 only to let loose a mortal cry<br>
 when he realized<br>
-what he had done.
-
-He had just delivered<br>
+he had just delivered<br>
 the perfect offering<br>
 to God.
