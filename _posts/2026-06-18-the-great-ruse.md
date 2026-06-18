@@ -35,7 +35,8 @@ vigorously,<br>
 cultivate so much
 stillness,<br>
 beauty,<br>
-and holiness in your life<br>
+and holiness <br>
+in your life<br>
 that when the barbarians<br>
 break through<br>
 and burn it all,<br>
