@@ -32,7 +32,7 @@ by your own hand.
 Exalt in creation,<br>
 tend your garden<br>
 vigorously,<br>
-cultivate so much
+cultivate so much <br>
 stillness,<br>
 beauty,<br>
 and holiness <br>
