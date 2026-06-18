@@ -18,7 +18,7 @@ and cobwebs fill your home.
 
 This is how the demons win.
 
-They will loom eternal<br>
+They loom eternal<br>
 and seize your gaze<br>
 so that when you turn<br>
 and go down from your tower<br>
