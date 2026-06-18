@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The great ruse
+title: The Great Ruse
 date: 2026-06-18
 comments: True
 ---
