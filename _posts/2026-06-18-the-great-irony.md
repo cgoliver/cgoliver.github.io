@@ -5,10 +5,6 @@ date: 2026-06-18
 comments: True
 ---
 
-> "Be still, and know that I am God." - Psalm 46:10
-
-> "If we are all going to be destroyed by an atomic bomb, let that bomb when it comes find us doing sensible and human things—praying, working, teaching, reading, listening to music, bathing the children, playing tennis, chatting to our friends over a pint and a game of darts—not huddled together like frightened sheep and thinking about bombs. They may break our bodies (a microbe can do that) but they need not dominate our minds." - C.S. Lewis
-
 Do not let your life pass you by<br>
 gazing into the vast darkness,<br>
 sword drawn,<br>
