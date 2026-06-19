@@ -40,13 +40,12 @@ at the light<br>
 of your glorious flame.
 
 This is the great secret<br>
-of the Passion.
+of the Cross.
 
 For one fleeting instant,<br>
 the devil rejoiced<br>
 at his triumph<br>
-over the spotless Man <br>
-on the Cross. <br>
+over the spotless Man. <br>
 
 Only to release a mortal cry<br>
 when he saw <br>
