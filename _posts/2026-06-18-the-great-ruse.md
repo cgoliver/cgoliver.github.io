@@ -43,8 +43,8 @@ on the Cross. <br>
 
 Until a mortal cry <br>
 overcame him<br>
-whe he saw <br>
+seeing <br>
 
-he had delivered<br>
+that he delivered<br>
 the perfect offering<br>
 to God.
