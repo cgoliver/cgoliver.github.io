@@ -36,14 +36,16 @@ and the demons will shudder<br>
 at the light<br>
 of your glorious flame.
 
+This is the great secret.
+
 The devil rejoiced<br>
-at his triumph<br>
 over the spotless Man <br>
 on the Cross. <br>
 
-Until seeing that he delivered<br>
-the perfect offering<br>
-to God, <br>
+Until a mortal cry
+overcame him <br>
+when he saw <br>
 
-a mortal cry
-overame him.
+that by his hand <br>
+came a perfect  <br>
+offering to God. <br>
