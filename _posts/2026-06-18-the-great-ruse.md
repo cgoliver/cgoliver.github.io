@@ -11,13 +11,13 @@ shouting into the dark.<br>
 
 For one day <br>
 the angels behind you<br>
-will stop singing.<br>
+will stop their singing.<br>
 
 Know that the devil's game <br>
 is undoing. <br>
 
-And all it takes for him <br>
-is to hold your <br>
+And all it takes is for him<br>
+to hold your <br>
 gaze.
 
 Your game <br>
@@ -36,14 +36,15 @@ and the demons will shudder<br>
 at the light<br>
 of your glorious flame.
 
-For one fleeting instant,<br>
-the devil rejoiced<br>
+The devil rejoiced<br>
 at his triumph<br>
 over the spotless Man <br>
-on the Cross, <br>
-only to release a mortal cry<br>
-when he looked up <br>
-and saw <br>
-that he delivered<br>
+on the Cross. <br>
+
+Until a mortal cry <br>
+overcame him<br>
+whe he saw <br>
+
+he had delivered<br>
 the perfect offering<br>
 to God.
