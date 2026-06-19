@@ -9,13 +9,13 @@ Do not waste <br>
 a single moment <br>
 on the demons.<br>
 
-For one day <br>
-the angels behind you<br>
-will stop their singing.<br>
+For the angels<br>
+behind you will<br>
+grow silent.<br>
 
 Know that <br>
 the devil's game <br>
-is undoing. <br>
+is in undoing. <br>
 
 And all it takes for him<br>
 is to hold your <br>
@@ -48,5 +48,5 @@ overcame him <br>
 and he saw <br>
 
 that by his hand <br>
-came a perfect  <br>
-offering to God. <br>
+was delivered <br>
+a perfect offering to God. <br>
