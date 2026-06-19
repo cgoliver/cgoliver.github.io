@@ -13,7 +13,8 @@ For one day <br>
 the angels behind you<br>
 will stop their singing.<br>
 
-Know that the devil's game <br>
+Know that <br>
+the devil's game <br>
 is undoing. <br>
 
 And all it takes for him<br>
