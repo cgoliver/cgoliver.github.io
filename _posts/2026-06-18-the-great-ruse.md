@@ -43,9 +43,10 @@ For one fleeting instant,<br>
 the devil rejoiced<br>
 at his triumph<br>
 over the spotless Man <br>
-on the Cross<br>
-only to release a mortal cry<br>
+on the Cross. <br>
+
+Only to release a mortal cry<br>
 when he saw <br>
-that he delivered<br>
+that he just delivered<br>
 the perfect offering<br>
 to God.
