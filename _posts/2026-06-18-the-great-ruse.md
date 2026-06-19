@@ -16,8 +16,8 @@ will stop their singing.<br>
 Know that the devil's game <br>
 is undoing. <br>
 
-And all it takes is for him<br>
-to hold your <br>
+And all it takes for him<br>
+is to hold your <br>
 gaze.
 
 Your game <br>
