@@ -39,7 +39,7 @@ of your glorious flame.
 This is the great secret.
 
 The devil rejoiced<br>
-over the spotless Man <br>
+at the spotless Man <br>
 on the Cross. <br>
 
 Until a mortal cry <br>
