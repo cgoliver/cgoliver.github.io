@@ -5,37 +5,28 @@ date: 2026-06-18
 comments: True
 ---
 
-Do not let your life pass you by<br>
+Do not waste <br>
+a single moment <br>
 shouting into the vast darkness,<br>
 sword drawn,<br>
-while the angels behind you<br>
-grow silent<br>
-and cobwebs fill your home.
+for the angels behind you<br>
+will soon fall silent  <br>
+and you will turn <br>
+and find nothing
+worth defending. <br>
 
-This is how the demons win.
+Know that the devil's game <br>
+is undoing. <br>
+And all it takes<br>
+is to hold your <br>
+gaze.
 
-They loom eternal<br>
-and steal your gaze<br>
-so that when you turn<br>
-and go down from your tower<br>
-you will find<br>
-nothing worth defending.
+Your game <br>
+is to prune the roses. <br>
 
-Know that nothingness,<br>
-the undoing of creation,<br>
-is the devil's aim.
-
-And if you are not careful<br>
-he will deliver it to you<br>
-by your own hand.
-
-Exalt in creation,<br>
-tend your garden<br>
-vigorously,<br>
-cultivate so much <br>
-stillness,<br>
+Cultivate so much <br>
 beauty,<br>
-and holiness <br>
+and stillness <br>
 in your life<br>
 that when the barbarians<br>
 break through<br>
@@ -46,15 +37,15 @@ at the light<br>
 of your glorious flame.
 
 This is the great secret<br>
-revealed on the Cross.
+of the Passion.
 
-For a fleeting instant,<br>
+For one fleeting instant,<br>
 the devil rejoiced<br>
 at his triumph<br>
-over the spotless Man,<br>
-only to let loose a mortal cry<br>
-when he realized.<br>
-
-He had just delivered<br>
+over the spotless Man <br>
+on the Cross<br>
+only to release a mortal cry<br>
+when he saw<br>
+he had just delivered<br>
 the perfect offering<br>
 to God.
