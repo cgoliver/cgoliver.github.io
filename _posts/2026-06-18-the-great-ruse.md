@@ -7,7 +7,7 @@ comments: True
 
 Do not waste <br>
 a single moment <br>
-shouting into the dark.<br>
+on the demons.<br>
 
 For one day <br>
 the angels behind you<br>
@@ -41,10 +41,9 @@ at his triumph<br>
 over the spotless Man <br>
 on the Cross. <br>
 
-Until a mortal cry <br>
-overcame him<br>
-seeing <br>
-
-that he delivered<br>
+Until seeing that he delivered<br>
 the perfect offering<br>
-to God.
+to God, <br>
+
+a mortal cry
+overame him.
