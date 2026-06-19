@@ -27,7 +27,7 @@ is to prune <br>
 the roses. <br>
 
 Cultivate so much <br>
-beauty,<br>
+beauty<br>
 and stillness <br>
 in your life<br>
 that when the barbarians<br>
@@ -49,6 +49,6 @@ on the Cross. <br>
 
 Only to release a mortal cry<br>
 when he saw <br>
-that he just delivered<br>
+that he delivered<br>
 the perfect offering<br>
 to God.
