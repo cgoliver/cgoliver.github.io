@@ -7,8 +7,7 @@ comments: True
 
 Do not waste <br>
 a single moment <br>
-shouting into the dark,<br>
-sword drawn.<br>
+shouting into the dark.<br>
 
 For one day <br>
 the angels behind you<br>
