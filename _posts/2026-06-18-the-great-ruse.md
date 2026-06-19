@@ -20,7 +20,7 @@ worth defending. <br>
 Know that the devil's game <br>
 is undoing. <br>
 
-And all it takes<br>
+And all it takes for him <br>
 is to hold your <br>
 gaze.
 
@@ -45,11 +45,9 @@ the devil rejoiced<br>
 at his triumph<br>
 over the spotless Man <br>
 on the Cross, <br>
-
 only to release a mortal cry<br>
-when he looked up 
+when he looked up <br>
 and saw <br>
-
 that he delivered<br>
 the perfect offering<br>
 to God.
