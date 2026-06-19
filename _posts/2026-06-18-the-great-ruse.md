@@ -8,8 +8,9 @@ comments: True
 Do not waste <br>
 a single moment <br>
 shouting into the dark,<br>
-sword drawn,<br>
-for one day <br>
+sword drawn.<br>
+
+For one day <br>
 the angels behind you<br>
 will stop singing<br>
 and you will turn <br>
