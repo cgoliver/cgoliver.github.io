@@ -22,7 +22,8 @@ is to hold your <br>
 gaze.
 
 Your game <br>
-is to prune the roses. <br>
+is to prune <br>
+the roses. <br>
 
 Cultivate so much <br>
 beauty,<br>
