@@ -7,7 +7,7 @@ comments: True
 
 Do not waste <br>
 a single moment <br>
-shouting into the darkness,<br>
+shouting into the dark,<br>
 sword drawn,<br>
 for the angels behind you<br>
 will soon fall silent  <br>
