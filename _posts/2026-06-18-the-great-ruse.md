@@ -5,8 +5,8 @@ date: 2026-06-18
 comments: True
 ---
 
-Do not waste <br>
-a single moment <br>
+Do not spend<br>
+too much time<br>
 on the demons.<br>
 
 For the angels<br>
