@@ -7,12 +7,12 @@ comments: True
 
 Do not waste <br>
 a single moment <br>
-shouting into the vast darkness,<br>
+shouting into the darkness,<br>
 sword drawn,<br>
 for the angels behind you<br>
 will soon fall silent  <br>
 and you will turn <br>
-and find nothing
+and find nothing <br>
 worth defending. <br>
 
 Know that the devil's game <br>
