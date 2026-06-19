@@ -42,7 +42,7 @@ The devil rejoiced<br>
 over the spotless Man <br>
 on the Cross. <br>
 
-Until a mortal cry
+Until a mortal cry <br>
 overcame him <br>
 when he saw <br>
 
