@@ -10,7 +10,7 @@ a single moment <br>
 shouting into the dark,<br>
 sword drawn,<br>
 for the angels behind you<br>
-will soon fall silent  <br>
+will soon stop singing<br>
 and you will turn <br>
 and find nothing <br>
 worth defending. <br>
