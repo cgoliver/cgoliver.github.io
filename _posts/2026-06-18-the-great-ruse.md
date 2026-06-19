@@ -46,7 +46,6 @@ on the Cross. <br>
 Until a mortal cry <br>
 overcame him <br>
 and he saw <br>
-
 that by his hand <br>
 was delivered <br>
 a perfect offering to God. <br>
