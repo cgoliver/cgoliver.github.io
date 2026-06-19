@@ -13,10 +13,6 @@ For one day <br>
 the angels behind you<br>
 will stop singing.<br>
 
-And you will turn <br>
-and find nothing <br>
-worth defending. <br>
-
 Know that the devil's game <br>
 is undoing. <br>
 
