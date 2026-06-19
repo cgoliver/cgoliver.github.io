@@ -45,7 +45,7 @@ on the Cross. <br>
 
 Until a mortal cry <br>
 overcame him <br>
-when he saw <br>
+and he saw <br>
 
 that by his hand <br>
 came a perfect  <br>
