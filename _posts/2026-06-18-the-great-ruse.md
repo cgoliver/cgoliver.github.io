@@ -41,8 +41,6 @@ God will shed a tear<br>
 and the demons will shudder<br>
 at the light.
 
-This is the great secret.
-
 The devil rejoiced<br>
 at the spotless Man <br>
 on the Cross. <br>
