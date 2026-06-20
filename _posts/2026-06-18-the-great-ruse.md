@@ -17,7 +17,7 @@ is sleeping.
 
 But know that <br>
 the devil's game <br>
-is in undoing. <br>
+is undoing. <br>
 
 And all it takes <br>
 is to hold your gaze <br>
