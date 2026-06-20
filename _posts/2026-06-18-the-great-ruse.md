@@ -9,21 +9,26 @@ Do not spend<br>
 too much time<br>
 on the demons.<br>
 
-For the angels<br>
-behind you will<br>
-grow silent.<br>
+I know they are <br>
+getting closer.<br>
 
-Know that <br>
+I know the guard<br>
+is sleeping.
+
+But know that <br>
 the devil's game <br>
 is in undoing. <br>
 
-And all it takes for him<br>
-is to hold your <br>
-gaze.
+And all it takes <br>
+is to hold your gaze <br>
+just long enough <br>
+for the angels  <br>
+behind you<br>
+to quit singing.
 
 Your game <br>
 is to prune <br>
-the roses. <br>
+the roses. 
 
 Cultivate so much <br>
 beauty<br>
@@ -34,8 +39,7 @@ break through<br>
 and burn it all,<br>
 God will shed a tear<br>
 and the demons will shudder<br>
-at the light<br>
-of your glorious flame.
+at the light.
 
 This is the great secret.
 
@@ -48,4 +52,5 @@ overcame him <br>
 and he saw <br>
 that by his hand <br>
 was delivered <br>
-a perfect offering to God. <br>
+a perfect offering <br>
+to God. <br>
