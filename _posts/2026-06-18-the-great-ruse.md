@@ -9,8 +9,8 @@ Do not spend<br>
 too much time<br>
 on the demons.<br>
 
-I know they are <br>
-getting closer.<br>
+I know water <br>
+is rising.
 
 I know the guard<br>
 is sleeping.
