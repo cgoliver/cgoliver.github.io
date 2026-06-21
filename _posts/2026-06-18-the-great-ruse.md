@@ -9,19 +9,19 @@ Do not spend<br>
 too much time<br>
 on the demons.<br>
 
-I know the water <br>
-is rising.
+I know the waters <br>
+are rising.
 
 I know the guard<br>
 is sleeping.
 
-But know that <br>
-undoing is the devil's game.<br>
+But know that undoing <br>
+is the devil's game.<br>
 
 And all it takes <br>
 is to hold your gaze <br>
 until the angels  <br>
-quit singing.
+quit their singing.
 
 Your game <br>
 is to prune <br>
@@ -41,7 +41,7 @@ The devil rejoiced<br>
 at the spotless Man <br>
 on the Cross. <br>
 
-Until a mortal cry <br>
+But a mortal cry <br>
 overcame him <br>
 when he saw <br>
 that by his hand <br>
