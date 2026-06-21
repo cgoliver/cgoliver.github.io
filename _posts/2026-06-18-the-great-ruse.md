@@ -16,15 +16,12 @@ I know the guard<br>
 is sleeping.
 
 But know that <br>
-the devil's game <br>
-is undoing. <br>
+undoing is the devil's game.<br>
 
 And all it takes <br>
 is to hold your gaze <br>
-just long enough <br>
-for the angels  <br>
-behind you<br>
-to quit singing.
+until the angels  <br>
+quit singing.
 
 Your game <br>
 is to prune <br>
@@ -37,8 +34,7 @@ in your life<br>
 that when the barbarians<br>
 break through<br>
 and burn it all,<br>
-God will shed a tear<br>
-and the demons will shudder<br>
+the demons will shudder<br>
 at the light.
 
 The devil rejoiced<br>
