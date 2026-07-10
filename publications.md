@@ -287,6 +287,17 @@ b {
 
 <h3>Preprints</h3>
 <table class="publications-table">
+  <tr data-topics="rna-sf drug graphs">
+    <td><img src="/assets/ribolens.png" class="pub-img" alt="Ribo-LENS"></td>
+    <td><b>Adaptive 2.5D base-pairing subgraph search detects RNA small-molecule binding sites</b><br>
+    David Nitchi, Jerome Waldispuhl, Carlos Oliver<br>
+    <i>bioRxiv, 2026</i> (<a href="https://www.biorxiv.org/content/10.64898/2026.07.07.737024v1">preprint</a>)
+    <div class="topic-pills">
+      <span class="topic-pill" data-topic="rna-sf">RNA Structure-Function</span>
+      <span class="topic-pill" data-topic="drug">Drug Discovery</span>
+      <span class="topic-pill" data-topic="graphs">Graphs</span>
+    </div></td>
+  </tr>
   <tr data-topics="protein-dyn">
     <td><img src="/assets/ensembits.png" class="pub-img" alt="ENSEMBITS"></td>
     <td><b>ENSEMBITS: an alphabet of protein conformational ensembles</b><br>
