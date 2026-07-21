@@ -200,7 +200,7 @@ b {
     <td><img src="/assets/rna_drug_design_fig1a.png" class="pub-img" alt="RNA drug design"></td>
     <td><b>Machine learning for RNA-targeting drug design</b><br>
     Wissam Karroucha, Carlos Oliver, Veronique Stoven, Vincent Mallet<br>
-    <i>Journal of Chemical Information and Modeling (in revision), 2025</i> (<a href="https://arxiv.org/abs/2512.15645">preprint</a>)
+    <i>Journal of Chemical Information and Modeling, 2026</i> (<a href="https://arxiv.org/abs/2512.15645">preprint</a>)
     <div class="topic-pills">
       <span class="topic-pill" data-topic="rna-sf">RNA Structure-Function</span>
       <span class="topic-pill" data-topic="drug">Drug Discovery</span>
